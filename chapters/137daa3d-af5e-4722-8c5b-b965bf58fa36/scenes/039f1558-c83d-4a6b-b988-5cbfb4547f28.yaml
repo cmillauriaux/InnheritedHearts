@@ -1,0 +1,35 @@
+uuid: "039f1558-c83d-4a6b-b988-5cbfb4547f28"
+name: "Un héritage inattendu"
+subtitle: ""
+sequences:
+  - uuid: "f1a0592a-ecd9-441a-160a-02520af3bce9"
+    name: "Monologue sur l'oncle Alfred"
+    subtitle: ""
+    position: { x: 100.0, y: 100.0 }
+    background: ""
+    foregrounds: []
+    dialogues:
+      - uuid: "fe5f9e92-70d8-4184-b68d-5a4ef4ef6e3a"
+        character: "Joueur"
+        text: "Je me demande vraiment ce que mon vieil oncle Alfred a bien pu me léguer..."
+        foregrounds: []
+      - uuid: "16dfca9f-4f5b-4aa5-893a-a7a431a8f320"
+        character: "Joueur"
+        text: "Nous ne nous sommes pas vus depuis des années. Je savais qu'il était professeur à la fac, mais c'est à peu près tout ce que je sais de lui."
+        foregrounds: []
+      - uuid: "85b2f902-39b2-4b80-94ce-edb34a6eca49"
+        character: "Joueur"
+        text: "Drôle d'homme, cet oncle Alfred. Discret, effacé... et pourtant, il a pensé à moi."
+        foregrounds: []
+    fx: []
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_scene"
+        target: "c124949a-a23d-489a-bf70-41197a4a861f"
+        effects: []
+conditions: []
+connections:
+  - from: "f1a0592a-ecd9-441a-160a-02520af3bce9"
+    to: "c124949a-a23d-489a-bf70-41197a4a861f"
+entry_point: "f1a0592a-ecd9-441a-160a-02520af3bce9"

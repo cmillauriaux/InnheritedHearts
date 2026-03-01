@@ -1,0 +1,31 @@
+uuid: "c124949a-a23d-489a-bf70-41197a4a861f"
+name: "Devant le cabinet du notaire"
+subtitle: ""
+sequences:
+  - uuid: "25f444fb-0b75-4bc8-b58c-fccf39b96edc"
+    name: "Appréhension du notaire"
+    subtitle: ""
+    position: { x: 100.0, y: 100.0 }
+    background: ""
+    foregrounds: []
+    dialogues:
+      - uuid: "e492cd35-60ab-41f1-8a4e-b72b7add6454"
+        character: "Joueur"
+        text: "Voilà, c'est bien ça. Le cabinet du notaire. Maître Dumont... L'enseigne est bien là."
+        foregrounds: []
+      - uuid: "1e550dcd-28cd-4260-b429-171ecaff2f28"
+        character: "Joueur"
+        text: "Je n'aime vraiment pas les notaires. J'ai toujours l'impression de ne rien comprendre à ce qu'ils me disent, et de me faire plumer sans m'en rendre compte."
+        foregrounds: []
+    fx: []
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_scene"
+        target: "7874c0a1-6397-4a81-935b-9f65841beb60"
+        effects: []
+conditions: []
+connections:
+  - from: "25f444fb-0b75-4bc8-b58c-fccf39b96edc"
+    to: "7874c0a1-6397-4a81-935b-9f65841beb60"
+entry_point: "25f444fb-0b75-4bc8-b58c-fccf39b96edc"

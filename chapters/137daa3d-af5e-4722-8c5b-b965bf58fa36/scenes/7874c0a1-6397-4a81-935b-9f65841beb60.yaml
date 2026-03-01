@@ -1,0 +1,80 @@
+uuid: "7874c0a1-6397-4a81-935b-9f65841beb60"
+name: "Le bureau de Maître Dumont"
+subtitle: ""
+sequences:
+  - uuid: "fef5ab8f-c8a9-4720-844d-5284b6d036e5"
+    name: "Présentation et annonce de l'héritage"
+    subtitle: ""
+    position: { x: 100.0, y: 100.0 }
+    background: ""
+    foregrounds: []
+    dialogues:
+      - uuid: "7f9a80a3-c764-42fa-937a-39bf1971b39e"
+        character: "Maître Dumont"
+        text: "Bonjour. Je suis Maître Dumont. Je vous remercie d'avoir répondu à notre convocation si promptement."
+        foregrounds: []
+      - uuid: "cc685661-9118-42b1-a418-043369f04ca0"
+        character: "Maître Dumont"
+        text: "Je dois vous informer que vous êtes le seul héritier désigné par votre oncle Alfred."
+        foregrounds: []
+    fx: []
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_sequence"
+        target: "b384ed4e-6bcc-491a-b670-7d2de47f4933"
+        effects: []
+  - uuid: "b384ed4e-6bcc-491a-b670-7d2de47f4933"
+    name: "Détail des legs"
+    subtitle: ""
+    position: { x: 380.0, y: 100.0 }
+    background: ""
+    foregrounds: []
+    dialogues:
+      - uuid: "9be73074-9bc3-4f2e-8ccb-8b979b793be4"
+        character: "Maître Dumont"
+        text: "Votre oncle était un homme de convictions. Il a choisi de léguer l'intégralité de sa fortune à plusieurs associations caritatives."
+        foregrounds: []
+      - uuid: "c7f357ad-ae96-4f55-8a40-728f6edf1eab"
+        character: "Maître Dumont"
+        text: "Sa voiture, quant à elle, revient à Madame Girard, sa concierge, qui prenait soin de lui depuis de nombreuses années."
+        foregrounds: []
+    fx: []
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_sequence"
+        target: "55a9b0d7-7a3a-4632-b978-e3339b9acfc1"
+        effects: []
+  - uuid: "55a9b0d7-7a3a-4632-b978-e3339b9acfc1"
+    name: "L'auberge et la condition"
+    subtitle: ""
+    position: { x: 660.0, y: 100.0 }
+    background: ""
+    foregrounds: []
+    dialogues:
+      - uuid: "bd02f076-ac18-442b-bdd3-dddc56b5c63a"
+        character: "Maître Dumont"
+        text: "En revanche, votre oncle vous lègue son auberge. Une pension qu'il avait fondée pour accueillir des jeunes femmes poursuivant leurs études."
+        foregrounds: []
+      - uuid: "5d338921-8b40-409c-87fd-d056ce19db76"
+        character: "Maître Dumont"
+        text: "Plusieurs résidentes y vivent en ce moment même. Des étudiantes, pour la plupart."
+        foregrounds: []
+      - uuid: "9fd82d8b-322e-4ac8-ba0b-fb99b289e456"
+        character: "Maître Dumont"
+        text: "La condition est formelle : vous devez vous engager à ne renvoyer aucune résidente et à laisser chacune d'elles terminer ses études avant de disposer du bien comme bon vous semble."
+        foregrounds: []
+    fx: []
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "to_be_continued"
+        effects: []
+conditions: []
+connections:
+  - from: "fef5ab8f-c8a9-4720-844d-5284b6d036e5"
+    to: "b384ed4e-6bcc-491a-b670-7d2de47f4933"
+  - from: "b384ed4e-6bcc-491a-b670-7d2de47f4933"
+    to: "55a9b0d7-7a3a-4632-b978-e3339b9acfc1"
+entry_point: "fef5ab8f-c8a9-4720-844d-5284b6d036e5"

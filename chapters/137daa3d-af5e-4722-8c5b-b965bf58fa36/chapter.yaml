@@ -1,0 +1,22 @@
+uuid: "137daa3d-af5e-4722-8c5b-b965bf58fa36"
+name: "Chapitre 1"
+subtitle: ""
+scenes:
+  - uuid: "039f1558-c83d-4a6b-b988-5cbfb4547f28"
+    name: "Un héritage inattendu"
+    subtitle: ""
+    position: { x: 100.0, y: 100.0 }
+  - uuid: "c124949a-a23d-489a-bf70-41197a4a861f"
+    name: "Devant le cabinet du notaire"
+    subtitle: ""
+    position: { x: 380.0, y: 100.0 }
+  - uuid: "7874c0a1-6397-4a81-935b-9f65841beb60"
+    name: "Le bureau de Maître Dumont"
+    subtitle: ""
+    position: { x: 660.0, y: 100.0 }
+connections:
+  - from: "039f1558-c83d-4a6b-b988-5cbfb4547f28"
+    to: "c124949a-a23d-489a-bf70-41197a4a861f"
+  - from: "c124949a-a23d-489a-bf70-41197a4a861f"
+    to: "7874c0a1-6397-4a81-935b-9f65841beb60"
+entry_point: "039f1558-c83d-4a6b-b988-5cbfb4547f28"
