@@ -1,0 +1,67 @@
+uuid: "a2b3c4d5-e6f7-4012-abcd-100000000001"
+name: "Retour dans la chambre"
+subtitle: ""
+sequences:
+  - uuid: "a2b3c4d5-seq1-4012-abcd-100000000002"
+    name: "Un bruit dans le couloir"
+    title: ""
+    subtitle: ""
+    position: { x: 100.0, y: 100.0 }
+    background: ""
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "a2b3dia1-seq1-4012-abcd-100000000002"
+        character: "Joueur"
+        text: "Tiens, j'ai cru entendre du bruit ! Je vais aller voir."
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_sequence"
+        target: "a2b3c4d5-seq2-4012-abcd-100000000003"
+        effects: []
+  - uuid: "a2b3c4d5-seq2-4012-abcd-100000000003"
+    name: "Mme Girard annonce le retour des pensionnaires"
+    title: ""
+    subtitle: ""
+    position: { x: 420.0, y: 100.0 }
+    background: ""
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "a2b3dia1-seq2-4012-abcd-100000000003"
+        character: "Mme Girard"
+        text: "Ah, vous voilà ! Les pensionnaires sont rentrées. Il va falloir aller vous présenter."
+        foregrounds: []
+      - uuid: "a2b3dia2-seq2-4012-abcd-100000000003"
+        character: "Joueur"
+        text: "Ok... allons-y."
+        foregrounds: []
+      - uuid: "a2b3dia3-seq2-4012-abcd-100000000003"
+        character: "Mme Girard"
+        text: "En ce moment, il y a cinq pensionnaires : Mary, Lise, Lola, Alicia et Zven."
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_scene"
+        target: "pens1on1-0000-4012-abcd-200000000001"
+        effects: []
+conditions: []
+connections:
+  - from: "a2b3c4d5-seq1-4012-abcd-100000000002"
+    to: "a2b3c4d5-seq2-4012-abcd-100000000003"
+  - from: "a2b3c4d5-seq2-4012-abcd-100000000003"
+    to: "pens1on1-0000-4012-abcd-200000000001"
+entry_point: "a2b3c4d5-seq1-4012-abcd-100000000002"

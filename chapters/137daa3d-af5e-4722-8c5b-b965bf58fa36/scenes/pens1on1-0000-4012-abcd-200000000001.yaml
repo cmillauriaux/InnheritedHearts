@@ -1,0 +1,133 @@
+uuid: "pens1on1-0000-4012-abcd-200000000001"
+name: "Rencontrer les pensionnaires"
+subtitle: ""
+sequences:
+  - uuid: "pens1on1-seq1-4012-abcd-200000000003"
+    name: "Qui veux-tu aller rencontrer ?"
+    title: ""
+    subtitle: ""
+    position: { x: 400.0, y: 100.0 }
+    background: ""
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "pens1dia1-seq1-4012-abcd-200000000003"
+        character: "Joueur"
+        text: "Bon, par qui je commence ?"
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "choices"
+      choices:
+        - text: "Mary"
+          consequence:
+            type: "redirect_scene"
+            target: "mary0001-0000-4012-abcd-300000000001"
+            effects: []
+          conditions: {}
+          effects:
+            - variable: "visited_mary"
+              operation: "set"
+              value: "1"
+        - text: "Lise"
+          consequence:
+            type: "redirect_scene"
+            target: "lise0001-0000-4012-abcd-400000000001"
+            effects: []
+          conditions: {}
+          effects:
+            - variable: "visited_lise"
+              operation: "set"
+              value: "1"
+        - text: "Lola"
+          consequence:
+            type: "redirect_scene"
+            target: "lola0001-0000-4012-abcd-500000000001"
+            effects: []
+          conditions: {}
+          effects:
+            - variable: "visited_lola"
+              operation: "set"
+              value: "1"
+        - text: "Alicia"
+          consequence:
+            type: "redirect_scene"
+            target: "alic0001-0000-4012-abcd-600000000001"
+            effects: []
+          conditions: {}
+          effects:
+            - variable: "visited_alicia"
+              operation: "set"
+              value: "1"
+        - text: "Zven"
+          consequence:
+            type: "redirect_scene"
+            target: "zven0001-0000-4012-abcd-700000000001"
+            effects: []
+          conditions: {}
+          effects:
+            - variable: "visited_zven"
+              operation: "set"
+              value: "1"
+conditions:
+  - uuid: "pens1on1-cond-4012-abcd-200000000002"
+    name: "Toutes rencontrées ?"
+    subtitle: ""
+    position: { x: 100.0, y: 100.0 }
+    rules:
+      - variable: "visited_mary"
+        operator: "not_exists"
+        value: ""
+        consequence:
+          type: "redirect_sequence"
+          target: "pens1on1-seq1-4012-abcd-200000000003"
+          effects: []
+      - variable: "visited_lise"
+        operator: "not_exists"
+        value: ""
+        consequence:
+          type: "redirect_sequence"
+          target: "pens1on1-seq1-4012-abcd-200000000003"
+          effects: []
+      - variable: "visited_lola"
+        operator: "not_exists"
+        value: ""
+        consequence:
+          type: "redirect_sequence"
+          target: "pens1on1-seq1-4012-abcd-200000000003"
+          effects: []
+      - variable: "visited_alicia"
+        operator: "not_exists"
+        value: ""
+        consequence:
+          type: "redirect_sequence"
+          target: "pens1on1-seq1-4012-abcd-200000000003"
+          effects: []
+      - variable: "visited_zven"
+        operator: "not_exists"
+        value: ""
+        consequence:
+          type: "redirect_sequence"
+          target: "pens1on1-seq1-4012-abcd-200000000003"
+          effects: []
+    default_consequence:
+      type: "to_be_continued"
+      effects: []
+connections:
+  - from: "pens1on1-cond-4012-abcd-200000000002"
+    to: "pens1on1-seq1-4012-abcd-200000000003"
+  - from: "pens1on1-seq1-4012-abcd-200000000003"
+    to: "mary0001-0000-4012-abcd-300000000001"
+  - from: "pens1on1-seq1-4012-abcd-200000000003"
+    to: "lise0001-0000-4012-abcd-400000000001"
+  - from: "pens1on1-seq1-4012-abcd-200000000003"
+    to: "lola0001-0000-4012-abcd-500000000001"
+  - from: "pens1on1-seq1-4012-abcd-200000000003"
+    to: "alic0001-0000-4012-abcd-600000000001"
+  - from: "pens1on1-seq1-4012-abcd-200000000003"
+    to: "zven0001-0000-4012-abcd-700000000001"
+entry_point: "pens1on1-cond-4012-abcd-200000000002"

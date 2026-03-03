@@ -1,0 +1,218 @@
+uuid: "mary0001-0000-4012-abcd-300000000001"
+name: "Mary"
+subtitle: ""
+sequences:
+  - uuid: "mary0001-seq1-4012-abcd-300000000002"
+    name: "Devant la porte close"
+    title: ""
+    subtitle: ""
+    position: { x: 100.0, y: 100.0 }
+    background: ""
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "mary0dia1-seq1-4012-abcd-300000000002"
+        character: "Joueur"
+        text: "Chambre 3... C'est ici. Je me demande à quoi elle ressemble et ce qu'elle étudie..."
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_sequence"
+        target: "04c767e1-62ba-431f-b822-b2b02c7fce79"
+        effects: []
+  - uuid: "04c767e1-62ba-431f-b822-b2b02c7fce79"
+    name: "La porte s'ouvre"
+    title: ""
+    subtitle: ""
+    position: { x: 380.0, y: 100.0 }
+    background: ""
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "a271601b-6f51-4091-a3bb-8642b6a10d98"
+        character: "Mary"
+        text: "Oh... Bonjour ! Euh... Je n'ai rien commandé à manger pourtant..."
+        foregrounds: []
+      - uuid: "6ee2e82f-1cf0-40fe-accf-0096cad68975"
+        character: "Joueur"
+        text: "Quoi ?! Elle me prend pour un livreur de pizza ?!"
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "choices"
+      choices:
+        - text: "Non, non pas du tout, je suis le nouveau propriétaire."
+          consequence:
+            type: "redirect_sequence"
+            target: "c22e9d05-b981-4952-ad1f-592e0daa2175"
+            effects: []
+          conditions: {}
+          effects: []
+        - text: "Je suis pas livreur ! Je suis ton nouveau propriétaire !"
+          consequence:
+            type: "redirect_sequence"
+            target: "c22e9d05-b981-4952-ad1f-592e0daa2175"
+            effects: []
+          conditions: {}
+          effects: []
+  - uuid: "c22e9d05-b981-4952-ad1f-592e0daa2175"
+    name: "Mary s'excuse"
+    title: ""
+    subtitle: ""
+    position: { x: 660.0, y: 100.0 }
+    background: ""
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "c90b485e-ff32-4c6e-b6d3-fa3489619976"
+        character: "Mary"
+        text: "Oh ! Pardon, pardon... Je suis un peu dans la lune en ce moment. Je travaille sur un projet de sculpture pour l'école."
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "choices"
+      choices:
+        - text: "Ah tu fais une école d'art ?"
+          consequence:
+            type: "redirect_sequence"
+            target: "e85380e2-be7f-4480-a951-1e37ba13899d"
+            effects: []
+          conditions: {}
+          effects: []
+        - text: "Elle est un peu en bazar ta chambre nan ?"
+          consequence:
+            type: "redirect_sequence"
+            target: "a7acd424-da11-4801-a85a-b806bffbf7f0"
+            effects: []
+          conditions: {}
+          effects: []
+  - uuid: "e85380e2-be7f-4480-a951-1e37ba13899d"
+    name: "L'artiste de l'auberge"
+    title: ""
+    subtitle: ""
+    position: { x: 940.0, y: -100.0 }
+    background: ""
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "e3be7c6b-909c-4591-a36c-f6401037dd90"
+        character: "Mary"
+        text: "Tu es observateur ! Oui, je suis l'artiste de l'auberge. Je fais des études de beaux arts. J'espère un jour être une grande peintre, capturer l'essence de mon époque et de ma génération... Mais pour le moment, je suis surtout une étudiante fauchée, un peu paumée. Je remercie ton oncle d'avoir bien voulu me donner cette chambre. Sans lui, je serais certainement retournée faire du service en restauration toute ma vie."
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_sequence"
+        target: "1ada7e55-06ae-4944-b4c1-8b0239a842c5"
+        effects: []
+  - uuid: "a7acd424-da11-4801-a85a-b806bffbf7f0"
+    name: "La piètre ménagère"
+    title: ""
+    subtitle: ""
+    position: { x: 940.0, y: 200.0 }
+    background: ""
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "4c1c28e0-1ef1-4867-ade7-25566ccf9ee0"
+        character: "Mary"
+        text: "Ha ha ! Oui... Je passe beaucoup de temps à structurer et imaginer dans ma tête, mais très peu dans le monde réel. Je suis une artiste avant tout. Et une piètre ménagère, c'est vrai !"
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_sequence"
+        target: "1ada7e55-06ae-4944-b4c1-8b0239a842c5"
+        effects: []
+  - uuid: "1ada7e55-06ae-4944-b4c1-8b0239a842c5"
+    name: "Au revoir Mary"
+    title: ""
+    subtitle: ""
+    position: { x: 1220.0, y: 100.0 }
+    background: ""
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "2aa44348-377d-4f71-a8d0-f439a8390ed6"
+        character: "Mary"
+        text: "En tout cas, je suis contente d'avoir rencontré le nouveau proprio ! J'espère que tu seras aussi gentil que ton oncle."
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_sequence"
+        target: "3d29894e-e485-42fe-8888-d425771215ff"
+        effects:
+          - variable: "mary_affinity"
+            operation: "set"
+            value: "1"
+  - uuid: "3d29894e-e485-42fe-8888-d425771215ff"
+    name: "La porte se referme"
+    title: ""
+    subtitle: ""
+    position: { x: 1500.0, y: 100.0 }
+    background: ""
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "552e7810-d86a-4b9a-a8f7-6070cf382386"
+        character: "Joueur"
+        text: "Mary est vraiment mignonne... Mais elle a l'air vraiment dans son monde. Et vraiment bordélique."
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_scene"
+        target: "pens1on1-0000-4012-abcd-200000000001"
+        effects: []
+conditions: []
+connections:
+  - from: "mary0001-seq1-4012-abcd-300000000002"
+    to: "04c767e1-62ba-431f-b822-b2b02c7fce79"
+  - from: "04c767e1-62ba-431f-b822-b2b02c7fce79"
+    to: "c22e9d05-b981-4952-ad1f-592e0daa2175"
+  - from: "c22e9d05-b981-4952-ad1f-592e0daa2175"
+    to: "e85380e2-be7f-4480-a951-1e37ba13899d"
+  - from: "c22e9d05-b981-4952-ad1f-592e0daa2175"
+    to: "a7acd424-da11-4801-a85a-b806bffbf7f0"
+  - from: "e85380e2-be7f-4480-a951-1e37ba13899d"
+    to: "1ada7e55-06ae-4944-b4c1-8b0239a842c5"
+  - from: "a7acd424-da11-4801-a85a-b806bffbf7f0"
+    to: "1ada7e55-06ae-4944-b4c1-8b0239a842c5"
+  - from: "1ada7e55-06ae-4944-b4c1-8b0239a842c5"
+    to: "3d29894e-e485-42fe-8888-d425771215ff"
+entry_point: "mary0001-seq1-4012-abcd-300000000002"

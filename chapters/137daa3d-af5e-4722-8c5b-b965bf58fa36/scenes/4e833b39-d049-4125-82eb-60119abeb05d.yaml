@@ -1,0 +1,114 @@
+uuid: "4e833b39-d049-4125-82eb-60119abeb05d"
+name: "Le bilan"
+subtitle: ""
+sequences:
+  - uuid: "03bdf56c-c8cf-41f1-8bff-e104e9c128f6"
+    name: "Les cinq résidentes"
+    title: ""
+    subtitle: ""
+    position: { x: 100.0, y: 100.0 }
+    background: ""
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "a30d4999-0b03-4162-a5ad-283b01020481"
+        character: "Joueur"
+        text: "Mary l'artiste... belle, créative et complètement dans son monde. Et ce bazar dans sa chambre ! On aurait dit qu'une tornade était passée."
+        foregrounds: []
+      - uuid: "ff0c4556-748a-45b8-8d8b-dceed3954bff"
+        character: "Joueur"
+        text: "Lise l'informaticienne... tellement mignonne et tellement timide. Elle a failli pas m'ouvrir la porte. Geek jusqu'au bout des ongles."
+        foregrounds: []
+      - uuid: "fa4b76ee-f2a9-43dd-a383-56f3aca0bcce"
+        character: "Joueur"
+        text: "Lola l'infirmière... jolie comme un cœur et bavarde comme une pie. Je n'ai pas pu placer un mot de toute la conversation."
+        foregrounds: []
+      - uuid: "fe70635e-2d74-4d31-beba-ae8fa4b37aaf"
+        character: "Joueur"
+        text: "Alicia la criminologue gothique... troublante. Flippante mais fascinante. Et cette chambre... une nécrologie avant le dîner. Sérieusement."
+        foregrounds: []
+      - uuid: "89cf011d-3215-471c-89fc-08d559f78592"
+        character: "Joueur"
+        text: "Et Zven... une pile électrique. Elle m'a sauté au cou avant même que je dise bonjour. Surexcitée par les voitures et Internet."
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_sequence"
+        target: "69729614-f30e-46c5-bd81-de34f1742985"
+        effects: []
+  - uuid: "69729614-f30e-46c5-bd81-de34f1742985"
+    name: "L'illumination"
+    title: ""
+    subtitle: ""
+    position: { x: 380.0, y: 100.0 }
+    background: ""
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "f97b6fe4-9eae-44f3-a965-0a8efa3f4ba9"
+        character: "Joueur"
+        text: "Elles ont quand même toutes un point commun : elles sont toutes plus jolies l'une que l'autre. Moi qui n'ai jamais été doué avec les filles..."
+        foregrounds: []
+      - uuid: "5d01374b-702e-495d-b62f-b31cb2ef6f74"
+        character: "Joueur"
+        text: "Me voilà entouré de cinq étudiantes qui feraient de parfaites petites copines ! Est-ce que j'aurai la chance de sortir avec l'une d'entre elles ?"
+        foregrounds: []
+      - uuid: "d80ce260-ce54-47f6-a147-2a3df9b4e69c"
+        character: "Joueur"
+        text: "Attendez... Et si c'était ça le plan de l'oncle Alfred ? Il m'a peut-être légué cette auberge pour me sortir du célibat !"
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_sequence"
+        target: "68cfbf4f-1ca5-4c31-884b-f84132a4ad68"
+        effects: []
+  - uuid: "68cfbf4f-1ca5-4c31-884b-f84132a4ad68"
+    name: "La double mission"
+    title: ""
+    subtitle: ""
+    position: { x: 660.0, y: 100.0 }
+    background: ""
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "4c7e9a21-b83d-4f12-9c45-d1e2f3a40000"
+        character: "Joueur"
+        text: "J'ai donc une double mission : faire vivre cette auberge pour perpétuer la mémoire de mon oncle... et me trouver une copine parmi les résidentes !"
+        foregrounds: []
+      - uuid: "7f8b2c34-e56d-4a78-b901-c2d3e4f50000"
+        character: "Joueur"
+        text: "Mais pour ça, il va falloir que je me mette Mme Girard dans la poche. Elle connaît tout le monde ici, leurs habitudes, leurs goûts, leurs petits secrets. Et c'est clairement elle qui fait la pluie et le beau temps dans cette auberge."
+        foregrounds: []
+      - uuid: "9a0c1d45-f67e-4b89-c012-d3e4f5a60000"
+        character: "Joueur"
+        text: "Mon plan est simple : devenir son allié en tant que nouveau propriétaire, et passer du temps avec chacune des filles pour trouver laquelle serait la meilleure petite amie potentielle. Mission acceptée !"
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "to_be_continued"
+        effects: []
+conditions: []
+connections:
+  - from: "03bdf56c-c8cf-41f1-8bff-e104e9c128f6"
+    to: "69729614-f30e-46c5-bd81-de34f1742985"
+  - from: "69729614-f30e-46c5-bd81-de34f1742985"
+    to: "68cfbf4f-1ca5-4c31-884b-f84132a4ad68"
+entry_point: "03bdf56c-c8cf-41f1-8bff-e104e9c128f6"

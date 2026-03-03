@@ -4,9 +4,11 @@ subtitle: ""
 sequences:
   - uuid: "25f444fb-0b75-4bc8-b58c-fccf39b96edc"
     name: "Appréhension du notaire"
+    title: ""
     subtitle: ""
     position: { x: 100.0, y: 100.0 }
-    background: ""
+    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/Background_1.jpeg"
+    background_color: "00000000"
     foregrounds: []
     dialogues:
       - uuid: "e492cd35-60ab-41f1-8a4e-b72b7add6454"
@@ -18,6 +20,10 @@ sequences:
         text: "Je n'aime vraiment pas les notaires. J'ai toujours l'impression de ne rien comprendre à ce qu'ils me disent, et de me faire plumer sans m'en rendre compte."
         foregrounds: []
     fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
     ending:
       type: "auto_redirect"
       consequence:

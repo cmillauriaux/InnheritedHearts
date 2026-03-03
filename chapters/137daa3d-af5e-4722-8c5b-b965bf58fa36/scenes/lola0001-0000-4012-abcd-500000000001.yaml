@@ -1,0 +1,218 @@
+uuid: "lola0001-0000-4012-abcd-500000000001"
+name: "Lola"
+subtitle: ""
+sequences:
+  - uuid: "lola0001-seq1-4012-abcd-500000000002"
+    name: "Devant la porte de Lola"
+    title: ""
+    subtitle: ""
+    position: { x: 100.0, y: 100.0 }
+    background: ""
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "lola0dia1-seq1-4012-abcd-500000000002"
+        character: "Joueur"
+        text: "Porte 1... Lola. C'est marrant, j'avais une copine qui s'appelait Lola quand j'étais petit. Je me demande si elles se ressemblent."
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_sequence"
+        target: "e4a14df9-447e-4e47-8661-d21345c0531d"
+        effects: []
+  - uuid: "e4a14df9-447e-4e47-8661-d21345c0531d"
+    name: "Lola ouvre la porte"
+    title: ""
+    subtitle: ""
+    position: { x: 380.0, y: 100.0 }
+    background: ""
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "22a0635e-f280-4ff4-a279-c225fbc11b24"
+        character: "Lola"
+        text: "Oh ! Vous devez être le nouveau propriétaire ! Mme Girard m'a tout dit !"
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "choices"
+      choices:
+        - text: "Tu dois être Lola ?"
+          consequence:
+            type: "redirect_sequence"
+            target: "1a5b628f-b306-48f6-a49e-a4f132239a25"
+            effects: []
+          conditions: {}
+          effects: []
+        - text: "C'est toi Lola ?"
+          consequence:
+            type: "redirect_sequence"
+            target: "1a5b628f-b306-48f6-a49e-a4f132239a25"
+            effects: []
+          conditions: {}
+          effects: []
+  - uuid: "1a5b628f-b306-48f6-a49e-a4f132239a25"
+    name: "Le soleil de l'auberge"
+    title: ""
+    subtitle: ""
+    position: { x: 660.0, y: 100.0 }
+    background: ""
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "f5ecdda7-6777-4a0a-9c79-be8b738089c3"
+        character: "Lola"
+        text: "Lola, c'est moi ! Le soleil de cette auberge, la confidente de Mme Girard, celle qui soigne les bobos et les cœurs !"
+        foregrounds: []
+      - uuid: "7db969da-769e-4a0a-8ac7-3196ba6c9903"
+        character: "Joueur"
+        text: "Et..."
+        foregrounds: []
+      - uuid: "75301073-5896-4d75-a78b-8b2d855ee0c0"
+        character: "Lola"
+        text: "Et je suis aussi celle qui accueille tout le monde à bras ouverts ! Qui s'assure que tout va bien dans cette grande maison. Tu sais, une auberge c'est comme une famille !"
+        foregrounds: []
+      - uuid: "9acb09b9-b917-4ade-b2f8-669e4067c35e"
+        character: "Joueur"
+        text: "Je..."
+        foregrounds: []
+      - uuid: "a497de70-d651-4e2c-adb0-41cd94c9cda1"
+        character: "Lola"
+        text: "Je sais, je sais, tu dois être un peu dépassé ! C'est normal, tu arrives dans un endroit tout nouveau. Mais ne t'inquiète pas, avec moi dans les parages tu vas vite te sentir chez toi !"
+        foregrounds: []
+      - uuid: "eb016537-6d34-4875-981d-16b9ab2de614"
+        character: "Joueur"
+        text: "..."
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_sequence"
+        target: "8715a36a-5a46-4e19-930b-800958142f61"
+        effects: []
+  - uuid: "8715a36a-5a46-4e19-930b-800958142f61"
+    name: "Tentative d'intervention"
+    title: ""
+    subtitle: ""
+    position: { x: 940.0, y: 100.0 }
+    background: ""
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "400b469d-e6e3-40ab-962e-773066b35387"
+        character: "Lola"
+        text: "Mais je te laisse parler ! Vas-y !"
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "choices"
+      choices:
+        - text: "Je..."
+          consequence:
+            type: "redirect_sequence"
+            target: "5593b59a-733c-48db-8e07-4efce2a22182"
+            effects: []
+          conditions: {}
+          effects: []
+        - text: "..."
+          consequence:
+            type: "redirect_sequence"
+            target: "5593b59a-733c-48db-8e07-4efce2a22182"
+            effects: []
+          conditions: {}
+          effects: []
+        - text: "Mais..."
+          consequence:
+            type: "redirect_sequence"
+            target: "5593b59a-733c-48db-8e07-4efce2a22182"
+            effects: []
+          conditions: {}
+          effects: []
+  - uuid: "5593b59a-733c-48db-8e07-4efce2a22182"
+    name: "Lola infirmière"
+    title: ""
+    subtitle: ""
+    position: { x: 1220.0, y: 100.0 }
+    background: ""
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "cd82046b-39f7-4020-8f0b-8a23d7a711e6"
+        character: "Lola"
+        text: "Ah oui, j'allais oublier ! Je fais des études d'infirmière. Je suis à l'écoute des maux et du monde. C'est un beau métier tu sais, exigeant, rigoureux, mais tellement humain ! Prendre soin des autres, être là quand ça ne va pas, c'est une vocation."
+        foregrounds: []
+      - uuid: "54abb01d-2d78-4453-84f4-3c07bcdd5fca"
+        character: "Joueur"
+        text: "..."
+        foregrounds: []
+      - uuid: "d55ad8a1-1248-43a1-b64d-15748fdaa729"
+        character: "Lola"
+        text: "Bon, j'ai du boulot qui m'attend ! Mais je suis vraiment ravie d'avoir rencontré le nouveau proprio. Comme disait Mme Girard, t'as l'air très gentil... mais pas très loquace ! À bientôt !"
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_sequence"
+        target: "3e3fc457-6693-4ecb-b69f-bdd9573946a5"
+        effects: []
+  - uuid: "3e3fc457-6693-4ecb-b69f-bdd9573946a5"
+    name: "La porte se referme"
+    title: ""
+    subtitle: ""
+    position: { x: 1500.0, y: 100.0 }
+    background: ""
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "1cf592c9-64dd-4a89-a20c-d3ecfead2e69"
+        character: "Joueur"
+        text: "Elle est vraiment jolie... Mais vraiment pipelette !"
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_scene"
+        target: "pens1on1-0000-4012-abcd-200000000001"
+        effects: []
+conditions: []
+connections:
+  - from: "lola0001-seq1-4012-abcd-500000000002"
+    to: "e4a14df9-447e-4e47-8661-d21345c0531d"
+  - from: "e4a14df9-447e-4e47-8661-d21345c0531d"
+    to: "1a5b628f-b306-48f6-a49e-a4f132239a25"
+  - from: "1a5b628f-b306-48f6-a49e-a4f132239a25"
+    to: "8715a36a-5a46-4e19-930b-800958142f61"
+  - from: "8715a36a-5a46-4e19-930b-800958142f61"
+    to: "5593b59a-733c-48db-8e07-4efce2a22182"
+  - from: "5593b59a-733c-48db-8e07-4efce2a22182"
+    to: "3e3fc457-6693-4ecb-b69f-bdd9573946a5"
+entry_point: "lola0001-seq1-4012-abcd-500000000002"

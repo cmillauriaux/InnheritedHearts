@@ -1,0 +1,324 @@
+uuid: "75a0669c-cec6-40d0-883b-01ced9f9c789"
+name: "Sur la route de l'auberge"
+subtitle: ""
+sequences:
+  - uuid: "b8c08a7b-3acf-47f1-abb7-a28857d401c6"
+    name: "Monologue dans la campagne"
+    title: ""
+    subtitle: ""
+    position: { x: 100.0, y: 100.0 }
+    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/ai_1772389778_78445.png"
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "e6e9d6d2-67f8-4514-8f90-d34f2dfac447"
+        character: "Joueur"
+        text: "Une auberge. Mon oncle me lègue une auberge. Quel coup tordu il me joue, même depuis sa tombe..."
+        foregrounds: []
+      - uuid: "48c85b5c-7733-4f73-8a4b-8f5c548c6345"
+        character: "Joueur"
+        text: "Je n'ai jamais tenu d'auberge de ma vie. Et une pension pour jeunes femmes en plus... Je ne suis vraiment pas doué avec les filles."
+        foregrounds: []
+      - uuid: "92eddf01-7ae8-4a48-a950-c051aaed7902"
+        character: "Joueur"
+        text: "Et comment je suis censé aider des étudiantes, moi ? J'ai foiré mes études. Deux fois. Oncle Alfred, tu es sûr de toi ?"
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_sequence"
+        target: "64000900-61a6-4419-9fc8-e7ce1433cb7b"
+        effects: []
+  - uuid: "64000900-61a6-4419-9fc8-e7ce1433cb7b"
+    name: "Devant l'auberge"
+    title: ""
+    subtitle: ""
+    position: { x: 460.0, y: 100.0 }
+    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/Background_4.jpeg"
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "3cbb7492-6ef4-4817-bca9-78210782ead1"
+        character: "Joueur"
+        text: "Voilà... c'est bien ça. Une grande bâtisse en pierre, entourée de verdure, avec une enseigne en bois. Exactement comme Maître Dumont l'avait décrite."
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_sequence"
+        target: "6d633d4f-ad50-411d-a051-b3ffdcdc8d1d"
+        effects: []
+  - uuid: "6d633d4f-ad50-411d-a051-b3ffdcdc8d1d"
+    name: "Rencontre avec Mme Girard"
+    title: ""
+    subtitle: ""
+    position: { x: 740.0, y: 100.0 }
+    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/ai_1772391454_9497.png"
+    background_color: "00000000"
+    foregrounds:
+      - uuid: "6dcfb53b-db29-404c-71c1-199441cbf46c"
+        name: ""
+        image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772391570_2981.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.66153851454666
+        anchor_bg: { x: 0.16418106853962, y: 1.29869031906128 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
+    dialogues:
+      - uuid: "c89b3347-3fca-4478-b117-d1964abbff4f"
+        character: "Mme Girard"
+        text: "On n'a besoin de rien, merci. Et les commerciaux dans votre genre ne sont pas très bien vus dans le coin."
+        foregrounds:
+          - uuid: "6dcfb53b-db29-404c-71c1-199441cbf46c"
+            name: ""
+            image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772391570_2981.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.66153851454666
+            anchor_bg: { x: 0.16418106853962, y: 1.29869031906128 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "choices"
+      choices:
+        - text: "Je ne suis pas commercial. Je suis le nouveau propriétaire."
+          consequence:
+            type: "redirect_sequence"
+            target: "47825f8c-b5aa-46d0-88c4-de45ce13d64e"
+            effects: []
+          conditions: {}
+          effects: []
+        - text: "Pardon, je me suis trompé d'adresse."
+          consequence:
+            type: "game_over"
+            effects: []
+          conditions: {}
+          effects: []
+  - uuid: "47825f8c-b5aa-46d0-88c4-de45ce13d64e"
+    name: "Le fou rire de Mme Girard"
+    title: ""
+    subtitle: ""
+    position: { x: 1140.0, y: 320.0 }
+    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/ai_1772391454_9497.png"
+    background_color: "00000000"
+    foregrounds:
+      - uuid: "dd46452f-d42c-4a55-cff7-00b70854ec05"
+        name: ""
+        image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772392401_88229.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.66153851454666
+        anchor_bg: { x: 0.16418106853962, y: 1.29869031906128 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "fade"
+        transition_duration: 1.0
+    dialogues:
+      - uuid: "4c7d6024-f1d3-4b1c-9d5f-f412ac1483f1"
+        character: "Mme Girard"
+        text: "Ha ! Le nouveau propriétaire ! Permettez-moi d'en douter. M. Alfred est un homme charmant, cultivé, distingué. Pas un gamin à l'air paumé dans votre genre !"
+        foregrounds:
+          - uuid: "dd46452f-d42c-4a55-cff7-00b70854ec05"
+            name: ""
+            image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772392401_88229.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.66153851454666
+            anchor_bg: { x: 0.16418106853962, y: 1.29869031906128 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "fade"
+            transition_duration: 1.0
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "choices"
+      choices:
+        - text: "Tu sais ce qu'il te dit le gamin, vieille bique ?"
+          consequence:
+            type: "redirect_sequence"
+            target: "e1ec1ab2-1913-441b-9035-1b1b11edd577"
+            effects: []
+          conditions: {}
+          effects:
+            - variable: "mme_girard_affinity"
+              operation: "set"
+              value: "-1"
+        - text: "C'est mon oncle. Il est malheureusement décédé."
+          consequence:
+            type: "redirect_sequence"
+            target: "6cefb49f-9d5b-4111-8e5a-341a20cc52b9"
+            effects: []
+          conditions: {}
+          effects:
+            - variable: "mme_girard_affinity"
+              operation: "set"
+              value: "1"
+  - uuid: "e1ec1ab2-1913-441b-9035-1b1b11edd577"
+    name: "Accrochage avec Mme Girard"
+    title: ""
+    subtitle: ""
+    position: { x: 1560.0, y: 340.0 }
+    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/ai_1772391454_9497.png"
+    background_color: "00000000"
+    foregrounds:
+      - uuid: "37d5c3de-d62e-44e9-4c58-a9c7f8236c26"
+        name: ""
+        image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772392461_09832.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.66153851454666
+        anchor_bg: { x: 0.16418106853962, y: 1.29869031906128 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "fade"
+        transition_duration: 1.0
+    dialogues:
+      - uuid: "cc816605-9682-4276-b395-682b7bc60027"
+        character: "Mme Girard"
+        text: "Vieille bique ?! Surveille ton langage, mon petit !"
+        foregrounds:
+          - uuid: "37d5c3de-d62e-44e9-4c58-a9c7f8236c26"
+            name: ""
+            image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772392461_09832.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.66153851454666
+            anchor_bg: { x: 0.16418106853962, y: 1.29869031906128 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "fade"
+            transition_duration: 1.0
+      - uuid: "ec69dc9f-82c2-4cd1-a3fe-10b3d1390ea1"
+        character: "Joueur"
+        text: "Si mon oncle n'était pas décédé, je l'appellerais sur le champ."
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_sequence"
+        target: "6cefb49f-9d5b-4111-8e5a-341a20cc52b9"
+        effects: []
+  - uuid: "6cefb49f-9d5b-4111-8e5a-341a20cc52b9"
+    name: "La nouvelle du décès"
+    title: ""
+    subtitle: ""
+    position: { x: 1920.0, y: 340.0 }
+    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/ai_1772391454_9497.png"
+    background_color: "00000000"
+    foregrounds:
+      - uuid: "6841d03c-a583-4ed9-057d-68909bcdeb9c"
+        name: ""
+        image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772392306_46295.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.66153851454666
+        anchor_bg: { x: 0.16418106853962, y: 1.29869031906128 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "fade"
+        transition_duration: 1.0
+    dialogues:
+      - uuid: "13da468f-7e96-47ac-8949-9d2ddbfed4aa"
+        character: "Mme Girard"
+        text: "Décédé... ? Alfred est mort ?"
+        foregrounds:
+          - uuid: "adf0190d-073b-4963-2283-5590dad1fb64"
+            name: ""
+            image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772392530_04788.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.66153851454666
+            anchor_bg: { x: 0.16418106853962, y: 1.29869031906128 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "fade"
+            transition_duration: 1.0
+      - uuid: "dcc1ce4d-e542-47e0-b2b8-eae2e11c516b"
+        character: "Joueur"
+        text: "Oui. Il a tout légué à des associations caritatives. Mais il vous a laissé sa voiture."
+        foregrounds: []
+      - uuid: "22d9c585-e72b-4729-a839-815f50d67af5"
+        character: "Mme Girard"
+        text: "Sa voiture... Il pensait encore à moi. Ce cher homme."
+        foregrounds:
+          - uuid: "6841d03c-a583-4ed9-057d-68909bcdeb9c"
+            name: ""
+            image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772392306_46295.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.66153851454666
+            anchor_bg: { x: 0.16418106853962, y: 1.29869031906128 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "fade"
+            transition_duration: 1.0
+      - uuid: "4f3e4669-3ad3-4e97-8092-d758a17d9788"
+        character: "Mme Girard"
+        text: "Bon... Suivez-moi. Je vais vous montrer votre chambre."
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_scene"
+        target: "af40b119-4226-45d2-a8c7-d782f17a1112"
+        effects: []
+conditions: []
+connections:
+  - from: "b8c08a7b-3acf-47f1-abb7-a28857d401c6"
+    to: "64000900-61a6-4419-9fc8-e7ce1433cb7b"
+  - from: "64000900-61a6-4419-9fc8-e7ce1433cb7b"
+    to: "6d633d4f-ad50-411d-a051-b3ffdcdc8d1d"
+  - from: "6d633d4f-ad50-411d-a051-b3ffdcdc8d1d"
+    to: "47825f8c-b5aa-46d0-88c4-de45ce13d64e"
+  - from: "47825f8c-b5aa-46d0-88c4-de45ce13d64e"
+    to: "e1ec1ab2-1913-441b-9035-1b1b11edd577"
+  - from: "47825f8c-b5aa-46d0-88c4-de45ce13d64e"
+    to: "6cefb49f-9d5b-4111-8e5a-341a20cc52b9"
+  - from: "e1ec1ab2-1913-441b-9035-1b1b11edd577"
+    to: "6cefb49f-9d5b-4111-8e5a-341a20cc52b9"
+  - from: "6cefb49f-9d5b-4111-8e5a-341a20cc52b9"
+    to: "af40b119-4226-45d2-a8c7-d782f17a1112"
+entry_point: "b8c08a7b-3acf-47f1-abb7-a28857d401c6"

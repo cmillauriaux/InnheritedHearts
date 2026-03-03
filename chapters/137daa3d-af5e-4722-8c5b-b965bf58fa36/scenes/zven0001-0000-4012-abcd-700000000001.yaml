@@ -1,0 +1,217 @@
+uuid: "zven0001-0000-4012-abcd-700000000001"
+name: "Zven"
+subtitle: ""
+sequences:
+  - uuid: "zven0001-seq1-4012-abcd-700000000002"
+    name: "Devant la porte de Zven"
+    title: ""
+    subtitle: ""
+    position: { x: 100.0, y: 100.0 }
+    background: ""
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "zven0dia1-seq1-4012-abcd-700000000002"
+        character: "Joueur"
+        text: "Zven... C'est un prénom ça. D'où ça peut bien venir ?"
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_sequence"
+        target: "96dd19b3-b972-4976-83e2-7ee66f0aa57e"
+        effects: []
+  - uuid: "96dd19b3-b972-4976-83e2-7ee66f0aa57e"
+    name: "Zven ouvre la porte"
+    title: ""
+    subtitle: ""
+    position: { x: 380.0, y: 100.0 }
+    background: ""
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "87b250d7-8d82-48ab-99eb-fa3c6bf8434a"
+        character: "Zven"
+        text: "Oh ! Le nouveau propriétaire ! C'est bien comme ça qu'on dit bonjour aux nouveaux arrivants ici ?"
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "choices"
+      choices:
+        - text: "Je suis pas un nouvel arrivant, je suis le propriétaire !"
+          consequence:
+            type: "redirect_sequence"
+            target: "cad94b03-b7cf-4dbd-a465-314a1c57b631"
+            effects: []
+          conditions: {}
+          effects: []
+        - text: "Oui parfait ! Je suis le nouveau propriétaire !"
+          consequence:
+            type: "redirect_sequence"
+            target: "cad94b03-b7cf-4dbd-a465-314a1c57b631"
+            effects: []
+          conditions: {}
+          effects: []
+  - uuid: "cad94b03-b7cf-4dbd-a465-314a1c57b631"
+    name: "Zven et le programme d'échange"
+    title: ""
+    subtitle: ""
+    position: { x: 660.0, y: 100.0 }
+    background: ""
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "0481cae5-0c2e-4a3d-82bc-7abdcc4149eb"
+        character: "Zven"
+        text: "Un nouveau propriétaire ! Une nouvelle personne à rencontrer ! Décidément ce programme d'échange ne ment pas !"
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "choices"
+      choices:
+        - text: "C'est quoi ton programme d'échange ?"
+          consequence:
+            type: "redirect_sequence"
+            target: "bb89164e-36cb-4027-b181-ca16349fbf81"
+            effects: []
+          conditions: {}
+          effects: []
+        - text: "Ah tu viens pas d'ici ?"
+          consequence:
+            type: "redirect_sequence"
+            target: "bb89164e-36cb-4027-b181-ca16349fbf81"
+            effects: []
+          conditions: {}
+          effects: []
+  - uuid: "bb89164e-36cb-4027-b181-ca16349fbf81"
+    name: "L'île de Zven"
+    title: ""
+    subtitle: ""
+    position: { x: 940.0, y: 100.0 }
+    background: ""
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "a8a38b81-1c24-4320-a63c-7568ff75d92d"
+        character: "Zven"
+        text: "Je viens d'une île ! Une île que personne ne connait ici. Mais on a un programme d'échange universitaire avec le continent, alors me voilà ! C'est la première fois que je découvre tout ça. Tout est tellement différent !"
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_sequence"
+        target: "bb6cf5b2-21ed-456d-b5d0-36133cb65ff8"
+        effects: []
+  - uuid: "bb6cf5b2-21ed-456d-b5d0-36133cb65ff8"
+    name: "Tout est magique pour Zven"
+    title: ""
+    subtitle: ""
+    position: { x: 1220.0, y: 100.0 }
+    background: ""
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "2460b2df-5cb1-4f02-9aae-8878f7629606"
+        character: "Joueur"
+        text: "Et ça se passe comment pour toi ?"
+        foregrounds: []
+      - uuid: "c2b00605-f67c-4d08-a464-353f6698cc17"
+        character: "Zven"
+        text: "C'est incroyable ! Les voitures ! Il y en a partout, de toutes les couleurs ! Et Internet ! Sur l'île on en avait très peu mais ici c'est partout ! Et le cinéma ! J'y suis allée trois fois cette semaine ! Trois fois !"
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_sequence"
+        target: "52e7d8ae-3696-4f67-a0aa-c33b691632b9"
+        effects: []
+  - uuid: "52e7d8ae-3696-4f67-a0aa-c33b691632b9"
+    name: "Au revoir Zven"
+    title: ""
+    subtitle: ""
+    position: { x: 1500.0, y: 100.0 }
+    background: ""
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "d88f6f5e-5628-465f-a7cf-4730843ace96"
+        character: "Joueur"
+        text: "J'espère que tu vas encore découvrir plein de choses !"
+        foregrounds: []
+      - uuid: "1085ec55-e4eb-4bf2-8c6c-d87c890cf854"
+        character: "Zven"
+        text: "Oh oui ! Il y a tellement à voir ! Bonne journée nouveau propriétaire !"
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_sequence"
+        target: "5a159c99-3067-48ab-bd2a-9c9bb8b5079f"
+        effects: []
+  - uuid: "5a159c99-3067-48ab-bd2a-9c9bb8b5079f"
+    name: "La porte se referme"
+    title: ""
+    subtitle: ""
+    position: { x: 1780.0, y: 100.0 }
+    background: ""
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "7d7f57ab-11ed-4754-a1cb-35455870e8f7"
+        character: "Joueur"
+        text: "Une vraie boule d'énergie... Et une jolie fille en plus !"
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_scene"
+        target: "pens1on1-0000-4012-abcd-200000000001"
+        effects: []
+conditions: []
+connections:
+  - from: "zven0001-seq1-4012-abcd-700000000002"
+    to: "96dd19b3-b972-4976-83e2-7ee66f0aa57e"
+  - from: "96dd19b3-b972-4976-83e2-7ee66f0aa57e"
+    to: "cad94b03-b7cf-4dbd-a465-314a1c57b631"
+  - from: "cad94b03-b7cf-4dbd-a465-314a1c57b631"
+    to: "bb89164e-36cb-4027-b181-ca16349fbf81"
+  - from: "bb89164e-36cb-4027-b181-ca16349fbf81"
+    to: "bb6cf5b2-21ed-456d-b5d0-36133cb65ff8"
+  - from: "bb6cf5b2-21ed-456d-b5d0-36133cb65ff8"
+    to: "52e7d8ae-3696-4f67-a0aa-c33b691632b9"
+  - from: "52e7d8ae-3696-4f67-a0aa-c33b691632b9"
+    to: "5a159c99-3067-48ab-bd2a-9c9bb8b5079f"
+entry_point: "zven0001-seq1-4012-abcd-700000000002"

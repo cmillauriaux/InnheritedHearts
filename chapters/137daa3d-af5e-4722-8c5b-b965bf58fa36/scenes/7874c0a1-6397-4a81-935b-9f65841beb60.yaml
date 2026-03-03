@@ -3,60 +3,82 @@ name: "Le bureau de Maître Dumont"
 subtitle: ""
 sequences:
   - uuid: "fef5ab8f-c8a9-4720-844d-5284b6d036e5"
-    name: "Présentation et annonce de l'héritage"
+    name: "Entretien chez le notaire"
+    title: ""
     subtitle: ""
     position: { x: 100.0, y: 100.0 }
-    background: ""
-    foregrounds: []
+    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/Background_3.jpeg"
+    background_color: "00000000"
+    foregrounds:
+      - uuid: "49fb6c9d-d4eb-4bab-d1b6-f08d6db3d2de"
+        name: ""
+        image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772390350_70862.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.90967743450004
+        anchor_bg: { x: 0.82393896579742, y: 1.2986900806427 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "fade"
+        transition_duration: 1.0
     dialogues:
       - uuid: "7f9a80a3-c764-42fa-937a-39bf1971b39e"
         character: "Maître Dumont"
         text: "Bonjour. Je suis Maître Dumont. Je vous remercie d'avoir répondu à notre convocation si promptement."
-        foregrounds: []
+        foregrounds:
+          - uuid: "dba2df17-bdd1-4c78-ce83-172f7046f87e"
+            name: ""
+            image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772389917_08433.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.90967743450004
+            anchor_bg: { x: 0.82393896579742, y: 1.2986900806427 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "fade"
+            transition_duration: 1.0
       - uuid: "cc685661-9118-42b1-a418-043369f04ca0"
         character: "Maître Dumont"
         text: "Je dois vous informer que vous êtes le seul héritier désigné par votre oncle Alfred."
         foregrounds: []
-    fx: []
-    ending:
-      type: "auto_redirect"
-      consequence:
-        type: "redirect_sequence"
-        target: "b384ed4e-6bcc-491a-b670-7d2de47f4933"
-        effects: []
-  - uuid: "b384ed4e-6bcc-491a-b670-7d2de47f4933"
-    name: "Détail des legs"
-    subtitle: ""
-    position: { x: 380.0, y: 100.0 }
-    background: ""
-    foregrounds: []
-    dialogues:
       - uuid: "9be73074-9bc3-4f2e-8ccb-8b979b793be4"
         character: "Maître Dumont"
         text: "Votre oncle était un homme de convictions. Il a choisi de léguer l'intégralité de sa fortune à plusieurs associations caritatives."
-        foregrounds: []
+        foregrounds:
+          - uuid: "c6bc682e-6fd3-4448-5444-64c555ba9e2e"
+            name: ""
+            image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772389973_03395.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.90967743450004
+            anchor_bg: { x: 0.82393896579742, y: 1.2986900806427 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "fade"
+            transition_duration: 1.0
       - uuid: "c7f357ad-ae96-4f55-8a40-728f6edf1eab"
         character: "Maître Dumont"
         text: "Sa voiture, quant à elle, revient à Madame Girard, sa concierge, qui prenait soin de lui depuis de nombreuses années."
         foregrounds: []
-    fx: []
-    ending:
-      type: "auto_redirect"
-      consequence:
-        type: "redirect_sequence"
-        target: "55a9b0d7-7a3a-4632-b978-e3339b9acfc1"
-        effects: []
-  - uuid: "55a9b0d7-7a3a-4632-b978-e3339b9acfc1"
-    name: "L'auberge et la condition"
-    subtitle: ""
-    position: { x: 660.0, y: 100.0 }
-    background: ""
-    foregrounds: []
-    dialogues:
       - uuid: "bd02f076-ac18-442b-bdd3-dddc56b5c63a"
         character: "Maître Dumont"
         text: "En revanche, votre oncle vous lègue son auberge. Une pension qu'il avait fondée pour accueillir des jeunes femmes poursuivant leurs études."
-        foregrounds: []
+        foregrounds:
+          - uuid: "74111ee2-4d71-4c7a-6f4d-6193aafff418"
+            name: ""
+            image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772390303_69232.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.90967743450004
+            anchor_bg: { x: 0.82393896579742, y: 1.2986900806427 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "fade"
+            transition_duration: 0.5
       - uuid: "5d338921-8b40-409c-87fd-d056ce19db76"
         character: "Maître Dumont"
         text: "Plusieurs résidentes y vivent en ce moment même. Des étudiantes, pour la plupart."
@@ -64,17 +86,96 @@ sequences:
       - uuid: "9fd82d8b-322e-4ac8-ba0b-fb99b289e456"
         character: "Maître Dumont"
         text: "La condition est formelle : vous devez vous engager à ne renvoyer aucune résidente et à laisser chacune d'elles terminer ses études avant de disposer du bien comme bon vous semble."
+        foregrounds:
+          - uuid: "49fb6c9d-d4eb-4bab-d1b6-f08d6db3d2de"
+            name: ""
+            image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772390350_70862.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.90967743450004
+            anchor_bg: { x: 0.82393896579742, y: 1.2986900806427 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "fade"
+            transition_duration: 1.0
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "choices"
+      choices:
+        - text: "Accepter l'offre"
+          consequence:
+            type: "redirect_sequence"
+            target: "ce93cd3b-1dd8-4b32-af3e-39ff22dfc296"
+            effects: []
+          conditions: {}
+          effects: []
+        - text: "Refuser l'offre"
+          consequence:
+            type: "game_over"
+            effects: []
+          conditions: {}
+          effects: []
+  - uuid: "ce93cd3b-1dd8-4b32-af3e-39ff22dfc296"
+    name: "Remise des clés"
+    title: ""
+    subtitle: ""
+    position: { x: 420.0, y: 120.0 }
+    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/Background_3.jpeg"
+    background_color: "00000000"
+    foregrounds:
+      - uuid: "d8a3c4d3-ca99-40b1-65aa-b0928d170f2b"
+        name: ""
+        image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772391265_71791.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.90967743450004
+        anchor_bg: { x: 0.82393896579742, y: 1.2986900806427 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
+    dialogues:
+      - uuid: "399c7e21-139b-47ef-8cc7-e1a46eb5b360"
+        character: "Maître Dumont"
+        text: "Très bien. Voici les clés de l'auberge. Votre oncle aurait été heureux de savoir que vous honorez sa volonté."
+        foregrounds:
+          - uuid: "d8a3c4d3-ca99-40b1-65aa-b0928d170f2b"
+            name: ""
+            image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772391265_71791.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.90967743450004
+            anchor_bg: { x: 0.82393896579742, y: 1.2986900806427 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "76da5393-7a91-469a-a3c1-24fc9565287d"
+        character: "Maître Dumont"
+        text: "Je vous souhaite bon courage. Ce n'est pas une mince affaire, mais je suis sûr que vous saurez vous en sortir."
         foregrounds: []
     fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
     ending:
       type: "auto_redirect"
       consequence:
-        type: "to_be_continued"
+        type: "redirect_scene"
+        target: "75a0669c-cec6-40d0-883b-01ced9f9c789"
         effects: []
 conditions: []
 connections:
   - from: "fef5ab8f-c8a9-4720-844d-5284b6d036e5"
-    to: "b384ed4e-6bcc-491a-b670-7d2de47f4933"
-  - from: "b384ed4e-6bcc-491a-b670-7d2de47f4933"
-    to: "55a9b0d7-7a3a-4632-b978-e3339b9acfc1"
+    to: "ce93cd3b-1dd8-4b32-af3e-39ff22dfc296"
+  - from: "ce93cd3b-1dd8-4b32-af3e-39ff22dfc296"
+    to: "75a0669c-cec6-40d0-883b-01ced9f9c789"
 entry_point: "fef5ab8f-c8a9-4720-844d-5284b6d036e5"

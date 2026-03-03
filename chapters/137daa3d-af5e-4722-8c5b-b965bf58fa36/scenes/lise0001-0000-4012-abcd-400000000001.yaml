@@ -1,0 +1,222 @@
+uuid: "lise0001-0000-4012-abcd-400000000001"
+name: "Lise"
+subtitle: ""
+sequences:
+  - uuid: "lise0001-seq1-4012-abcd-400000000002"
+    name: "Devant la porte de Lise"
+    title: ""
+    subtitle: ""
+    position: { x: 100.0, y: 100.0 }
+    background: ""
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "lise0dia1-seq1-4012-abcd-400000000002"
+        character: "Joueur"
+        text: "Chambre 4... Je me demande à quoi elle ressemble et ce qu'elle étudie."
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_sequence"
+        target: "d6f8d7ef-8287-4336-bbc6-9107b1f4f548"
+        effects: []
+  - uuid: "d6f8d7ef-8287-4336-bbc6-9107b1f4f548"
+    name: "Lise ouvre la porte"
+    title: ""
+    subtitle: ""
+    position: { x: 380.0, y: 100.0 }
+    background: ""
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "18bbf490-3eb7-4b2e-9b59-4a5a6626eeec"
+        character: "Lise"
+        text: "Euh... Oui ? Je... En fait, je peux faire quelque chose pour vous ?"
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "choices"
+      choices:
+        - text: "Je suis le nouveau propriétaire."
+          consequence:
+            type: "redirect_sequence"
+            target: "c59763b6-76d4-47e9-9830-5a2b26e9cc00"
+            effects: []
+          conditions: {}
+          effects: []
+        - text: "Elle est super kawaï ta chambre !"
+          consequence:
+            type: "redirect_sequence"
+            target: "fadf1051-529f-49b8-8a91-0879c600b7c6"
+            effects: []
+          conditions: {}
+          effects: []
+  - uuid: "c59763b6-76d4-47e9-9830-5a2b26e9cc00"
+    name: "Nouveau propriétaire"
+    title: ""
+    subtitle: ""
+    position: { x: 660.0, y: -100.0 }
+    background: ""
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "a28441b8-391e-4261-b1ad-965efecd0a92"
+        character: "Lise"
+        text: "Oh... Le nouveau propriétaire. C'est... Euh... C'est inattendu. Je vais devoir m'habituer... Mais ça va me prendre du temps."
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_sequence"
+        target: "2340621e-da41-46bc-8023-22dda5c1453a"
+        effects: []
+  - uuid: "fadf1051-529f-49b8-8a91-0879c600b7c6"
+    name: "La chambre kawaï"
+    title: ""
+    subtitle: ""
+    position: { x: 660.0, y: 280.0 }
+    background: ""
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "f8dd8a1a-6e5f-4d6b-9ee4-d40130423cef"
+        character: "Lise"
+        text: "Euh... Merci. Je... En fait, je m'inspire des mangas que je lis. Je n'ai pas vraiment beaucoup de personnalité, alors je reproduis ce que je vois dans mes bouquins."
+        foregrounds: []
+      - uuid: "7b50560d-4dd6-49c3-befc-958d872bc30c"
+        character: "Joueur"
+        text: "Ha ha ! Je suis le nouveau propriétaire, et je peux te dire que c'est la plus belle chambre que j'ai vue jusqu'à maintenant !"
+        foregrounds: []
+      - uuid: "280a888f-d4cd-4e21-95a3-7ce1c6460158"
+        character: "Lise"
+        text: "Oh... Euh... Merci beaucoup."
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_sequence"
+        target: "2340621e-da41-46bc-8023-22dda5c1453a"
+        effects: []
+  - uuid: "2340621e-da41-46bc-8023-22dda5c1453a"
+    name: "Qu'est-ce que tu fais ?"
+    title: ""
+    subtitle: ""
+    position: { x: 940.0, y: 100.0 }
+    background: ""
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "517493e8-c5da-4e70-90fb-0005a4b3851f"
+        character: "Lise"
+        text: "Euh... Voilà voilà."
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "choices"
+      choices:
+        - text: "Tu fais quoi comme études ?"
+          consequence:
+            type: "redirect_sequence"
+            target: "ecb756e3-87ff-42fc-8a31-863606e9a3b6"
+            effects: []
+          conditions: {}
+          effects: []
+        - text: "Tu fais quoi dans la vie ?"
+          consequence:
+            type: "redirect_sequence"
+            target: "ecb756e3-87ff-42fc-8a31-863606e9a3b6"
+            effects: []
+          conditions: {}
+          effects: []
+  - uuid: "ecb756e3-87ff-42fc-8a31-863606e9a3b6"
+    name: "Lise la geek"
+    title: ""
+    subtitle: ""
+    position: { x: 1220.0, y: 100.0 }
+    background: ""
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "6c26e614-8411-4144-bd03-45f6116b903f"
+        character: "Lise"
+        text: "J'étudie l'informatique. Je suis... Enfin, je suis une geek, passionnée par les ordinateurs et les mangas. Je ne sors pas beaucoup, je ne pose pas de problème, je suis pas très exigeante... Mais la connexion internet, par contre, il faut pas y toucher."
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_sequence"
+        target: "849aa8ae-c1a8-42b9-9151-854cf72dc290"
+        effects:
+          - variable: "lise_affinity"
+            operation: "set"
+            value: "1"
+  - uuid: "849aa8ae-c1a8-42b9-9151-854cf72dc290"
+    name: "La porte se referme"
+    title: ""
+    subtitle: ""
+    position: { x: 1500.0, y: 100.0 }
+    background: ""
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "c78f2c8a-8ac7-4147-93fd-79b8fc6326a9"
+        character: "Joueur"
+        text: "Lise est vraiment mignonne... Mais vraiment timide."
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_scene"
+        target: "pens1on1-0000-4012-abcd-200000000001"
+        effects: []
+conditions: []
+connections:
+  - from: "lise0001-seq1-4012-abcd-400000000002"
+    to: "d6f8d7ef-8287-4336-bbc6-9107b1f4f548"
+  - from: "d6f8d7ef-8287-4336-bbc6-9107b1f4f548"
+    to: "c59763b6-76d4-47e9-9830-5a2b26e9cc00"
+  - from: "d6f8d7ef-8287-4336-bbc6-9107b1f4f548"
+    to: "fadf1051-529f-49b8-8a91-0879c600b7c6"
+  - from: "c59763b6-76d4-47e9-9830-5a2b26e9cc00"
+    to: "2340621e-da41-46bc-8023-22dda5c1453a"
+  - from: "fadf1051-529f-49b8-8a91-0879c600b7c6"
+    to: "2340621e-da41-46bc-8023-22dda5c1453a"
+  - from: "2340621e-da41-46bc-8023-22dda5c1453a"
+    to: "ecb756e3-87ff-42fc-8a31-863606e9a3b6"
+  - from: "ecb756e3-87ff-42fc-8a31-863606e9a3b6"
+    to: "849aa8ae-c1a8-42b9-9151-854cf72dc290"
+entry_point: "lise0001-seq1-4012-abcd-400000000002"

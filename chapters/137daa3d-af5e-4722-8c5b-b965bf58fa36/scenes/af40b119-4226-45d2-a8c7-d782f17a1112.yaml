@@ -1,0 +1,97 @@
+uuid: "af40b119-4226-45d2-a8c7-d782f17a1112"
+name: "La chambre du propriétaire"
+subtitle: ""
+sequences:
+  - uuid: "2b48720a-40c8-47b9-9c8c-717d0cfe7d4c"
+    name: "Visite de la chambre"
+    title: ""
+    subtitle: ""
+    position: { x: 100.0, y: 100.0 }
+    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/Background_player_bedroom.jpeg"
+    background_color: "00000000"
+    foregrounds:
+      - uuid: "5d4043ed-d74c-4016-3841-d9f327d5161c"
+        name: ""
+        image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772394398_09522.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.71017380328687
+        anchor_bg: { x: 0.76621389389038, y: 1.29769790172577 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "fade"
+        transition_duration: 1.0
+    dialogues:
+      - uuid: "fc1c6ff0-6dda-490d-befc-5b3f03fcbcf1"
+        character: "Joueur"
+        text: "C'est... très silencieux ici. Je m'attendais à plus d'animation."
+        foregrounds: []
+      - uuid: "a0ec330c-c554-4b6b-86b6-f33e43cc624d"
+        character: "Mme Girard"
+        text: "Les filles sont toutes en cours à cette heure-ci. En journée, c'est moi qui m'occupe de tout."
+        foregrounds:
+          - uuid: "f9c0b25d-4fdd-47f6-1b7c-5d6a787f6b0b"
+            name: ""
+            image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772400321_48446.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.71017380328687
+            anchor_bg: { x: 0.76621389389038, y: 1.29769790172577 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "fade"
+            transition_duration: 0.5
+      - uuid: "fb4cc785-3a9a-4b2d-abe9-c5df7ab478c7"
+        character: "Joueur"
+        text: "La chambre est très... simple."
+        foregrounds: []
+      - uuid: "5a367737-dfae-440a-8ac6-a472156d2881"
+        character: "Mme Girard"
+        text: "Votre oncle était d'une générosité sans pareille, mais il vivait très simplement lui-même. C'était sa chambre."
+        foregrounds:
+          - uuid: "268149f8-cc47-4a42-d840-67d06a809753"
+            name: ""
+            image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772400443_5665.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.71017380328687
+            anchor_bg: { x: 0.76621389389038, y: 1.29769790172577 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "fade"
+            transition_duration: 0.5
+      - uuid: "5de6a43e-d8bd-4b40-8959-88ae119c0202"
+        character: "Mme Girard"
+        text: "Installez-vous. Ce soir, quand les résidentes rentrent des cours, ce sera une bonne chose de vous présenter à elles."
+        foregrounds:
+          - uuid: "5d4043ed-d74c-4016-3841-d9f327d5161c"
+            name: ""
+            image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772394398_09522.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.71017380328687
+            anchor_bg: { x: 0.76621389389038, y: 1.29769790172577 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "fade"
+            transition_duration: 1.0
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_scene"
+        target: "9467f46a-79ce-47fe-b52b-4f18fc64248f"
+        effects: []
+conditions: []
+connections:
+  - from: "2b48720a-40c8-47b9-9c8c-717d0cfe7d4c"
+    to: "9467f46a-79ce-47fe-b52b-4f18fc64248f"
+entry_point: "2b48720a-40c8-47b9-9c8c-717d0cfe7d4c"

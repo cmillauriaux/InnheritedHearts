@@ -1,0 +1,210 @@
+uuid: "9467f46a-79ce-47fe-b52b-4f18fc64248f"
+name: "Exploration de l'auberge"
+subtitle: ""
+sequences:
+  - uuid: "2e16d1ea-728c-4cd4-96c3-7f592052b023"
+    name: "Seul dans la chambre"
+    title: ""
+    subtitle: ""
+    position: { x: 100.0, y: 100.0 }
+    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/Background_player_bedroom.jpeg"
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "895272e0-420a-4423-9978-a3257a9e196d"
+        character: "Joueur"
+        text: "Bon... Qu'est-ce que je fais maintenant ? Mme Girard a l'air de tenir cet endroit d'une main de fer. Elle n'a visiblement pas besoin de moi."
+        foregrounds: []
+      - uuid: "d039ae8f-2f31-42ed-bbe5-b22c4c4ad383"
+        character: "Joueur"
+        text: "Autant en profiter pour visiter les lieux. Je suis le propriétaire après tout, non ?"
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_sequence"
+        target: "71909c3c-a9ce-4ba8-a130-ca512cf81748"
+        effects: []
+  - uuid: "71909c3c-a9ce-4ba8-a130-ca512cf81748"
+    name: "Par où commencer ?"
+    title: ""
+    subtitle: ""
+    position: { x: 400.0, y: 100.0 }
+    background: ""
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "93d3fe0d-8da6-46cd-8e0a-05a500f4d557"
+        character: "Joueur"
+        text: "Je commence par où ?"
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "choices"
+      choices:
+        - text: "La salle à manger"
+          consequence:
+            type: "redirect_sequence"
+            target: "f21c96be-c0d5-4278-b941-a5bc0eb0e58b"
+            effects: []
+          conditions: {}
+          effects:
+            - variable: "visited_salle_a_manger"
+              operation: "set"
+              value: "1"
+        - text: "La salle de bain"
+          consequence:
+            type: "redirect_sequence"
+            target: "3618d165-f157-43e1-99e8-6a7442144c16"
+            effects: []
+          conditions: {}
+          effects:
+            - variable: "visited_salle_de_bain"
+              operation: "set"
+              value: "1"
+        - text: "Le sous-sol"
+          consequence:
+            type: "redirect_sequence"
+            target: "343b8a36-52a5-47d1-baf8-e163292183e5"
+            effects: []
+          conditions: {}
+          effects:
+            - variable: "visited_sous_sol"
+              operation: "set"
+              value: "1"
+  - uuid: "f21c96be-c0d5-4278-b941-a5bc0eb0e58b"
+    name: "La salle à manger"
+    title: ""
+    subtitle: ""
+    position: { x: 700.0, y: -80.0 }
+    background: ""
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "64080662-ba1e-4c1b-9e1a-938b3f3712b6"
+        character: "Joueur"
+        text: "Petite, mais cosy. Les tables en bois, les chaises dépareillées... il y a quelque chose de chaleureux ici."
+        foregrounds: []
+      - uuid: "41303968-e656-4137-a2c4-07ab0c488b6d"
+        character: "Joueur"
+        text: "Ça doit être animé quand tout le monde est là. Du mal à imaginer ça pour l'instant."
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_condition"
+        target: "c0nd1234-5678-4abc-def0-123456789abc"
+        effects: []
+  - uuid: "3618d165-f157-43e1-99e8-6a7442144c16"
+    name: "La salle de bain"
+    title: ""
+    subtitle: ""
+    position: { x: 700.0, y: 100.0 }
+    background: ""
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "fb25f9ff-191b-4028-ae14-ace5c66e3995"
+        character: "Joueur"
+        text: "Une seule salle de bain... pour une auberge de filles. Le matin doit être un enfer. Je plains déjà la dernière levée."
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_condition"
+        target: "c0nd1234-5678-4abc-def0-123456789abc"
+        effects: []
+  - uuid: "343b8a36-52a5-47d1-baf8-e163292183e5"
+    name: "Le sous-sol"
+    title: ""
+    subtitle: ""
+    position: { x: 700.0, y: 280.0 }
+    background: ""
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "1e3eaa38-6b2e-44bf-be69-66fefa1ea7db"
+        character: "Joueur"
+        text: "Sombre, humide, et j'ai juré avoir entendu quelque chose bouger dans le fond. J'espère vraiment ne plus jamais avoir à redescendre ici."
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_condition"
+        target: "c0nd1234-5678-4abc-def0-123456789abc"
+        effects: []
+conditions:
+  - uuid: "c0nd1234-5678-4abc-def0-123456789abc"
+    name: "Tout visité ?"
+    subtitle: ""
+    position: { x: 1100.0, y: 100.0 }
+    rules:
+      - variable: "visited_salle_a_manger"
+        operator: "not_exists"
+        value: ""
+        consequence:
+          type: "redirect_sequence"
+          target: "71909c3c-a9ce-4ba8-a130-ca512cf81748"
+          effects: []
+      - variable: "visited_salle_de_bain"
+        operator: "not_exists"
+        value: ""
+        consequence:
+          type: "redirect_sequence"
+          target: "71909c3c-a9ce-4ba8-a130-ca512cf81748"
+          effects: []
+      - variable: "visited_sous_sol"
+        operator: "not_exists"
+        value: ""
+        consequence:
+          type: "redirect_sequence"
+          target: "71909c3c-a9ce-4ba8-a130-ca512cf81748"
+          effects: []
+    default_consequence:
+      type: "redirect_scene"
+      target: "a2b3c4d5-e6f7-4012-abcd-100000000001"
+      effects: []
+connections:
+  - from: "2e16d1ea-728c-4cd4-96c3-7f592052b023"
+    to: "71909c3c-a9ce-4ba8-a130-ca512cf81748"
+  - from: "71909c3c-a9ce-4ba8-a130-ca512cf81748"
+    to: "f21c96be-c0d5-4278-b941-a5bc0eb0e58b"
+  - from: "71909c3c-a9ce-4ba8-a130-ca512cf81748"
+    to: "3618d165-f157-43e1-99e8-6a7442144c16"
+  - from: "71909c3c-a9ce-4ba8-a130-ca512cf81748"
+    to: "343b8a36-52a5-47d1-baf8-e163292183e5"
+  - from: "f21c96be-c0d5-4278-b941-a5bc0eb0e58b"
+    to: "c0nd1234-5678-4abc-def0-123456789abc"
+  - from: "3618d165-f157-43e1-99e8-6a7442144c16"
+    to: "c0nd1234-5678-4abc-def0-123456789abc"
+  - from: "343b8a36-52a5-47d1-baf8-e163292183e5"
+    to: "c0nd1234-5678-4abc-def0-123456789abc"
+  - from: "c0nd1234-5678-4abc-def0-123456789abc"
+    to: "71909c3c-a9ce-4ba8-a130-ca512cf81748"
+  - from: "c0nd1234-5678-4abc-def0-123456789abc"
+    to: "a2b3c4d5-e6f7-4012-abcd-100000000001"
+entry_point: "2e16d1ea-728c-4cd4-96c3-7f592052b023"

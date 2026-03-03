@@ -1,0 +1,248 @@
+uuid: "alic0001-0000-4012-abcd-600000000001"
+name: "Alicia"
+subtitle: ""
+sequences:
+  - uuid: "alic0001-seq1-4012-abcd-600000000002"
+    name: "Devant la porte d'Alicia"
+    title: ""
+    subtitle: ""
+    position: { x: 100.0, y: 100.0 }
+    background: ""
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "alic0dia1-seq1-4012-abcd-600000000002"
+        character: "Joueur"
+        text: "Porte 2... Alicia. Curieux prénom. Je me demande bien qui se cache derrière cette porte."
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_sequence"
+        target: "943b6915-9cf0-4a66-b92e-db4782351aa5"
+        effects: []
+  - uuid: "943b6915-9cf0-4a66-b92e-db4782351aa5"
+    name: "Alicia ouvre la porte"
+    title: ""
+    subtitle: ""
+    position: { x: 380.0, y: 100.0 }
+    background: ""
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "8f1dd094-1b5e-4c71-bdd7-e91d0eadab99"
+        character: "Alicia"
+        text: "Qui êtes-vous, humble visiteur ?"
+        foregrounds: []
+      - uuid: "724d3631-03d1-4eca-a4b0-15613dafb6f9"
+        character: "Joueur"
+        text: "Wooooh... C'est quoi cette chambre ? Un rituel satanique ? Elle fait flipper, cette nana."
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "choices"
+      choices:
+        - text: "Bon... Bonjour mademoiselle."
+          consequence:
+            type: "redirect_sequence"
+            target: "2e442378-384c-4efe-9653-74288d783dd4"
+            effects: []
+          conditions: {}
+          effects: []
+        - text: "Très... jolie chambre."
+          consequence:
+            type: "redirect_sequence"
+            target: "d8502b83-fdc7-4046-b892-5869fd940ce6"
+            effects: []
+          conditions: {}
+          effects: []
+  - uuid: "2e442378-384c-4efe-9653-74288d783dd4"
+    name: "Le bonjour d'Alicia"
+    title: ""
+    subtitle: ""
+    position: { x: 660.0, y: -100.0 }
+    background: ""
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "96cf8017-9b59-4c15-a192-fa2c0d874026"
+        character: "Alicia"
+        text: "Bonjour à vous également. Et vous seriez... ?"
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_sequence"
+        target: "d79929c9-93ad-44b9-98aa-f78f2db729b7"
+        effects: []
+  - uuid: "d8502b83-fdc7-4046-b892-5869fd940ce6"
+    name: "La chambre sobre"
+    title: ""
+    subtitle: ""
+    position: { x: 660.0, y: 280.0 }
+    background: ""
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "5d7a903d-8bc7-44a8-84f9-7a68b6e6869d"
+        character: "Alicia"
+        text: "Je vous remercie. J'avais pourtant essayé de faire sobre cette année. Mais qui êtes-vous donc pour vous permettre de commenter ma décoration ?"
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_sequence"
+        target: "d79929c9-93ad-44b9-98aa-f78f2db729b7"
+        effects: []
+  - uuid: "d79929c9-93ad-44b9-98aa-f78f2db729b7"
+    name: "Le joueur se présente"
+    title: ""
+    subtitle: ""
+    position: { x: 940.0, y: 100.0 }
+    background: ""
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "d50e061a-a866-4d7c-bdda-89c774875b79"
+        character: "Joueur"
+        text: "Je suis le nouveau propriétaire de l'auberge."
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_sequence"
+        target: "8c0462b3-bed8-4ea5-ab7e-22317d218144"
+        effects: []
+  - uuid: "8c0462b3-bed8-4ea5-ab7e-22317d218144"
+    name: "La révérence d'Alicia"
+    title: ""
+    subtitle: ""
+    position: { x: 1220.0, y: 100.0 }
+    background: ""
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "dabe9ddf-8e14-41a3-8ec3-86770afa2713"
+        character: "Alicia"
+        text: "Je vous accueille avec révérence, nouveau maître des lieux. Sachez que vous m'aurez à votre service. Je vous dois loyauté et fidélité."
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "choices"
+      choices:
+        - text: "Euh... merci."
+          consequence:
+            type: "redirect_sequence"
+            target: "e2f594af-cf92-41c5-b142-4d2ef19be971"
+            effects: []
+          conditions: {}
+          effects: []
+        - text: "D'a... D'accord."
+          consequence:
+            type: "redirect_sequence"
+            target: "e2f594af-cf92-41c5-b142-4d2ef19be971"
+            effects: []
+          conditions: {}
+          effects: []
+  - uuid: "e2f594af-cf92-41c5-b142-4d2ef19be971"
+    name: "Alicia criminologue"
+    title: ""
+    subtitle: ""
+    position: { x: 1500.0, y: 100.0 }
+    background: ""
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "0c787927-47ab-4df9-a084-175511fffe8f"
+        character: "Alicia"
+        text: "Je suis étudiante en criminologie. Je ne fais pas de vague, pas de bruit. Sauf, naturellement, lorsque je reconstitue des scènes de crime. Cela peut arriver. Je vous prie de ne pas vous en alarmer."
+        foregrounds: []
+      - uuid: "6d6e4104-0006-43ec-b168-c0943c7141c7"
+        character: "Alicia"
+        text: "Je dois à présent rédiger une nécrologie avant le dîner. Je me dois de vous laisser. Ce fut un honneur."
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_sequence"
+        target: "e8b656e4-ad78-4957-b6ec-efeb8224bc92"
+        effects:
+          - variable: "alicia_affinity"
+            operation: "set"
+            value: "1"
+  - uuid: "e8b656e4-ad78-4957-b6ec-efeb8224bc92"
+    name: "La porte se referme"
+    title: ""
+    subtitle: ""
+    position: { x: 1780.0, y: 100.0 }
+    background: ""
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "cdf52080-ae60-4ae6-94c6-791903f5f477"
+        character: "Joueur"
+        text: "Quel personnage... Aussi jolie que glaçante !"
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_scene"
+        target: "pens1on1-0000-4012-abcd-200000000001"
+        effects: []
+conditions: []
+connections:
+  - from: "alic0001-seq1-4012-abcd-600000000002"
+    to: "943b6915-9cf0-4a66-b92e-db4782351aa5"
+  - from: "943b6915-9cf0-4a66-b92e-db4782351aa5"
+    to: "2e442378-384c-4efe-9653-74288d783dd4"
+  - from: "943b6915-9cf0-4a66-b92e-db4782351aa5"
+    to: "d8502b83-fdc7-4046-b892-5869fd940ce6"
+  - from: "2e442378-384c-4efe-9653-74288d783dd4"
+    to: "d79929c9-93ad-44b9-98aa-f78f2db729b7"
+  - from: "d8502b83-fdc7-4046-b892-5869fd940ce6"
+    to: "d79929c9-93ad-44b9-98aa-f78f2db729b7"
+  - from: "d79929c9-93ad-44b9-98aa-f78f2db729b7"
+    to: "8c0462b3-bed8-4ea5-ab7e-22317d218144"
+  - from: "8c0462b3-bed8-4ea5-ab7e-22317d218144"
+    to: "e2f594af-cf92-41c5-b142-4d2ef19be971"
+  - from: "e2f594af-cf92-41c5-b142-4d2ef19be971"
+    to: "e8b656e4-ad78-4957-b6ec-efeb8224bc92"
+entry_point: "alic0001-seq1-4012-abcd-600000000002"

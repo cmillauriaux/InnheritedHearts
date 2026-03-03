@@ -1,0 +1,6 @@
+default: "fr"
+languages:
+  - "de"
+  - "en"
+  - "es"
+  - "fr"

@@ -1,0 +1,50 @@
+categories:
+  - "Base"
+  - "NPC"
+  - "Character"
+  - "Mr Dumont"
+  - "Mme Girard"
+  - "Mary"
+assignments:
+  - image: "backgrounds/Background_player_bedroom.jpeg"
+    categories:
+      - "Base"
+  - image: "foregrounds/ai_1772391265_71791.png"
+    categories:
+      - "Base"
+      - "Mr Dumont"
+  - image: "foregrounds/ai_1772400321_48446.png"
+    categories:
+      - "Mme Girard"
+  - image: "foregrounds/ai_1772392461_09832.png"
+    categories:
+      - "Mme Girard"
+  - image: "foregrounds/ai_1772391570_2981.png"
+    categories:
+      - "Mme Girard"
+  - image: "foregrounds/ai_1772389973_03395.png"
+    categories:
+      - "Mr Dumont"
+  - image: "foregrounds/ai_1772389917_08433.png"
+    categories:
+      - "Mr Dumont"
+      - "Base"
+  - image: "foregrounds/ai_1772390303_69232.png"
+    categories:
+      - "Mr Dumont"
+  - image: "foregrounds/ai_1772390350_70862.png"
+    categories:
+      - "Mr Dumont"
+  - image: "foregrounds/ai_1772392306_46295.png"
+    categories:
+      - "Base"
+  - image: "foregrounds/ai_1772402795_41806.png"
+    categories:
+      - "Base"
+      - "Mary"
+  - image: "foregrounds/Girard-broom-sad.png"
+    categories:
+      - "Mme Girard"
+  - image: "foregrounds/Girard-broom-crazy.png"
+    categories:
+      - "Mme Girard"
