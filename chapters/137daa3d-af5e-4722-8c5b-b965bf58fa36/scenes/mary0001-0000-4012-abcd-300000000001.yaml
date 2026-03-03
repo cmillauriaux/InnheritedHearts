@@ -7,7 +7,7 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 100.0, y: 100.0 }
-    background: ""
+    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/ai_1772552332_43598.png"
     background_color: "00000000"
     foregrounds: []
     dialogues:
@@ -16,7 +16,7 @@ sequences:
         text: "Chambre 3... C'est ici. Je me demande à quoi elle ressemble et ce qu'elle étudie..."
         foregrounds: []
     fx: []
-    transition_in_type: "none"
+    transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"
     transition_out_duration: 0.5
@@ -31,20 +31,44 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 380.0, y: 100.0 }
-    background: ""
+    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/Character_1_room.jpeg"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "f57c48ff-5dc3-4945-2995-7e692732070e"
+        name: ""
+        image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772402795_41806.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.8130009326946
+        anchor_bg: { x: 0.81318306922913, y: 1.29768300056458 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "a271601b-6f51-4091-a3bb-8642b6a10d98"
         character: "Mary"
         text: "Oh... Bonjour ! Euh... Je n'ai rien commandé à manger pourtant..."
-        foregrounds: []
+        foregrounds:
+          - uuid: "f57c48ff-5dc3-4945-2995-7e692732070e"
+            name: ""
+            image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772402795_41806.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.8130009326946
+            anchor_bg: { x: 0.81318306922913, y: 1.29768300056458 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
       - uuid: "6ee2e82f-1cf0-40fe-accf-0096cad68975"
         character: "Joueur"
         text: "Quoi ?! Elle me prend pour un livreur de pizza ?!"
         foregrounds: []
     fx: []
-    transition_in_type: "none"
+    transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"
     transition_out_duration: 0.5
@@ -70,16 +94,40 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 660.0, y: 100.0 }
-    background: ""
+    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/Character_1_room.jpeg"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "ecf3b1af-ad10-4415-4c89-a38a48793759"
+        name: ""
+        image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772402856_16831.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.8130009326946
+        anchor_bg: { x: 0.81318306922913, y: 1.29768300056458 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "c90b485e-ff32-4c6e-b6d3-fa3489619976"
         character: "Mary"
         text: "Oh ! Pardon, pardon... Je suis un peu dans la lune en ce moment. Je travaille sur un projet de sculpture pour l'école."
-        foregrounds: []
+        foregrounds:
+          - uuid: "ecf3b1af-ad10-4415-4c89-a38a48793759"
+            name: ""
+            image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772402856_16831.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.8130009326946
+            anchor_bg: { x: 0.81318306922913, y: 1.29768300056458 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
     fx: []
-    transition_in_type: "none"
+    transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"
     transition_out_duration: 0.5
@@ -105,16 +153,40 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 940.0, y: -100.0 }
-    background: ""
+    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/Character_1_room.jpeg"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "0b5d58c3-8f77-4d07-ebab-2d60397b005c"
+        name: ""
+        image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772552486_93617.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.8130009326946
+        anchor_bg: { x: 0.81318306922913, y: 1.29768300056458 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "e3be7c6b-909c-4591-a36c-f6401037dd90"
         character: "Mary"
         text: "Tu es observateur ! Oui, je suis l'artiste de l'auberge. Je fais des études de beaux arts. J'espère un jour être une grande peintre, capturer l'essence de mon époque et de ma génération... Mais pour le moment, je suis surtout une étudiante fauchée, un peu paumée. Je remercie ton oncle d'avoir bien voulu me donner cette chambre. Sans lui, je serais certainement retournée faire du service en restauration toute ma vie."
-        foregrounds: []
+        foregrounds:
+          - uuid: "0b5d58c3-8f77-4d07-ebab-2d60397b005c"
+            name: ""
+            image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772552486_93617.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.8130009326946
+            anchor_bg: { x: 0.81318306922913, y: 1.29768300056458 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
     fx: []
-    transition_in_type: "none"
+    transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"
     transition_out_duration: 0.5
@@ -129,16 +201,40 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 940.0, y: 200.0 }
-    background: ""
+    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/Character_1_room.jpeg"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "c1e9abf1-6cf5-4605-8437-39f79f26a40e"
+        name: ""
+        image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772552525_77605.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.8130009326946
+        anchor_bg: { x: 0.81318306922913, y: 1.29768300056458 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "4c1c28e0-1ef1-4867-ade7-25566ccf9ee0"
         character: "Mary"
         text: "Ha ha ! Oui... Je passe beaucoup de temps à structurer et imaginer dans ma tête, mais très peu dans le monde réel. Je suis une artiste avant tout. Et une piètre ménagère, c'est vrai !"
-        foregrounds: []
+        foregrounds:
+          - uuid: "c1e9abf1-6cf5-4605-8437-39f79f26a40e"
+            name: ""
+            image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772552525_77605.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.8130009326946
+            anchor_bg: { x: 0.81318306922913, y: 1.29768300056458 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
     fx: []
-    transition_in_type: "none"
+    transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"
     transition_out_duration: 0.5
@@ -153,16 +249,40 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 1220.0, y: 100.0 }
-    background: ""
+    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/Character_1_room.jpeg"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "8ef042cc-cd63-4e86-3244-b59dec514353"
+        name: ""
+        image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772552604_8358.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.8130009326946
+        anchor_bg: { x: 0.81318306922913, y: 1.29768300056458 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "2aa44348-377d-4f71-a8d0-f439a8390ed6"
         character: "Mary"
         text: "En tout cas, je suis contente d'avoir rencontré le nouveau proprio ! J'espère que tu seras aussi gentil que ton oncle."
-        foregrounds: []
+        foregrounds:
+          - uuid: "8ef042cc-cd63-4e86-3244-b59dec514353"
+            name: ""
+            image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772552604_8358.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.8130009326946
+            anchor_bg: { x: 0.81318306922913, y: 1.29768300056458 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
     fx: []
-    transition_in_type: "none"
+    transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"
     transition_out_duration: 0.5
@@ -180,7 +300,7 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 1500.0, y: 100.0 }
-    background: ""
+    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/ai_1772552332_43598.png"
     background_color: "00000000"
     foregrounds: []
     dialogues:

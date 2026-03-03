@@ -7,7 +7,7 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 100.0, y: 100.0 }
-    background: ""
+    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/Background_player_bedroom.jpeg"
     background_color: "00000000"
     foregrounds: []
     dialogues:
@@ -30,8 +30,8 @@ sequences:
     name: "Mme Girard annonce le retour des pensionnaires"
     title: ""
     subtitle: ""
-    position: { x: 420.0, y: 100.0 }
-    background: ""
+    position: { x: 400.0, y: 100.0 }
+    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/Background_player_bedroom.jpeg"
     background_color: "00000000"
     foregrounds: []
     dialogues:

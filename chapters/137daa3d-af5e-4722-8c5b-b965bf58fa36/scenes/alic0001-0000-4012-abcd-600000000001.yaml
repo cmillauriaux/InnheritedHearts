@@ -7,7 +7,7 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 100.0, y: 100.0 }
-    background: ""
+    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/ai_1772552332_43598.png"
     background_color: "00000000"
     foregrounds: []
     dialogues:
@@ -31,14 +31,38 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 380.0, y: 100.0 }
-    background: ""
+    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/Character_4_room.jpeg"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "1d4a167e-7c07-42e8-f14a-5207e07c8db9"
+        name: ""
+        image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772553776_65883.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.72927001666407
+        anchor_bg: { x: 0.79026716947556, y: 1.30140602588654 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "8f1dd094-1b5e-4c71-bdd7-e91d0eadab99"
         character: "Alicia"
         text: "Qui êtes-vous, humble visiteur ?"
-        foregrounds: []
+        foregrounds:
+          - uuid: "1d4a167e-7c07-42e8-f14a-5207e07c8db9"
+            name: ""
+            image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772553776_65883.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.72927001666407
+            anchor_bg: { x: 0.79026716947556, y: 1.30140602588654 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
       - uuid: "724d3631-03d1-4eca-a4b0-15613dafb6f9"
         character: "Joueur"
         text: "Wooooh... C'est quoi cette chambre ? Un rituel satanique ? Elle fait flipper, cette nana."
@@ -70,14 +94,38 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 660.0, y: -100.0 }
-    background: ""
+    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/Character_4_room.jpeg"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "ffada3d7-57c7-4339-2993-799eb88da6ab"
+        name: ""
+        image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772553838_20938.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.72927001666407
+        anchor_bg: { x: 0.79026716947556, y: 1.30140602588654 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "96cf8017-9b59-4c15-a192-fa2c0d874026"
         character: "Alicia"
         text: "Bonjour à vous également. Et vous seriez... ?"
-        foregrounds: []
+        foregrounds:
+          - uuid: "ffada3d7-57c7-4339-2993-799eb88da6ab"
+            name: ""
+            image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772553838_20938.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.72927001666407
+            anchor_bg: { x: 0.79026716947556, y: 1.30140602588654 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
     fx: []
     transition_in_type: "none"
     transition_in_duration: 0.5
@@ -94,14 +142,38 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 660.0, y: 280.0 }
-    background: ""
+    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/Character_4_room.jpeg"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "4c0d68a6-988c-48f4-e1d9-6bb162bf2fd7"
+        name: ""
+        image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772553902_29006.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.72927001666407
+        anchor_bg: { x: 0.79026716947556, y: 1.30140602588654 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "5d7a903d-8bc7-44a8-84f9-7a68b6e6869d"
         character: "Alicia"
         text: "Je vous remercie. J'avais pourtant essayé de faire sobre cette année. Mais qui êtes-vous donc pour vous permettre de commenter ma décoration ?"
-        foregrounds: []
+        foregrounds:
+          - uuid: "4c0d68a6-988c-48f4-e1d9-6bb162bf2fd7"
+            name: ""
+            image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772553902_29006.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.72927001666407
+            anchor_bg: { x: 0.79026716947556, y: 1.30140602588654 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
     fx: []
     transition_in_type: "none"
     transition_in_duration: 0.5
@@ -118,14 +190,38 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 940.0, y: 100.0 }
-    background: ""
+    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/Character_4_room.jpeg"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "6533af32-590b-4889-6110-a28083beff2b"
+        name: ""
+        image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772553935_94936.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.72927001666407
+        anchor_bg: { x: 0.79026716947556, y: 1.30140602588654 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "d50e061a-a866-4d7c-bdda-89c774875b79"
         character: "Joueur"
         text: "Je suis le nouveau propriétaire de l'auberge."
-        foregrounds: []
+        foregrounds:
+          - uuid: "6533af32-590b-4889-6110-a28083beff2b"
+            name: ""
+            image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772553935_94936.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.72927001666407
+            anchor_bg: { x: 0.79026716947556, y: 1.30140602588654 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
     fx: []
     transition_in_type: "none"
     transition_in_duration: 0.5
@@ -142,14 +238,38 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 1220.0, y: 100.0 }
-    background: ""
+    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/Character_4_room.jpeg"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "066ba3d8-f5ee-4b54-6038-4173381e5417"
+        name: ""
+        image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772553987_47751.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.72927001666407
+        anchor_bg: { x: 0.79026716947556, y: 1.30140602588654 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "dabe9ddf-8e14-41a3-8ec3-86770afa2713"
         character: "Alicia"
         text: "Je vous accueille avec révérence, nouveau maître des lieux. Sachez que vous m'aurez à votre service. Je vous dois loyauté et fidélité."
-        foregrounds: []
+        foregrounds:
+          - uuid: "066ba3d8-f5ee-4b54-6038-4173381e5417"
+            name: ""
+            image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772553987_47751.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.72927001666407
+            anchor_bg: { x: 0.79026716947556, y: 1.30140602588654 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
     fx: []
     transition_in_type: "none"
     transition_in_duration: 0.5
@@ -177,14 +297,38 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 1500.0, y: 100.0 }
-    background: ""
+    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/Character_4_room.jpeg"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "b9b67e77-4442-4601-4ef2-9ebbd2083509"
+        name: ""
+        image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772554032_78817.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.72927001666407
+        anchor_bg: { x: 0.79026716947556, y: 1.30140602588654 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "0c787927-47ab-4df9-a084-175511fffe8f"
         character: "Alicia"
         text: "Je suis étudiante en criminologie. Je ne fais pas de vague, pas de bruit. Sauf, naturellement, lorsque je reconstitue des scènes de crime. Cela peut arriver. Je vous prie de ne pas vous en alarmer."
-        foregrounds: []
+        foregrounds:
+          - uuid: "b9b67e77-4442-4601-4ef2-9ebbd2083509"
+            name: ""
+            image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772554032_78817.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.72927001666407
+            anchor_bg: { x: 0.79026716947556, y: 1.30140602588654 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
       - uuid: "6d6e4104-0006-43ec-b168-c0943c7141c7"
         character: "Alicia"
         text: "Je dois à présent rédiger une nécrologie avant le dîner. Je me dois de vous laisser. Ce fut un honneur."
@@ -208,7 +352,7 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 1780.0, y: 100.0 }
-    background: ""
+    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/ai_1772552332_43598.png"
     background_color: "00000000"
     foregrounds: []
     dialogues:

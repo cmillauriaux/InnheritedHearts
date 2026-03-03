@@ -7,7 +7,7 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 100.0, y: 100.0 }
-    background: ""
+    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/ai_1772552332_43598.png"
     background_color: "00000000"
     foregrounds: []
     dialogues:
@@ -31,14 +31,38 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 380.0, y: 100.0 }
-    background: ""
+    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/Character_3_room.jpeg"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "a05493a3-9fe7-41fc-aebe-b31a6a37ade0"
+        name: ""
+        image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772553512_49038.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.76276251209951
+        anchor_bg: { x: 0.76862454414368, y: 1.29582154750824 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "22a0635e-f280-4ff4-a279-c225fbc11b24"
         character: "Lola"
         text: "Oh ! Vous devez être le nouveau propriétaire ! Mme Girard m'a tout dit !"
-        foregrounds: []
+        foregrounds:
+          - uuid: "a05493a3-9fe7-41fc-aebe-b31a6a37ade0"
+            name: ""
+            image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772553512_49038.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.76276251209951
+            anchor_bg: { x: 0.76862454414368, y: 1.29582154750824 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
     fx: []
     transition_in_type: "none"
     transition_in_duration: 0.5
@@ -66,14 +90,38 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 660.0, y: 100.0 }
-    background: ""
+    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/Character_3_room.jpeg"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "ba997528-a1f0-4a08-c949-47b76a902df0"
+        name: ""
+        image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772553589_65025.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.76276251209951
+        anchor_bg: { x: 0.76862454414368, y: 1.29582154750824 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "f5ecdda7-6777-4a0a-9c79-be8b738089c3"
         character: "Lola"
         text: "Lola, c'est moi ! Le soleil de cette auberge, la confidente de Mme Girard, celle qui soigne les bobos et les cœurs !"
-        foregrounds: []
+        foregrounds:
+          - uuid: "ba997528-a1f0-4a08-c949-47b76a902df0"
+            name: ""
+            image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772553589_65025.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.76276251209951
+            anchor_bg: { x: 0.76862454414368, y: 1.29582154750824 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
       - uuid: "7db969da-769e-4a0a-8ac7-3196ba6c9903"
         character: "Joueur"
         text: "Et..."
@@ -110,14 +158,38 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 940.0, y: 100.0 }
-    background: ""
+    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/Character_3_room.jpeg"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "d6f75808-3ad2-44d6-8ec1-ee1997aade69"
+        name: ""
+        image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772553636_05018.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.76276251209951
+        anchor_bg: { x: 0.76862454414368, y: 1.29582154750824 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "400b469d-e6e3-40ab-962e-773066b35387"
         character: "Lola"
         text: "Mais je te laisse parler ! Vas-y !"
-        foregrounds: []
+        foregrounds:
+          - uuid: "d6f75808-3ad2-44d6-8ec1-ee1997aade69"
+            name: ""
+            image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772553636_05018.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.76276251209951
+            anchor_bg: { x: 0.76862454414368, y: 1.29582154750824 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
     fx: []
     transition_in_type: "none"
     transition_in_duration: 0.5
@@ -152,14 +224,38 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 1220.0, y: 100.0 }
-    background: ""
+    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/Character_3_room.jpeg"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "e85e2362-5473-4eb6-5887-3ae6a1433247"
+        name: ""
+        image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772553674_3896.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.76276251209951
+        anchor_bg: { x: 0.76862454414368, y: 1.29582154750824 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "cd82046b-39f7-4020-8f0b-8a23d7a711e6"
         character: "Lola"
         text: "Ah oui, j'allais oublier ! Je fais des études d'infirmière. Je suis à l'écoute des maux et du monde. C'est un beau métier tu sais, exigeant, rigoureux, mais tellement humain ! Prendre soin des autres, être là quand ça ne va pas, c'est une vocation."
-        foregrounds: []
+        foregrounds:
+          - uuid: "e85e2362-5473-4eb6-5887-3ae6a1433247"
+            name: ""
+            image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772553674_3896.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.76276251209951
+            anchor_bg: { x: 0.76862454414368, y: 1.29582154750824 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
       - uuid: "54abb01d-2d78-4453-84f4-3c07bcdd5fca"
         character: "Joueur"
         text: "..."
@@ -184,7 +280,7 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 1500.0, y: 100.0 }
-    background: ""
+    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/ai_1772552332_43598.png"
     background_color: "00000000"
     foregrounds: []
     dialogues:

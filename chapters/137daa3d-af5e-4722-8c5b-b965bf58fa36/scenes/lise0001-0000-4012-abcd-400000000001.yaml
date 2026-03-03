@@ -7,7 +7,7 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 100.0, y: 100.0 }
-    background: ""
+    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/ai_1772552332_43598.png"
     background_color: "00000000"
     foregrounds: []
     dialogues:
@@ -16,7 +16,7 @@ sequences:
         text: "Chambre 4... Je me demande à quoi elle ressemble et ce qu'elle étudie."
         foregrounds: []
     fx: []
-    transition_in_type: "none"
+    transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"
     transition_out_duration: 0.5
@@ -31,16 +31,40 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 380.0, y: 100.0 }
-    background: ""
+    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/Character_2_room.jpeg"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "849d636d-5aec-459f-80c6-1809d6be1819"
+        name: ""
+        image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772552924_57442.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.70042934630523
+        anchor_bg: { x: 0.83991825580597, y: 1.2986136674881 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "18bbf490-3eb7-4b2e-9b59-4a5a6626eeec"
         character: "Lise"
         text: "Euh... Oui ? Je... En fait, je peux faire quelque chose pour vous ?"
-        foregrounds: []
+        foregrounds:
+          - uuid: "849d636d-5aec-459f-80c6-1809d6be1819"
+            name: ""
+            image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772552924_57442.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.70042934630523
+            anchor_bg: { x: 0.83991825580597, y: 1.2986136674881 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
     fx: []
-    transition_in_type: "none"
+    transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"
     transition_out_duration: 0.5
@@ -66,16 +90,40 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 660.0, y: -100.0 }
-    background: ""
+    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/Character_2_room.jpeg"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "b6f96435-ae6d-42b9-e077-bd3755a4c592"
+        name: ""
+        image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772552999_89419.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.70042934630523
+        anchor_bg: { x: 0.83991825580597, y: 1.2986136674881 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "a28441b8-391e-4261-b1ad-965efecd0a92"
         character: "Lise"
         text: "Oh... Le nouveau propriétaire. C'est... Euh... C'est inattendu. Je vais devoir m'habituer... Mais ça va me prendre du temps."
-        foregrounds: []
+        foregrounds:
+          - uuid: "b6f96435-ae6d-42b9-e077-bd3755a4c592"
+            name: ""
+            image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772552999_89419.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.70042934630523
+            anchor_bg: { x: 0.83991825580597, y: 1.2986136674881 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
     fx: []
-    transition_in_type: "none"
+    transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"
     transition_out_duration: 0.5
@@ -90,14 +138,38 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 660.0, y: 280.0 }
-    background: ""
+    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/Character_2_room.jpeg"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "76d1e140-a754-4950-35a3-b2b9f6a1cd3e"
+        name: ""
+        image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772553100_59443.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.70042934630523
+        anchor_bg: { x: 0.83991825580597, y: 1.2986136674881 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "f8dd8a1a-6e5f-4d6b-9ee4-d40130423cef"
         character: "Lise"
         text: "Euh... Merci. Je... En fait, je m'inspire des mangas que je lis. Je n'ai pas vraiment beaucoup de personnalité, alors je reproduis ce que je vois dans mes bouquins."
-        foregrounds: []
+        foregrounds:
+          - uuid: "76d1e140-a754-4950-35a3-b2b9f6a1cd3e"
+            name: ""
+            image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772553100_59443.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.70042934630523
+            anchor_bg: { x: 0.83991825580597, y: 1.2986136674881 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
       - uuid: "7b50560d-4dd6-49c3-befc-958d872bc30c"
         character: "Joueur"
         text: "Ha ha ! Je suis le nouveau propriétaire, et je peux te dire que c'est la plus belle chambre que j'ai vue jusqu'à maintenant !"
@@ -107,7 +179,7 @@ sequences:
         text: "Oh... Euh... Merci beaucoup."
         foregrounds: []
     fx: []
-    transition_in_type: "none"
+    transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"
     transition_out_duration: 0.5
@@ -122,16 +194,40 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 940.0, y: 100.0 }
-    background: ""
+    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/Character_2_room.jpeg"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "b3a3027d-8436-4961-3342-da02a12cbc7c"
+        name: ""
+        image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772553166_33308.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.70042934630523
+        anchor_bg: { x: 0.83991825580597, y: 1.2986136674881 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "517493e8-c5da-4e70-90fb-0005a4b3851f"
         character: "Lise"
         text: "Euh... Voilà voilà."
-        foregrounds: []
+        foregrounds:
+          - uuid: "b3a3027d-8436-4961-3342-da02a12cbc7c"
+            name: ""
+            image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772553166_33308.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.70042934630523
+            anchor_bg: { x: 0.83991825580597, y: 1.2986136674881 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
     fx: []
-    transition_in_type: "none"
+    transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"
     transition_out_duration: 0.5
@@ -157,16 +253,40 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 1220.0, y: 100.0 }
-    background: ""
+    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/Character_2_room.jpeg"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "97ee23d1-156f-433f-2f02-522ceda38880"
+        name: ""
+        image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772553198_83321.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.70042934630523
+        anchor_bg: { x: 0.83991825580597, y: 1.2986136674881 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "6c26e614-8411-4144-bd03-45f6116b903f"
         character: "Lise"
         text: "J'étudie l'informatique. Je suis... Enfin, je suis une geek, passionnée par les ordinateurs et les mangas. Je ne sors pas beaucoup, je ne pose pas de problème, je suis pas très exigeante... Mais la connexion internet, par contre, il faut pas y toucher."
-        foregrounds: []
+        foregrounds:
+          - uuid: "97ee23d1-156f-433f-2f02-522ceda38880"
+            name: ""
+            image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772553198_83321.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.70042934630523
+            anchor_bg: { x: 0.83991825580597, y: 1.2986136674881 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
     fx: []
-    transition_in_type: "none"
+    transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"
     transition_out_duration: 0.5
@@ -184,7 +304,7 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 1500.0, y: 100.0 }
-    background: ""
+    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/ai_1772552332_43598.png"
     background_color: "00000000"
     foregrounds: []
     dialogues:
@@ -193,7 +313,7 @@ sequences:
         text: "Lise est vraiment mignonne... Mais vraiment timide."
         foregrounds: []
     fx: []
-    transition_in_type: "none"
+    transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"
     transition_out_duration: 0.5

@@ -7,7 +7,7 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 100.0, y: 100.0 }
-    background: ""
+    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/ai_1772552332_43598.png"
     background_color: "00000000"
     foregrounds: []
     dialogues:
@@ -31,14 +31,38 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 380.0, y: 100.0 }
-    background: ""
+    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/Character_5_room.jpeg"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "107ebc58-ca97-44c7-300b-bdae9939bd17"
+        name: ""
+        image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772554471_28646.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.76927474464869
+        anchor_bg: { x: 0.78581130504608, y: 1.29861378669739 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "87b250d7-8d82-48ab-99eb-fa3c6bf8434a"
         character: "Zven"
         text: "Oh ! Le nouveau propriétaire ! C'est bien comme ça qu'on dit bonjour aux nouveaux arrivants ici ?"
-        foregrounds: []
+        foregrounds:
+          - uuid: "107ebc58-ca97-44c7-300b-bdae9939bd17"
+            name: ""
+            image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772554471_28646.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.76927474464869
+            anchor_bg: { x: 0.78581130504608, y: 1.29861378669739 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
     fx: []
     transition_in_type: "none"
     transition_in_duration: 0.5
@@ -65,15 +89,39 @@ sequences:
     name: "Zven et le programme d'échange"
     title: ""
     subtitle: ""
-    position: { x: 660.0, y: 100.0 }
-    background: ""
+    position: { x: 660.0, y: 260.0 }
+    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/Character_5_room.jpeg"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "f692a572-1202-420e-90f8-2b4771316f5e"
+        name: ""
+        image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772554514_28913.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.76927474464869
+        anchor_bg: { x: 0.78581130504608, y: 1.29861378669739 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "0481cae5-0c2e-4a3d-82bc-7abdcc4149eb"
         character: "Zven"
         text: "Un nouveau propriétaire ! Une nouvelle personne à rencontrer ! Décidément ce programme d'échange ne ment pas !"
-        foregrounds: []
+        foregrounds:
+          - uuid: "f692a572-1202-420e-90f8-2b4771316f5e"
+            name: ""
+            image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772554514_28913.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.76927474464869
+            anchor_bg: { x: 0.78581130504608, y: 1.29861378669739 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
     fx: []
     transition_in_type: "none"
     transition_in_duration: 0.5
@@ -101,14 +149,38 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 940.0, y: 100.0 }
-    background: ""
+    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/Character_5_room.jpeg"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "6cc2ab4a-5a13-45b7-8fdf-9ba968d615d9"
+        name: ""
+        image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772554574_76598.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.76927474464869
+        anchor_bg: { x: 0.78581130504608, y: 1.29861378669739 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "a8a38b81-1c24-4320-a63c-7568ff75d92d"
         character: "Zven"
         text: "Je viens d'une île ! Une île que personne ne connait ici. Mais on a un programme d'échange universitaire avec le continent, alors me voilà ! C'est la première fois que je découvre tout ça. Tout est tellement différent !"
-        foregrounds: []
+        foregrounds:
+          - uuid: "6cc2ab4a-5a13-45b7-8fdf-9ba968d615d9"
+            name: ""
+            image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772554574_76598.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.76927474464869
+            anchor_bg: { x: 0.78581130504608, y: 1.29861378669739 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
     fx: []
     transition_in_type: "none"
     transition_in_duration: 0.5
@@ -125,14 +197,38 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 1220.0, y: 100.0 }
-    background: ""
+    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/Character_5_room.jpeg"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "2a74057b-7526-4b99-9456-d66841faec69"
+        name: ""
+        image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772554642_76719.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.76927474464869
+        anchor_bg: { x: 0.78581130504608, y: 1.29861378669739 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "2460b2df-5cb1-4f02-9aae-8878f7629606"
         character: "Joueur"
         text: "Et ça se passe comment pour toi ?"
-        foregrounds: []
+        foregrounds:
+          - uuid: "2a74057b-7526-4b99-9456-d66841faec69"
+            name: ""
+            image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772554642_76719.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.76927474464869
+            anchor_bg: { x: 0.78581130504608, y: 1.29861378669739 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
       - uuid: "c2b00605-f67c-4d08-a464-353f6698cc17"
         character: "Zven"
         text: "C'est incroyable ! Les voitures ! Il y en a partout, de toutes les couleurs ! Et Internet ! Sur l'île on en avait très peu mais ici c'est partout ! Et le cinéma ! J'y suis allée trois fois cette semaine ! Trois fois !"
@@ -153,14 +249,38 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 1500.0, y: 100.0 }
-    background: ""
+    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/Character_5_room.jpeg"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "56c5650a-9fb4-44c8-3c47-4896b3c0d57c"
+        name: ""
+        image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772554692_71553.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.76927474464869
+        anchor_bg: { x: 0.78581130504608, y: 1.29861378669739 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "d88f6f5e-5628-465f-a7cf-4730843ace96"
         character: "Joueur"
         text: "J'espère que tu vas encore découvrir plein de choses !"
-        foregrounds: []
+        foregrounds:
+          - uuid: "56c5650a-9fb4-44c8-3c47-4896b3c0d57c"
+            name: ""
+            image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772554692_71553.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.76927474464869
+            anchor_bg: { x: 0.78581130504608, y: 1.29861378669739 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
       - uuid: "1085ec55-e4eb-4bf2-8c6c-d87c890cf854"
         character: "Zven"
         text: "Oh oui ! Il y a tellement à voir ! Bonne journée nouveau propriétaire !"
