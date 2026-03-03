@@ -7,7 +7,7 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 400.0, y: 100.0 }
-    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/Background_6.jpeg"
+    background: "assets/backgrounds/Background_6.jpeg"
     background_color: "00000000"
     foregrounds: []
     dialogues:

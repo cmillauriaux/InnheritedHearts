@@ -7,7 +7,7 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 100.0, y: 100.0 }
-    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/ai_1772552332_43598.png"
+    background: "assets/backgrounds/ai_1772552332_43598.png"
     background_color: "00000000"
     foregrounds: []
     dialogues:
@@ -31,12 +31,12 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 380.0, y: 100.0 }
-    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/Character_5_room.jpeg"
+    background: "assets/backgrounds/Character_5_room.jpeg"
     background_color: "00000000"
     foregrounds:
       - uuid: "107ebc58-ca97-44c7-300b-bdae9939bd17"
         name: ""
-        image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772554471_28646.png"
+        image: "assets/foregrounds/ai_1772554471_28646.png"
         z_order: 0
         opacity: 1.0
         flip_h: false
@@ -53,7 +53,7 @@ sequences:
         foregrounds:
           - uuid: "107ebc58-ca97-44c7-300b-bdae9939bd17"
             name: ""
-            image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772554471_28646.png"
+            image: "assets/foregrounds/ai_1772554471_28646.png"
             z_order: 0
             opacity: 1.0
             flip_h: false
@@ -90,12 +90,12 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 660.0, y: 260.0 }
-    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/Character_5_room.jpeg"
+    background: "assets/backgrounds/Character_5_room.jpeg"
     background_color: "00000000"
     foregrounds:
       - uuid: "f692a572-1202-420e-90f8-2b4771316f5e"
         name: ""
-        image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772554514_28913.png"
+        image: "assets/foregrounds/ai_1772554514_28913.png"
         z_order: 0
         opacity: 1.0
         flip_h: false
@@ -112,7 +112,7 @@ sequences:
         foregrounds:
           - uuid: "f692a572-1202-420e-90f8-2b4771316f5e"
             name: ""
-            image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772554514_28913.png"
+            image: "assets/foregrounds/ai_1772554514_28913.png"
             z_order: 0
             opacity: 1.0
             flip_h: false
@@ -149,12 +149,12 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 940.0, y: 100.0 }
-    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/Character_5_room.jpeg"
+    background: "assets/backgrounds/Character_5_room.jpeg"
     background_color: "00000000"
     foregrounds:
       - uuid: "6cc2ab4a-5a13-45b7-8fdf-9ba968d615d9"
         name: ""
-        image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772554574_76598.png"
+        image: "assets/foregrounds/ai_1772554574_76598.png"
         z_order: 0
         opacity: 1.0
         flip_h: false
@@ -171,7 +171,7 @@ sequences:
         foregrounds:
           - uuid: "6cc2ab4a-5a13-45b7-8fdf-9ba968d615d9"
             name: ""
-            image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772554574_76598.png"
+            image: "assets/foregrounds/ai_1772554574_76598.png"
             z_order: 0
             opacity: 1.0
             flip_h: false
@@ -197,12 +197,12 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 1220.0, y: 100.0 }
-    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/Character_5_room.jpeg"
+    background: "assets/backgrounds/Character_5_room.jpeg"
     background_color: "00000000"
     foregrounds:
       - uuid: "2a74057b-7526-4b99-9456-d66841faec69"
         name: ""
-        image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772554642_76719.png"
+        image: "assets/foregrounds/ai_1772554642_76719.png"
         z_order: 0
         opacity: 1.0
         flip_h: false
@@ -219,7 +219,7 @@ sequences:
         foregrounds:
           - uuid: "2a74057b-7526-4b99-9456-d66841faec69"
             name: ""
-            image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772554642_76719.png"
+            image: "assets/foregrounds/ai_1772554642_76719.png"
             z_order: 0
             opacity: 1.0
             flip_h: false
@@ -249,12 +249,12 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 1500.0, y: 100.0 }
-    background: "/Users/cedric/Stories/InnheritedHearts/assets/backgrounds/Character_5_room.jpeg"
+    background: "assets/backgrounds/Character_5_room.jpeg"
     background_color: "00000000"
     foregrounds:
       - uuid: "56c5650a-9fb4-44c8-3c47-4896b3c0d57c"
         name: ""
-        image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772554692_71553.png"
+        image: "assets/foregrounds/ai_1772554692_71553.png"
         z_order: 0
         opacity: 1.0
         flip_h: false
@@ -271,7 +271,7 @@ sequences:
         foregrounds:
           - uuid: "56c5650a-9fb4-44c8-3c47-4896b3c0d57c"
             name: ""
-            image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772554692_71553.png"
+            image: "assets/foregrounds/ai_1772554692_71553.png"
             z_order: 0
             opacity: 1.0
             flip_h: false
