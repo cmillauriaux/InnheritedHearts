@@ -113,14 +113,14 @@ conditions:
     position: { x: 100.0, y: 100.0 }
     rules:
       - variable: "crisis_path"
-        operator: "equals"
+        operator: "equal"
         value: "cave"
         consequence:
           type: "redirect_sequence"
           target: "eau00005-seq1-4012-abcd-000000000002"
           effects: []
       - variable: "crisis_path"
-        operator: "equals"
+        operator: "equal"
         value: "appel"
         consequence:
           type: "redirect_sequence"

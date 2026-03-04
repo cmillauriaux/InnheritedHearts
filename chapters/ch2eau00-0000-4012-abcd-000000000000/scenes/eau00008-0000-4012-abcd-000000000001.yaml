@@ -48,35 +48,35 @@ conditions:
     position: { x: 400.0, y: 100.0 }
     rules:
       - variable: "shower_choice"
-        operator: "equals"
+        operator: "equal"
         value: "mary"
         consequence:
           type: "redirect_scene"
           target: "eau00009-0000-4012-abcd-000000000001"
           effects: []
       - variable: "shower_choice"
-        operator: "equals"
+        operator: "equal"
         value: "lise"
         consequence:
           type: "redirect_scene"
           target: "eau00010-0000-4012-abcd-000000000001"
           effects: []
       - variable: "shower_choice"
-        operator: "equals"
+        operator: "equal"
         value: "lola"
         consequence:
           type: "redirect_scene"
           target: "eau00011-0000-4012-abcd-000000000001"
           effects: []
       - variable: "shower_choice"
-        operator: "equals"
+        operator: "equal"
         value: "alicia"
         consequence:
           type: "redirect_scene"
           target: "eau00012-0000-4012-abcd-000000000001"
           effects: []
       - variable: "shower_choice"
-        operator: "equals"
+        operator: "equal"
         value: "zven"
         consequence:
           type: "redirect_scene"
