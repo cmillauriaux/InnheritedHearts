@@ -21,7 +21,7 @@ sequences:
         foregrounds: []
       - uuid: "eau12dia3-seq1-4012-abcd-000000000003"
         character: "Alicia"
-        text: "J'avais prévu une dissection ce soir. Sans pouvoir me laver ensuite, j'aurais dû reporter mes travaux. Vous m'épargnez un cruel dilemme."
+        text: "J'ai prévu une dissection demain matin. Sans pouvoir me laver avant, j'aurais dû reporter mes travaux. Vous m'épargnez un cruel dilemme."
         foregrounds: []
       - uuid: "eau12dia4-seq1-4012-abcd-000000000004"
         character: "Alicia"

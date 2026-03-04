@@ -37,7 +37,10 @@ sequences:
       consequence:
         type: "redirect_scene"
         target: "eau00005-0000-4012-abcd-000000000001"
-        effects: []
+        effects:
+          - variable: "crisis_path"
+            operation: "set"
+            value: "appel"
 conditions: []
 connections:
   - from: "eau00004-seq1-4012-abcd-000000000002"

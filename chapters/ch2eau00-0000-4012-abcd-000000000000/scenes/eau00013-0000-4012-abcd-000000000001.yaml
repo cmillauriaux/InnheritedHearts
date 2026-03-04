@@ -29,7 +29,7 @@ sequences:
         foregrounds: []
       - uuid: "eau13dia5-seq1-4012-abcd-000000000005"
         character: "Zven"
-        text: "Sur mon île, on n'a pas d'eau chaude, tu sais. On se lave dans le ruisseau ! Mais ici, l'eau chaude c'est... c'est magique ! C'est tellement agréable !"
+        text: "Sur mon île, on n'a pas d'eau chaude, tu sais. On se lave dans la rivière ! Mais ici, l'eau chaude c'est... c'est magique ! C'est tellement agréable !"
         foregrounds: []
       - uuid: "eau13dia6-seq1-4012-abcd-000000000006"
         character: "Zven"

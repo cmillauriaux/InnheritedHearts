@@ -3,17 +3,17 @@ name: "Le verdict"
 subtitle: ""
 sequences:
   - uuid: "eau00005-seq1-4012-abcd-000000000002"
-    name: "Annonce aux filles"
+    name: "Annonce aux filles (après la cave)"
     title: ""
     subtitle: ""
-    position: { x: 100.0, y: 100.0 }
+    position: { x: 400.0, y: -60.0 }
     background: "assets/backgrounds/Background_bathroom.jpeg"
     background_color: "00000000"
     foregrounds: []
     dialogues:
       - uuid: "eau05dia1-seq1-4012-abcd-000000000001"
         character: "Joueur"
-        text: "Les filles... J'ai une mauvaise nouvelle. Le chauffe-eau est mort et on ne peut rien faire ce soir."
+        text: "Les filles... J'ai une mauvaise nouvelle. Je suis descendu voir le chauffe-eau et il est complètement mort. Impossible de le réparer."
         foregrounds: []
       - uuid: "eau05dia2-seq1-4012-abcd-000000000002"
         character: "Lola"
@@ -22,6 +22,18 @@ sequences:
       - uuid: "eau05dia3-seq1-4012-abcd-000000000003"
         character: "Lise"
         text: "Oh non..."
+        foregrounds: []
+      - uuid: "eau05di11-seq1-4012-abcd-000000000006"
+        character: "Mary"
+        text: "Mais... et ma présentation de demain ? Je ne peux pas y aller comme ça !"
+        foregrounds: []
+      - uuid: "eau05di12-seq1-4012-abcd-000000000007"
+        character: "Alicia"
+        text: "La situation est des plus fâcheuses. Il va falloir trouver une solution."
+        foregrounds: []
+      - uuid: "eau05di13-seq1-4012-abcd-000000000008"
+        character: "Zven"
+        text: "C'est pas grave ! On trouvera un moyen ! Chez moi on se débrouillait toujours !"
         foregrounds: []
       - uuid: "eau05dia4-seq1-4012-abcd-000000000004"
         character: "Joueur"
@@ -42,8 +54,89 @@ sequences:
         type: "redirect_scene"
         target: "eau00006-0000-4012-abcd-000000000001"
         effects: []
-conditions: []
+  - uuid: "eau00005-seq2-4012-abcd-000000000003"
+    name: "Annonce aux filles (après l'appel)"
+    title: ""
+    subtitle: ""
+    position: { x: 400.0, y: 260.0 }
+    background: "assets/backgrounds/Background_bathroom.jpeg"
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "eau05dia6-seq2-4012-abcd-000000000001"
+        character: "Joueur"
+        text: "Les filles... J'ai une mauvaise nouvelle. J'ai appelé un réparateur mais le nouveau chauffe-eau ne sera pas livré avant une semaine."
+        foregrounds: []
+      - uuid: "eau05dia7-seq2-4012-abcd-000000000002"
+        character: "Lola"
+        text: "Une SEMAINE ?! Sans eau chaude ?! Mais c'est une catastrophe !"
+        foregrounds: []
+      - uuid: "eau05dia8-seq2-4012-abcd-000000000003"
+        character: "Lise"
+        text: "Oh non..."
+        foregrounds: []
+      - uuid: "eau05di14-seq2-4012-abcd-000000000006"
+        character: "Mary"
+        text: "Mais... et ma présentation de demain ? Je ne peux pas y aller comme ça !"
+        foregrounds: []
+      - uuid: "eau05di15-seq2-4012-abcd-000000000007"
+        character: "Alicia"
+        text: "La situation est des plus fâcheuses. Il va falloir trouver une solution."
+        foregrounds: []
+      - uuid: "eau05di16-seq2-4012-abcd-000000000008"
+        character: "Zven"
+        text: "C'est pas grave ! On trouvera un moyen ! Chez moi on se débrouillait toujours !"
+        foregrounds: []
+      - uuid: "eau05dia9-seq2-4012-abcd-000000000004"
+        character: "Joueur"
+        text: "Je suis désolé. En attendant, il va falloir s'organiser."
+        foregrounds: []
+      - uuid: "eau05di10-seq2-4012-abcd-000000000005"
+        character: "Joueur"
+        text: "Je ferai tout pour régler ça au plus vite, c'est promis."
+        foregrounds: []
+    fx: []
+    transition_in_type: "fade"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_scene"
+        target: "eau00006-0000-4012-abcd-000000000001"
+        effects: []
+conditions:
+  - uuid: "eau00005-cond-4012-abcd-000000000004"
+    name: "Chemin de la crise"
+    subtitle: ""
+    position: { x: 100.0, y: 100.0 }
+    rules:
+      - variable: "crisis_path"
+        operator: "equals"
+        value: "cave"
+        consequence:
+          type: "redirect_sequence"
+          target: "eau00005-seq1-4012-abcd-000000000002"
+          effects: []
+      - variable: "crisis_path"
+        operator: "equals"
+        value: "appel"
+        consequence:
+          type: "redirect_sequence"
+          target: "eau00005-seq2-4012-abcd-000000000003"
+          effects: []
+    default_consequence:
+      type: "redirect_sequence"
+      target: "eau00005-seq1-4012-abcd-000000000002"
+      effects: []
 connections:
+  - from: "eau00005-cond-4012-abcd-000000000004"
+    to: "eau00005-seq1-4012-abcd-000000000002"
+  - from: "eau00005-cond-4012-abcd-000000000004"
+    to: "eau00005-seq2-4012-abcd-000000000003"
   - from: "eau00005-seq1-4012-abcd-000000000002"
     to: "eau00006-0000-4012-abcd-000000000001"
-entry_point: "eau00005-seq1-4012-abcd-000000000002"
+  - from: "eau00005-seq2-4012-abcd-000000000003"
+    to: "eau00006-0000-4012-abcd-000000000001"
+entry_point: "eau00005-cond-4012-abcd-000000000004"

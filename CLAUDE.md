@@ -110,6 +110,7 @@ conditions:
 - **Modification** : Utilisez le bloc `effects` dans une `consequence` ou un `choice`.
   - `operation: "set"`
   - `operation: "add"` (pour les scores/affinités)
+  - `operation: "increment"` (incrémente la valeur de la variable)
 
 ---
 

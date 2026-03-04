@@ -31,67 +31,67 @@ sequences:
           consequence:
             type: "redirect_scene"
             target: "eau00008-0000-4012-abcd-000000000001"
-            effects: []
+            effects:
+              - variable: "shower_choice"
+                operation: "set"
+                value: "mary"
+              - variable: "mary_affinity"
+                operation: "increment"
+                value: "1"
           conditions: {}
-          effects:
-            - variable: "shower_choice"
-              operation: "set"
-              value: "mary"
-            - variable: "mary_affinity"
-              operation: "increment"
-              value: "1"
+          effects: []
         - text: "Offrir la douche à Lise"
           consequence:
             type: "redirect_scene"
             target: "eau00008-0000-4012-abcd-000000000001"
-            effects: []
+            effects:
+              - variable: "shower_choice"
+                operation: "set"
+                value: "lise"
+              - variable: "lise_affinity"
+                operation: "increment"
+                value: "1"
           conditions: {}
-          effects:
-            - variable: "shower_choice"
-              operation: "set"
-              value: "lise"
-            - variable: "lise_affinity"
-              operation: "increment"
-              value: "1"
+          effects: []
         - text: "Offrir la douche à Lola"
           consequence:
             type: "redirect_scene"
             target: "eau00008-0000-4012-abcd-000000000001"
-            effects: []
+            effects:
+              - variable: "shower_choice"
+                operation: "set"
+                value: "lola"
+              - variable: "lola_affinity"
+                operation: "increment"
+                value: "1"
           conditions: {}
-          effects:
-            - variable: "shower_choice"
-              operation: "set"
-              value: "lola"
-            - variable: "lola_affinity"
-              operation: "increment"
-              value: "1"
+          effects: []
         - text: "Offrir la douche à Alicia"
           consequence:
             type: "redirect_scene"
             target: "eau00008-0000-4012-abcd-000000000001"
-            effects: []
+            effects:
+              - variable: "shower_choice"
+                operation: "set"
+                value: "alicia"
+              - variable: "alicia_affinity"
+                operation: "increment"
+                value: "1"
           conditions: {}
-          effects:
-            - variable: "shower_choice"
-              operation: "set"
-              value: "alicia"
-            - variable: "alicia_affinity"
-              operation: "increment"
-              value: "1"
+          effects: []
         - text: "Offrir la douche à Zven"
           consequence:
             type: "redirect_scene"
             target: "eau00008-0000-4012-abcd-000000000001"
-            effects: []
+            effects:
+              - variable: "shower_choice"
+                operation: "set"
+                value: "zven"
+              - variable: "zven_affinity"
+                operation: "increment"
+                value: "1"
           conditions: {}
-          effects:
-            - variable: "shower_choice"
-              operation: "set"
-              value: "zven"
-            - variable: "zven_affinity"
-              operation: "increment"
-              value: "1"
+          effects: []
 conditions: []
 connections:
   - from: "eau00007-seq1-4012-abcd-000000000002"
