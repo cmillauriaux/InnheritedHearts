@@ -144,6 +144,18 @@ jobs:
           cd visual-builder
           godot --headless --verbose --path . --export-release "${{ matrix.export-name }}" "${{ matrix.output-path }}"
 
+      - name: Fix macOS Executable Permissions
+        if: matrix.platform == 'macOS'
+        run: |
+          cd visual-builder/build/macos
+          # Unzip the .app bundle exported by Godot
+          unzip -o InnheritedHearts.zip
+          rm InnheritedHearts.zip
+          # Fix executable permissions inside the .app bundle
+          chmod +x "Innherited Hearts.app/Contents/MacOS/"*
+          # Re-zip with proper Unix permissions preserved
+          zip -r -y InnheritedHearts.zip "Innherited Hearts.app"
+
       - name: Zip Web Build
         if: matrix.platform == 'Web'
         run: |
@@ -211,6 +223,13 @@ jobs:
             * **Windows**: `InnheritedHearts-${{ steps.prep.outputs.tag_name }}-Windows.exe`
             * **macOS**: `InnheritedHearts-${{ steps.prep.outputs.tag_name }}-macOS.zip`
             * **Web**: `InnheritedHearts-${{ steps.prep.outputs.tag_name }}-Web.zip`
+
+            ### macOS - Note importante
+            Si macOS affiche "l'application est endommagée", ouvrez un Terminal et exécutez :
+            ```
+            xattr -cr "Innherited Hearts.app"
+            ```
+            Cela supprime l'attribut de quarantaine ajouté aux fichiers téléchargés depuis Internet.
           draft: false
           prerelease: false
           generate_release_notes: true
