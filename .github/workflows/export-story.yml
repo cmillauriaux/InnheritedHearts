@@ -11,22 +11,25 @@ permissions:
 jobs:
   export:
     name: Export ${{ matrix.platform }}
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.runner }}
     strategy:
       fail-fast: false
       matrix:
         include:
           - platform: Windows
+            runner: ubuntu-latest
             export-name: Windows
             output-path: build/windows/InnheritedHearts.exe
             artifact-name: innherited-hearts-windows
             artifact-path: build/windows/
           - platform: macOS
+            runner: macos-latest
             export-name: macOS
             output-path: build/macos/InnheritedHearts.zip
             artifact-name: innherited-hearts-macos
             artifact-path: build/macos/
           - platform: Web
+            runner: ubuntu-latest
             export-name: Web
             output-path: build/web/index.html
             artifact-name: innherited-hearts-web
@@ -144,7 +147,7 @@ jobs:
           cd visual-builder
           godot --headless --verbose --path . --export-release "${{ matrix.export-name }}" "${{ matrix.output-path }}"
 
-      - name: Fix macOS Executable Permissions
+      - name: Sign and Repackage macOS App
         if: matrix.platform == 'macOS'
         run: |
           cd visual-builder/build/macos
@@ -153,6 +156,8 @@ jobs:
           rm InnheritedHearts.zip
           # Fix executable permissions inside the .app bundle
           chmod +x "Innherited Hearts.app/Contents/MacOS/"*
+          # Ad-hoc code sign to prevent "is damaged" error on macOS
+          codesign --force --deep -s - "Innherited Hearts.app"
           # Re-zip with proper Unix permissions preserved
           zip -r -y InnheritedHearts.zip "Innherited Hearts.app"
 
@@ -225,11 +230,11 @@ jobs:
             * **Web**: `InnheritedHearts-${{ steps.prep.outputs.tag_name }}-Web.zip`
 
             ### macOS - Note importante
-            Si macOS affiche "l'application est endommagée", ouvrez un Terminal et exécutez :
+            Si macOS affiche que le développeur ne peut pas être vérifié, faites clic-droit sur l'application puis "Ouvrir".
+            Vous pouvez aussi supprimer l'attribut de quarantaine via le Terminal :
             ```
             xattr -cr "Innherited Hearts.app"
             ```
-            Cela supprime l'attribut de quarantaine ajouté aux fichiers téléchargés depuis Internet.
           draft: false
           prerelease: false
           generate_release_notes: true
