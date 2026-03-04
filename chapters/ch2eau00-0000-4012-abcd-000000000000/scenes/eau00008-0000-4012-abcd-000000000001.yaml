@@ -39,7 +39,7 @@ sequences:
         target: "eau00008-cond-4012-abcd-000000000003"
         effects:
           - variable: "mme_girard_affinity"
-            operation: "add"
+            operation: "increment"
             value: "1"
 conditions:
   - uuid: "eau00008-cond-4012-abcd-000000000003"

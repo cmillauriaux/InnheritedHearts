@@ -26,6 +26,10 @@ scenes:
     name: "Tutoriel"
     subtitle: ""
     position: { x: 1540.0, y: 100.0 }
+  - uuid: "eau00015-0000-4012-abcd-000000000001"
+    name: "Les plaidoiries"
+    subtitle: ""
+    position: { x: 1720.0, y: 100.0 }
   - uuid: "eau00007-0000-4012-abcd-000000000001"
     name: "Le choix de la douche"
     subtitle: ""
@@ -72,6 +76,8 @@ connections:
   - from: "eau00005-0000-4012-abcd-000000000001"
     to: "eau00006-0000-4012-abcd-000000000001"
   - from: "eau00006-0000-4012-abcd-000000000001"
+    to: "eau00015-0000-4012-abcd-000000000001"
+  - from: "eau00015-0000-4012-abcd-000000000001"
     to: "eau00007-0000-4012-abcd-000000000001"
   - from: "eau00007-0000-4012-abcd-000000000001"
     to: "eau00008-0000-4012-abcd-000000000001"

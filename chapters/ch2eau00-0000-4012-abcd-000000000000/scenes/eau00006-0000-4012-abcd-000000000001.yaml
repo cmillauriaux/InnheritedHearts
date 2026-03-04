@@ -44,10 +44,13 @@ sequences:
       type: "auto_redirect"
       consequence:
         type: "redirect_scene"
-        target: "eau00007-0000-4012-abcd-000000000001"
-        effects: []
+        target: "eau00015-0000-4012-abcd-000000000001"
+        effects:
+          - variable: "show_characters"
+            operation: "set"
+            value: "1"
 conditions: []
 connections:
   - from: "eau00006-seq1-4012-abcd-000000000002"
-    to: "eau00007-0000-4012-abcd-000000000001"
+    to: "eau00015-0000-4012-abcd-000000000001"
 entry_point: "eau00006-seq1-4012-abcd-000000000002"

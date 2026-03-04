@@ -38,7 +38,7 @@ sequences:
               operation: "set"
               value: "mary"
             - variable: "mary_affinity"
-              operation: "add"
+              operation: "increment"
               value: "1"
         - text: "Offrir la douche à Lise"
           consequence:
@@ -51,7 +51,7 @@ sequences:
               operation: "set"
               value: "lise"
             - variable: "lise_affinity"
-              operation: "add"
+              operation: "increment"
               value: "1"
         - text: "Offrir la douche à Lola"
           consequence:
@@ -64,7 +64,7 @@ sequences:
               operation: "set"
               value: "lola"
             - variable: "lola_affinity"
-              operation: "add"
+              operation: "increment"
               value: "1"
         - text: "Offrir la douche à Alicia"
           consequence:
@@ -77,7 +77,7 @@ sequences:
               operation: "set"
               value: "alicia"
             - variable: "alicia_affinity"
-              operation: "add"
+              operation: "increment"
               value: "1"
         - text: "Offrir la douche à Zven"
           consequence:
@@ -90,7 +90,7 @@ sequences:
               operation: "set"
               value: "zven"
             - variable: "zven_affinity"
-              operation: "add"
+              operation: "increment"
               value: "1"
 conditions: []
 connections:

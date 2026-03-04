@@ -1,0 +1,117 @@
+uuid: "eau00015-0000-4012-abcd-000000000001"
+name: "Les plaidoiries"
+subtitle: ""
+sequences:
+  - uuid: "eau00015-seq1-4012-abcd-000000000002"
+    name: "Chacune son argument"
+    title: ""
+    subtitle: ""
+    position: { x: 100.0, y: 100.0 }
+    background: "assets/backgrounds/Background_bathroom.jpeg"
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "eau15dia1-seq1-4012-abcd-000000000001"
+        character: "Joueur"
+        text: "Bon... Avant que je prenne une décision, est-ce que quelqu'un veut plaider sa cause ?"
+        foregrounds: []
+      - uuid: "eau15dia2-seq1-4012-abcd-000000000002"
+        character: "Mary"
+        text: "Moi ! S'il te plaît ! Demain matin, je dois présenter une œuvre devant un jury de professeurs. C'est ma note de fin de semestre !"
+        foregrounds: []
+      - uuid: "eau15dia3-seq1-4012-abcd-000000000003"
+        character: "Mary"
+        text: "Si j'arrive pas fraîche et présentable devant eux, ils vont me descendre. Ces profs-là, ils jugent tout : la posture, l'apparence, la confiance en soi..."
+        foregrounds: []
+      - uuid: "eau15dia4-seq1-4012-abcd-000000000004"
+        character: "Mary"
+        text: "Je ne peux pas me permettre de sentir le stress ET la transpiration. S'il vous plaît..."
+        foregrounds: []
+      - uuid: "eau15dia5-seq1-4012-abcd-000000000005"
+        character: "Lise"
+        text: "Je... Moi aussi j'en ai besoin. Je sais que ça peut paraître exagéré mais..."
+        foregrounds: []
+      - uuid: "eau15dia6-seq1-4012-abcd-000000000006"
+        character: "Lise"
+        text: "Je ne peux pas dormir sans m'être lavée. C'est impossible. C'est comme si... comme si mon corps refusait de se mettre en veille sans avoir exécuté la routine complète."
+        foregrounds: []
+      - uuid: "eau15dia7-seq1-4012-abcd-000000000007"
+        character: "Lise"
+        text: "Pas de douche, pas de sommeil. Pas de sommeil, pas de concentration demain. C'est... c'est un effet domino que je ne peux pas me permettre."
+        foregrounds: []
+      - uuid: "eau15dia8-seq1-4012-abcd-000000000008"
+        character: "Lola"
+        text: "Non mais attendez, moi c'est pas juste une question de confort ! C'est une question de SANTÉ PUBLIQUE !"
+        foregrounds: []
+      - uuid: "eau15dia9-seq1-4012-abcd-000000000009"
+        character: "Lola"
+        text: "Je suis infirmière ! Enfin, future infirmière ! Demain je suis en stage à l'hôpital, au contact de patients immunodéprimés !"
+        foregrounds: []
+      - uuid: "eau15di10-seq1-4012-abcd-000000000010"
+        character: "Lola"
+        text: "Je ne peux PAS faire une croix sur une douche. C'est le B.A.-BA de l'hygiène hospitalière ! Si mes profs apprennent que je suis venue sans m'être lavée, je me fais recaler direct !"
+        foregrounds: []
+      - uuid: "eau15di11-seq1-4012-abcd-000000000011"
+        character: "Alicia"
+        text: "Permettez-moi d'exposer mon cas. Demain, en travaux pratiques, je dois procéder à la dissection d'une grenouille."
+        foregrounds: []
+      - uuid: "eau15di12-seq1-4012-abcd-000000000012"
+        character: "Alicia"
+        text: "Toute intervention sur un spécimen requiert un état de pureté corporelle irréprochable. On ne touche pas à la mort avec des mains souillées."
+        foregrounds: []
+      - uuid: "eau15di13-seq1-4012-abcd-000000000013"
+        character: "Alicia"
+        text: "De plus, l'odeur du formol sur une peau non lavée est... comment dire... une expérience que l'on ne souhaite à personne."
+        foregrounds: []
+      - uuid: "eau15di14-seq1-4012-abcd-000000000014"
+        character: "Zven"
+        text: "..."
+        foregrounds: []
+      - uuid: "eau15di15-seq1-4012-abcd-000000000015"
+        character: "Joueur"
+        text: "Zven ? Tu n'as rien à dire ?"
+        foregrounds: []
+      - uuid: "eau15di16-seq1-4012-abcd-000000000016"
+        character: "Zven"
+        text: "Je... Si. C'est juste que c'est un peu gênant à dire."
+        foregrounds: []
+      - uuid: "eau15di17-seq1-4012-abcd-000000000017"
+        character: "Zven"
+        text: "Chez moi, sur l'île, on se lave tous les jours dans la rivière. C'est normal. Mais ici, les gens ne savent pas ça."
+        foregrounds: []
+      - uuid: "eau15di18-seq1-4012-abcd-000000000018"
+        character: "Zven"
+        text: "Si je ne me lave pas... j'ai peur que les gens pensent que c'est parce que je ne sais pas me laver. Que sur mon île, on est sales. Que je suis l'étrangère qui pue."
+        foregrounds: []
+      - uuid: "eau15di19-seq1-4012-abcd-000000000019"
+        character: "Zven"
+        text: "Je sais que c'est bête. Mais je ne veux pas qu'on me regarde comme ça. Pas ici. Pas maintenant que je commence à me sentir chez moi."
+        foregrounds: []
+      - uuid: "eau15di20-seq1-4012-abcd-000000000020"
+        character: "Joueur"
+        text: "..."
+        foregrounds: []
+      - uuid: "eau15di21-seq1-4012-abcd-000000000021"
+        character: "Joueur"
+        text: "D'accord. J'ai entendu tout le monde. Chacune a ses raisons, et elles sont toutes légitimes."
+        foregrounds: []
+      - uuid: "eau15di22-seq1-4012-abcd-000000000022"
+        character: "Joueur"
+        text: "Mais il n'y a qu'une seule douche. Il va falloir que je tranche."
+        foregrounds: []
+    fx: []
+    transition_in_type: "fade"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_scene"
+        target: "eau00007-0000-4012-abcd-000000000001"
+        effects: []
+conditions: []
+connections:
+  - from: "eau00015-seq1-4012-abcd-000000000002"
+    to: "eau00007-0000-4012-abcd-000000000001"
+entry_point: "eau00015-seq1-4012-abcd-000000000002"

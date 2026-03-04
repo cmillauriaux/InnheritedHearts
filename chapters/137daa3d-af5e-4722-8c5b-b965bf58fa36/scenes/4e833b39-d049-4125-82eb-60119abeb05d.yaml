@@ -319,7 +319,8 @@ sequences:
     ending:
       type: "auto_redirect"
       consequence:
-        type: "to_be_continued"
+        type: "redirect_chapter"
+        target: "ch2eau00-0000-4012-abcd-000000000000"
         effects: []
 conditions: []
 connections:
