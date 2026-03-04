@@ -66,9 +66,9 @@ sequences:
     background: "assets/backgrounds/ai_1772391454_9497.png"
     background_color: "00000000"
     foregrounds:
-      - uuid: "6dcfb53b-db29-404c-71c1-199441cbf46c"
+      - uuid: "7f43d398-ee24-4dd3-dd82-2b7321aa385a"
         name: ""
-        image: "assets/foregrounds/ai_1772391570_2981.png"
+        image: "assets/foregrounds/ai_1772623623_40153.png"
         z_order: 0
         opacity: 1.0
         flip_h: false
@@ -83,9 +83,9 @@ sequences:
         character: "Mme Girard"
         text: "On n'a besoin de rien, merci. Et les commerciaux dans votre genre ne sont pas très bien vus dans le coin."
         foregrounds:
-          - uuid: "6dcfb53b-db29-404c-71c1-199441cbf46c"
+          - uuid: "7f43d398-ee24-4dd3-dd82-2b7321aa385a"
             name: ""
-            image: "assets/foregrounds/ai_1772391570_2981.png"
+            image: "assets/foregrounds/ai_1772623623_40153.png"
             z_order: 0
             opacity: 1.0
             flip_h: false
@@ -126,7 +126,7 @@ sequences:
     foregrounds:
       - uuid: "dd46452f-d42c-4a55-cff7-00b70854ec05"
         name: ""
-        image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772392401_88229.png"
+        image: "assets/foregrounds/ai_1772392401_88229.png"
         z_order: 0
         opacity: 1.0
         flip_h: false
@@ -136,6 +136,18 @@ sequences:
         anchor_fg: { x: 0.5, y: 1.0 }
         transition_type: "fade"
         transition_duration: 1.0
+      - uuid: "152bb3c6-a1c3-4179-8ed4-f0213a39ea25"
+        name: ""
+        image: "assets/foregrounds/ai_1772623716_86121.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.66153851454666
+        anchor_bg: { x: 0.16418106853962, y: 1.29869031906128 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "4c7d6024-f1d3-4b1c-9d5f-f412ac1483f1"
         character: "Mme Girard"
@@ -143,7 +155,7 @@ sequences:
         foregrounds:
           - uuid: "dd46452f-d42c-4a55-cff7-00b70854ec05"
             name: ""
-            image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772392401_88229.png"
+            image: "assets/foregrounds/ai_1772392401_88229.png"
             z_order: 0
             opacity: 1.0
             flip_h: false
@@ -153,6 +165,18 @@ sequences:
             anchor_fg: { x: 0.5, y: 1.0 }
             transition_type: "fade"
             transition_duration: 1.0
+          - uuid: "152bb3c6-a1c3-4179-8ed4-f0213a39ea25"
+            name: ""
+            image: "assets/foregrounds/ai_1772623716_86121.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.66153851454666
+            anchor_bg: { x: 0.16418106853962, y: 1.29869031906128 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
     fx: []
     transition_in_type: "none"
     transition_in_duration: 0.5
@@ -189,9 +213,9 @@ sequences:
     background: "assets/backgrounds/ai_1772391454_9497.png"
     background_color: "00000000"
     foregrounds:
-      - uuid: "37d5c3de-d62e-44e9-4c58-a9c7f8236c26"
+      - uuid: "32ba1a38-c85c-4a64-ebed-cbfcaf823eef"
         name: ""
-        image: "assets/foregrounds/ai_1772392461_09832.png"
+        image: "assets/foregrounds/ai_1772623659_75175.png"
         z_order: 0
         opacity: 1.0
         flip_h: false
@@ -199,16 +223,16 @@ sequences:
         scale: 0.66153851454666
         anchor_bg: { x: 0.16418106853962, y: 1.29869031906128 }
         anchor_fg: { x: 0.5, y: 1.0 }
-        transition_type: "fade"
-        transition_duration: 1.0
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "cc816605-9682-4276-b395-682b7bc60027"
         character: "Mme Girard"
         text: "Vieille bique ?! Surveille ton langage, mon petit !"
         foregrounds:
-          - uuid: "37d5c3de-d62e-44e9-4c58-a9c7f8236c26"
+          - uuid: "32ba1a38-c85c-4a64-ebed-cbfcaf823eef"
             name: ""
-            image: "assets/foregrounds/ai_1772392461_09832.png"
+            image: "assets/foregrounds/ai_1772623659_75175.png"
             z_order: 0
             opacity: 1.0
             flip_h: false
@@ -216,8 +240,8 @@ sequences:
             scale: 0.66153851454666
             anchor_bg: { x: 0.16418106853962, y: 1.29869031906128 }
             anchor_fg: { x: 0.5, y: 1.0 }
-            transition_type: "fade"
-            transition_duration: 1.0
+            transition_type: "none"
+            transition_duration: 0.5
       - uuid: "ec69dc9f-82c2-4cd1-a3fe-10b3d1390ea1"
         character: "Joueur"
         text: "Si mon oncle n'était pas décédé, je l'appellerais sur le champ."
@@ -241,9 +265,9 @@ sequences:
     background: "assets/backgrounds/ai_1772391454_9497.png"
     background_color: "00000000"
     foregrounds:
-      - uuid: "6841d03c-a583-4ed9-057d-68909bcdeb9c"
+      - uuid: "7d7bc4c0-776a-4af2-108c-845fd3cb6bed"
         name: ""
-        image: "assets/foregrounds/ai_1772392306_46295.png"
+        image: "assets/foregrounds/ai_1772392530_04788.png"
         z_order: 0
         opacity: 1.0
         flip_h: false
@@ -253,6 +277,18 @@ sequences:
         anchor_fg: { x: 0.5, y: 1.0 }
         transition_type: "fade"
         transition_duration: 1.0
+      - uuid: "12fe7e58-3e6b-4424-f875-a19229486833"
+        name: ""
+        image: "assets/foregrounds/ai_1772623831_00079.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.66153851454666
+        anchor_bg: { x: 0.16418106853962, y: 1.29869031906128 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "13da468f-7e96-47ac-8949-9d2ddbfed4aa"
         character: "Mme Girard"
@@ -260,7 +296,7 @@ sequences:
         foregrounds:
           - uuid: "adf0190d-073b-4963-2283-5590dad1fb64"
             name: ""
-            image: "/Users/cedric/Stories/InnheritedHearts/assets/foregrounds/ai_1772392530_04788.png"
+            image: "assets/foregrounds/ai_1772392530_04788.png"
             z_order: 0
             opacity: 1.0
             flip_h: false
@@ -270,6 +306,18 @@ sequences:
             anchor_fg: { x: 0.5, y: 1.0 }
             transition_type: "fade"
             transition_duration: 1.0
+          - uuid: "fb18fdde-07f0-4d8c-e747-0a40eb2377e9"
+            name: ""
+            image: "assets/foregrounds/ai_1772623748_88088.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.66153851454666
+            anchor_bg: { x: 0.16418106853962, y: 1.29869031906128 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
       - uuid: "dcc1ce4d-e542-47e0-b2b8-eae2e11c516b"
         character: "Joueur"
         text: "Oui. Il a tout légué à des associations caritatives. Mais il vous a laissé sa voiture."
@@ -278,9 +326,9 @@ sequences:
         character: "Mme Girard"
         text: "Sa voiture... Il pensait encore à moi. Ce cher homme."
         foregrounds:
-          - uuid: "6841d03c-a583-4ed9-057d-68909bcdeb9c"
+          - uuid: "7d7bc4c0-776a-4af2-108c-845fd3cb6bed"
             name: ""
-            image: "assets/foregrounds/ai_1772392306_46295.png"
+            image: "assets/foregrounds/ai_1772392530_04788.png"
             z_order: 0
             opacity: 1.0
             flip_h: false
@@ -290,6 +338,18 @@ sequences:
             anchor_fg: { x: 0.5, y: 1.0 }
             transition_type: "fade"
             transition_duration: 1.0
+          - uuid: "12fe7e58-3e6b-4424-f875-a19229486833"
+            name: ""
+            image: "assets/foregrounds/ai_1772623831_00079.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.66153851454666
+            anchor_bg: { x: 0.16418106853962, y: 1.29869031906128 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
       - uuid: "4f3e4669-3ad3-4e97-8092-d758a17d9788"
         character: "Mme Girard"
         text: "Bon... Suivez-moi. Je vais vous montrer votre chambre."
