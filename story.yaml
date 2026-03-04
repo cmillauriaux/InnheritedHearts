@@ -3,7 +3,7 @@ author: "Auteur"
 description: "An unexpected herritage"
 version: "1.0.0"
 created_at: "2026-03-01T18:16:04Z"
-updated_at: "2026-03-04T18:00:00Z"
+updated_at: "2026-03-04T17:01:08Z"
 chapters:
   - uuid: "137daa3d-af5e-4722-8c5b-b965bf58fa36"
     name: "Chapitre 1"
@@ -18,6 +18,11 @@ chapters:
 variables:
   - name: "mme_girard_affinity"
     initial_value: "0"
+    show_on_main: true
+    visibility_mode: "variable"
+    visibility_variable: "shower_choice"
+    image: "assets/foregrounds/ai_1772552525_77605.png"
+    description: "Mary"
   - name: "mary_affinity"
     initial_value: "0"
   - name: "lise_affinity"
