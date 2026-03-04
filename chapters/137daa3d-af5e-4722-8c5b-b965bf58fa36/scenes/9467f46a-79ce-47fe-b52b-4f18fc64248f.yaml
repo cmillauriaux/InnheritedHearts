@@ -20,7 +20,7 @@ sequences:
         text: "Autant en profiter pour visiter les lieux. Je suis le propriétaire après tout, non ?"
         foregrounds: []
     fx: []
-    transition_in_type: "none"
+    transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"
     transition_out_duration: 0.5
@@ -44,7 +44,7 @@ sequences:
         text: "Je commence par où ?"
         foregrounds: []
     fx: []
-    transition_in_type: "none"
+    transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"
     transition_out_duration: 0.5
@@ -99,7 +99,7 @@ sequences:
         text: "Ça doit être animé quand tout le monde est là. Du mal à imaginer ça pour l'instant."
         foregrounds: []
     fx: []
-    transition_in_type: "none"
+    transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"
     transition_out_duration: 0.5
@@ -123,7 +123,7 @@ sequences:
         text: "Une seule salle de bain... pour une auberge de filles. Le matin doit être un enfer. Je plains déjà la dernière levée."
         foregrounds: []
     fx: []
-    transition_in_type: "none"
+    transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"
     transition_out_duration: 0.5
@@ -147,7 +147,7 @@ sequences:
         text: "Sombre, humide, et j'ai juré avoir entendu quelque chose bouger dans le fond. J'espère vraiment ne plus jamais avoir à redescendre ici."
         foregrounds: []
     fx: []
-    transition_in_type: "none"
+    transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"
     transition_out_duration: 0.5

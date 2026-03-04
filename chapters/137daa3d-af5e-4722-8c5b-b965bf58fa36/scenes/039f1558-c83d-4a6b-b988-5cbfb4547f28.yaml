@@ -24,7 +24,7 @@ sequences:
         text: "Drôle d'homme, cet oncle Alfred. Discret, effacé... et pourtant, il a pensé à moi."
         foregrounds: []
     fx: []
-    transition_in_type: "none"
+    transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"
     transition_out_duration: 0.5
@@ -44,7 +44,7 @@ sequences:
     foregrounds: []
     dialogues: []
     fx: []
-    transition_in_type: "none"
+    transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"
     transition_out_duration: 0.5

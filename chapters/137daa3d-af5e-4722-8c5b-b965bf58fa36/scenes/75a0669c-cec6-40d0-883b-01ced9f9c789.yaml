@@ -24,7 +24,7 @@ sequences:
         text: "Et comment je suis censé aider des étudiantes, moi ? J'ai foiré mes études. Deux fois. Oncle Alfred, tu es sûr de toi ?"
         foregrounds: []
     fx: []
-    transition_in_type: "none"
+    transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"
     transition_out_duration: 0.5
@@ -48,7 +48,7 @@ sequences:
         text: "Voilà... c'est bien ça. Une grande bâtisse en pierre, entourée de verdure, avec une enseigne en bois. Exactement comme Maître Dumont l'avait décrite."
         foregrounds: []
     fx: []
-    transition_in_type: "none"
+    transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"
     transition_out_duration: 0.5
@@ -96,7 +96,7 @@ sequences:
             transition_type: "none"
             transition_duration: 0.5
     fx: []
-    transition_in_type: "none"
+    transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"
     transition_out_duration: 0.5
@@ -178,7 +178,7 @@ sequences:
             transition_type: "none"
             transition_duration: 0.5
     fx: []
-    transition_in_type: "none"
+    transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"
     transition_out_duration: 0.5
@@ -247,7 +247,7 @@ sequences:
         text: "Si mon oncle n'était pas décédé, je l'appellerais sur le champ."
         foregrounds: []
     fx: []
-    transition_in_type: "none"
+    transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"
     transition_out_duration: 0.5
@@ -355,7 +355,7 @@ sequences:
         text: "Bon... Suivez-moi. Je vais vous montrer votre chambre."
         foregrounds: []
     fx: []
-    transition_in_type: "none"
+    transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"
     transition_out_duration: 0.5

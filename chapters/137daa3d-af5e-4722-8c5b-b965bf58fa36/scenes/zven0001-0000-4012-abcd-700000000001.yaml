@@ -301,7 +301,7 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 1780.0, y: 100.0 }
-    background: ""
+    background: "assets/backgrounds/ai_1772552332_43598.png"
     background_color: "00000000"
     foregrounds: []
     dialogues:

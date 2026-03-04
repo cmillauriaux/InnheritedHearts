@@ -7,32 +7,104 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 100.0, y: 100.0 }
-    background: ""
+    background: "assets/backgrounds/Background_player_bedroom.jpeg"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "bc5b7cf8-0f73-4f76-5389-2dd18d34410b"
+        name: ""
+        image: "assets/foregrounds/ai_1772554574_76598.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.63809639554967
+        anchor_bg: { x: 0.78390163183212, y: 1.29768288135529 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "a30d4999-0b03-4162-a5ad-283b01020481"
         character: "Joueur"
         text: "Mary l'artiste... belle, créative et complètement dans son monde. Et ce bazar dans sa chambre ! On aurait dit qu'une tornade était passée."
-        foregrounds: []
+        foregrounds:
+          - uuid: "a3d63a31-b298-4969-19a4-0e35230e18aa"
+            name: ""
+            image: "assets/foregrounds/ai_1772552525_77605.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.63809639554967
+            anchor_bg: { x: 0.78390163183212, y: 1.29768288135529 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
       - uuid: "ff0c4556-748a-45b8-8d8b-dceed3954bff"
         character: "Joueur"
         text: "Lise l'informaticienne... tellement mignonne et tellement timide. Elle a failli pas m'ouvrir la porte. Geek jusqu'au bout des ongles."
-        foregrounds: []
+        foregrounds:
+          - uuid: "317a0ce4-a3e0-4ec3-445f-8115df0657c7"
+            name: ""
+            image: "assets/foregrounds/ai_1772552924_57442.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.63809639554967
+            anchor_bg: { x: 0.78390163183212, y: 1.29768288135529 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
       - uuid: "fa4b76ee-f2a9-43dd-a383-56f3aca0bcce"
         character: "Joueur"
         text: "Lola l'infirmière... jolie comme un cœur et bavarde comme une pie. Je n'ai pas pu placer un mot de toute la conversation."
-        foregrounds: []
+        foregrounds:
+          - uuid: "90e8dcde-97da-4f2f-2857-af58f847a3dd"
+            name: ""
+            image: "assets/foregrounds/ai_1772553512_49038.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.63809639554967
+            anchor_bg: { x: 0.78390163183212, y: 1.29768288135529 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
       - uuid: "fe70635e-2d74-4d31-beba-ae8fa4b37aaf"
         character: "Joueur"
         text: "Alicia la criminologue gothique... troublante. Flippante mais fascinante. Et cette chambre... une nécrologie avant le dîner. Sérieusement."
-        foregrounds: []
+        foregrounds:
+          - uuid: "31898242-7ee6-4361-696e-f5aa3aed9311"
+            name: ""
+            image: "assets/foregrounds/ai_1772553776_65883.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.63809639554967
+            anchor_bg: { x: 0.78390163183212, y: 1.29768288135529 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
       - uuid: "89cf011d-3215-471c-89fc-08d559f78592"
         character: "Joueur"
         text: "Et Zven... une pile électrique. Elle m'a sauté au cou avant même que je dise bonjour. Surexcitée par les voitures et Internet."
-        foregrounds: []
+        foregrounds:
+          - uuid: "bc5b7cf8-0f73-4f76-5389-2dd18d34410b"
+            name: ""
+            image: "assets/foregrounds/ai_1772554574_76598.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.63809639554967
+            anchor_bg: { x: 0.78390163183212, y: 1.29768288135529 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
     fx: []
-    transition_in_type: "none"
+    transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"
     transition_out_duration: 0.5
@@ -47,14 +119,134 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 380.0, y: 100.0 }
-    background: ""
+    background: "assets/backgrounds/Background_player_bedroom.jpeg"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "ef075d5a-6cef-4776-ada7-d695aac6bbee"
+        name: ""
+        image: "assets/foregrounds/ai_1772402795_41806.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.63809639554967
+        anchor_bg: { x: 0.1677204221487, y: 1.29768288135529 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
+      - uuid: "9da8716b-ba5c-4a59-0b85-506dca3ba6c9"
+        name: ""
+        image: "assets/foregrounds/ai_1772552924_57442.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.63809639554967
+        anchor_bg: { x: 0.50572890043259, y: 1.29768288135529 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
+      - uuid: "df005e8e-685d-4ff1-4763-20401d93a31c"
+        name: ""
+        image: "assets/foregrounds/ai_1772553512_49038.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.63809639554967
+        anchor_bg: { x: 0.80045187473297, y: 1.29768300056458 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
+      - uuid: "79e14799-38aa-4ae1-18b0-3b512fb3fa84"
+        name: ""
+        image: "assets/foregrounds/ai_1772553776_65883.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.63809639554967
+        anchor_bg: { x: 1.12509274482727, y: 1.29768288135529 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
+      - uuid: "26b88614-ef6b-40e0-0745-133fa6cc0312"
+        name: ""
+        image: "assets/foregrounds/ai_1772554692_71553.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.63809639554967
+        anchor_bg: { x: 1.42809092998505, y: 1.29768288135529 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "f97b6fe4-9eae-44f3-a965-0a8efa3f4ba9"
         character: "Joueur"
         text: "Elles ont quand même toutes un point commun : elles sont toutes plus jolies l'une que l'autre. Moi qui n'ai jamais été doué avec les filles..."
-        foregrounds: []
+        foregrounds:
+          - uuid: "ef075d5a-6cef-4776-ada7-d695aac6bbee"
+            name: ""
+            image: "assets/foregrounds/ai_1772402795_41806.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.63809639554967
+            anchor_bg: { x: 0.1677204221487, y: 1.29768288135529 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+          - uuid: "9da8716b-ba5c-4a59-0b85-506dca3ba6c9"
+            name: ""
+            image: "assets/foregrounds/ai_1772552924_57442.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.63809639554967
+            anchor_bg: { x: 0.50572890043259, y: 1.29768288135529 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+          - uuid: "df005e8e-685d-4ff1-4763-20401d93a31c"
+            name: ""
+            image: "assets/foregrounds/ai_1772553512_49038.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.63809639554967
+            anchor_bg: { x: 0.80045187473297, y: 1.29768300056458 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+          - uuid: "79e14799-38aa-4ae1-18b0-3b512fb3fa84"
+            name: ""
+            image: "assets/foregrounds/ai_1772553776_65883.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.63809639554967
+            anchor_bg: { x: 1.12509274482727, y: 1.29768288135529 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+          - uuid: "26b88614-ef6b-40e0-0745-133fa6cc0312"
+            name: ""
+            image: "assets/foregrounds/ai_1772554692_71553.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.63809639554967
+            anchor_bg: { x: 1.42809092998505, y: 1.29768288135529 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
       - uuid: "5d01374b-702e-495d-b62f-b31cb2ef6f74"
         character: "Joueur"
         text: "Me voilà entouré de cinq étudiantes qui feraient de parfaites petites copines ! Est-ce que j'aurai la chance de sortir avec l'une d'entre elles ?"
@@ -64,7 +256,7 @@ sequences:
         text: "Attendez... Et si c'était ça le plan de l'oncle Alfred ? Il m'a peut-être légué cette auberge pour me sortir du célibat !"
         foregrounds: []
     fx: []
-    transition_in_type: "none"
+    transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"
     transition_out_duration: 0.5
@@ -79,9 +271,21 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 660.0, y: 100.0 }
-    background: ""
+    background: "assets/backgrounds/Background_player_bedroom.jpeg"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "4354f648-f372-41b7-1570-bc10dd3d4839"
+        name: ""
+        image: "assets/foregrounds/ai_1772623434_06199.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.63809639554967
+        anchor_bg: { x: 0.78390163183212, y: 1.29768288135529 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "fade"
+        transition_duration: 0.5
     dialogues:
       - uuid: "4c7e9a21-b83d-4f12-9c45-d1e2f3a40000"
         character: "Joueur"
@@ -90,13 +294,25 @@ sequences:
       - uuid: "7f8b2c34-e56d-4a78-b901-c2d3e4f50000"
         character: "Joueur"
         text: "Mais pour ça, il va falloir que je me mette Mme Girard dans la poche. Elle connaît tout le monde ici, leurs habitudes, leurs goûts, leurs petits secrets. Et c'est clairement elle qui fait la pluie et le beau temps dans cette auberge."
-        foregrounds: []
+        foregrounds:
+          - uuid: "4354f648-f372-41b7-1570-bc10dd3d4839"
+            name: ""
+            image: "assets/foregrounds/ai_1772623434_06199.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.63809639554967
+            anchor_bg: { x: 0.78390163183212, y: 1.29768288135529 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "fade"
+            transition_duration: 0.5
       - uuid: "9a0c1d45-f67e-4b89-c012-d3e4f5a60000"
         character: "Joueur"
         text: "Mon plan est simple : devenir son allié en tant que nouveau propriétaire, et passer du temps avec chacune des filles pour trouver laquelle serait la meilleure petite amie potentielle. Mission acceptée !"
         foregrounds: []
     fx: []
-    transition_in_type: "none"
+    transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"
     transition_out_duration: 0.5

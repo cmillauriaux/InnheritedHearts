@@ -33,12 +33,36 @@ sequences:
     position: { x: 400.0, y: 100.0 }
     background: "assets/backgrounds/Background_player_bedroom.jpeg"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "96f2895f-89d6-45d6-8c41-df5be6dc80af"
+        name: ""
+        image: "assets/foregrounds/ai_1772624064_12056.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.60832536017552
+        anchor_bg: { x: 0.7807189822197, y: 1.2986136674881 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "fade"
+        transition_duration: 0.5
     dialogues:
       - uuid: "a2b3dia1-seq2-4012-abcd-100000000003"
         character: "Mme Girard"
         text: "Ah, vous voilà ! Les pensionnaires sont rentrées. Il va falloir aller vous présenter."
-        foregrounds: []
+        foregrounds:
+          - uuid: "f1db9b67-b516-46e7-62f2-a4e2c26667af"
+            name: ""
+            image: "assets/foregrounds/ai_1772623979_38078.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.60832536017552
+            anchor_bg: { x: 0.7807189822197, y: 1.2986136674881 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "fade"
+            transition_duration: 0.5
       - uuid: "a2b3dia2-seq2-4012-abcd-100000000003"
         character: "Joueur"
         text: "Ok... allons-y."
@@ -46,7 +70,19 @@ sequences:
       - uuid: "a2b3dia3-seq2-4012-abcd-100000000003"
         character: "Mme Girard"
         text: "En ce moment, il y a cinq pensionnaires : Mary, Lise, Lola, Alicia et Zven."
-        foregrounds: []
+        foregrounds:
+          - uuid: "96f2895f-89d6-45d6-8c41-df5be6dc80af"
+            name: ""
+            image: "assets/foregrounds/ai_1772624064_12056.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.60832536017552
+            anchor_bg: { x: 0.7807189822197, y: 1.2986136674881 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "fade"
+            transition_duration: 0.5
     fx: []
     transition_in_type: "none"
     transition_in_duration: 0.5

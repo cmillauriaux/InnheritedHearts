@@ -37,7 +37,7 @@ sequences:
             scale: 0.90967743450004
             anchor_bg: { x: 0.82393896579742, y: 1.2986900806427 }
             anchor_fg: { x: 0.5, y: 1.0 }
-            transition_type: "fade"
+            transition_type: "none"
             transition_duration: 1.0
       - uuid: "cc685661-9118-42b1-a418-043369f04ca0"
         character: "Maître Dumont"
@@ -100,7 +100,7 @@ sequences:
             transition_type: "fade"
             transition_duration: 1.0
     fx: []
-    transition_in_type: "none"
+    transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"
     transition_out_duration: 0.5
@@ -162,7 +162,7 @@ sequences:
         text: "Je vous souhaite bon courage. Ce n'est pas une mince affaire, mais je suis sûr que vous saurez vous en sortir."
         foregrounds: []
     fx: []
-    transition_in_type: "none"
+    transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"
     transition_out_duration: 0.5

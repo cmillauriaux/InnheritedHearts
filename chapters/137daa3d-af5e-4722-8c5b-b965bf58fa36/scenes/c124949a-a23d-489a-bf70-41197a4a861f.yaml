@@ -20,7 +20,7 @@ sequences:
         text: "Je n'aime vraiment pas les notaires. J'ai toujours l'impression de ne rien comprendre à ce qu'ils me disent, et de me faire plumer sans m'en rendre compte."
         foregrounds: []
     fx: []
-    transition_in_type: "none"
+    transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"
     transition_out_duration: 0.5

@@ -32,7 +32,7 @@ sequences:
         scale: 0.71017380328687
         anchor_bg: { x: 0.76621389389038, y: 1.29862868785858 }
         anchor_fg: { x: 0.5, y: 1.0 }
-        transition_type: "none"
+        transition_type: "fade"
         transition_duration: 0.5
     dialogues:
       - uuid: "fc1c6ff0-6dda-490d-befc-5b3f03fcbcf1"
@@ -53,7 +53,7 @@ sequences:
             scale: 0.71017380328687
             anchor_bg: { x: 0.76621389389038, y: 1.29862868785858 }
             anchor_fg: { x: 0.5, y: 1.0 }
-            transition_type: "none"
+            transition_type: "fade"
             transition_duration: 0.5
       - uuid: "fb4cc785-3a9a-4b2d-abe9-c5df7ab478c7"
         character: "Joueur"
@@ -97,7 +97,7 @@ sequences:
             scale: 0.71017380328687
             anchor_bg: { x: 0.76621389389038, y: 1.29862868785858 }
             anchor_fg: { x: 0.5, y: 1.0 }
-            transition_type: "none"
+            transition_type: "fade"
             transition_duration: 0.5
       - uuid: "5de6a43e-d8bd-4b40-8959-88ae119c0202"
         character: "Mme Girard"
@@ -125,7 +125,7 @@ sequences:
             scale: 0.71017380328687
             anchor_bg: { x: 0.76621389389038, y: 1.29862868785858 }
             anchor_fg: { x: 0.5, y: 1.0 }
-            transition_type: "none"
+            transition_type: "fade"
             transition_duration: 0.5
     fx: []
     transition_in_type: "none"
