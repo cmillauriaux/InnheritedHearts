@@ -1,0 +1,100 @@
+uuid: "eau00002-0000-4012-abcd-000000000001"
+name: "La crise"
+subtitle: ""
+sequences:
+  - uuid: "eau00002-seq1-4012-abcd-000000000002"
+    name: "Panique générale"
+    title: ""
+    subtitle: ""
+    position: { x: 100.0, y: 100.0 }
+    background: "assets/backgrounds/Background_bathroom.jpeg"
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "eau02dia1-seq1-4012-abcd-000000000001"
+        character: "Joueur"
+        text: "Qu'est-ce qu'il se passe ici ?!"
+        foregrounds: []
+      - uuid: "eau02dia2-seq1-4012-abcd-000000000002"
+        character: "Lola"
+        text: "Il n'y a plus d'eau chaude ! Plus une goutte ! Comment je vais faire pour me laver ?!"
+        foregrounds: []
+      - uuid: "eau02dia3-seq1-4012-abcd-000000000003"
+        character: "Alicia"
+        text: "La situation est des plus critiques. L'hygiène est un pilier de la civilisation."
+        foregrounds: []
+      - uuid: "eau02dia4-seq1-4012-abcd-000000000004"
+        character: "Zven"
+        text: "Sur mon île on se lavait dans la rivière ! Mais ici l'eau est froide froide froide !"
+        foregrounds: []
+      - uuid: "eau02dia5-seq1-4012-abcd-000000000005"
+        character: "Lise"
+        text: "C'est... c'est une catastrophe..."
+        foregrounds: []
+      - uuid: "eau02dia6-seq1-4012-abcd-000000000006"
+        character: "Mary"
+        text: "Il faut faire quelque chose ! J'ai absolument besoin de me laver ce soir !"
+        foregrounds: []
+    fx: []
+    transition_in_type: "fade"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_sequence"
+        target: "eau00002-seq2-4012-abcd-000000000003"
+        effects: []
+  - uuid: "eau00002-seq2-4012-abcd-000000000003"
+    name: "L'explication de Mme Girard"
+    title: ""
+    subtitle: ""
+    position: { x: 400.0, y: 100.0 }
+    background: "assets/backgrounds/Background_bathroom.jpeg"
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "eau02dia7-seq2-4012-abcd-000000000001"
+        character: "Mme Girard"
+        text: "Le chauffe-eau est en panne. Ça fait des années que je disais à votre oncle Alfred de le remplacer. Mais il n'a jamais voulu écouter."
+        foregrounds: []
+      - uuid: "eau02dia8-seq2-4012-abcd-000000000002"
+        character: "Mme Girard"
+        text: "C'est votre auberge maintenant. À vous de décider quoi faire."
+        foregrounds: []
+      - uuid: "eau02dia9-seq2-4012-abcd-000000000003"
+        character: "Joueur"
+        text: "D'accord... Laissez-moi réfléchir."
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "choices"
+      choices:
+        - text: "Descendre à la cave voir le chauffe-eau"
+          consequence:
+            type: "redirect_scene"
+            target: "eau00003-0000-4012-abcd-000000000001"
+            effects: []
+          conditions: {}
+          effects: []
+        - text: "Appeler quelqu'un pour un nouveau chauffe-eau"
+          consequence:
+            type: "redirect_scene"
+            target: "eau00004-0000-4012-abcd-000000000001"
+            effects: []
+          conditions: {}
+          effects: []
+conditions: []
+connections:
+  - from: "eau00002-seq1-4012-abcd-000000000002"
+    to: "eau00002-seq2-4012-abcd-000000000003"
+  - from: "eau00002-seq2-4012-abcd-000000000003"
+    to: "eau00003-0000-4012-abcd-000000000001"
+  - from: "eau00002-seq2-4012-abcd-000000000003"
+    to: "eau00004-0000-4012-abcd-000000000001"
+entry_point: "eau00002-seq1-4012-abcd-000000000002"

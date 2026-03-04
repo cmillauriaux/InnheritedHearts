@@ -1,0 +1,102 @@
+uuid: "eau00008-0000-4012-abcd-000000000001"
+name: "Retour dans la chambre"
+subtitle: ""
+sequences:
+  - uuid: "eau00008-seq1-4012-abcd-000000000002"
+    name: "Mme Girard approuve"
+    title: ""
+    subtitle: ""
+    position: { x: 100.0, y: 100.0 }
+    background: "assets/backgrounds/Background_player_bedroom.jpeg"
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "eau08dia1-seq1-4012-abcd-000000000001"
+        character: "Mme Girard"
+        text: "Vous avez pris votre décision ? Bien. J'apprécie que vous ayez pris les choses en main."
+        foregrounds: []
+      - uuid: "eau08dia2-seq1-4012-abcd-000000000002"
+        character: "Mme Girard"
+        text: "Votre oncle aurait fait pareil : ne pas fuir les problèmes. Vous lui ressemblez peut-être un peu, finalement."
+        foregrounds: []
+      - uuid: "eau08dia3-seq1-4012-abcd-000000000003"
+        character: "Joueur"
+        text: "Merci, Mme Girard. Je vous promets de régler ce problème de chauffe-eau dès demain matin."
+        foregrounds: []
+      - uuid: "eau08dia4-seq1-4012-abcd-000000000004"
+        character: "Mme Girard"
+        text: "J'y compte bien. Bonne nuit."
+        foregrounds: []
+    fx: []
+    transition_in_type: "fade"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_condition"
+        target: "eau00008-cond-4012-abcd-000000000003"
+        effects:
+          - variable: "mme_girard_affinity"
+            operation: "add"
+            value: "1"
+conditions:
+  - uuid: "eau00008-cond-4012-abcd-000000000003"
+    name: "Qui a eu la douche ?"
+    subtitle: ""
+    position: { x: 400.0, y: 100.0 }
+    rules:
+      - variable: "shower_choice"
+        operator: "equals"
+        value: "mary"
+        consequence:
+          type: "redirect_scene"
+          target: "eau00009-0000-4012-abcd-000000000001"
+          effects: []
+      - variable: "shower_choice"
+        operator: "equals"
+        value: "lise"
+        consequence:
+          type: "redirect_scene"
+          target: "eau00010-0000-4012-abcd-000000000001"
+          effects: []
+      - variable: "shower_choice"
+        operator: "equals"
+        value: "lola"
+        consequence:
+          type: "redirect_scene"
+          target: "eau00011-0000-4012-abcd-000000000001"
+          effects: []
+      - variable: "shower_choice"
+        operator: "equals"
+        value: "alicia"
+        consequence:
+          type: "redirect_scene"
+          target: "eau00012-0000-4012-abcd-000000000001"
+          effects: []
+      - variable: "shower_choice"
+        operator: "equals"
+        value: "zven"
+        consequence:
+          type: "redirect_scene"
+          target: "eau00013-0000-4012-abcd-000000000001"
+          effects: []
+    default_consequence:
+      type: "redirect_scene"
+      target: "eau00009-0000-4012-abcd-000000000001"
+      effects: []
+connections:
+  - from: "eau00008-seq1-4012-abcd-000000000002"
+    to: "eau00008-cond-4012-abcd-000000000003"
+  - from: "eau00008-cond-4012-abcd-000000000003"
+    to: "eau00009-0000-4012-abcd-000000000001"
+  - from: "eau00008-cond-4012-abcd-000000000003"
+    to: "eau00010-0000-4012-abcd-000000000001"
+  - from: "eau00008-cond-4012-abcd-000000000003"
+    to: "eau00011-0000-4012-abcd-000000000001"
+  - from: "eau00008-cond-4012-abcd-000000000003"
+    to: "eau00012-0000-4012-abcd-000000000001"
+  - from: "eau00008-cond-4012-abcd-000000000003"
+    to: "eau00013-0000-4012-abcd-000000000001"
+entry_point: "eau00008-seq1-4012-abcd-000000000002"

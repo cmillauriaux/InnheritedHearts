@@ -20,7 +20,7 @@ sequences:
         scale: 0.90967743450004
         anchor_bg: { x: 0.82393896579742, y: 1.2986900806427 }
         anchor_fg: { x: 0.5, y: 1.0 }
-        transition_type: "fade"
+        transition_type: "none"
         transition_duration: 1.0
     dialogues:
       - uuid: "7f9a80a3-c764-42fa-937a-39bf1971b39e"
@@ -57,7 +57,7 @@ sequences:
             scale: 0.90967743450004
             anchor_bg: { x: 0.82393896579742, y: 1.2986900806427 }
             anchor_fg: { x: 0.5, y: 1.0 }
-            transition_type: "fade"
+            transition_type: "none"
             transition_duration: 1.0
       - uuid: "c7f357ad-ae96-4f55-8a40-728f6edf1eab"
         character: "Maître Dumont"
@@ -75,9 +75,9 @@ sequences:
             flip_h: false
             flip_v: false
             scale: 0.90967743450004
-            anchor_bg: { x: 0.82393896579742, y: 1.2986900806427 }
+            anchor_bg: { x: 0.82393896579742, y: 1.29775929450989 }
             anchor_fg: { x: 0.5, y: 1.0 }
-            transition_type: "fade"
+            transition_type: "none"
             transition_duration: 0.5
       - uuid: "5d338921-8b40-409c-87fd-d056ce19db76"
         character: "Maître Dumont"
@@ -97,7 +97,7 @@ sequences:
             scale: 0.90967743450004
             anchor_bg: { x: 0.82393896579742, y: 1.2986900806427 }
             anchor_fg: { x: 0.5, y: 1.0 }
-            transition_type: "fade"
+            transition_type: "none"
             transition_duration: 1.0
     fx: []
     transition_in_type: "fade"

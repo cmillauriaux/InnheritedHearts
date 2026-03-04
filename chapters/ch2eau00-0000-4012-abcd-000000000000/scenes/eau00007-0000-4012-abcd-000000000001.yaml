@@ -1,0 +1,99 @@
+uuid: "eau00007-0000-4012-abcd-000000000001"
+name: "Le choix de la douche"
+subtitle: ""
+sequences:
+  - uuid: "eau00007-seq1-4012-abcd-000000000002"
+    name: "Le premier choix important"
+    title: ""
+    subtitle: ""
+    position: { x: 100.0, y: 100.0 }
+    background: "assets/backgrounds/Background_bathroom.jpeg"
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "eau07dia1-seq1-4012-abcd-000000000001"
+        character: "Joueur"
+        text: "Attendez... Il reste juste assez d'eau chaude pour une seule douche ce soir. Une seule."
+        foregrounds: []
+      - uuid: "eau07dia2-seq1-4012-abcd-000000000002"
+        character: "Joueur"
+        text: "Je dois décider à qui je l'offre. C'est mon premier choix important en tant que propriétaire."
+        foregrounds: []
+    fx: []
+    transition_in_type: "fade"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "choices"
+      choices:
+        - text: "Offrir la douche à Mary"
+          consequence:
+            type: "redirect_scene"
+            target: "eau00008-0000-4012-abcd-000000000001"
+            effects: []
+          conditions: {}
+          effects:
+            - variable: "shower_choice"
+              operation: "set"
+              value: "mary"
+            - variable: "mary_affinity"
+              operation: "add"
+              value: "1"
+        - text: "Offrir la douche à Lise"
+          consequence:
+            type: "redirect_scene"
+            target: "eau00008-0000-4012-abcd-000000000001"
+            effects: []
+          conditions: {}
+          effects:
+            - variable: "shower_choice"
+              operation: "set"
+              value: "lise"
+            - variable: "lise_affinity"
+              operation: "add"
+              value: "1"
+        - text: "Offrir la douche à Lola"
+          consequence:
+            type: "redirect_scene"
+            target: "eau00008-0000-4012-abcd-000000000001"
+            effects: []
+          conditions: {}
+          effects:
+            - variable: "shower_choice"
+              operation: "set"
+              value: "lola"
+            - variable: "lola_affinity"
+              operation: "add"
+              value: "1"
+        - text: "Offrir la douche à Alicia"
+          consequence:
+            type: "redirect_scene"
+            target: "eau00008-0000-4012-abcd-000000000001"
+            effects: []
+          conditions: {}
+          effects:
+            - variable: "shower_choice"
+              operation: "set"
+              value: "alicia"
+            - variable: "alicia_affinity"
+              operation: "add"
+              value: "1"
+        - text: "Offrir la douche à Zven"
+          consequence:
+            type: "redirect_scene"
+            target: "eau00008-0000-4012-abcd-000000000001"
+            effects: []
+          conditions: {}
+          effects:
+            - variable: "shower_choice"
+              operation: "set"
+              value: "zven"
+            - variable: "zven_affinity"
+              operation: "add"
+              value: "1"
+conditions: []
+connections:
+  - from: "eau00007-seq1-4012-abcd-000000000002"
+    to: "eau00008-0000-4012-abcd-000000000001"
+entry_point: "eau00007-seq1-4012-abcd-000000000002"

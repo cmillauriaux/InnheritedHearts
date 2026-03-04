@@ -1,0 +1,49 @@
+uuid: "eau00005-0000-4012-abcd-000000000001"
+name: "Le verdict"
+subtitle: ""
+sequences:
+  - uuid: "eau00005-seq1-4012-abcd-000000000002"
+    name: "Annonce aux filles"
+    title: ""
+    subtitle: ""
+    position: { x: 100.0, y: 100.0 }
+    background: "assets/backgrounds/Background_bathroom.jpeg"
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "eau05dia1-seq1-4012-abcd-000000000001"
+        character: "Joueur"
+        text: "Les filles... J'ai une mauvaise nouvelle. Le chauffe-eau est mort et on ne peut rien faire ce soir."
+        foregrounds: []
+      - uuid: "eau05dia2-seq1-4012-abcd-000000000002"
+        character: "Lola"
+        text: "Quoi ?! Pas d'eau chaude du tout ?! Mais c'est une catastrophe !"
+        foregrounds: []
+      - uuid: "eau05dia3-seq1-4012-abcd-000000000003"
+        character: "Lise"
+        text: "Oh non..."
+        foregrounds: []
+      - uuid: "eau05dia4-seq1-4012-abcd-000000000004"
+        character: "Joueur"
+        text: "J'irai en ville demain matin pour essayer de trouver un réparateur ou un nouveau chauffe-eau. Je suis désolé."
+        foregrounds: []
+      - uuid: "eau05dia5-seq1-4012-abcd-000000000005"
+        character: "Joueur"
+        text: "Je ferai tout pour régler ça au plus vite, c'est promis."
+        foregrounds: []
+    fx: []
+    transition_in_type: "fade"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_scene"
+        target: "eau00006-0000-4012-abcd-000000000001"
+        effects: []
+conditions: []
+connections:
+  - from: "eau00005-seq1-4012-abcd-000000000002"
+    to: "eau00006-0000-4012-abcd-000000000001"
+entry_point: "eau00005-seq1-4012-abcd-000000000002"

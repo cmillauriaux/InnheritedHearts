@@ -1,0 +1,53 @@
+uuid: "eau00010-0000-4012-abcd-000000000001"
+name: "La visite de Lise"
+subtitle: ""
+sequences:
+  - uuid: "eau00010-seq1-4012-abcd-000000000002"
+    name: "Lise remercie"
+    title: ""
+    subtitle: ""
+    position: { x: 100.0, y: 100.0 }
+    background: "assets/backgrounds/Background_player_bedroom.jpeg"
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "eau10dia1-seq1-4012-abcd-000000000001"
+        character: "Lise"
+        text: "E-excuse-moi... Je peux entrer une seconde ?"
+        foregrounds: []
+      - uuid: "eau10dia2-seq1-4012-abcd-000000000002"
+        character: "Lise"
+        text: "Oh... C'est vraiment gentil d'avoir pensé à moi pour la douche."
+        foregrounds: []
+      - uuid: "eau10dia3-seq1-4012-abcd-000000000003"
+        character: "Lise"
+        text: "Je sais que ça peut paraître bizarre mais... l'hygiène, c'est vraiment important pour moi. Je suis complètement toquée de propreté."
+        foregrounds: []
+      - uuid: "eau10dia4-seq1-4012-abcd-000000000004"
+        character: "Lise"
+        text: "J'aurais mal dormi si je n'avais pas pu me laver. C'est comme un bug dans ma routine... ça bloque tout."
+        foregrounds: []
+      - uuid: "eau10dia5-seq1-4012-abcd-000000000005"
+        character: "Lise"
+        text: "Je suis contente que tu sois le nouveau propriétaire. Tu as l'air... juste. C'est rare."
+        foregrounds: []
+      - uuid: "eau10dia6-seq1-4012-abcd-000000000006"
+        character: "Joueur"
+        text: "Bonne nuit, Lise. Dors bien."
+        foregrounds: []
+    fx: []
+    transition_in_type: "fade"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_scene"
+        target: "eau00014-0000-4012-abcd-000000000001"
+        effects: []
+conditions: []
+connections:
+  - from: "eau00010-seq1-4012-abcd-000000000002"
+    to: "eau00014-0000-4012-abcd-000000000001"
+entry_point: "eau00010-seq1-4012-abcd-000000000002"

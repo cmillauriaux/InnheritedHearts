@@ -1,0 +1,45 @@
+uuid: "eau00004-0000-4012-abcd-000000000001"
+name: "L'appel"
+subtitle: ""
+sequences:
+  - uuid: "eau00004-seq1-4012-abcd-000000000002"
+    name: "Coup de fil au réparateur"
+    title: ""
+    subtitle: ""
+    position: { x: 100.0, y: 100.0 }
+    background: "assets/backgrounds/Background_player_bedroom.jpeg"
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "eau04dia1-seq1-4012-abcd-000000000001"
+        character: "Joueur"
+        text: "Je vais essayer d'appeler un réparateur... Voyons si quelqu'un peut intervenir rapidement."
+        foregrounds: []
+      - uuid: "eau04dia2-seq1-4012-abcd-000000000002"
+        character: "Joueur"
+        text: "Allô ? Bonjour, j'aurais besoin d'un nouveau chauffe-eau pour une auberge... Livraison au plus tôt ?"
+        foregrounds: []
+      - uuid: "eau04dia3-seq1-4012-abcd-000000000003"
+        character: "Joueur"
+        text: "... Dans une semaine ?! C'est le mieux que vous puissiez faire ?"
+        foregrounds: []
+      - uuid: "eau04dia4-seq1-4012-abcd-000000000004"
+        character: "Joueur"
+        text: "Bon... Une semaine. Il va falloir tenir jusque-là."
+        foregrounds: []
+    fx: []
+    transition_in_type: "fade"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_scene"
+        target: "eau00005-0000-4012-abcd-000000000001"
+        effects: []
+conditions: []
+connections:
+  - from: "eau00004-seq1-4012-abcd-000000000002"
+    to: "eau00005-0000-4012-abcd-000000000001"
+entry_point: "eau00004-seq1-4012-abcd-000000000002"

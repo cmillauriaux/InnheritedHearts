@@ -3,13 +3,18 @@ author: "Auteur"
 description: "An unexpected herritage"
 version: "1.0.0"
 created_at: "2026-03-01T18:16:04Z"
-updated_at: "2026-03-04T13:51:22Z"
+updated_at: "2026-03-04T18:00:00Z"
 chapters:
   - uuid: "137daa3d-af5e-4722-8c5b-b965bf58fa36"
     name: "Chapitre 1"
     subtitle: ""
     position: { x: 100.0, y: 100.0 }
     entry_point: "039f1558-c83d-4a6b-b988-5cbfb4547f28"
+  - uuid: "ch2eau00-0000-4012-abcd-000000000000"
+    name: "Chapitre 2"
+    subtitle: "Eau choix !"
+    position: { x: 500.0, y: 100.0 }
+    entry_point: "eau00001-0000-4012-abcd-000000000001"
 variables:
   - name: "mme_girard_affinity"
     initial_value: "0"
@@ -19,6 +24,12 @@ variables:
     initial_value: "0"
   - name: "alicia_affinity"
     initial_value: "0"
+  - name: "lola_affinity"
+    initial_value: "0"
+  - name: "zven_affinity"
+    initial_value: "0"
+  - name: "shower_choice"
+    initial_value: ""
 notifications:
   - pattern: "mary_affinity"
     message: "Marie s'en souviendra !"
@@ -28,6 +39,8 @@ notifications:
     message: "Alicia s'en souviendra..."
   - pattern: "lola_affinity"
     message: "Lola s'en souviendra !"
+  - pattern: "zven_affinity"
+    message: "Zven s'en souviendra !"
 connections: []
 entry_point: ""
 menu_title: "Innherited Hearts"

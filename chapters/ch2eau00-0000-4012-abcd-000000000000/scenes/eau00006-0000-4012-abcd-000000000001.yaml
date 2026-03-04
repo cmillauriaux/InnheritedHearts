@@ -1,0 +1,53 @@
+uuid: "eau00006-0000-4012-abcd-000000000001"
+name: "Tutoriel"
+subtitle: ""
+sequences:
+  - uuid: "eau00006-seq1-4012-abcd-000000000002"
+    name: "Explication des affinités"
+    title: ""
+    subtitle: ""
+    position: { x: 100.0, y: 100.0 }
+    background: "assets/backgrounds/Background_player_bedroom.jpeg"
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "eau06dia1-seq1-4012-abcd-000000000001"
+        character: "Joueur"
+        text: "Un instant... Avant de continuer, il y a quelque chose d'important que je dois comprendre."
+        foregrounds: []
+      - uuid: "eau06dia2-seq1-4012-abcd-000000000002"
+        character: "Joueur"
+        text: "Dans cette auberge, chaque décision que je prends influence mes relations avec les pensionnaires. Chaque parole, chaque action peut me rapprocher ou m'éloigner de quelqu'un."
+        foregrounds: []
+      - uuid: "eau06dia3-seq1-4012-abcd-000000000003"
+        character: "Joueur"
+        text: "C'est ce qu'on appelle l'affinité. Plus mon affinité avec une fille est élevée, plus j'ai de chances de me rapprocher d'elle."
+        foregrounds: []
+      - uuid: "eau06dia4-seq1-4012-abcd-000000000004"
+        character: "Joueur"
+        text: "Si je veux trouver une copine parmi les filles de la maison, il va falloir que je fasse en sorte de me rapprocher de l'une d'entre elles."
+        foregrounds: []
+      - uuid: "eau06dia5-seq1-4012-abcd-000000000005"
+        character: "Joueur"
+        text: "Mais attention : je ne pourrai pas séduire tout le monde en même temps. Il faudra faire des choix. Choisir bien !"
+        foregrounds: []
+      - uuid: "eau06dia6-seq1-4012-abcd-000000000006"
+        character: "Joueur"
+        text: "Et il y a un bonus : Mme Girard. Elle connaît tout le monde ici. Marquer des points auprès de Mme Girard, c'est marquer des points auprès de toutes les filles en même temps !"
+        foregrounds: []
+    fx: []
+    transition_in_type: "fade"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_scene"
+        target: "eau00007-0000-4012-abcd-000000000001"
+        effects: []
+conditions: []
+connections:
+  - from: "eau00006-seq1-4012-abcd-000000000002"
+    to: "eau00007-0000-4012-abcd-000000000001"
+entry_point: "eau00006-seq1-4012-abcd-000000000002"

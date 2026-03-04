@@ -1,0 +1,57 @@
+uuid: "eau00013-0000-4012-abcd-000000000001"
+name: "La visite de Zven"
+subtitle: ""
+sequences:
+  - uuid: "eau00013-seq1-4012-abcd-000000000002"
+    name: "Zven remercie"
+    title: ""
+    subtitle: ""
+    position: { x: 100.0, y: 100.0 }
+    background: "assets/backgrounds/Background_player_bedroom.jpeg"
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "eau13dia1-seq1-4012-abcd-000000000001"
+        character: "Zven"
+        text: "Hé ! C'est Zven ! Je peux entrer ?!"
+        foregrounds: []
+      - uuid: "eau13dia2-seq1-4012-abcd-000000000002"
+        character: "Zven"
+        text: "Oh ! C'est trop gentil d'avoir pensé à moi ! Je suis tellement touchée !"
+        foregrounds: []
+      - uuid: "eau13dia3-seq1-4012-abcd-000000000003"
+        character: "Zven"
+        text: "Le fait que tu aies pensé à moi... ça me fait vraiment plaisir. Je me sens incluse, tu vois ? C'est pas toujours facile d'être loin de chez soi."
+        foregrounds: []
+      - uuid: "eau13dia4-seq1-4012-abcd-000000000004"
+        character: "Zven"
+        text: "De toute façon, sans eau chaude, je serais allée au ruisseau derrière l'auberge ! Ou ailleurs ! J'aurais trouvé à me laver !"
+        foregrounds: []
+      - uuid: "eau13dia5-seq1-4012-abcd-000000000005"
+        character: "Zven"
+        text: "Sur mon île, on n'a pas d'eau chaude, tu sais. On se lave dans le ruisseau ! Mais ici, l'eau chaude c'est... c'est magique ! C'est tellement agréable !"
+        foregrounds: []
+      - uuid: "eau13dia6-seq1-4012-abcd-000000000006"
+        character: "Zven"
+        text: "Merci encore ! T'es vraiment quelqu'un de bien ! Bonne nuit !"
+        foregrounds: []
+      - uuid: "eau13dia7-seq1-4012-abcd-000000000007"
+        character: "Joueur"
+        text: "Bonne nuit, Zven. Content que ça te fasse plaisir."
+        foregrounds: []
+    fx: []
+    transition_in_type: "fade"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_scene"
+        target: "eau00014-0000-4012-abcd-000000000001"
+        effects: []
+conditions: []
+connections:
+  - from: "eau00013-seq1-4012-abcd-000000000002"
+    to: "eau00014-0000-4012-abcd-000000000001"
+entry_point: "eau00013-seq1-4012-abcd-000000000002"

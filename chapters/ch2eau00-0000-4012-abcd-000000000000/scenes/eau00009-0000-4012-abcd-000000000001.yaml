@@ -1,0 +1,61 @@
+uuid: "eau00009-0000-4012-abcd-000000000001"
+name: "La visite de Mary"
+subtitle: ""
+sequences:
+  - uuid: "eau00009-seq1-4012-abcd-000000000002"
+    name: "Mary remercie"
+    title: ""
+    subtitle: ""
+    position: { x: 100.0, y: 100.0 }
+    background: "assets/backgrounds/Background_player_bedroom.jpeg"
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "eau09dia1-seq1-4012-abcd-000000000001"
+        character: "Mary"
+        text: "Toc toc... Je peux entrer ?"
+        foregrounds: []
+      - uuid: "eau09dia2-seq1-4012-abcd-000000000002"
+        character: "Mary"
+        text: "Merci infiniment pour la douche... Tu ne peux pas savoir à quel point ça me sauve."
+        foregrounds: []
+      - uuid: "eau09dia3-seq1-4012-abcd-000000000003"
+        character: "Mary"
+        text: "J'ai une présentation demain matin devant un groupe de professeurs. Un jury de fin de semestre. J'aurais été incapable de me concentrer si je ne m'étais pas sentie propre."
+        foregrounds: []
+      - uuid: "eau09dia4-seq1-4012-abcd-000000000004"
+        character: "Mary"
+        text: "Tu sais... tu as l'air d'être un bon propriétaire. Tu prends soin des gens."
+        foregrounds: []
+      - uuid: "eau09dia5-seq1-4012-abcd-000000000005"
+        character: "Mary"
+        text: "Je te dirai comment ça s'est passé demain, promis !"
+        foregrounds: []
+      - uuid: "eau09dia6-seq1-4012-abcd-000000000006"
+        character: "Mary"
+        text: "Entre nous... malgré le fait que je suis une artiste dans la lune, je suis souvent stressée par le côté logistique des choses. Les factures, les horaires, tout ça me dépasse."
+        foregrounds: []
+      - uuid: "eau09dia7-seq1-4012-abcd-000000000007"
+        character: "Mary"
+        text: "Savoir que quelqu'un gère les choses ici, c'est un vrai soulagement. Merci encore. Bonne nuit !"
+        foregrounds: []
+      - uuid: "eau09dia8-seq1-4012-abcd-000000000008"
+        character: "Joueur"
+        text: "Bonne nuit Mary, et bonne chance pour demain !"
+        foregrounds: []
+    fx: []
+    transition_in_type: "fade"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_scene"
+        target: "eau00014-0000-4012-abcd-000000000001"
+        effects: []
+conditions: []
+connections:
+  - from: "eau00009-seq1-4012-abcd-000000000002"
+    to: "eau00014-0000-4012-abcd-000000000001"
+entry_point: "eau00009-seq1-4012-abcd-000000000002"

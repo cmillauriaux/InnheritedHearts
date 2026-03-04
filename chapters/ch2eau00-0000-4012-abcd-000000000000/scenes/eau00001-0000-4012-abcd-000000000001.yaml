@@ -1,0 +1,168 @@
+uuid: "eau00001-0000-4012-abcd-000000000001"
+name: "L'avertissement"
+subtitle: ""
+sequences:
+  - uuid: "eau00001-seq1-4012-abcd-000000000002"
+    name: "Mme Girard frappe"
+    title: ""
+    subtitle: ""
+    position: { x: 100.0, y: 100.0 }
+    background: "assets/backgrounds/Background_player_bedroom.jpeg"
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "eau01dia1-seq1-4012-abcd-000000000001"
+        character: "Mme Girard"
+        text: "Toc toc ! Ah, vous êtes là ! Avant le dîner, il faut qu'on parle."
+        foregrounds: []
+      - uuid: "eau01dia2-seq1-4012-abcd-000000000002"
+        character: "Joueur"
+        text: "Mme Girard ? Qu'est-ce qu'il se passe ?"
+        foregrounds: []
+      - uuid: "eau01dia3-seq1-4012-abcd-000000000003"
+        character: "Mme Girard"
+        text: "Il se passe que vous allez devoir gérer votre première crise en tant que propriétaire ! Bienvenue dans la vraie vie, mon garçon."
+        foregrounds: []
+    fx: []
+    transition_in_type: "fade"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_sequence"
+        target: "eau00001-seq2-4012-abcd-000000000003"
+        effects: []
+  - uuid: "eau00001-seq2-4012-abcd-000000000003"
+    name: "La crise approche"
+    title: ""
+    subtitle: ""
+    position: { x: 400.0, y: 100.0 }
+    background: "assets/backgrounds/Background_player_bedroom.jpeg"
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "eau01dia4-seq2-4012-abcd-000000000001"
+        character: "Joueur"
+        text: "Une crise ? Quel genre de crise ? Dites-moi au moins de quoi il s'agit !"
+        foregrounds: []
+      - uuid: "eau01dia5-seq2-4012-abcd-000000000002"
+        character: "Mme Girard"
+        text: "Non non non. C'est votre auberge, c'est votre problème. Vous devez apprendre à faire face par vous-même. Moi, je retourne à mes fourneaux."
+        foregrounds: []
+      - uuid: "eau01dia6-seq2-4012-abcd-000000000003"
+        character: "Joueur"
+        text: "Mais... Mme Girard ! Attendez !"
+        foregrounds: []
+      - uuid: "eau01dia7-seq2-4012-abcd-000000000004"
+        character: "Joueur"
+        text: "Elle est partie... Super. Ma première crise et je ne sais même pas de quoi il s'agit."
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "choices"
+      choices:
+        - text: "Bah... C'est sûrement rien. Je reste dans ma chambre."
+          consequence:
+            type: "redirect_sequence"
+            target: "eau00001-seq3-4012-abcd-000000000004"
+            effects: []
+          conditions: {}
+          effects: []
+        - text: "Je ferais mieux d'aller voir ce qu'il se passe."
+          consequence:
+            type: "redirect_sequence"
+            target: "eau00001-seq4-4012-abcd-000000000005"
+            effects: []
+          conditions: {}
+          effects: []
+  - uuid: "eau00001-seq3-4012-abcd-000000000004"
+    name: "Lise débarque"
+    title: ""
+    subtitle: ""
+    position: { x: 700.0, y: -60.0 }
+    background: "assets/backgrounds/Background_player_bedroom.jpeg"
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "eau01dia8-seq3-4012-abcd-000000000001"
+        character: "Joueur"
+        text: "Bon... Mme Girard exagère sûrement. Je vais rester ici et..."
+        foregrounds: []
+      - uuid: "eau01dia9-seq3-4012-abcd-000000000002"
+        character: "Lise"
+        text: "E-excuse-moi... ! Il faut que tu viennes voir... c'est urgent !"
+        foregrounds: []
+      - uuid: "eau01di10-seq3-4012-abcd-000000000003"
+        character: "Joueur"
+        text: "Lise ?! En serviette de bain ?! Qu'est-ce qu'il se passe ?"
+        foregrounds: []
+      - uuid: "eau01di11-seq3-4012-abcd-000000000004"
+        character: "Lise"
+        text: "C'est la salle de bain ! Viens, vite !"
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_scene"
+        target: "eau00002-0000-4012-abcd-000000000001"
+        effects: []
+  - uuid: "eau00001-seq4-4012-abcd-000000000005"
+    name: "Mary dans le couloir"
+    title: ""
+    subtitle: ""
+    position: { x: 700.0, y: 260.0 }
+    background: "assets/backgrounds/Background_6.jpeg"
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "eau01di12-seq4-4012-abcd-000000000001"
+        character: "Joueur"
+        text: "Bon, allons voir ce qui..."
+        foregrounds: []
+      - uuid: "eau01di13-seq4-4012-abcd-000000000002"
+        character: "Mary"
+        text: "Oh ! Te voilà ! Viens vite, il y a un problème !"
+        foregrounds: []
+      - uuid: "eau01di14-seq4-4012-abcd-000000000003"
+        character: "Joueur"
+        text: "Mary ? En serviette de bain ?! Qu'est-ce qu'il y a ?"
+        foregrounds: []
+      - uuid: "eau01di15-seq4-4012-abcd-000000000004"
+        character: "Mary"
+        text: "Pas le temps d'expliquer ! Suis-moi !"
+        foregrounds: []
+    fx: []
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_scene"
+        target: "eau00002-0000-4012-abcd-000000000001"
+        effects: []
+conditions: []
+connections:
+  - from: "eau00001-seq1-4012-abcd-000000000002"
+    to: "eau00001-seq2-4012-abcd-000000000003"
+  - from: "eau00001-seq2-4012-abcd-000000000003"
+    to: "eau00001-seq3-4012-abcd-000000000004"
+  - from: "eau00001-seq2-4012-abcd-000000000003"
+    to: "eau00001-seq4-4012-abcd-000000000005"
+  - from: "eau00001-seq3-4012-abcd-000000000004"
+    to: "eau00002-0000-4012-abcd-000000000001"
+  - from: "eau00001-seq4-4012-abcd-000000000005"
+    to: "eau00002-0000-4012-abcd-000000000001"
+entry_point: "eau00001-seq1-4012-abcd-000000000002"

@@ -1,0 +1,61 @@
+uuid: "eau00011-0000-4012-abcd-000000000001"
+name: "La visite de Lola"
+subtitle: ""
+sequences:
+  - uuid: "eau00011-seq1-4012-abcd-000000000002"
+    name: "Lola remercie"
+    title: ""
+    subtitle: ""
+    position: { x: 100.0, y: 100.0 }
+    background: "assets/backgrounds/Background_player_bedroom.jpeg"
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "eau11dia1-seq1-4012-abcd-000000000001"
+        character: "Lola"
+        text: "Coucou ! C'est moi ! Je peux entrer ?"
+        foregrounds: []
+      - uuid: "eau11dia2-seq1-4012-abcd-000000000002"
+        character: "Lola"
+        text: "Oh merci merci merci ! Tu es un ange ! Un vrai sauveur !"
+        foregrounds: []
+      - uuid: "eau11dia3-seq1-4012-abcd-000000000003"
+        character: "Lola"
+        text: "Tu sais, en tant qu'infirmière, l'hygiène c'est FONDAMENTAL. On ne rigole pas avec ça. Les bactéries, les microbes, tu n'imagines même pas ce que je vois au quotidien !"
+        foregrounds: []
+      - uuid: "eau11dia4-seq1-4012-abcd-000000000004"
+        character: "Lola"
+        text: "D'ailleurs tu savais que le corps humain héberge plus de bactéries que de cellules ? C'est fascinant et terrifiant à la fois ! Et l'eau chaude est essentielle pour éliminer les agents pathogènes de la surface cutanée..."
+        foregrounds: []
+      - uuid: "eau11dia5-seq1-4012-abcd-000000000005"
+        character: "Joueur"
+        text: "..."
+        foregrounds: []
+      - uuid: "eau11dia6-seq1-4012-abcd-000000000006"
+        character: "Lola"
+        text: "Et sans parler des infections nosocomiales ! Si tu savais les protocoles d'hygiène qu'on doit respecter à l'hôpital ! Le lavage des mains à lui seul prend trente secondes minimum selon l'OMS et..."
+        foregrounds: []
+      - uuid: "eau11dia7-seq1-4012-abcd-000000000007"
+        character: "Lola"
+        text: "Enfin bref ! Merci encore ! Tu es formidable ! Bonne nuit !"
+        foregrounds: []
+      - uuid: "eau11dia8-seq1-4012-abcd-000000000008"
+        character: "Joueur"
+        text: "Elle ne m'a encore pas laissé en placer une..."
+        foregrounds: []
+    fx: []
+    transition_in_type: "fade"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_scene"
+        target: "eau00014-0000-4012-abcd-000000000001"
+        effects: []
+conditions: []
+connections:
+  - from: "eau00011-seq1-4012-abcd-000000000002"
+    to: "eau00014-0000-4012-abcd-000000000001"
+entry_point: "eau00011-seq1-4012-abcd-000000000002"

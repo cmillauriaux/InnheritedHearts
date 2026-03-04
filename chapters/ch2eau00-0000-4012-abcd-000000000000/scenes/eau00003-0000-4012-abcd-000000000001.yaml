@@ -1,0 +1,45 @@
+uuid: "eau00003-0000-4012-abcd-000000000001"
+name: "La cave"
+subtitle: ""
+sequences:
+  - uuid: "eau00003-seq1-4012-abcd-000000000002"
+    name: "Le chauffe-eau est mort"
+    title: ""
+    subtitle: ""
+    position: { x: 100.0, y: 100.0 }
+    background: "assets/backgrounds/Background_basement.jpeg"
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "eau03dia1-seq1-4012-abcd-000000000001"
+        character: "Joueur"
+        text: "Bon... Allons voir ce chauffe-eau de plus près."
+        foregrounds: []
+      - uuid: "eau03dia2-seq1-4012-abcd-000000000002"
+        character: "Joueur"
+        text: "Je n'y connais absolument rien en chauffe-eau. Ni en plomberie. Ni en bricolage d'ailleurs. Rien. Nada. Zéro."
+        foregrounds: []
+      - uuid: "eau03dia3-seq1-4012-abcd-000000000003"
+        character: "Joueur"
+        text: "Et de toute façon, si l'eau est froide, c'est que le chauffe-eau est mort. Pas besoin d'être un expert pour voir ça."
+        foregrounds: []
+      - uuid: "eau03dia4-seq1-4012-abcd-000000000004"
+        character: "Joueur"
+        text: "Ce truc a l'air d'avoir au moins trente ans. Il n'y a rien à faire, il faudra le remplacer."
+        foregrounds: []
+    fx: []
+    transition_in_type: "fade"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_scene"
+        target: "eau00005-0000-4012-abcd-000000000001"
+        effects: []
+conditions: []
+connections:
+  - from: "eau00003-seq1-4012-abcd-000000000002"
+    to: "eau00005-0000-4012-abcd-000000000001"
+entry_point: "eau00003-seq1-4012-abcd-000000000002"

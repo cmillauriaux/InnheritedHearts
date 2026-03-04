@@ -1,0 +1,38 @@
+uuid: "eau00014-0000-4012-abcd-000000000001"
+name: "Fin de journée"
+subtitle: ""
+sequences:
+  - uuid: "eau00014-seq1-4012-abcd-000000000002"
+    name: "Conclusion de la journée"
+    title: ""
+    subtitle: ""
+    position: { x: 100.0, y: 100.0 }
+    background: "assets/backgrounds/Background_player_bedroom.jpeg"
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "eau14dia1-seq1-4012-abcd-000000000001"
+        character: "Joueur"
+        text: "Quelle journée... Un chauffe-eau en panne, cinq filles en panique, et moi au milieu de tout ça."
+        foregrounds: []
+      - uuid: "eau14dia2-seq1-4012-abcd-000000000002"
+        character: "Joueur"
+        text: "Demain, direction la ville pour trouver une solution. Mais pour l'instant... bonne nuit, auberge."
+        foregrounds: []
+      - uuid: "eau14dia3-seq1-4012-abcd-000000000003"
+        character: "Joueur"
+        text: "J'ai hâte de voir ce que le lendemain me réservera !"
+        foregrounds: []
+    fx: []
+    transition_in_type: "fade"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "to_be_continued"
+        effects: []
+conditions: []
+connections: []
+entry_point: "eau00014-seq1-4012-abcd-000000000002"

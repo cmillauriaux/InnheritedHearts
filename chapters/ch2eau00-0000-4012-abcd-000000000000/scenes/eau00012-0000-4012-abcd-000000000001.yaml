@@ -1,0 +1,49 @@
+uuid: "eau00012-0000-4012-abcd-000000000001"
+name: "La visite d'Alicia"
+subtitle: ""
+sequences:
+  - uuid: "eau00012-seq1-4012-abcd-000000000002"
+    name: "Alicia remercie"
+    title: ""
+    subtitle: ""
+    position: { x: 100.0, y: 100.0 }
+    background: "assets/backgrounds/Background_player_bedroom.jpeg"
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "eau12dia1-seq1-4012-abcd-000000000001"
+        character: "Alicia"
+        text: "Puis-je entrer ? Je souhaiterais vous exprimer ma gratitude."
+        foregrounds: []
+      - uuid: "eau12dia2-seq1-4012-abcd-000000000002"
+        character: "Alicia"
+        text: "Je vous remercie, maître des lieux. Votre geste est d'une grande noblesse."
+        foregrounds: []
+      - uuid: "eau12dia3-seq1-4012-abcd-000000000003"
+        character: "Alicia"
+        text: "J'avais prévu une dissection ce soir. Sans pouvoir me laver ensuite, j'aurais dû reporter mes travaux. Vous m'épargnez un cruel dilemme."
+        foregrounds: []
+      - uuid: "eau12dia4-seq1-4012-abcd-000000000004"
+        character: "Alicia"
+        text: "Je vois en votre présence un esprit bienveillant dans cette demeure. Peut-être même... un protecteur. Les esprits de la maison approuvent votre choix, j'en suis certaine."
+        foregrounds: []
+      - uuid: "eau12dia5-seq1-4012-abcd-000000000005"
+        character: "Joueur"
+        text: "Euh... Merci Alicia. Bonne... dissection."
+        foregrounds: []
+    fx: []
+    transition_in_type: "fade"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_scene"
+        target: "eau00014-0000-4012-abcd-000000000001"
+        effects: []
+conditions: []
+connections:
+  - from: "eau00012-seq1-4012-abcd-000000000002"
+    to: "eau00014-0000-4012-abcd-000000000001"
+entry_point: "eau00012-seq1-4012-abcd-000000000002"
