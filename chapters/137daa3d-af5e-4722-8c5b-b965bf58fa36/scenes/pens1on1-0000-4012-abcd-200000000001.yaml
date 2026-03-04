@@ -6,7 +6,7 @@ sequences:
     name: "Qui veux-tu aller rencontrer ?"
     title: ""
     subtitle: ""
-    position: { x: 400.0, y: 100.0 }
+    position: { x: 400.0, y: 40.0 }
     background: "assets/backgrounds/Background_6.jpeg"
     background_color: "00000000"
     foregrounds: []
@@ -115,7 +115,8 @@ conditions:
           target: "pens1on1-seq1-4012-abcd-200000000003"
           effects: []
     default_consequence:
-      type: "to_be_continued"
+      type: "redirect_scene"
+      target: "4e833b39-d049-4125-82eb-60119abeb05d"
       effects: []
 connections:
   - from: "pens1on1-cond-4012-abcd-200000000002"
