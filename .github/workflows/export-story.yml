@@ -189,17 +189,11 @@ jobs:
         run: |
           TAG_NAME="v$(date +'%Y.%m.%d')-b${{ github.run_number }}"
           echo "tag_name=$TAG_NAME" >> $GITHUB_OUTPUT
-          
+
           # Renommage des fichiers pour inclure le tag
-          # Attention aux chemins de téléchargement
-          find build -name "*.exe" -exec mv {} build/InnheritedHearts-$TAG_NAME-Windows.exe \;
-          find build -name "*.zip" -exec mv {} build/InnheritedHearts-$TAG_NAME-tmp.zip \;
-          
-          # Gestion spécifique pour différencier macOS et Web (les deux sont en .zip potentiellement)
-          # On sait que macOS est dans build/macos et Web est le zip qu'on a créé
-          mv build/windows/InnheritedHearts.exe build/InnheritedHearts-$TAG_NAME-Windows.exe || true
-          mv build/macos/InnheritedHearts.zip build/InnheritedHearts-$TAG_NAME-macOS.zip || true
-          mv build/web/innherited-hearts-web.zip build/InnheritedHearts-$TAG_NAME-Web.zip || true
+          mv build/windows/InnheritedHearts.exe build/InnheritedHearts-$TAG_NAME-Windows.exe
+          mv build/macos/InnheritedHearts.zip build/InnheritedHearts-$TAG_NAME-macOS.zip
+          mv build/web/innherited-hearts-web.zip build/InnheritedHearts-$TAG_NAME-Web.zip
 
           echo "win_file=build/InnheritedHearts-$TAG_NAME-Windows.exe" >> $GITHUB_OUTPUT
           echo "mac_file=build/InnheritedHearts-$TAG_NAME-macOS.zip" >> $GITHUB_OUTPUT
