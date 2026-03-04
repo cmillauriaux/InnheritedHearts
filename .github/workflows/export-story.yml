@@ -103,36 +103,39 @@ jobs:
           
           # 2. Configurer project.godot pour le standalone
           cd visual-builder
-          
+
+          # Portable sed -i (compatible GNU/BSD)
+          sedi() { sed -i.bak "$@" && rm -f "${@: -1}.bak"; }
+
           # Changer la scène principale
-          sed -i 's|run/main_scene="res://src/main.tscn"|run/main_scene="res://src/game.tscn"|' project.godot
-          
+          sedi 's|run/main_scene="res://src/main.tscn"|run/main_scene="res://src/game.tscn"|' project.godot
+
           # Changer le nom du projet
-          sed -i 's|config/name=".*"|config/name="Innherited Hearts"|' project.godot
-          
+          sedi 's|config/name=".*"|config/name="Innherited Hearts"|' project.godot
+
           # Ajouter le chemin de la story dans project.godot
           if ! grep -q "config/story_path" project.godot; then
-            sed -i '/\[application\]/a config/story_path="res://story"' project.godot
+            awk '/\[application\]/{print; print "config/story_path=\"res://story\""; next}1' project.godot > project.godot.tmp && mv project.godot.tmp project.godot
           fi
-          
+
           # Créer override.cfg
           cat <<EOF > override.cfg
           [application]
           config/story_path="res://story"
           EOF
-          
+
           # 3. Configurer les presets d'export
           # S'assurer que les presets existants incluent les fichiers YAML
-          sed -i 's/include_filter=""/include_filter="*.yaml"/' export_presets.cfg
-          
+          sedi 's/include_filter=""/include_filter="*.yaml"/' export_presets.cfg
+
           # Ajouter le preset Web si absent
           if ! grep -q 'name="Web"' export_presets.cfg; then
             echo "$WEB_PRESET" >> export_presets.cfg
           fi
-          
+
           # Nettoyer les plugins éditeur du project.godot pour l'export standalone
           # On supprime la section editor_plugins
-          sed -i '/\[editor_plugins\]/,/^$/d' project.godot
+          awk '/\[editor_plugins\]/{skip=1} skip && /^$/{skip=0; next} !skip' project.godot > project.godot.tmp && mv project.godot.tmp project.godot
 
       - name: Import Resources
         run: |
