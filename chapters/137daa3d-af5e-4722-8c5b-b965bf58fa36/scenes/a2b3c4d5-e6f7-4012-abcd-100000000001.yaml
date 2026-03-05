@@ -16,6 +16,9 @@ sequences:
         text: "Tiens, j'ai cru entendre du bruit ! Je vais aller voir."
         foregrounds: []
     fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
     transition_in_type: "none"
     transition_in_duration: 0.5
     transition_out_type: "none"
@@ -84,6 +87,9 @@ sequences:
             transition_type: "fade"
             transition_duration: 0.5
     fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
     transition_in_type: "none"
     transition_in_duration: 0.5
     transition_out_type: "none"

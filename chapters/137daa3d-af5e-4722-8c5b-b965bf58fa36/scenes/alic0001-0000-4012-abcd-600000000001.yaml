@@ -16,6 +16,9 @@ sequences:
         text: "Porte 2... Alicia. Curieux prénom. Je me demande bien qui se cache derrière cette porte."
         foregrounds: []
     fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
     transition_in_type: "none"
     transition_in_duration: 0.5
     transition_out_type: "none"
@@ -68,6 +71,9 @@ sequences:
         text: "Wooooh... C'est quoi cette chambre ? Un rituel satanique ? Elle fait flipper, cette nana."
         foregrounds: []
     fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
     transition_in_type: "none"
     transition_in_duration: 0.5
     transition_out_type: "none"
@@ -127,6 +133,9 @@ sequences:
             transition_type: "none"
             transition_duration: 0.5
     fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
     transition_in_type: "none"
     transition_in_duration: 0.5
     transition_out_type: "none"
@@ -175,6 +184,9 @@ sequences:
             transition_type: "none"
             transition_duration: 0.5
     fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
     transition_in_type: "none"
     transition_in_duration: 0.5
     transition_out_type: "none"
@@ -223,6 +235,9 @@ sequences:
             transition_type: "none"
             transition_duration: 0.5
     fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
     transition_in_type: "none"
     transition_in_duration: 0.5
     transition_out_type: "none"
@@ -271,6 +286,9 @@ sequences:
             transition_type: "none"
             transition_duration: 0.5
     fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
     transition_in_type: "none"
     transition_in_duration: 0.5
     transition_out_type: "none"
@@ -334,6 +352,9 @@ sequences:
         text: "Je dois à présent rédiger une nécrologie avant le dîner. Je me dois de vous laisser. Ce fut un honneur."
         foregrounds: []
     fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
     transition_in_type: "none"
     transition_in_duration: 0.5
     transition_out_type: "none"
@@ -361,6 +382,9 @@ sequences:
         text: "Quel personnage... Aussi jolie que glaçante !"
         foregrounds: []
     fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
     transition_in_type: "none"
     transition_in_duration: 0.5
     transition_out_type: "none"

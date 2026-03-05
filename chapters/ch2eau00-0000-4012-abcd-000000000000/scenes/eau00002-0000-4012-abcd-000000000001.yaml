@@ -36,6 +36,9 @@ sequences:
         text: "Il faut faire quelque chose ! J'ai absolument besoin de me laver ce soir !"
         foregrounds: []
     fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
     transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"
@@ -68,6 +71,9 @@ sequences:
         text: "D'accord... Laissez-moi réfléchir."
         foregrounds: []
     fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
     transition_in_type: "none"
     transition_in_duration: 0.5
     transition_out_type: "none"

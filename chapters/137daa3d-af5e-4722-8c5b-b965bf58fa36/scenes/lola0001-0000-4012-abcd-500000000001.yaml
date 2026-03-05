@@ -16,6 +16,9 @@ sequences:
         text: "Porte 1... Lola. C'est marrant, j'avais une copine qui s'appelait Lola quand j'étais petit. Je me demande si elles se ressemblent."
         foregrounds: []
     fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
     transition_in_type: "none"
     transition_in_duration: 0.5
     transition_out_type: "none"
@@ -64,6 +67,9 @@ sequences:
             transition_type: "none"
             transition_duration: 0.5
     fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
     transition_in_type: "none"
     transition_in_duration: 0.5
     transition_out_type: "none"
@@ -143,6 +149,9 @@ sequences:
         text: "..."
         foregrounds: []
     fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
     transition_in_type: "none"
     transition_in_duration: 0.5
     transition_out_type: "none"
@@ -191,6 +200,9 @@ sequences:
             transition_type: "none"
             transition_duration: 0.5
     fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
     transition_in_type: "none"
     transition_in_duration: 0.5
     transition_out_type: "none"
@@ -265,6 +277,9 @@ sequences:
         text: "Bon, j'ai du boulot qui m'attend ! Mais je suis vraiment ravie d'avoir rencontré le nouveau proprio. Comme disait Mme Girard, t'as l'air très gentil... mais pas très loquace ! À bientôt !"
         foregrounds: []
     fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
     transition_in_type: "none"
     transition_in_duration: 0.5
     transition_out_type: "none"
@@ -289,6 +304,9 @@ sequences:
         text: "Elle est vraiment jolie... Mais vraiment pipelette !"
         foregrounds: []
     fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
     transition_in_type: "none"
     transition_in_duration: 0.5
     transition_out_type: "none"

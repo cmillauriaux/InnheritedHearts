@@ -24,6 +24,9 @@ sequences:
         text: "Drôle d'homme, cet oncle Alfred. Discret, effacé... et pourtant, il a pensé à moi."
         foregrounds: []
     fx: []
+    music: "/Users/cedric/Stories/InnheritedHearts/assets/music/V.mp3"
+    audio_fx: ""
+    stop_music: false
     transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"
@@ -44,6 +47,9 @@ sequences:
     foregrounds: []
     dialogues: []
     fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
     transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"

@@ -16,6 +16,9 @@ sequences:
         text: "Zven... C'est un prénom ça. D'où ça peut bien venir ?"
         foregrounds: []
     fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
     transition_in_type: "none"
     transition_in_duration: 0.5
     transition_out_type: "none"
@@ -64,6 +67,9 @@ sequences:
             transition_type: "none"
             transition_duration: 0.5
     fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
     transition_in_type: "none"
     transition_in_duration: 0.5
     transition_out_type: "none"
@@ -123,6 +129,9 @@ sequences:
             transition_type: "none"
             transition_duration: 0.5
     fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
     transition_in_type: "none"
     transition_in_duration: 0.5
     transition_out_type: "none"
@@ -182,6 +191,9 @@ sequences:
             transition_type: "none"
             transition_duration: 0.5
     fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
     transition_in_type: "none"
     transition_in_duration: 0.5
     transition_out_type: "none"
@@ -234,6 +246,9 @@ sequences:
         text: "C'est incroyable ! Les voitures ! Il y en a partout, de toutes les couleurs ! Et Internet ! Sur l'île on en avait très peu mais ici c'est partout ! Et le cinéma ! J'y suis allée trois fois cette semaine ! Trois fois !"
         foregrounds: []
     fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
     transition_in_type: "none"
     transition_in_duration: 0.5
     transition_out_type: "none"
@@ -286,6 +301,9 @@ sequences:
         text: "Oh oui ! Il y a tellement à voir ! Bonne journée nouveau propriétaire !"
         foregrounds: []
     fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
     transition_in_type: "none"
     transition_in_duration: 0.5
     transition_out_type: "none"
@@ -310,6 +328,9 @@ sequences:
         text: "Une vraie boule d'énergie... Et une jolie fille en plus !"
         foregrounds: []
     fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
     transition_in_type: "none"
     transition_in_duration: 0.5
     transition_out_type: "none"

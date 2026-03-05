@@ -44,6 +44,9 @@ sequences:
         text: "Je ferai tout pour régler ça au plus vite, c'est promis."
         foregrounds: []
     fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
     transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"
@@ -96,6 +99,9 @@ sequences:
         text: "Je ferai tout pour régler ça au plus vite, c'est promis."
         foregrounds: []
     fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
     transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"

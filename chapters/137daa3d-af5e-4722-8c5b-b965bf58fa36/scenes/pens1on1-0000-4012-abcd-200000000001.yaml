@@ -16,6 +16,9 @@ sequences:
         text: "Bon, par qui je commence ?"
         foregrounds: []
     fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
     transition_in_type: "none"
     transition_in_duration: 0.5
     transition_out_type: "none"

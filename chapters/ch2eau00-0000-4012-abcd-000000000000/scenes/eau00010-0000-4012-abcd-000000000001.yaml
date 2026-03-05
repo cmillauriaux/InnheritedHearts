@@ -36,6 +36,9 @@ sequences:
         text: "Bonne nuit, Lise. Dors bien."
         foregrounds: []
     fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
     transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"

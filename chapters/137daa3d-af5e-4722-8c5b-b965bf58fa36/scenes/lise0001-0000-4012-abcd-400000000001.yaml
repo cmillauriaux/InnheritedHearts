@@ -16,6 +16,9 @@ sequences:
         text: "Chambre 4... Je me demande à quoi elle ressemble et ce qu'elle étudie."
         foregrounds: []
     fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
     transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"
@@ -64,6 +67,9 @@ sequences:
             transition_type: "none"
             transition_duration: 0.5
     fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
     transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"
@@ -123,6 +129,9 @@ sequences:
             transition_type: "none"
             transition_duration: 0.5
     fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
     transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"
@@ -179,6 +188,9 @@ sequences:
         text: "Oh... Euh... Merci beaucoup."
         foregrounds: []
     fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
     transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"
@@ -227,6 +239,9 @@ sequences:
             transition_type: "none"
             transition_duration: 0.5
     fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
     transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"
@@ -286,6 +301,9 @@ sequences:
             transition_type: "none"
             transition_duration: 0.5
     fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
     transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"
@@ -313,6 +331,9 @@ sequences:
         text: "Lise est vraiment mignonne... Mais vraiment timide."
         foregrounds: []
     fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
     transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"

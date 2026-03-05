@@ -24,6 +24,9 @@ sequences:
         text: "Et comment je suis censé aider des étudiantes, moi ? J'ai foiré mes études. Deux fois. Oncle Alfred, tu es sûr de toi ?"
         foregrounds: []
     fx: []
+    music: "/Users/cedric/Stories/InnheritedHearts/assets/music/Promenade Sous Le Ciel Clair.mp3"
+    audio_fx: ""
+    stop_music: false
     transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"
@@ -48,6 +51,9 @@ sequences:
         text: "Voilà... c'est bien ça. Une grande bâtisse en pierre, entourée de verdure, avec une enseigne en bois. Exactement comme Maître Dumont l'avait décrite."
         foregrounds: []
     fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
     transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"
@@ -96,6 +102,9 @@ sequences:
             transition_type: "none"
             transition_duration: 0.5
     fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
     transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"
@@ -178,6 +187,9 @@ sequences:
             transition_type: "none"
             transition_duration: 0.5
     fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
     transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"
@@ -247,6 +259,9 @@ sequences:
         text: "Si mon oncle n'était pas décédé, je l'appellerais sur le champ."
         foregrounds: []
     fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
     transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"
@@ -355,6 +370,9 @@ sequences:
         text: "Bon... Suivez-moi. Je vais vous montrer votre chambre."
         foregrounds: []
     fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
     transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"

@@ -36,6 +36,9 @@ sequences:
         text: "Et il y a un bonus : Mme Girard. Elle connaît tout le monde ici. Marquer des points auprès de Mme Girard, c'est marquer des points auprès de toutes les filles en même temps !"
         foregrounds: []
     fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
     transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"

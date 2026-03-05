@@ -104,6 +104,9 @@ sequences:
             transition_type: "none"
             transition_duration: 0.5
     fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
     transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"
@@ -256,6 +259,9 @@ sequences:
         text: "Attendez... Et si c'était ça le plan de l'oncle Alfred ? Il m'a peut-être légué cette auberge pour me sortir du célibat !"
         foregrounds: []
     fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
     transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"
@@ -312,6 +318,9 @@ sequences:
         text: "Mon plan est simple : devenir son allié en tant que nouveau propriétaire, et passer du temps avec chacune des filles pour trouver laquelle serait la meilleure petite amie potentielle. Mission acceptée !"
         foregrounds: []
     fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
     transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"
