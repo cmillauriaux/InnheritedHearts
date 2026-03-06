@@ -16,7 +16,7 @@ sequences:
         text: "Chambre 4... Je me demande à quoi elle ressemble et ce qu'elle étudie."
         foregrounds: []
     fx: []
-    music: ""
+    music: "/Users/cedric/Stories/InnheritedHearts/assets/music/Lise_theme.mp3"
     audio_fx: ""
     stop_music: false
     transition_in_type: "fade"

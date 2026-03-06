@@ -16,7 +16,7 @@ sequences:
         text: "Porte 2... Alicia. Curieux prénom. Je me demande bien qui se cache derrière cette porte."
         foregrounds: []
     fx: []
-    music: ""
+    music: "/Users/cedric/Stories/InnheritedHearts/assets/music/Alicia_theme.mp3"
     audio_fx: ""
     stop_music: false
     transition_in_type: "none"

@@ -24,7 +24,7 @@ sequences:
         text: "Et comment je suis censé aider des étudiantes, moi ? J'ai foiré mes études. Deux fois. Oncle Alfred, tu es sûr de toi ?"
         foregrounds: []
     fx: []
-    music: "/Users/cedric/Stories/InnheritedHearts/assets/music/Promenade Sous Le Ciel Clair.mp3"
+    music: "/Users/cedric/Stories/InnheritedHearts/assets/music/Inn_theme.mp3"
     audio_fx: ""
     stop_music: false
     transition_in_type: "fade"
@@ -102,7 +102,7 @@ sequences:
             transition_type: "none"
             transition_duration: 0.5
     fx: []
-    music: ""
+    music: "/Users/cedric/Stories/InnheritedHearts/assets/music/MmeGirard_theme.mp3"
     audio_fx: ""
     stop_music: false
     transition_in_type: "fade"

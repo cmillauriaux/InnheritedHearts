@@ -104,7 +104,7 @@ sequences:
             transition_type: "none"
             transition_duration: 0.5
     fx: []
-    music: ""
+    music: "/Users/cedric/Stories/InnheritedHearts/assets/music/Inn_theme.mp3"
     audio_fx: ""
     stop_music: false
     transition_in_type: "fade"

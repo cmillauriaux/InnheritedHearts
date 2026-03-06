@@ -47,7 +47,7 @@ sequences:
         text: "Je commence par où ?"
         foregrounds: []
     fx: []
-    music: ""
+    music: "/Users/cedric/Stories/InnheritedHearts/assets/music/Inn_theme.mp3"
     audio_fx: ""
     stop_music: false
     transition_in_type: "fade"
@@ -159,7 +159,7 @@ sequences:
         text: "Sombre, humide, et j'ai juré avoir entendu quelque chose bouger dans le fond. J'espère vraiment ne plus jamais avoir à redescendre ici."
         foregrounds: []
     fx: []
-    music: ""
+    music: "/Users/cedric/Stories/InnheritedHearts/assets/music/basement_theme.mp3"
     audio_fx: ""
     stop_music: false
     transition_in_type: "fade"

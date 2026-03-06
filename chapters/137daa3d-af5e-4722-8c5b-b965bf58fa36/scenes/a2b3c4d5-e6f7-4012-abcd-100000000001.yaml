@@ -16,7 +16,7 @@ sequences:
         text: "Tiens, j'ai cru entendre du bruit ! Je vais aller voir."
         foregrounds: []
     fx: []
-    music: ""
+    music: "/Users/cedric/Stories/InnheritedHearts/assets/music/Inn_theme.mp3"
     audio_fx: ""
     stop_music: false
     transition_in_type: "none"
@@ -87,7 +87,7 @@ sequences:
             transition_type: "fade"
             transition_duration: 0.5
     fx: []
-    music: ""
+    music: "/Users/cedric/Stories/InnheritedHearts/assets/music/MmeGirard_theme.mp3"
     audio_fx: ""
     stop_music: false
     transition_in_type: "none"
