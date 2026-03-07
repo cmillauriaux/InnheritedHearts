@@ -171,7 +171,7 @@ sequences:
         foregrounds: []
       - uuid: "ch3s3-dia3-seq3-abcd-000000000003"
         character: "Mme Girard"
-        text: "Ce matin, en faisant ma tournée de la laverie, j'ai trouvé... ceci."
+        text: "Ce matin, en faisant ma tournée de la laverie, j'ai trouvé... quelque chose."
         foregrounds:
           - uuid: "ch3s3-fg2-seq3-abcd-000000000001"
             name: ""
@@ -187,11 +187,11 @@ sequences:
             transition_duration: 0.5
       - uuid: "ch3s3-dia4-seq3-abcd-000000000004"
         character: "Joueur"
-        text: "C'est... une petite culotte ?"
+        text: "Quelque chose ? Quel genre de chose ?"
         foregrounds: []
       - uuid: "ch3s3-dia5-seq3-abcd-000000000005"
         character: "Mme Girard"
-        text: "Exactement ! Une petite culotte abandonnée dans la laverie ! Et je n'ai aucune idée à qui elle appartient !"
+        text: "Quelque chose que je n'ose même pas nommer ! Un... un article vestimentaire des plus intimes !"
         foregrounds:
           - uuid: "ch3s3-fg3-seq3-abcd-000000000001"
             name: ""
@@ -207,29 +207,13 @@ sequences:
             transition_duration: 0.5
       - uuid: "ch3s3-dia6-seq3-abcd-000000000006"
         character: "Joueur"
-        text: "Et... vous voulez que je mène l'enquête ? Sur une petite culotte ?"
+        text: "Un article vestimentaire des plus... Oh."
         foregrounds: []
       - uuid: "ch3s3-dia7-seq3-abcd-000000000007"
         character: "Mme Girard"
-        text: "Parfaitement ! Dans mon auberge, on ne laisse pas traîner ses sous-vêtements n'importe où ! C'est une question de discipline !"
+        text: "Je l'ai déposé sur votre bureau. Vous comprendrez en le voyant."
         foregrounds:
           - uuid: "ch3s3-fg4-seq3-abcd-000000000001"
-            name: ""
-            image: "assets/foregrounds/ai_1772623659_75175.png"
-            z_order: 0
-            opacity: 1.0
-            flip_h: false
-            flip_v: false
-            scale: 0.7
-            anchor_bg: { x: 0.5, y: 1.29999995231628 }
-            anchor_fg: { x: 0.5, y: 1.0 }
-            transition_type: "none"
-            transition_duration: 0.5
-      - uuid: "ch3s3-dia8-seq3-abcd-000000000008"
-        character: "Mme Girard"
-        text: "Les filles sont en cours jusqu'à ce soir. Vous avez jusqu'à leur retour pour trouver la coupable."
-        foregrounds:
-          - uuid: "ch3s3-fg5-seq3-abcd-000000000001"
             name: ""
             image: "assets/foregrounds/ai_1772623434_06199.png"
             z_order: 0
@@ -241,15 +225,43 @@ sequences:
             anchor_fg: { x: 0.5, y: 1.0 }
             transition_type: "none"
             transition_duration: 0.5
-      - uuid: "ch3s3-dia9-seq3-abcd-000000000009"
-        character: "Joueur"
-        text: "Attendez... Vous me demandez vraiment d'aller interroger cinq filles sur leurs sous-vêtements ?"
-        foregrounds: []
-      - uuid: "ch3s3-dia10-seq3-abcd-000000000010"
+      - uuid: "ch3s3-dia8-seq3-abcd-000000000008"
         character: "Mme Girard"
-        text: "Je vous demande de mener l'enquête avec tact et discrétion. Vous êtes le propriétaire, après tout."
+        text: "Ce n'est PAS dans mon auberge qu'on laisse traîner ce genre de choses ! Je suis la gardienne et la garante des bonnes mœurs de cet établissement !"
+        foregrounds:
+          - uuid: "ch3s3-fg5-seq3-abcd-000000000001"
+            name: ""
+            image: "assets/foregrounds/ai_1772623659_75175.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7
+            anchor_bg: { x: 0.5, y: 1.29999995231628 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "ch3s3-dia9-seq3-abcd-000000000009"
+        character: "Mme Girard"
+        text: "Votre mission : trouver à qui ça appartient, lui rendre, et lui dire de ne plus JAMAIS laisser traîner ses affaires !"
         foregrounds:
           - uuid: "ch3s3-fg6-seq3-abcd-000000000001"
+            name: ""
+            image: "assets/foregrounds/ai_1772623979_38078.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7
+            anchor_bg: { x: 0.5, y: 1.29999995231628 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "ch3s3-dia10-seq3-abcd-000000000010"
+        character: "Mme Girard"
+        text: "Les filles sont en cours. Vous avez jusqu'à leur retour. Je compte sur vous."
+        foregrounds:
+          - uuid: "ch3s3-fg7-seq3-abcd-000000000001"
             name: ""
             image: "assets/foregrounds/ai_1772623831_00079.png"
             z_order: 0
@@ -286,15 +298,11 @@ sequences:
     dialogues:
       - uuid: "ch3s3-dia1-seq4-abcd-000000000001"
         character: "Joueur"
-        text: "Bon... D'accord. Je vais essayer de trouver à qui elle appartient."
+        text: "Un article vestimentaire intime... déposé sur mon bureau... Je n'ose même pas imaginer."
         foregrounds: []
       - uuid: "ch3s3-dia2-seq4-abcd-000000000002"
         character: "Joueur"
-        text: "Avec tact et discrétion. Comment est-ce que je vais bien pouvoir aborder le sujet..."
-        foregrounds: []
-      - uuid: "ch3s3-dia3-seq4-abcd-000000000003"
-        character: "Joueur"
-        text: "D'abord le chauffe-eau, maintenant une enquête sur une petite culotte. Bienvenue dans ma nouvelle vie."
+        text: "Bon, allons voir ce qu'elle m'a laissé."
         foregrounds: []
     fx: []
     music: ""
@@ -307,7 +315,8 @@ sequences:
     ending:
       type: "auto_redirect"
       consequence:
-        type: "to_be_continued"
+        type: "redirect_scene"
+        target: "ch3s0004-0000-4012-abcd-000000000001"
         effects: []
 conditions: []
 connections:
@@ -317,4 +326,6 @@ connections:
     to: "ch3s3-seq3-4012-abcd-000000000003"
   - from: "ch3s3-seq3-4012-abcd-000000000003"
     to: "ch3s3-seq4-4012-abcd-000000000004"
+  - from: "ch3s3-seq4-4012-abcd-000000000004"
+    to: "ch3s0004-0000-4012-abcd-000000000001"
 entry_point: "ch3s3-seq1-4012-abcd-000000000001"

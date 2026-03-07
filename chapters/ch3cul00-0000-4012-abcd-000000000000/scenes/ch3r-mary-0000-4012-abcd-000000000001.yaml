@@ -1,0 +1,54 @@
+uuid: "ch3r-mary-0000-4012-abcd-000000000001"
+name: "Chambre de Mary"
+subtitle: ""
+sequences:
+  - uuid: "ch3r-mary-seq1-4012-abcd-000000000002"
+    name: "Inspection de la chambre de Mary"
+    title: ""
+    subtitle: ""
+    position: { x: 380.0, y: 440.0 }
+    background: "assets/backgrounds/Character_1_room.jpeg"
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "ch3s5-dia1-mary-abcd-000000000001"
+        character: "Joueur"
+        text: "La chambre de Mary... Toujours aussi bordélique. On dirait qu'un ouragan créatif est passé par là."
+        foregrounds: []
+      - uuid: "ch3s5-dia2-mary-abcd-000000000002"
+        character: "Joueur"
+        text: "Des pinceaux partout, des toiles en cours, des tubes de peinture ouverts... Comment elle retrouve quoi que ce soit là-dedans ?"
+        foregrounds: []
+      - uuid: "ch3s5-dia3-mary-abcd-000000000003"
+        character: "Joueur"
+        text: "Voyons voir... Le tiroir à sous-vêtements ? Non, je ne vais pas fouiller là-dedans. Pas encore."
+        foregrounds: []
+      - uuid: "ch3s5-dia4-mary-abcd-000000000004"
+        character: "Joueur"
+        text: "Sous le lit ? Des chaussettes sales et un vieux sandwich. Beurk."
+        foregrounds: []
+      - uuid: "ch3s5-dia5-mary-abcd-000000000005"
+        character: "Joueur"
+        text: "Sur le bureau... Tiens, un flyer. \"Exposition d'art contemporain - Natures mortes revisitées\". C'est l'expo de Mary ?"
+        foregrounds: []
+      - uuid: "ch3s5-dia6-mary-abcd-000000000006"
+        character: "Joueur"
+        text: "Intéressant, mais ça ne m'aide pas pour l'enquête."
+        foregrounds: []
+    fx: []
+    music: "assets/music/Mary_theme.mp3"
+    audio_fx: ""
+    stop_music: false
+    transition_in_type: "fade"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_scene"
+        target: "ch3s0005-0000-4012-abcd-000000000001"
+        effects: []
+conditions: []
+connections: []
+entry_point: "ch3r-mary-seq1-4012-abcd-000000000002"

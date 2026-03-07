@@ -1,0 +1,114 @@
+uuid: "ch3i-lola-0000-4012-abcd-000000000001"
+name: "Interrogatoire de Lola"
+subtitle: ""
+sequences:
+  - uuid: "ch3i-lola-seq1-4012-abcd-000000000002"
+    name: "Interrogatoire de Lola"
+    title: ""
+    subtitle: ""
+    position: { x: 380.0, y: 440.0 }
+    background: "assets/backgrounds/Character_3_room.jpeg"
+    background_color: "00000000"
+    foregrounds:
+      - uuid: "ch3s6-fg1-lola-abcd-000000000001"
+        name: ""
+        image: "assets/foregrounds/ai_1772553512_49038.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.7
+        anchor_bg: { x: 0.5, y: 1.29999995231628 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
+    dialogues:
+      - uuid: "ch3s6-dia1-lola-abcd-000000000001"
+        character: "Lola"
+        text: "TOI ! Tu as fouillé ma chambre ! Tu as vu mes gants de boxe, hein ?!"
+        foregrounds:
+          - uuid: "ch3s6-fg1-lola-abcd-000000000001"
+            name: ""
+            image: "assets/foregrounds/ai_1772553512_49038.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7
+            anchor_bg: { x: 0.5, y: 1.29999995231628 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "ch3s6-dia2-lola-abcd-000000000002"
+        character: "Joueur"
+        text: "Des gants de boxe ? Toi ? L'infirmière ?"
+        foregrounds: []
+      - uuid: "ch3s6-dia3-lola-abcd-000000000003"
+        character: "Lola"
+        text: "Eh oui ! Je fais de la boxe française ! Ça m'aide à décompresser après les cours. Tu devrais essayer, d'ailleurs !"
+        foregrounds:
+          - uuid: "ch3s6-fg2-lola-abcd-000000000001"
+            name: ""
+            image: "assets/foregrounds/ai_1772553512_49038.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7
+            anchor_bg: { x: 0.5, y: 1.29999995231628 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "ch3s6-dia4-lola-abcd-000000000004"
+        character: "Lola"
+        text: "Mais si tu refouilles ma chambre, je te promets de te faire une démonstration en conditions réelles !"
+        foregrounds:
+          - uuid: "ch3s6-fg3-lola-abcd-000000000001"
+            name: ""
+            image: "assets/foregrounds/ai_1772553512_49038.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7
+            anchor_bg: { x: 0.5, y: 1.29999995231628 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "ch3s6-dia5-lola-abcd-000000000005"
+        character: "Joueur"
+        text: "Message reçu ! Mais dis-moi, Mme Girard a trouvé une petite culotte dans la laverie. Tu sais à qui elle est ?"
+        foregrounds: []
+      - uuid: "ch3s6-dia6-lola-abcd-000000000006"
+        character: "Lola"
+        text: "Hmm, je ne connais pas de boutique dans le coin qui vend ce type de sous-vêtements. C'est peut-être à Zven ? Elle achète des trucs un peu au hasard depuis qu'elle est arrivée."
+        foregrounds:
+          - uuid: "ch3s6-fg4-lola-abcd-000000000001"
+            name: ""
+            image: "assets/foregrounds/ai_1772553512_49038.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7
+            anchor_bg: { x: 0.5, y: 1.29999995231628 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+    fx: []
+    music: "assets/music/Lola_theme.mp3"
+    audio_fx: ""
+    stop_music: false
+    transition_in_type: "fade"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_scene"
+        target: "ch3s0006-0000-4012-abcd-000000000001"
+        effects: []
+conditions: []
+connections: []
+entry_point: "ch3i-lola-seq1-4012-abcd-000000000002"

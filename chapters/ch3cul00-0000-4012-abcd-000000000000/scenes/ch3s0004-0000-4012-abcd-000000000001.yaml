@@ -1,0 +1,155 @@
+uuid: "ch3s0004-0000-4012-abcd-000000000001"
+name: "La découverte"
+subtitle: ""
+sequences:
+  - uuid: "ch3s4-seq1-4012-abcd-000000000001"
+    name: "Sur le bureau"
+    title: ""
+    subtitle: ""
+    position: { x: 380.0, y: 440.0 }
+    background: "assets/backgrounds/Background_player_bedroom.jpeg"
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "ch3s4-dia1-seq1-abcd-000000000001"
+        character: "Joueur"
+        text: "Voyons ce que Mme Girard a laissé sur mon bureau..."
+        foregrounds: []
+      - uuid: "ch3s4-dia2-seq1-abcd-000000000002"
+        character: "Joueur"
+        text: "C'est... C'est une petite culotte ?!"
+        foregrounds: []
+      - uuid: "ch3s4-dia3-seq1-abcd-000000000003"
+        character: "Joueur"
+        text: "Blanche, propre, fraîchement lavée apparemment. Posée là, sur mon bureau, comme si c'était la chose la plus normale du monde."
+        foregrounds: []
+      - uuid: "ch3s4-dia4-seq1-abcd-000000000004"
+        character: "Joueur"
+        text: "Mme Girard veut que je trouve la propriétaire de CE truc ? Sérieusement ?"
+        foregrounds: []
+    fx: []
+    music: "assets/music/V.mp3"
+    audio_fx: ""
+    stop_music: false
+    transition_in_type: "fade"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "choices"
+      choices:
+        - text: "L'inspecter de plus près"
+          consequence:
+            type: "redirect_sequence"
+            target: "ch3s4-seq2-4012-abcd-000000000002"
+            effects: []
+          conditions: {}
+          effects: []
+        - text: "Ne pas y toucher"
+          consequence:
+            type: "redirect_sequence"
+            target: "ch3s4-seq3-4012-abcd-000000000003"
+            effects: []
+          conditions: {}
+          effects: []
+  - uuid: "ch3s4-seq2-4012-abcd-000000000002"
+    name: "Inspection minutieuse"
+    title: ""
+    subtitle: ""
+    position: { x: 620.0, y: 260.0 }
+    background: "assets/backgrounds/Background_player_bedroom.jpeg"
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "ch3s4-dia1-seq2-abcd-000000000001"
+        character: "Joueur"
+        text: "Bon... Analysons les indices. Si Alicia était là, elle appellerait ça une 'pièce à conviction'."
+        foregrounds: []
+      - uuid: "ch3s4-dia2-seq2-abcd-000000000002"
+        character: "Joueur"
+        text: "Blanche, taille standard, un petit nœud sur le devant. Pas de marque visible. Aucune inscription."
+        foregrounds: []
+      - uuid: "ch3s4-dia3-seq2-abcd-000000000003"
+        character: "Joueur"
+        text: "Ça pourrait être à n'importe qui. Fantastique."
+        foregrounds: []
+      - uuid: "ch3s4-dia4-seq2-abcd-000000000004"
+        character: "Joueur"
+        text: "Les filles sont en cours... Leurs chambres sont vides. Si je veux des indices, c'est maintenant ou jamais."
+        foregrounds: []
+      - uuid: "ch3s4-dia5-seq2-abcd-000000000005"
+        character: "Joueur"
+        text: "Je sais que fouiller leurs chambres c'est mal. Très mal, même. Mais Mme Girard m'a confié une mission."
+        foregrounds: []
+      - uuid: "ch3s4-dia6-seq2-abcd-000000000006"
+        character: "Joueur"
+        text: "Peut-être qu'en jetant un rapide coup d'œil, je trouverai un indice sur la propriétaire de cette... pièce à conviction."
+        foregrounds: []
+    fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
+    transition_in_type: "fade"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_scene"
+        target: "ch3s0005-0000-4012-abcd-000000000001"
+        effects: []
+  - uuid: "ch3s4-seq3-4012-abcd-000000000003"
+    name: "Refus de toucher"
+    title: ""
+    subtitle: ""
+    position: { x: 620.0, y: 620.0 }
+    background: "assets/backgrounds/Background_player_bedroom.jpeg"
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "ch3s4-dia1-seq3-abcd-000000000001"
+        character: "Joueur"
+        text: "Non, non, non. Je ne vais pas inspecter une petite culotte. Il y a des limites."
+        foregrounds: []
+      - uuid: "ch3s4-dia2-seq3-abcd-000000000002"
+        character: "Joueur"
+        text: "Mais il faut quand même que je trouve à qui elle appartient... Mme Girard ne me lâchera pas tant que ce ne sera pas résolu."
+        foregrounds: []
+      - uuid: "ch3s4-dia3-seq3-abcd-000000000003"
+        character: "Joueur"
+        text: "Les filles sont en cours. Peut-être que je devrais jeter un œil dans leurs chambres pour trouver un indice ?"
+        foregrounds: []
+      - uuid: "ch3s4-dia4-seq3-abcd-000000000004"
+        character: "Joueur"
+        text: "Je sais que fouiller leurs chambres c'est mal. Très mal, même. Mais Mme Girard m'a confié une mission."
+        foregrounds: []
+      - uuid: "ch3s4-dia5-seq3-abcd-000000000005"
+        character: "Joueur"
+        text: "Peut-être qu'en jetant un rapide coup d'œil, je trouverai un indice sur la propriétaire de cette... pièce à conviction."
+        foregrounds: []
+    fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
+    transition_in_type: "fade"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_scene"
+        target: "ch3s0005-0000-4012-abcd-000000000001"
+        effects: []
+conditions: []
+connections:
+  - from: "ch3s4-seq1-4012-abcd-000000000001"
+    to: "ch3s4-seq2-4012-abcd-000000000002"
+  - from: "ch3s4-seq1-4012-abcd-000000000001"
+    to: "ch3s4-seq3-4012-abcd-000000000003"
+  - from: "ch3s4-seq2-4012-abcd-000000000002"
+    to: "ch3s0005-0000-4012-abcd-000000000001"
+  - from: "ch3s4-seq3-4012-abcd-000000000003"
+    to: "ch3s0005-0000-4012-abcd-000000000001"
+entry_point: "ch3s4-seq1-4012-abcd-000000000001"

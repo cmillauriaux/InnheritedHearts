@@ -1,0 +1,139 @@
+uuid: "ch3s0006-0000-4012-abcd-000000000001"
+name: "Les interrogatoires"
+subtitle: ""
+sequences:
+  - uuid: "ch3s6-choix-4012-abcd-000000000011"
+    name: "Qui interroger ?"
+    title: ""
+    subtitle: ""
+    position: { x: 380.0, y: 440.0 }
+    background: "assets/backgrounds/ai_1772552332_43598.png"
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "ch3s6-dia1-choix-abcd-000000000001"
+        character: "Joueur"
+        text: "Qui vais-je interroger ?"
+        foregrounds: []
+    fx: []
+    music: "assets/music/Inn_theme.mp3"
+    audio_fx: ""
+    stop_music: false
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "choices"
+      choices:
+        - text: "Interroger Mary"
+          consequence:
+            type: "redirect_scene"
+            target: "ch3i-mary-0000-4012-abcd-000000000001"
+            effects: []
+          conditions: {}
+          effects:
+            - variable: "interrogated_mary"
+              operation: "set"
+              value: "1"
+        - text: "Interroger Lise"
+          consequence:
+            type: "redirect_scene"
+            target: "ch3i-lise-0000-4012-abcd-000000000001"
+            effects: []
+          conditions: {}
+          effects:
+            - variable: "interrogated_lise"
+              operation: "set"
+              value: "1"
+        - text: "Interroger Lola"
+          consequence:
+            type: "redirect_scene"
+            target: "ch3i-lola-0000-4012-abcd-000000000001"
+            effects: []
+          conditions: {}
+          effects:
+            - variable: "interrogated_lola"
+              operation: "set"
+              value: "1"
+        - text: "Interroger Alicia"
+          consequence:
+            type: "redirect_scene"
+            target: "ch3i-alic-0000-4012-abcd-000000000001"
+            effects: []
+          conditions: {}
+          effects:
+            - variable: "interrogated_alicia"
+              operation: "set"
+              value: "1"
+        - text: "Interroger Zven"
+          consequence:
+            type: "redirect_scene"
+            target: "ch3i-zven-0000-4012-abcd-000000000001"
+            effects: []
+          conditions: {}
+          effects:
+            - variable: "interrogated_zven"
+              operation: "set"
+              value: "1"
+conditions:
+  - uuid: "ch3s6-cond-4012-abcd-000000000010"
+    name: "Toutes les filles interrogées ?"
+    subtitle: ""
+    position: { x: 200.0, y: 440.0 }
+    rules:
+      - variable: "interrogated_mary"
+        operator: "not_exists"
+        value: ""
+        consequence:
+          type: "redirect_sequence"
+          target: "ch3s6-choix-4012-abcd-000000000011"
+          effects: []
+      - variable: "interrogated_lise"
+        operator: "not_exists"
+        value: ""
+        consequence:
+          type: "redirect_sequence"
+          target: "ch3s6-choix-4012-abcd-000000000011"
+          effects: []
+      - variable: "interrogated_lola"
+        operator: "not_exists"
+        value: ""
+        consequence:
+          type: "redirect_sequence"
+          target: "ch3s6-choix-4012-abcd-000000000011"
+          effects: []
+      - variable: "interrogated_alicia"
+        operator: "not_exists"
+        value: ""
+        consequence:
+          type: "redirect_sequence"
+          target: "ch3s6-choix-4012-abcd-000000000011"
+          effects: []
+      - variable: "interrogated_zven"
+        operator: "not_exists"
+        value: ""
+        consequence:
+          type: "redirect_sequence"
+          target: "ch3s6-choix-4012-abcd-000000000011"
+          effects: []
+    default_consequence:
+      type: "redirect_scene"
+      target: "ch3s0007-0000-4012-abcd-000000000001"
+      effects: []
+connections:
+  - from: "ch3s6-cond-4012-abcd-000000000010"
+    to: "ch3s6-choix-4012-abcd-000000000011"
+  - from: "ch3s6-cond-4012-abcd-000000000010"
+    to: "ch3s0007-0000-4012-abcd-000000000001"
+  - from: "ch3s6-choix-4012-abcd-000000000011"
+    to: "ch3i-mary-0000-4012-abcd-000000000001"
+  - from: "ch3s6-choix-4012-abcd-000000000011"
+    to: "ch3i-lise-0000-4012-abcd-000000000001"
+  - from: "ch3s6-choix-4012-abcd-000000000011"
+    to: "ch3i-lola-0000-4012-abcd-000000000001"
+  - from: "ch3s6-choix-4012-abcd-000000000011"
+    to: "ch3i-alic-0000-4012-abcd-000000000001"
+  - from: "ch3s6-choix-4012-abcd-000000000011"
+    to: "ch3i-zven-0000-4012-abcd-000000000001"
+entry_point: "ch3s6-cond-4012-abcd-000000000010"

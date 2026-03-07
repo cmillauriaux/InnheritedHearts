@@ -1,0 +1,170 @@
+uuid: "ch3i-zven-0000-4012-abcd-000000000001"
+name: "Interrogatoire de Zven"
+subtitle: ""
+sequences:
+  - uuid: "ch3i-zven-seq1-4012-abcd-000000000002"
+    name: "Interrogatoire de Zven"
+    title: ""
+    subtitle: ""
+    position: { x: 380.0, y: 440.0 }
+    background: "assets/backgrounds/Character_5_room.jpeg"
+    background_color: "00000000"
+    foregrounds:
+      - uuid: "ch3s6-fg1-zven-abcd-000000000001"
+        name: ""
+        image: "assets/foregrounds/ai_1772554514_28913.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.7
+        anchor_bg: { x: 0.5, y: 1.29999995231628 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
+    dialogues:
+      - uuid: "ch3s6-dia1-zven-abcd-000000000001"
+        character: "Zven"
+        text: "Tu as vu le masque de Koa'Tiki ?!"
+        foregrounds:
+          - uuid: "ch3s6-fg1-zven-abcd-000000000001"
+            name: ""
+            image: "assets/foregrounds/ai_1772554514_28913.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7
+            anchor_bg: { x: 0.5, y: 1.29999995231628 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "ch3s6-dia2-zven-abcd-000000000002"
+        character: "Joueur"
+        text: "Le masque en bois ? Oui, je l'ai aperçu, mais je n'y ai pas touché !"
+        foregrounds: []
+      - uuid: "ch3s6-dia3-zven-abcd-000000000003"
+        character: "Zven"
+        text: "Tu ne l'as pas touché, au moins ?! Ohlala ohlala ohlala..."
+        foregrounds:
+          - uuid: "ch3s6-fg2-zven-abcd-000000000001"
+            name: ""
+            image: "assets/foregrounds/ai_1772554514_28913.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7
+            anchor_bg: { x: 0.5, y: 1.29999995231628 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "ch3s6-dia4-zven-abcd-000000000004"
+        character: "Zven"
+        text: "Makari to'vana kei luso ! Ahi noa ! Teka mano kei..."
+        foregrounds:
+          - uuid: "ch3s6-fg3-zven-abcd-000000000001"
+            name: ""
+            image: "assets/foregrounds/ai_1772554514_28913.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7
+            anchor_bg: { x: 0.5, y: 1.29999995231628 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "ch3s6-dia5-zven-abcd-000000000005"
+        character: "Joueur"
+        text: "Zven ?! Je te jure que je n'ai pas touché au masque !"
+        foregrounds: []
+      - uuid: "ch3s6-dia6-zven-abcd-000000000006"
+        character: "Zven"
+        text: "HAHAHAHA ! Je t'ai fait peur ?! Tu verrais ta tête ! AHAHAH !"
+        foregrounds:
+          - uuid: "ch3s6-fg4-zven-abcd-000000000001"
+            name: ""
+            image: "assets/foregrounds/ai_1772554514_28913.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7
+            anchor_bg: { x: 0.5, y: 1.29999995231628 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "ch3s6-dia7-zven-abcd-000000000007"
+        character: "Joueur"
+        text: "C'était... une blague ?!"
+        foregrounds: []
+      - uuid: "ch3s6-dia8-zven-abcd-000000000008"
+        character: "Zven"
+        text: "Mais par contre..."
+        foregrounds:
+          - uuid: "ch3s6-fg5-zven-abcd-000000000001"
+            name: ""
+            image: "assets/foregrounds/ai_1772554514_28913.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7
+            anchor_bg: { x: 0.5, y: 1.29999995231628 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "ch3s6-dia9-zven-abcd-000000000009"
+        character: "Zven"
+        text: "Ne touche plus JAMAIS à mes affaires sans ma permission. Compris ?"
+        foregrounds:
+          - uuid: "ch3s6-fg6-zven-abcd-000000000001"
+            name: ""
+            image: "assets/foregrounds/ai_1772554514_28913.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7
+            anchor_bg: { x: 0.5, y: 1.29999995231628 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "ch3s6-dia10-zven-abcd-000000000010"
+        character: "Joueur"
+        text: "Compris. Mais j'ai une question : Mme Girard a trouvé une petite culotte dans la laverie. Tu sais à qui elle est ?"
+        foregrounds: []
+      - uuid: "ch3s6-dia11-zven-abcd-000000000011"
+        character: "Zven"
+        text: "On ne dirait pas comme ça, mais je parie que c'est à Alicia. Elle joue la dure, mais au fond c'est un ange !"
+        foregrounds:
+          - uuid: "ch3s6-fg7-zven-abcd-000000000001"
+            name: ""
+            image: "assets/foregrounds/ai_1772554514_28913.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7
+            anchor_bg: { x: 0.5, y: 1.29999995231628 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+    fx: []
+    music: "assets/music/Zven_theme.mp3"
+    audio_fx: ""
+    stop_music: false
+    transition_in_type: "fade"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_scene"
+        target: "ch3s0006-0000-4012-abcd-000000000001"
+        effects: []
+conditions: []
+connections: []
+entry_point: "ch3i-zven-seq1-4012-abcd-000000000002"

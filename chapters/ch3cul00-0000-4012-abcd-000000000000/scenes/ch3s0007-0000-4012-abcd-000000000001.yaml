@@ -1,0 +1,732 @@
+uuid: "ch3s0007-0000-4012-abcd-000000000001"
+name: "Le verdict"
+subtitle: ""
+sequences:
+  - uuid: "ch3s7-seq1-4012-abcd-000000000001"
+    name: "Le bilan de l'enquête"
+    title: ""
+    subtitle: ""
+    position: { x: 380.0, y: 440.0 }
+    background: "assets/backgrounds/ai_1772552332_43598.png"
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "ch3s7-dia1-seq1-abcd-000000000001"
+        character: "Joueur"
+        text: "Récapitulons. Mary accuse Lola. Lise accuse Mary. Lola accuse Zven. Alicia accuse Lise. Et Zven accuse Alicia."
+        foregrounds: []
+      - uuid: "ch3s7-dia2-seq1-abcd-000000000002"
+        character: "Joueur"
+        text: "Chacune accuse quelqu'un d'autre. Personne ne s'accuse elle-même. Classique."
+        foregrounds: []
+      - uuid: "ch3s7-dia3-seq1-abcd-000000000003"
+        character: "Joueur"
+        text: "Mais en y réfléchissant... Elles avaient toutes l'air sincères. Est-ce que cette culotte appartient vraiment à l'une d'entre elles ?"
+        foregrounds: []
+      - uuid: "ch3s7-dia4-seq1-abcd-000000000004"
+        character: "Joueur"
+        text: "Il est temps de rendre mon verdict à Mme Girard."
+        foregrounds: []
+    fx: []
+    music: "assets/music/V.mp3"
+    audio_fx: ""
+    stop_music: false
+    transition_in_type: "fade"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_sequence"
+        target: "ch3s7-choix-4012-abcd-000000000002"
+        effects: []
+  - uuid: "ch3s7-choix-4012-abcd-000000000002"
+    name: "Le choix final"
+    title: ""
+    subtitle: ""
+    position: { x: 620.0, y: 440.0 }
+    background: "assets/backgrounds/Background_6.jpeg"
+    background_color: "00000000"
+    foregrounds:
+      - uuid: "ch3s7-fg1-choix-abcd-000000000001"
+        name: ""
+        image: "assets/foregrounds/ai_1772623979_38078.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.7
+        anchor_bg: { x: 0.5, y: 1.29999995231628 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
+    dialogues:
+      - uuid: "ch3s7-dia1-choix-abcd-000000000001"
+        character: "Mme Girard"
+        text: "Alors ? Vous avez trouvé la coupable ?"
+        foregrounds:
+          - uuid: "ch3s7-fg1-choix-abcd-000000000001"
+            name: ""
+            image: "assets/foregrounds/ai_1772623979_38078.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7
+            anchor_bg: { x: 0.5, y: 1.29999995231628 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+    fx: []
+    music: "assets/music/MmeGirard_theme.mp3"
+    audio_fx: ""
+    stop_music: false
+    transition_in_type: "fade"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "choices"
+      choices:
+        - text: "C'est à Mary"
+          consequence:
+            type: "redirect_sequence"
+            target: "ch3s7-wmary-4012-abcd-000000000010"
+            effects:
+              - variable: "mary_affinity"
+                operation: "add"
+                value: "-1"
+          conditions: {}
+          effects: []
+        - text: "C'est à Lise"
+          consequence:
+            type: "redirect_sequence"
+            target: "ch3s7-wlise-4012-abcd-000000000011"
+            effects:
+              - variable: "lise_affinity"
+                operation: "add"
+                value: "-1"
+          conditions: {}
+          effects: []
+        - text: "C'est à Lola"
+          consequence:
+            type: "redirect_sequence"
+            target: "ch3s7-wlola-4012-abcd-000000000012"
+            effects:
+              - variable: "lola_affinity"
+                operation: "add"
+                value: "-1"
+          conditions: {}
+          effects: []
+        - text: "C'est à Alicia"
+          consequence:
+            type: "redirect_sequence"
+            target: "ch3s7-walic-4012-abcd-000000000013"
+            effects:
+              - variable: "alicia_affinity"
+                operation: "add"
+                value: "-1"
+          conditions: {}
+          effects: []
+        - text: "C'est à Zven"
+          consequence:
+            type: "redirect_sequence"
+            target: "ch3s7-wzven-4012-abcd-000000000014"
+            effects:
+              - variable: "zven_affinity"
+                operation: "add"
+                value: "-1"
+          conditions: {}
+          effects: []
+        - text: "Ce n'est à aucune d'entre elles"
+          consequence:
+            type: "redirect_sequence"
+            target: "ch3s7-good-4012-abcd-000000000003"
+            effects:
+              - variable: "mme_girard_affinity"
+                operation: "increment"
+                value: "1"
+          conditions: {}
+          effects: []
+  - uuid: "ch3s7-good-4012-abcd-000000000003"
+    name: "Bonne réponse"
+    title: ""
+    subtitle: ""
+    position: { x: 860.0, y: 260.0 }
+    background: "assets/backgrounds/Background_6.jpeg"
+    background_color: "00000000"
+    foregrounds:
+      - uuid: "ch3s7-fg1-good-abcd-000000000001"
+        name: ""
+        image: "assets/foregrounds/ai_1772623831_00079.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.7
+        anchor_bg: { x: 0.5, y: 1.29999995231628 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
+    dialogues:
+      - uuid: "ch3s7-dia1-good-abcd-000000000001"
+        character: "Joueur"
+        text: "Les filles m'ont toutes l'air sincères. Je ne pense pas que cette culotte appartienne à l'une d'entre elles."
+        foregrounds: []
+      - uuid: "ch3s7-dia2-good-abcd-000000000002"
+        character: "Mme Girard"
+        text: "Hmm..."
+        foregrounds:
+          - uuid: "ch3s7-fg1-good-abcd-000000000001"
+            name: ""
+            image: "assets/foregrounds/ai_1772623831_00079.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7
+            anchor_bg: { x: 0.5, y: 1.29999995231628 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "ch3s7-dia3-good-abcd-000000000003"
+        character: "Mme Girard"
+        text: "J'apprécie que vous ayez écouté et respecté les résidentes au lieu d'accuser à l'aveugle."
+        foregrounds:
+          - uuid: "ch3s7-fg2-good-abcd-000000000001"
+            name: ""
+            image: "assets/foregrounds/ai_1772623831_00079.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7
+            anchor_bg: { x: 0.5, y: 1.29999995231628 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "ch3s7-dia4-good-abcd-000000000004"
+        character: "Mme Girard"
+        text: "D'ailleurs, maintenant que vous le dites... Il me semble que votre oncle avait eu UNE invitée, il y a quelques temps..."
+        foregrounds:
+          - uuid: "ch3s7-fg3-good-abcd-000000000001"
+            name: ""
+            image: "assets/foregrounds/ai_1772623748_88088.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7
+            anchor_bg: { x: 0.5, y: 1.29999995231628 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "ch3s7-dia5-good-abcd-000000000005"
+        character: "Joueur"
+        text: "Oncle Alfred avait une... invitée ? Comme dans... une petite amie ?!"
+        foregrounds: []
+      - uuid: "ch3s7-dia6-good-abcd-000000000006"
+        character: "Mme Girard"
+        text: "Je n'ai rien dit. Bonsoir."
+        foregrounds:
+          - uuid: "ch3s7-fg4-good-abcd-000000000001"
+            name: ""
+            image: "assets/foregrounds/ai_1772623716_86121.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7
+            anchor_bg: { x: 0.5, y: 1.29999995231628 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "ch3s7-dia7-good-abcd-000000000007"
+        character: "Joueur"
+        text: "Oncle Alfred, tu ne cesseras donc jamais de me surprendre..."
+        foregrounds: []
+    fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
+    transition_in_type: "fade"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "to_be_continued"
+        effects: []
+  - uuid: "ch3s7-wmary-4012-abcd-000000000010"
+    name: "Accuser Mary"
+    title: ""
+    subtitle: ""
+    position: { x: 860.0, y: 620.0 }
+    background: "assets/backgrounds/Character_1_room.jpeg"
+    background_color: "00000000"
+    foregrounds:
+      - uuid: "ch3s7-fg1-wmary-abcd-000000000001"
+        name: ""
+        image: "assets/foregrounds/ai_1772552604_8358.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.7
+        anchor_bg: { x: 0.5, y: 1.29999995231628 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
+    dialogues:
+      - uuid: "ch3s7-dia1-wmary-abcd-000000000001"
+        character: "Mary"
+        text: "QUOI ?! C'était évident que ce n'est pas à moi !"
+        foregrounds:
+          - uuid: "ch3s7-fg1-wmary-abcd-000000000001"
+            name: ""
+            image: "assets/foregrounds/ai_1772552604_8358.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7
+            anchor_bg: { x: 0.5, y: 1.29999995231628 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "ch3s7-dia2-wmary-abcd-000000000002"
+        character: "Mary"
+        text: "Tout le monde sait que je ne porte jamais de sous-vêtements sans y être obligée ! J'ai besoin de me sentir libre pour créer !"
+        foregrounds:
+          - uuid: "ch3s7-fg2-wmary-abcd-000000000001"
+            name: ""
+            image: "assets/foregrounds/ai_1772552604_8358.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7
+            anchor_bg: { x: 0.5, y: 1.29999995231628 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "ch3s7-dia3-wmary-abcd-000000000003"
+        character: "Joueur"
+        text: "Je... C'est une information dont je me serais bien passé."
+        foregrounds: []
+    fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
+    transition_in_type: "fade"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_sequence"
+        target: "ch3s7-bad-4012-abcd-000000000020"
+        effects: []
+  - uuid: "ch3s7-wlise-4012-abcd-000000000011"
+    name: "Accuser Lise"
+    title: ""
+    subtitle: ""
+    position: { x: 860.0, y: 780.0 }
+    background: "assets/backgrounds/Character_2_room.jpeg"
+    background_color: "00000000"
+    foregrounds:
+      - uuid: "ch3s7-fg1-wlise-abcd-000000000001"
+        name: ""
+        image: "assets/foregrounds/ai_1772553198_83321.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.7
+        anchor_bg: { x: 0.5, y: 1.29999995231628 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
+    dialogues:
+      - uuid: "ch3s7-dia1-wlise-abcd-000000000001"
+        character: "Lise"
+        text: "M-mais... Mais mais mais..."
+        foregrounds:
+          - uuid: "ch3s7-fg1-wlise-abcd-000000000001"
+            name: ""
+            image: "assets/foregrounds/ai_1772553198_83321.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7
+            anchor_bg: { x: 0.5, y: 1.29999995231628 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "ch3s7-dia2-wlise-abcd-000000000002"
+        character: "Lise"
+        text: "Je... (...)"
+        foregrounds:
+          - uuid: "ch3s7-fg2-wlise-abcd-000000000001"
+            name: ""
+            image: "assets/foregrounds/ai_1772553198_83321.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7
+            anchor_bg: { x: 0.5, y: 1.29999995231628 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "ch3s7-dia3-wlise-abcd-000000000003"
+        character: "Joueur"
+        text: "Elle vient de me refermer la porte au nez. Je crois que j'ai fait une erreur."
+        foregrounds: []
+    fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
+    transition_in_type: "fade"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_sequence"
+        target: "ch3s7-bad-4012-abcd-000000000020"
+        effects: []
+  - uuid: "ch3s7-wlola-4012-abcd-000000000012"
+    name: "Accuser Lola"
+    title: ""
+    subtitle: ""
+    position: { x: 860.0, y: 940.0 }
+    background: "assets/backgrounds/Character_3_room.jpeg"
+    background_color: "00000000"
+    foregrounds:
+      - uuid: "ch3s7-fg1-wlola-abcd-000000000001"
+        name: ""
+        image: "assets/foregrounds/ai_1772553512_49038.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.7
+        anchor_bg: { x: 0.5, y: 1.29999995231628 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
+    dialogues:
+      - uuid: "ch3s7-dia1-wlola-abcd-000000000001"
+        character: "Lola"
+        text: "Comment tu as pu croire que c'était à moi ?!"
+        foregrounds:
+          - uuid: "ch3s7-fg1-wlola-abcd-000000000001"
+            name: ""
+            image: "assets/foregrounds/ai_1772553512_49038.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7
+            anchor_bg: { x: 0.5, y: 1.29999995231628 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "ch3s7-dia2-wlola-abcd-000000000002"
+        character: "Lola"
+        text: "Oublier un objet dans le corps d'un patient, c'est ma pire hantise ! Je recompte toujours les cotons, les pansements et les compresses... Deux fois !"
+        foregrounds:
+          - uuid: "ch3s7-fg2-wlola-abcd-000000000001"
+            name: ""
+            image: "assets/foregrounds/ai_1772553512_49038.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7
+            anchor_bg: { x: 0.5, y: 1.29999995231628 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "ch3s7-dia3-wlola-abcd-000000000003"
+        character: "Lola"
+        text: "Je suis une vraie professionnelle, moi ! Enfin, pas encore, mais j'y travaille ! Il faut être toujours prête pour le rôle qu'on veut incarner !"
+        foregrounds:
+          - uuid: "ch3s7-fg3-wlola-abcd-000000000001"
+            name: ""
+            image: "assets/foregrounds/ai_1772553512_49038.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7
+            anchor_bg: { x: 0.5, y: 1.29999995231628 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "ch3s7-dia4-wlola-abcd-000000000004"
+        character: "Lola"
+        text: "D'ailleurs, comme disait toujours ma mamie : \"Une infirmière qui oublie ses affaires, c'est comme un chirurgien qui oublie ses ciseaux dans le ventre du patient !\" Et..."
+        foregrounds:
+          - uuid: "ch3s7-fg4-wlola-abcd-000000000001"
+            name: ""
+            image: "assets/foregrounds/ai_1772553512_49038.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7
+            anchor_bg: { x: 0.5, y: 1.29999995231628 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "ch3s7-dia5-wlola-abcd-000000000005"
+        character: "Joueur"
+        text: "C'est bon, c'est bon ! J'ai compris ! Pardon !"
+        foregrounds: []
+    fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
+    transition_in_type: "fade"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_sequence"
+        target: "ch3s7-bad-4012-abcd-000000000020"
+        effects: []
+  - uuid: "ch3s7-walic-4012-abcd-000000000013"
+    name: "Accuser Alicia"
+    title: ""
+    subtitle: ""
+    position: { x: 860.0, y: 1100.0 }
+    background: "assets/backgrounds/Character_4_room.jpeg"
+    background_color: "00000000"
+    foregrounds:
+      - uuid: "ch3s7-fg1-walic-abcd-000000000001"
+        name: ""
+        image: "assets/foregrounds/Alicia_speaking.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.7
+        anchor_bg: { x: 0.5, y: 1.29999995231628 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
+    dialogues:
+      - uuid: "ch3s7-dia1-walic-abcd-000000000001"
+        character: "Alicia"
+        text: "Ce n'est vraiment pas mon style."
+        foregrounds:
+          - uuid: "ch3s7-fg1-walic-abcd-000000000001"
+            name: ""
+            image: "assets/foregrounds/Alicia_speaking.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7
+            anchor_bg: { x: 0.5, y: 1.29999995231628 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "ch3s7-dia2-walic-abcd-000000000002"
+        character: "Alicia"
+        text: "Pas assez noir. Et ça manque un peu de cuir."
+        foregrounds:
+          - uuid: "ch3s7-fg2-walic-abcd-000000000001"
+            name: ""
+            image: "assets/foregrounds/Alicia_speaking.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7
+            anchor_bg: { x: 0.5, y: 1.29999995231628 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "ch3s7-dia3-walic-abcd-000000000003"
+        character: "Joueur"
+        text: "Du... cuir. D'accord. J'aurais dû m'en douter."
+        foregrounds: []
+    fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
+    transition_in_type: "fade"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_sequence"
+        target: "ch3s7-bad-4012-abcd-000000000020"
+        effects: []
+  - uuid: "ch3s7-wzven-4012-abcd-000000000014"
+    name: "Accuser Zven"
+    title: ""
+    subtitle: ""
+    position: { x: 860.0, y: 1260.0 }
+    background: "assets/backgrounds/Character_5_room.jpeg"
+    background_color: "00000000"
+    foregrounds:
+      - uuid: "ch3s7-fg1-wzven-abcd-000000000001"
+        name: ""
+        image: "assets/foregrounds/ai_1772554514_28913.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.7
+        anchor_bg: { x: 0.5, y: 1.29999995231628 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
+    dialogues:
+      - uuid: "ch3s7-dia1-wzven-abcd-000000000001"
+        character: "Zven"
+        text: "Les hommes de ce pays sont tellement étranges... Beaux, c'est vrai... mais incompréhensibles..."
+        foregrounds:
+          - uuid: "ch3s7-fg1-wzven-abcd-000000000001"
+            name: ""
+            image: "assets/foregrounds/ai_1772554514_28913.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7
+            anchor_bg: { x: 0.5, y: 1.29999995231628 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "ch3s7-dia2-wzven-abcd-000000000002"
+        character: "Zven"
+        text: "Teka mano kei luso... Ahi noa makari to'vana..."
+        foregrounds:
+          - uuid: "ch3s7-fg2-wzven-abcd-000000000001"
+            name: ""
+            image: "assets/foregrounds/ai_1772554514_28913.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7
+            anchor_bg: { x: 0.5, y: 1.29999995231628 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "ch3s7-dia3-wzven-abcd-000000000003"
+        character: "Joueur"
+        text: "Zven, je..."
+        foregrounds: []
+      - uuid: "ch3s7-dia4-wzven-abcd-000000000004"
+        character: "Zven"
+        text: "Bonne nuit !"
+        foregrounds:
+          - uuid: "ch3s7-fg3-wzven-abcd-000000000001"
+            name: ""
+            image: "assets/foregrounds/ai_1772554514_28913.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7
+            anchor_bg: { x: 0.5, y: 1.29999995231628 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+    fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
+    transition_in_type: "fade"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_sequence"
+        target: "ch3s7-bad-4012-abcd-000000000020"
+        effects: []
+  - uuid: "ch3s7-bad-4012-abcd-000000000020"
+    name: "Mauvais choix - conclusion"
+    title: ""
+    subtitle: ""
+    position: { x: 1100.0, y: 940.0 }
+    background: "assets/backgrounds/Background_player_bedroom.jpeg"
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "ch3s7-dia1-bad-abcd-000000000001"
+        character: "Joueur"
+        text: "Je crois que je me suis planté... Elle n'avait pas l'air coupable du tout."
+        foregrounds: []
+      - uuid: "ch3s7-dia2-bad-abcd-000000000002"
+        character: "Joueur"
+        text: "Et maintenant elle m'en veut. Bravo, détective de mes deux."
+        foregrounds: []
+      - uuid: "ch3s7-dia3-bad-abcd-000000000003"
+        character: "Joueur"
+        text: "Peut-être que cette culotte n'appartenait à aucune d'entre elles, finalement..."
+        foregrounds: []
+      - uuid: "ch3s7-dia4-bad-abcd-000000000004"
+        character: "Joueur"
+        text: "Réfléchissons encore..."
+        foregrounds: []
+    fx: []
+    music: "assets/music/Inn_theme.mp3"
+    audio_fx: ""
+    stop_music: false
+    transition_in_type: "fade"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_sequence"
+        target: "ch3s7-choix-4012-abcd-000000000002"
+        effects: []
+conditions: []
+connections:
+  - from: "ch3s7-seq1-4012-abcd-000000000001"
+    to: "ch3s7-choix-4012-abcd-000000000002"
+  - from: "ch3s7-choix-4012-abcd-000000000002"
+    to: "ch3s7-good-4012-abcd-000000000003"
+  - from: "ch3s7-choix-4012-abcd-000000000002"
+    to: "ch3s7-wmary-4012-abcd-000000000010"
+  - from: "ch3s7-choix-4012-abcd-000000000002"
+    to: "ch3s7-wlise-4012-abcd-000000000011"
+  - from: "ch3s7-choix-4012-abcd-000000000002"
+    to: "ch3s7-wlola-4012-abcd-000000000012"
+  - from: "ch3s7-choix-4012-abcd-000000000002"
+    to: "ch3s7-walic-4012-abcd-000000000013"
+  - from: "ch3s7-choix-4012-abcd-000000000002"
+    to: "ch3s7-wzven-4012-abcd-000000000014"
+  - from: "ch3s7-wmary-4012-abcd-000000000010"
+    to: "ch3s7-bad-4012-abcd-000000000020"
+  - from: "ch3s7-wlise-4012-abcd-000000000011"
+    to: "ch3s7-bad-4012-abcd-000000000020"
+  - from: "ch3s7-wlola-4012-abcd-000000000012"
+    to: "ch3s7-bad-4012-abcd-000000000020"
+  - from: "ch3s7-walic-4012-abcd-000000000013"
+    to: "ch3s7-bad-4012-abcd-000000000020"
+  - from: "ch3s7-wzven-4012-abcd-000000000014"
+    to: "ch3s7-bad-4012-abcd-000000000020"
+  - from: "ch3s7-bad-4012-abcd-000000000020"
+    to: "ch3s7-choix-4012-abcd-000000000002"
+entry_point: "ch3s7-seq1-4012-abcd-000000000001"

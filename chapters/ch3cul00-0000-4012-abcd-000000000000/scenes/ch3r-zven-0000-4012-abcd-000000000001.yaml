@@ -1,0 +1,50 @@
+uuid: "ch3r-zven-0000-4012-abcd-000000000001"
+name: "Chambre de Zven"
+subtitle: ""
+sequences:
+  - uuid: "ch3r-zven-seq1-4012-abcd-000000000002"
+    name: "Inspection de la chambre de Zven"
+    title: ""
+    subtitle: ""
+    position: { x: 380.0, y: 440.0 }
+    background: "assets/backgrounds/Character_5_room.jpeg"
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "ch3s5-dia1-zven-abcd-000000000001"
+        character: "Joueur"
+        text: "La chambre de Zven. Colorée, pleine de souvenirs de son île. Des coquillages sur l'étagère, des tissus bariolés aux murs."
+        foregrounds: []
+      - uuid: "ch3s5-dia2-zven-abcd-000000000002"
+        character: "Joueur"
+        text: "Son tiroir est un joyeux mélange de vêtements locaux et de vêtements d'ici. Rien de particulier."
+        foregrounds: []
+      - uuid: "ch3s5-dia3-zven-abcd-000000000003"
+        character: "Joueur"
+        text: "Sous le lit, des cartes postales de son île. Touchant."
+        foregrounds: []
+      - uuid: "ch3s5-dia4-zven-abcd-000000000004"
+        character: "Joueur"
+        text: "Et sur le bureau... Un masque en bois. Sculpté à la main, avec des motifs tribaux. Il a l'air ancien et sacré."
+        foregrounds: []
+      - uuid: "ch3s5-dia5-zven-abcd-000000000005"
+        character: "Joueur"
+        text: "Impressionnant. Je me demande ce qu'il représente pour elle."
+        foregrounds: []
+    fx: []
+    music: "assets/music/Zven_theme.mp3"
+    audio_fx: ""
+    stop_music: false
+    transition_in_type: "fade"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_scene"
+        target: "ch3s0005-0000-4012-abcd-000000000001"
+        effects: []
+conditions: []
+connections: []
+entry_point: "ch3r-zven-seq1-4012-abcd-000000000002"

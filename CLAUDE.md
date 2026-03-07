@@ -102,6 +102,12 @@ conditions:
       target: "uuid-par-defaut"
 ```
 
+### Contraintes importantes du moteur sur les conditions :
+
+1. **Les conditions ne sont accessibles QUE via `entry_point`**. On ne peut JAMAIS cibler une condition avec `redirect_sequence` ou `redirect_scene`. Toute tentative provoquera une erreur "cible introuvable".
+2. **Les conditions ne peuvent rediriger que vers des séquences** de la même scène via `redirect_sequence`, ou vers d'autres scènes via `redirect_scene`.
+3. **`redirect_scene` vers la même scène (auto-redirection) ne fonctionne PAS**. Le moteur ne ré-évalue pas le `entry_point` correctement dans ce cas.
+
 ---
 
 ## 6. Variables et Effets
@@ -125,9 +131,81 @@ Le projet utilise `i18n/`. Chaque chaîne de texte utilisée comme `text` dans l
 
 ---
 
-## 8. Conseils pour le LLM
+## 8. Pattern "Visiter tout" (Hub)
+
+Quand le joueur doit visiter plusieurs lieux dans un ordre libre (ex : inspecter des chambres, interroger des personnages), il faut utiliser le **pattern Hub** :
+
+### Principe :
+- Une **scène hub** centralise la logique (condition + choix).
+- Chaque lieu à visiter est un **fichier scène séparé** (pas une séquence dans le hub).
+- Les scènes visitées redirigent vers le hub via `redirect_scene`, ce qui relance le `entry_point` (condition).
+
+### Structure du hub :
+```yaml
+# Scène hub
+entry_point: "uuid-condition"
+
+conditions:
+  - uuid: "uuid-condition"
+    rules:
+      - variable: "visited_lieu_A"
+        operator: "not_exists"
+        value: ""
+        consequence:
+          type: "redirect_sequence"
+          target: "uuid-sequence-choix"
+      - variable: "visited_lieu_B"
+        operator: "not_exists"
+        value: ""
+        consequence:
+          type: "redirect_sequence"
+          target: "uuid-sequence-choix"
+    default_consequence:
+      type: "redirect_scene"  # Tous visités → scène suivante
+      target: "uuid-scene-suivante"
+
+sequences:
+  - uuid: "uuid-sequence-choix"
+    ending:
+      type: "choices"
+      choices:
+        - text: "Visiter lieu A"
+          consequence:
+            type: "redirect_scene"
+            target: "uuid-scene-lieu-A"  # Fichier scène séparé !
+          effects:
+            - variable: "visited_lieu_A"
+              operation: "set"
+              value: "1"
+```
+
+### Structure d'une scène lieu :
+```yaml
+# Fichier scène séparé pour chaque lieu
+ending:
+  type: "auto_redirect"
+  consequence:
+    type: "redirect_scene"
+    target: "uuid-scene-hub"  # Retour au hub → entry_point → condition
+```
+
+### Dans chapter.yaml :
+- Ajouter chaque scène lieu dans `scenes`
+- Ajouter les `connections` : hub → chaque lieu, chaque lieu → hub (ou scène suivante)
+
+### Exemples dans le projet :
+- **Chapitre 1** : `pens1on1` (rencontrer les pensionnaires) → scènes `mary0001`, `lise0001`, etc.
+- **Chapitre 3** : `ch3s0005` (inspection des chambres) → scènes `ch3r-mary`, `ch3r-lise`, etc.
+- **Chapitre 3** : `ch3s0006` (interrogatoires) → scènes `ch3i-mary`, `ch3i-lise`, etc.
+
+---
+
+## 9. Conseils pour le LLM
 
 - Générez toujours des **UUID uniques** pour chaque nouvel élément.
 - Maintenez la cohérence des `connections` pour éviter les culs-de-sac narratifs.
 - Vérifiez que les chemins d'assets (`assets/backgrounds/...`) existent dans le projet.
 - N'oubliez pas de mettre à jour les fichiers `i18n` après avoir ajouté du texte.
+- **Ne jamais cibler une condition avec `redirect_sequence` ou `redirect_scene`** — les conditions ne sont accessibles que via `entry_point`.
+- **Ne jamais utiliser `redirect_scene` vers la même scène** — l'auto-redirection ne fonctionne pas.
+- Pour les patterns "visiter tout", toujours créer des **fichiers scènes séparés** pour chaque lieu.

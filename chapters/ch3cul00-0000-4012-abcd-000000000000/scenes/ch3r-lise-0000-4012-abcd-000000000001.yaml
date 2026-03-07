@@ -1,0 +1,139 @@
+uuid: "ch3r-lise-0000-4012-abcd-000000000001"
+name: "Chambre de Lise"
+subtitle: ""
+sequences:
+  - uuid: "ch3r-lise-seq1-4012-abcd-000000000002"
+    name: "Inspection de la chambre de Lise"
+    title: ""
+    subtitle: ""
+    position: { x: 380.0, y: 440.0 }
+    background: "assets/backgrounds/Character_2_room.jpeg"
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "ch3s5-dia1-lise-abcd-000000000001"
+        character: "Joueur"
+        text: "La chambre de Lise. Impeccable, comme on pouvait s'y attendre. Tout est rangé au millimètre."
+        foregrounds: []
+      - uuid: "ch3s5-dia2-lise-abcd-000000000002"
+        character: "Joueur"
+        text: "Figurines de manga alignées par taille, écrans d'ordinateur parfaitement parallèles, câbles organisés avec des serre-câbles."
+        foregrounds: []
+      - uuid: "ch3s5-dia3-lise-abcd-000000000003"
+        character: "Joueur"
+        text: "Son tiroir est fermé. Sous le lit, pas un grain de poussière. Cette fille est un robot."
+        foregrounds: []
+      - uuid: "ch3s5-dia4-lise-abcd-000000000004"
+        character: "Joueur"
+        text: "Tiens... Sur le bureau, un petit carnet avec un cadenas. \"Journal de Lise - PRIVÉ\" écrit en rouge."
+        foregrounds: []
+    fx: []
+    music: "assets/music/Lise_theme.mp3"
+    audio_fx: ""
+    stop_music: false
+    transition_in_type: "fade"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "choices"
+      choices:
+        - text: "Ouvrir le journal"
+          consequence:
+            type: "redirect_sequence"
+            target: "ch3r-lise-seqJ-4012-abcd-000000000003"
+            effects: []
+          conditions: {}
+          effects: []
+        - text: "Respecter sa vie privée"
+          consequence:
+            type: "redirect_sequence"
+            target: "ch3r-lise-seqS-4012-abcd-000000000004"
+            effects: []
+          conditions: {}
+          effects: []
+  - uuid: "ch3r-lise-seqJ-4012-abcd-000000000003"
+    name: "Lecture du journal"
+    title: ""
+    subtitle: ""
+    position: { x: 620.0, y: 260.0 }
+    background: "assets/backgrounds/Character_2_room.jpeg"
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "ch3s5-dia1-liseJ-abcd-000000000001"
+        character: "Joueur"
+        text: "Le cadenas est ouvert... Elle a oublié de le fermer. Bon, juste un coup d'œil rapide..."
+        foregrounds: []
+      - uuid: "ch3s5-dia2-liseJ-abcd-000000000002"
+        character: "Joueur"
+        text: "\"Cher journal, le nouveau propriétaire est arrivé aujourd'hui. Il a l'air gentil mais un peu perdu. Comme un personnage de visual novel qui ne sait pas encore quel route il va prendre.\""
+        foregrounds: []
+      - uuid: "ch3s5-dia3-liseJ-abcd-000000000003"
+        character: "Joueur"
+        text: "Elle parle de moi ?! Et... un personnage de visual novel ? C'est comme ça qu'elle me voit ?"
+        foregrounds: []
+      - uuid: "ch3s5-dia4-liseJ-abcd-000000000004"
+        character: "Joueur"
+        text: "\"D'ailleurs, je devrais utiliser cette situation pour mon propre jeu. Un VN dans une auberge, avec un protagoniste maladroit entouré de filles...\""
+        foregrounds: []
+      - uuid: "ch3s5-dia5-liseJ-abcd-000000000005"
+        character: "Joueur"
+        text: "Elle... elle écrit un jeu de visual novel ? Basé sur... nous ?!"
+        foregrounds: []
+      - uuid: "ch3s5-dia6-liseJ-abcd-000000000006"
+        character: "Joueur"
+        text: "OK, j'en ai assez lu. Je me sens déjà assez coupable comme ça."
+        foregrounds: []
+    fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
+    transition_in_type: "fade"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_scene"
+        target: "ch3s0005-0000-4012-abcd-000000000001"
+        effects: []
+  - uuid: "ch3r-lise-seqS-4012-abcd-000000000004"
+    name: "Respect de la vie privée"
+    title: ""
+    subtitle: ""
+    position: { x: 620.0, y: 620.0 }
+    background: "assets/backgrounds/Character_2_room.jpeg"
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "ch3s5-dia1-liseS-abcd-000000000001"
+        character: "Joueur"
+        text: "Non. Un journal intime, c'est sacré. Je ne suis pas un voyeur... Enfin, pas à ce point-là."
+        foregrounds: []
+      - uuid: "ch3s5-dia2-liseS-abcd-000000000002"
+        character: "Joueur"
+        text: "Rien d'autre d'intéressant ici."
+        foregrounds: []
+    fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
+    transition_in_type: "fade"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_scene"
+        target: "ch3s0005-0000-4012-abcd-000000000001"
+        effects: []
+conditions: []
+connections:
+  - from: "ch3r-lise-seq1-4012-abcd-000000000002"
+    to: "ch3r-lise-seqJ-4012-abcd-000000000003"
+  - from: "ch3r-lise-seq1-4012-abcd-000000000002"
+    to: "ch3r-lise-seqS-4012-abcd-000000000004"
+entry_point: "ch3r-lise-seq1-4012-abcd-000000000002"

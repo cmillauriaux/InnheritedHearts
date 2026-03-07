@@ -1,0 +1,158 @@
+uuid: "ch3i-alic-0000-4012-abcd-000000000001"
+name: "Interrogatoire d'Alicia"
+subtitle: ""
+sequences:
+  - uuid: "ch3i-alic-seq1-4012-abcd-000000000002"
+    name: "Interrogatoire d'Alicia"
+    title: ""
+    subtitle: ""
+    position: { x: 380.0, y: 440.0 }
+    background: "assets/backgrounds/Character_4_room.jpeg"
+    background_color: "00000000"
+    foregrounds:
+      - uuid: "ch3s6-fg1-alic-abcd-000000000001"
+        name: ""
+        image: "assets/foregrounds/Alicia_speaking.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.7
+        anchor_bg: { x: 0.5, y: 1.29999995231628 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
+    dialogues:
+      - uuid: "ch3s6-dia1-alic-abcd-000000000001"
+        character: "Alicia"
+        text: "Vous avez vu mes ustensiles, n'est-ce pas ?"
+        foregrounds:
+          - uuid: "ch3s6-fg1-alic-abcd-000000000001"
+            name: ""
+            image: "assets/foregrounds/Alicia_speaking.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7
+            anchor_bg: { x: 0.5, y: 1.29999995231628 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "ch3s6-dia2-alic-abcd-000000000002"
+        character: "Joueur"
+        text: "Le... le couteau taché de rouge ? Oui, j'avoue que ça m'a un peu..."
+        foregrounds: []
+      - uuid: "ch3s6-dia3-alic-abcd-000000000003"
+        character: "Alicia"
+        text: "Je m'en sers pour une activité bien spéciale. Je ne suis pas sûre que vous comprendriez."
+        foregrounds:
+          - uuid: "ch3s6-fg2-alic-abcd-000000000001"
+            name: ""
+            image: "assets/foregrounds/Alicia_speaking.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7
+            anchor_bg: { x: 0.5, y: 1.29999995231628 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "ch3s6-dia4-alic-abcd-000000000004"
+        character: "Joueur"
+        text: "Une activité... bien spéciale ?"
+        foregrounds: []
+      - uuid: "ch3s6-dia5-alic-abcd-000000000005"
+        character: "Alicia"
+        text: "Souhaitez-vous voir ?"
+        foregrounds:
+          - uuid: "ch3s6-fg3-alic-abcd-000000000001"
+            name: ""
+            image: "assets/foregrounds/Alicia_speaking.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7
+            anchor_bg: { x: 0.5, y: 1.29999995231628 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "ch3s6-dia6-alic-abcd-000000000006"
+        character: "Joueur"
+        text: "Euh... D'accord ?"
+        foregrounds: []
+      - uuid: "ch3s6-dia7-alic-abcd-000000000007"
+        character: "Alicia"
+        text: "De la peinture rouge. Je l'applique au couteau sur mes toiles pour obtenir des textures organiques. Et parfois, je m'entraîne au lancer de couteaux sur une cible peinte. Pour me défouler."
+        foregrounds:
+          - uuid: "ch3s6-fg4-alic-abcd-000000000001"
+            name: ""
+            image: "assets/foregrounds/Alicia_speaking.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7
+            anchor_bg: { x: 0.5, y: 1.29999995231628 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "ch3s6-dia8-alic-abcd-000000000008"
+        character: "Joueur"
+        text: "De la... peinture. C'était de la peinture. Bien sûr."
+        foregrounds: []
+      - uuid: "ch3s6-dia9-alic-abcd-000000000009"
+        character: "Alicia"
+        text: "Ne touchez plus jamais à mes affaires. Maintenant, vous aviez une question, je présume ?"
+        foregrounds:
+          - uuid: "ch3s6-fg5-alic-abcd-000000000001"
+            name: ""
+            image: "assets/foregrounds/Alicia_speaking.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7
+            anchor_bg: { x: 0.5, y: 1.29999995231628 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "ch3s6-dia10-alic-abcd-000000000010"
+        character: "Joueur"
+        text: "Oui. Mme Girard a trouvé une petite culotte dans la laverie. Une idée ?"
+        foregrounds: []
+      - uuid: "ch3s6-dia11-alic-abcd-000000000011"
+        character: "Alicia"
+        text: "Hmmm... Ça sent la culotte de geekette à plein nez. Toute propre, avec un petit nœud... C'est du Lise tout craché."
+        foregrounds:
+          - uuid: "ch3s6-fg6-alic-abcd-000000000001"
+            name: ""
+            image: "assets/foregrounds/Alicia_speaking.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7
+            anchor_bg: { x: 0.5, y: 1.29999995231628 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+    fx: []
+    music: "assets/music/Alicia_theme.mp3"
+    audio_fx: ""
+    stop_music: false
+    transition_in_type: "fade"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_scene"
+        target: "ch3s0006-0000-4012-abcd-000000000001"
+        effects: []
+conditions: []
+connections: []
+entry_point: "ch3i-alic-seq1-4012-abcd-000000000002"

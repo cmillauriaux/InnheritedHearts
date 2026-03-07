@@ -1,0 +1,158 @@
+uuid: "ch3i-mary-0000-4012-abcd-000000000001"
+name: "Interrogatoire de Mary"
+subtitle: ""
+sequences:
+  - uuid: "ch3i-mary-seq1-4012-abcd-000000000002"
+    name: "Interrogatoire de Mary"
+    title: ""
+    subtitle: ""
+    position: { x: 380.0, y: 440.0 }
+    background: "assets/backgrounds/Character_1_room.jpeg"
+    background_color: "00000000"
+    foregrounds:
+      - uuid: "ch3s6-fg1-mary-abcd-000000000001"
+        name: ""
+        image: "assets/foregrounds/ai_1772402856_16831.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.7
+        anchor_bg: { x: 0.5, y: 1.29999995231628 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
+    dialogues:
+      - uuid: "ch3s6-dia1-mary-abcd-000000000001"
+        character: "Mary"
+        text: "Oh, c'est toi ! Entre, entre ! Tu sais que quelqu'un est entré dans ma chambre aujourd'hui ?"
+        foregrounds:
+          - uuid: "ch3s6-fg1-mary-abcd-000000000001"
+            name: ""
+            image: "assets/foregrounds/ai_1772402856_16831.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7
+            anchor_bg: { x: 0.5, y: 1.29999995231628 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "ch3s6-dia2-mary-abcd-000000000002"
+        character: "Joueur"
+        text: "Ah bon ? Qu... Comment tu le sais ?"
+        foregrounds: []
+      - uuid: "ch3s6-dia3-mary-abcd-000000000003"
+        character: "Mary"
+        text: "Mon tube de bleu de Prusse a bougé de trois centimètres. Je sais, mon bazar a l'air aléatoire, mais moi je sais exactement où chaque chose se trouve."
+        foregrounds:
+          - uuid: "ch3s6-fg2-mary-abcd-000000000001"
+            name: ""
+            image: "assets/foregrounds/ai_1772552486_93617.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7
+            anchor_bg: { x: 0.5, y: 1.29999995231628 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "ch3s6-dia4-mary-abcd-000000000004"
+        character: "Joueur"
+        text: "C'est... c'est un chaos organisé, en fait ?"
+        foregrounds: []
+      - uuid: "ch3s6-dia5-mary-abcd-000000000005"
+        character: "Mary"
+        text: "Exactement ! Alors ne refais plus jamais ça, d'accord ? Un artiste a besoin de son espace sacré."
+        foregrounds:
+          - uuid: "ch3s6-fg3-mary-abcd-000000000001"
+            name: ""
+            image: "assets/foregrounds/ai_1772402795_41806.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7
+            anchor_bg: { x: 0.5, y: 1.29999995231628 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "ch3s6-dia6-mary-abcd-000000000006"
+        character: "Mary"
+        text: "D'ailleurs, puisque tu es là... Tu as vu le flyer sur mon bureau ? J'ai une expo la semaine prochaine ! Natures mortes revisitées !"
+        foregrounds:
+          - uuid: "ch3s6-fg4-mary-abcd-000000000001"
+            name: ""
+            image: "assets/foregrounds/ai_1772402795_41806.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7
+            anchor_bg: { x: 0.5, y: 1.29999995231628 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "ch3s6-dia7-mary-abcd-000000000007"
+        character: "Mary"
+        text: "Tu viendras, hein ? J'ai besoin de public ! Et j'aurais peut-être besoin d'un modèle aussi..."
+        foregrounds:
+          - uuid: "ch3s6-fg5-mary-abcd-000000000001"
+            name: ""
+            image: "assets/foregrounds/ai_1772552604_8358.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7
+            anchor_bg: { x: 0.5, y: 1.29999995231628 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "ch3s6-dia8-mary-abcd-000000000008"
+        character: "Joueur"
+        text: "Un modèle ? Euh... On verra ! Mais en fait, je suis venu te poser une question."
+        foregrounds: []
+      - uuid: "ch3s6-dia9-mary-abcd-000000000009"
+        character: "Joueur"
+        text: "Mme Girard a trouvé une petite culotte dans la laverie. Tu saurais à qui elle est ?"
+        foregrounds: []
+      - uuid: "ch3s6-dia10-mary-abcd-000000000010"
+        character: "Mary"
+        text: "Hmmmm... Une culotte fraîchement lavée et blanche, comme une blouse... D'infirmière... Lola peut-être ?"
+        foregrounds:
+          - uuid: "ch3s6-fg6-mary-abcd-000000000001"
+            name: ""
+            image: "assets/foregrounds/ai_1772552486_93617.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7
+            anchor_bg: { x: 0.5, y: 1.29999995231628 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "ch3s6-dia11-mary-abcd-000000000011"
+        character: "Joueur"
+        text: "Noté. Merci Mary !"
+        foregrounds: []
+    fx: []
+    music: "assets/music/Mary_theme.mp3"
+    audio_fx: ""
+    stop_music: false
+    transition_in_type: "fade"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_scene"
+        target: "ch3s0006-0000-4012-abcd-000000000001"
+        effects: []
+conditions: []
+connections: []
+entry_point: "ch3i-mary-seq1-4012-abcd-000000000002"

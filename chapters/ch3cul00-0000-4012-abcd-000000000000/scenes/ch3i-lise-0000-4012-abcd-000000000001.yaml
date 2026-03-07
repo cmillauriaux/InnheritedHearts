@@ -1,0 +1,158 @@
+uuid: "ch3i-lise-0000-4012-abcd-000000000001"
+name: "Interrogatoire de Lise"
+subtitle: ""
+sequences:
+  - uuid: "ch3i-lise-seq1-4012-abcd-000000000002"
+    name: "Interrogatoire de Lise"
+    title: ""
+    subtitle: ""
+    position: { x: 380.0, y: 440.0 }
+    background: "assets/backgrounds/Character_2_room.jpeg"
+    background_color: "00000000"
+    foregrounds:
+      - uuid: "ch3s6-fg1-lise-abcd-000000000001"
+        name: ""
+        image: "assets/foregrounds/ai_1772553166_33308.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.7
+        anchor_bg: { x: 0.5, y: 1.29999995231628 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
+    dialogues:
+      - uuid: "ch3s6-dia1-lise-abcd-000000000001"
+        character: "Lise"
+        text: "T-tu... Tu es entré dans ma chambre aujourd'hui, n'est-ce pas ?"
+        foregrounds:
+          - uuid: "ch3s6-fg1-lise-abcd-000000000001"
+            name: ""
+            image: "assets/foregrounds/ai_1772553166_33308.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7
+            anchor_bg: { x: 0.5, y: 1.29999995231628 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "ch3s6-dia2-lise-abcd-000000000002"
+        character: "Joueur"
+        text: "Comment tu..."
+        foregrounds: []
+      - uuid: "ch3s6-dia3-lise-abcd-000000000003"
+        character: "Lise"
+        text: "J'ai une caméra de surveillance sur mon PC. Elle s'active dès qu'on entre. Tu es dans mes logs."
+        foregrounds:
+          - uuid: "ch3s6-fg2-lise-abcd-000000000001"
+            name: ""
+            image: "assets/foregrounds/ai_1772552924_57442.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7
+            anchor_bg: { x: 0.5, y: 1.29999995231628 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "ch3s6-dia4-lise-abcd-000000000004"
+        character: "Joueur"
+        text: "Oh..."
+        foregrounds: []
+      - uuid: "ch3s6-dia5-lise-abcd-000000000005"
+        character: "Lise"
+        text: "Tu... Tu as vu mon journal ?"
+        foregrounds:
+          - uuid: "ch3s6-fg3-lise-abcd-000000000001"
+            name: ""
+            image: "assets/foregrounds/ai_1772553198_83321.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7
+            anchor_bg: { x: 0.5, y: 1.29999995231628 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "ch3s6-dia6-lise-abcd-000000000006"
+        character: "Joueur"
+        text: "Je... J'ai vu qu'il existait, oui. Mais je ne l'ai peut-être pas ouvert..."
+        foregrounds: []
+      - uuid: "ch3s6-dia7-lise-abcd-000000000007"
+        character: "Lise"
+        text: "J'adore écrire. C'est... c'est mon exutoire. D'ailleurs... j'écris un jeu. Un visual novel."
+        foregrounds:
+          - uuid: "ch3s6-fg4-lise-abcd-000000000001"
+            name: ""
+            image: "assets/foregrounds/ai_1772552999_89419.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7
+            anchor_bg: { x: 0.5, y: 1.29999995231628 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "ch3s6-dia8-lise-abcd-000000000008"
+        character: "Joueur"
+        text: "Ah oui ? C'est cool !"
+        foregrounds: []
+      - uuid: "ch3s6-dia9-lise-abcd-000000000009"
+        character: "Lise"
+        text: "S'il te plaît... Ne refais plus ça. Ma chambre, c'est mon sanctuaire."
+        foregrounds:
+          - uuid: "ch3s6-fg5-lise-abcd-000000000001"
+            name: ""
+            image: "assets/foregrounds/ai_1772553166_33308.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7
+            anchor_bg: { x: 0.5, y: 1.29999995231628 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "ch3s6-dia10-lise-abcd-000000000010"
+        character: "Joueur"
+        text: "Promis. Mais j'ai une question : Mme Girard a trouvé une petite culotte dans la laverie. Une idée à qui elle pourrait être ?"
+        foregrounds: []
+      - uuid: "ch3s6-dia11-lise-abcd-000000000011"
+        character: "Lise"
+        text: "Je... Je ne veux pas dire du mal des autres mais... laisser traîner ses affaires, c'est un classique de Mary !"
+        foregrounds:
+          - uuid: "ch3s6-fg6-lise-abcd-000000000001"
+            name: ""
+            image: "assets/foregrounds/ai_1772552924_57442.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7
+            anchor_bg: { x: 0.5, y: 1.29999995231628 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+    fx: []
+    music: "assets/music/Lise_theme.mp3"
+    audio_fx: ""
+    stop_music: false
+    transition_in_type: "fade"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_scene"
+        target: "ch3s0006-0000-4012-abcd-000000000001"
+        effects: []
+conditions: []
+connections: []
+entry_point: "ch3i-lise-seq1-4012-abcd-000000000002"

@@ -1,0 +1,54 @@
+uuid: "ch3r-alic-0000-4012-abcd-000000000001"
+name: "Chambre d'Alicia"
+subtitle: ""
+sequences:
+  - uuid: "ch3r-alic-seq1-4012-abcd-000000000002"
+    name: "Inspection de la chambre d'Alicia"
+    title: ""
+    subtitle: ""
+    position: { x: 380.0, y: 440.0 }
+    background: "assets/backgrounds/Character_4_room.jpeg"
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "ch3s5-dia1-alic-abcd-000000000001"
+        character: "Joueur"
+        text: "La chambre d'Alicia. Les rideaux sont tirés, des bougies éteintes un peu partout, et cette odeur d'encens..."
+        foregrounds: []
+      - uuid: "ch3s5-dia2-alic-abcd-000000000002"
+        character: "Joueur"
+        text: "Son bureau est couvert de livres de criminologie et d'anatomie. OK, normal pour elle."
+        foregrounds: []
+      - uuid: "ch3s5-dia3-alic-abcd-000000000003"
+        character: "Joueur"
+        text: "Sous le lit... Rien. Cette fille est propre comme Lise, mais en plus flippant."
+        foregrounds: []
+      - uuid: "ch3s5-dia4-alic-abcd-000000000004"
+        character: "Joueur"
+        text: "Attends... C'est quoi ça dans le tiroir du bureau ? Un... couteau ? Taché de rouge ?!"
+        foregrounds: []
+      - uuid: "ch3s5-dia5-alic-abcd-000000000005"
+        character: "Joueur"
+        text: "OK. Un couteau taché de rouge dans la chambre de l'étudiante en criminologie. Tout est parfaitement normal. Absolument rien d'inquiétant."
+        foregrounds: []
+      - uuid: "ch3s5-dia6-alic-abcd-000000000006"
+        character: "Joueur"
+        text: "Je vais faire comme si je n'avais rien vu."
+        foregrounds: []
+    fx: []
+    music: "assets/music/Alicia_theme.mp3"
+    audio_fx: ""
+    stop_music: false
+    transition_in_type: "fade"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_scene"
+        target: "ch3s0005-0000-4012-abcd-000000000001"
+        effects: []
+conditions: []
+connections: []
+entry_point: "ch3r-alic-seq1-4012-abcd-000000000002"

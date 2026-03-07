@@ -1,0 +1,289 @@
+uuid: "ch3s0005-0000-4012-abcd-000000000001"
+name: "L'inspection des chambres"
+subtitle: ""
+sequences:
+  - uuid: "ch3s5-choix-4012-abcd-000000000011"
+    name: "Quelle chambre inspecter ?"
+    title: ""
+    subtitle: ""
+    position: { x: 560.0, y: 600.0 }
+    background: "assets/backgrounds/ai_1772552332_43598.png"
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "ch3s5-dia1-choix-abcd-000000000001"
+        character: "Joueur"
+        text: "Quelle chambre je vais inspecter ?"
+        foregrounds: []
+    fx: []
+    music: "assets/music/V.mp3"
+    audio_fx: ""
+    stop_music: false
+    transition_in_type: "none"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "choices"
+      choices:
+        - text: "La chambre de Mary"
+          consequence:
+            type: "redirect_scene"
+            target: "ch3r-mary-0000-4012-abcd-000000000001"
+            effects: []
+          conditions: {}
+          effects:
+            - variable: "inspected_mary_room"
+              operation: "set"
+              value: "1"
+        - text: "La chambre de Lise"
+          consequence:
+            type: "redirect_scene"
+            target: "ch3r-lise-0000-4012-abcd-000000000001"
+            effects: []
+          conditions: {}
+          effects:
+            - variable: "inspected_lise_room"
+              operation: "set"
+              value: "1"
+        - text: "La chambre de Lola"
+          consequence:
+            type: "redirect_scene"
+            target: "ch3r-lola-0000-4012-abcd-000000000001"
+            effects: []
+          conditions: {}
+          effects:
+            - variable: "inspected_lola_room"
+              operation: "set"
+              value: "1"
+        - text: "La chambre d'Alicia"
+          consequence:
+            type: "redirect_scene"
+            target: "ch3r-alic-0000-4012-abcd-000000000001"
+            effects: []
+          conditions: {}
+          effects:
+            - variable: "inspected_alicia_room"
+              operation: "set"
+              value: "1"
+        - text: "La chambre de Zven"
+          consequence:
+            type: "redirect_scene"
+            target: "ch3r-zven-0000-4012-abcd-000000000001"
+            effects: []
+          conditions: {}
+          effects:
+            - variable: "inspected_zven_room"
+              operation: "set"
+              value: "1"
+  - uuid: "ch3s5-bilan-4012-abcd-000000000009"
+    name: "Bilan de l'inspection"
+    title: ""
+    subtitle: ""
+    position: { x: 560.0, y: 440.0 }
+    background: "assets/backgrounds/ai_1772552332_43598.png"
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "ch3s5-dia1-bilan-abcd-000000000001"
+        character: "Joueur"
+        text: "Bon. Récapitulons. J'ai trouvé un flyer d'expo chez Mary, un journal intime chez Lise, des gants de boxe chez Lola, un couteau taché de rouge chez Alicia et un masque tribal chez Zven."
+        foregrounds: []
+      - uuid: "ch3s5-dia2-bilan-abcd-000000000002"
+        character: "Joueur"
+        text: "Mais strictement AUCUN indice sur la propriétaire de la petite culotte. Zéro. Nada."
+        foregrounds: []
+      - uuid: "ch3s5-dia3-bilan-abcd-000000000003"
+        character: "Joueur"
+        text: "Je suis un piètre détective. Sherlock Holmes se retournerait dans sa tombe."
+        foregrounds: []
+    fx: []
+    music: "assets/music/Inn_theme.mp3"
+    audio_fx: ""
+    stop_music: false
+    transition_in_type: "fade"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_sequence"
+        target: "ch3s5-girard-4012-abcd-000000000012"
+        effects: []
+  - uuid: "ch3s5-girard-4012-abcd-000000000012"
+    name: "Mme Girard secoue le joueur"
+    title: ""
+    subtitle: ""
+    position: { x: 860.0, y: 440.0 }
+    background: "assets/backgrounds/Background_6.jpeg"
+    background_color: "00000000"
+    foregrounds:
+      - uuid: "ch3s5-fg1-gir-abcd-000000000001"
+        name: ""
+        image: "assets/foregrounds/ai_1772623659_75175.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.7
+        anchor_bg: { x: 0.5, y: 1.29999995231628 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
+    dialogues:
+      - uuid: "ch3s5-dia1-gir-abcd-000000000001"
+        character: "Mme Girard"
+        text: "Alors ?! Vous avez trouvé quelque chose ?"
+        foregrounds:
+          - uuid: "ch3s5-fg1-gir-abcd-000000000001"
+            name: ""
+            image: "assets/foregrounds/ai_1772623659_75175.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7
+            anchor_bg: { x: 0.5, y: 1.29999995231628 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "ch3s5-dia2-gir-abcd-000000000002"
+        character: "Joueur"
+        text: "Euh... Pas vraiment, non. J'ai inspecté les chambres mais..."
+        foregrounds: []
+      - uuid: "ch3s5-dia3-gir-abcd-000000000003"
+        character: "Mme Girard"
+        text: "Les chambres ?! Vous avez fouillé les chambres des filles ?!"
+        foregrounds:
+          - uuid: "ch3s5-fg2-gir-abcd-000000000001"
+            name: ""
+            image: "assets/foregrounds/ai_1772623659_75175.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7
+            anchor_bg: { x: 0.5, y: 1.29999995231628 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "ch3s5-dia4-gir-abcd-000000000004"
+        character: "Joueur"
+        text: "C'était pour l'enquête ! Vous m'avez dit de trouver la propriétaire !"
+        foregrounds: []
+      - uuid: "ch3s5-dia5-gir-abcd-000000000005"
+        character: "Mme Girard"
+        text: "Hmph. Passons. Les filles viennent de rentrer de cours. Elles font leurs devoirs dans leurs chambres."
+        foregrounds:
+          - uuid: "ch3s5-fg3-gir-abcd-000000000001"
+            name: ""
+            image: "assets/foregrounds/ai_1772623979_38078.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7
+            anchor_bg: { x: 0.5, y: 1.29999995231628 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "ch3s5-dia6-gir-abcd-000000000006"
+        character: "Mme Girard"
+        text: "Profitez-en pour les interroger. En douceur. Et trouvez-moi cette coupable !"
+        foregrounds:
+          - uuid: "ch3s5-fg4-gir-abcd-000000000001"
+            name: ""
+            image: "assets/foregrounds/ai_1772623434_06199.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7
+            anchor_bg: { x: 0.5, y: 1.29999995231628 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "ch3s5-dia7-gir-abcd-000000000007"
+        character: "Joueur"
+        text: "Aller interroger cinq filles sur une petite culotte... après avoir fouillé leurs chambres. Qu'est-ce qui pourrait mal tourner ?"
+        foregrounds: []
+    fx: []
+    music: "assets/music/MmeGirard_theme.mp3"
+    audio_fx: ""
+    stop_music: false
+    transition_in_type: "fade"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_scene"
+        target: "ch3s0006-0000-4012-abcd-000000000001"
+        effects: []
+conditions:
+  - uuid: "ch3s5-cond-4012-abcd-000000000010"
+    name: "Toutes les chambres inspectées ?"
+    subtitle: ""
+    position: { x: 200.0, y: 440.0 }
+    rules:
+      - variable: "inspected_mary_room"
+        operator: "not_exists"
+        value: ""
+        consequence:
+          type: "redirect_sequence"
+          target: "ch3s5-choix-4012-abcd-000000000011"
+          effects: []
+      - variable: "inspected_lise_room"
+        operator: "not_exists"
+        value: ""
+        consequence:
+          type: "redirect_sequence"
+          target: "ch3s5-choix-4012-abcd-000000000011"
+          effects: []
+      - variable: "inspected_lola_room"
+        operator: "not_exists"
+        value: ""
+        consequence:
+          type: "redirect_sequence"
+          target: "ch3s5-choix-4012-abcd-000000000011"
+          effects: []
+      - variable: "inspected_alicia_room"
+        operator: "not_exists"
+        value: ""
+        consequence:
+          type: "redirect_sequence"
+          target: "ch3s5-choix-4012-abcd-000000000011"
+          effects: []
+      - variable: "inspected_zven_room"
+        operator: "not_exists"
+        value: ""
+        consequence:
+          type: "redirect_sequence"
+          target: "ch3s5-choix-4012-abcd-000000000011"
+          effects: []
+    default_consequence:
+      type: "redirect_sequence"
+      target: "ch3s5-bilan-4012-abcd-000000000009"
+      effects: []
+connections:
+  - from: "ch3s5-cond-4012-abcd-000000000010"
+    to: "ch3s5-choix-4012-abcd-000000000011"
+  - from: "ch3s5-cond-4012-abcd-000000000010"
+    to: "ch3s5-bilan-4012-abcd-000000000009"
+  - from: "ch3s5-choix-4012-abcd-000000000011"
+    to: "ch3r-mary-0000-4012-abcd-000000000001"
+  - from: "ch3s5-choix-4012-abcd-000000000011"
+    to: "ch3r-lise-0000-4012-abcd-000000000001"
+  - from: "ch3s5-choix-4012-abcd-000000000011"
+    to: "ch3r-lola-0000-4012-abcd-000000000001"
+  - from: "ch3s5-choix-4012-abcd-000000000011"
+    to: "ch3r-alic-0000-4012-abcd-000000000001"
+  - from: "ch3s5-choix-4012-abcd-000000000011"
+    to: "ch3r-zven-0000-4012-abcd-000000000001"
+  - from: "ch3s5-bilan-4012-abcd-000000000009"
+    to: "ch3s5-girard-4012-abcd-000000000012"
+  - from: "ch3s5-girard-4012-abcd-000000000012"
+    to: "ch3s0006-0000-4012-abcd-000000000001"
+entry_point: "ch3s5-cond-4012-abcd-000000000010"

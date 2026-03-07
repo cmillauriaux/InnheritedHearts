@@ -1,0 +1,50 @@
+uuid: "ch3r-lola-0000-4012-abcd-000000000001"
+name: "Chambre de Lola"
+subtitle: ""
+sequences:
+  - uuid: "ch3r-lola-seq1-4012-abcd-000000000002"
+    name: "Inspection de la chambre de Lola"
+    title: ""
+    subtitle: ""
+    position: { x: 380.0, y: 440.0 }
+    background: "assets/backgrounds/Character_3_room.jpeg"
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "ch3s5-dia1-lola-abcd-000000000001"
+        character: "Joueur"
+        text: "La chambre de Lola. Des posters de médecine aux murs, un squelette en plastique dans le coin... et ça sent le désinfectant."
+        foregrounds: []
+      - uuid: "ch3s5-dia2-lola-abcd-000000000002"
+        character: "Joueur"
+        text: "Tiroir à sous-vêtements ? Rangé par couleur. Évidemment. Rien de suspect."
+        foregrounds: []
+      - uuid: "ch3s5-dia3-lola-abcd-000000000003"
+        character: "Joueur"
+        text: "Sous le lit... Tiens, qu'est-ce que c'est ? Des gants de boxe ?!"
+        foregrounds: []
+      - uuid: "ch3s5-dia4-lola-abcd-000000000004"
+        character: "Joueur"
+        text: "Lola fait de la boxe ? La petite infirmière bavarde fait de la boxe ?! Comme quoi, on ne connaît jamais vraiment les gens."
+        foregrounds: []
+      - uuid: "ch3s5-dia5-lola-abcd-000000000005"
+        character: "Joueur"
+        text: "Note à moi-même : ne jamais énerver Lola."
+        foregrounds: []
+    fx: []
+    music: "assets/music/Lola_theme.mp3"
+    audio_fx: ""
+    stop_music: false
+    transition_in_type: "fade"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_scene"
+        target: "ch3s0005-0000-4012-abcd-000000000001"
+        effects: []
+conditions: []
+connections: []
+entry_point: "ch3r-lola-seq1-4012-abcd-000000000002"
