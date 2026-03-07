@@ -1,0 +1,22 @@
+uuid: "ch3cul00-0000-4012-abcd-000000000000"
+name: "Chapitre 3"
+subtitle: "La petite culotte mystère"
+scenes:
+  - uuid: "ch3s0001-0000-4012-abcd-000000000001"
+    name: "Le réveil"
+    subtitle: ""
+    position: { x: 480.0, y: 440.0 }
+  - uuid: "ch3s0002-0000-4012-abcd-000000000001"
+    name: "Le magasin"
+    subtitle: ""
+    position: { x: 720.0, y: 440.0 }
+  - uuid: "ch3s0003-0000-4012-abcd-000000000001"
+    name: "Le retour à l'auberge"
+    subtitle: ""
+    position: { x: 1100.0, y: 440.0 }
+connections:
+  - from: "ch3s0001-0000-4012-abcd-000000000001"
+    to: "ch3s0002-0000-4012-abcd-000000000001"
+  - from: "ch3s0002-0000-4012-abcd-000000000001"
+    to: "ch3s0003-0000-4012-abcd-000000000001"
+entry_point: "ch3s0001-0000-4012-abcd-000000000001"

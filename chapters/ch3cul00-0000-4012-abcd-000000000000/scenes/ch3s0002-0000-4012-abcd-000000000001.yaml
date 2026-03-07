@@ -1,0 +1,441 @@
+uuid: "ch3s0002-0000-4012-abcd-000000000001"
+name: "Le magasin"
+subtitle: ""
+sequences:
+  - uuid: "ch3s2-seq1-4012-abcd-000000000001"
+    name: "Arrivée en ville"
+    title: ""
+    subtitle: ""
+    position: { x: 380.0, y: 440.0 }
+    background: "assets/backgrounds/ai_1772389778_78445.png"
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "ch3s2-dia1-seq1-abcd-000000000001"
+        character: "Joueur"
+        text: "Le village est encore endormi à cette heure. Parfait, je serai le premier client."
+        foregrounds: []
+      - uuid: "ch3s2-dia2-seq1-abcd-000000000002"
+        character: "Joueur"
+        text: "Ah, voilà ! \"Durand & Fils - Plomberie, Chauffage, Sanitaire\". C'est exactement ce qu'il me faut."
+        foregrounds: []
+      - uuid: "ch3s2-dia3-seq1-abcd-000000000003"
+        character: "Joueur"
+        text: "Allez, on y va. Soyons convaincant."
+        foregrounds: []
+    fx: []
+    music: "assets/music/Promenade Sous Le Ciel Clair.mp3"
+    audio_fx: ""
+    stop_music: false
+    transition_in_type: "fade"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_sequence"
+        target: "ch3s2-seq2-4012-abcd-000000000002"
+        effects: []
+  - uuid: "ch3s2-seq2-4012-abcd-000000000002"
+    name: "Rencontre avec le vendeur"
+    title: ""
+    subtitle: ""
+    position: { x: 620.0, y: 440.0 }
+    background: "assets/backgrounds/Background_5.jpeg"
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "ch3s2-dia1-seq2-abcd-000000000001"
+        character: "Vendeur"
+        text: "Bonjour ! Vous êtes bien matinal, dites donc. Qu'est-ce que je peux faire pour vous ?"
+        foregrounds: []
+      - uuid: "ch3s2-dia2-seq2-abcd-000000000002"
+        character: "Joueur"
+        text: "Bonjour monsieur. J'ai un problème de chauffe-eau à l'auberge du coin. Il est complètement en panne."
+        foregrounds: []
+      - uuid: "ch3s2-dia3-seq2-abcd-000000000003"
+        character: "Vendeur"
+        text: "L'auberge ? Celle du vieux Alfred ? Ah oui, je la connais bien. C'est quel modèle, le chauffe-eau ?"
+        foregrounds: []
+      - uuid: "ch3s2-dia4-seq2-abcd-000000000004"
+        character: "Joueur"
+        text: "Euh... un vieux. Un très vieux. Il a environ trente ans."
+        foregrounds: []
+      - uuid: "ch3s2-dia5-seq2-abcd-000000000005"
+        character: "Vendeur"
+        text: "Trente ans ?! Ah bah mon pauvre monsieur, c'est plus un chauffe-eau que vous avez, c'est une relique ! À ce stade-là, on le met au musée !"
+        foregrounds: []
+      - uuid: "ch3s2-dia6-seq2-abcd-000000000006"
+        character: "Joueur"
+        text: "Oui, je m'en doute... Et c'est justement le problème. Je n'ai pas vraiment les moyens d'en acheter un neuf."
+        foregrounds: []
+      - uuid: "ch3s2-dia7-seq2-abcd-000000000007"
+        character: "Vendeur"
+        text: "Un chauffe-eau neuf, faut compter dans les 800 euros minimum, plus la pose. On est vite à 1200 euros."
+        foregrounds: []
+      - uuid: "ch3s2-dia8-seq2-abcd-000000000008"
+        character: "Joueur"
+        text: "1200 euros... C'est exactement ce que je n'ai pas."
+        foregrounds: []
+    fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
+    transition_in_type: "fade"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "choices"
+      choices:
+        - text: "Jouer la carte de l'émotion"
+          consequence:
+            type: "redirect_sequence"
+            target: "ch3s2-seq3-4012-abcd-000000000003"
+            effects: []
+          conditions: {}
+          effects: []
+        - text: "Demander s'il a des occasions"
+          consequence:
+            type: "redirect_sequence"
+            target: "ch3s2-seq4-4012-abcd-000000000004"
+            effects: []
+          conditions: {}
+          effects: []
+        - text: "Exiger une réduction"
+          consequence:
+            type: "redirect_sequence"
+            target: "ch3s2-fail-4012-abcd-000000000010"
+            effects: []
+          conditions: {}
+          effects: []
+  - uuid: "ch3s2-seq3-4012-abcd-000000000003"
+    name: "La carte de l'émotion"
+    title: ""
+    subtitle: ""
+    position: { x: 860.0, y: 260.0 }
+    background: "assets/backgrounds/Background_5.jpeg"
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "ch3s2-dia1-seq3-abcd-000000000001"
+        character: "Joueur"
+        text: "Écoutez, je vais être honnête avec vous. J'ai hérité de cette auberge il y a quelques jours à peine."
+        foregrounds: []
+      - uuid: "ch3s2-dia2-seq3-abcd-000000000002"
+        character: "Joueur"
+        text: "Il y a cinq filles qui logent là-bas. Ce sont des étudiantes. Sans eau chaude, elles ne peuvent pas se doucher correctement."
+        foregrounds: []
+      - uuid: "ch3s2-dia3-seq3-abcd-000000000003"
+        character: "Joueur"
+        text: "Vous imaginez ? Cinq filles qui doivent aller en cours sans pouvoir se laver. C'est pénalisant pour leurs études."
+        foregrounds: []
+      - uuid: "ch3s2-dia4-seq3-abcd-000000000004"
+        character: "Vendeur"
+        text: "Cinq filles ? Ah oui quand même... Et le vieux Alfred, il a rien laissé pour l'entretien ?"
+        foregrounds: []
+      - uuid: "ch3s2-dia5-seq3-abcd-000000000005"
+        character: "Joueur"
+        text: "Pas un sou. L'auberge tient avec des bouts de ficelle. Mais ces filles comptent sur moi."
+        foregrounds: []
+      - uuid: "ch3s2-dia6-seq3-abcd-000000000006"
+        character: "Vendeur"
+        text: "Hmm... C'est sûr que c'est pas une situation facile. Mais moi aussi j'ai un commerce à faire tourner, hein."
+        foregrounds: []
+    fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
+    transition_in_type: "fade"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "choices"
+      choices:
+        - text: "Insister sur la responsabilité envers les étudiantes"
+          consequence:
+            type: "redirect_sequence"
+            target: "ch3s2-seq6-4012-abcd-000000000006"
+            effects: []
+          conditions: {}
+          effects: []
+        - text: "Proposer de le payer petit à petit"
+          consequence:
+            type: "redirect_sequence"
+            target: "ch3s2-seq5-4012-abcd-000000000005"
+            effects: []
+          conditions: {}
+          effects: []
+        - text: "Menacer d'aller chez le concurrent"
+          consequence:
+            type: "redirect_sequence"
+            target: "ch3s2-fail-4012-abcd-000000000010"
+            effects: []
+          conditions: {}
+          effects: []
+  - uuid: "ch3s2-seq4-4012-abcd-000000000004"
+    name: "La piste des occasions"
+    title: ""
+    subtitle: ""
+    position: { x: 860.0, y: 620.0 }
+    background: "assets/backgrounds/Background_5.jpeg"
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "ch3s2-dia1-seq4-abcd-000000000001"
+        character: "Joueur"
+        text: "Vous n'auriez pas un modèle d'occasion, par hasard ? Quelque chose de moins cher ?"
+        foregrounds: []
+      - uuid: "ch3s2-dia2-seq4-abcd-000000000002"
+        character: "Vendeur"
+        text: "De l'occasion ? Hmm... J'ai peut-être un truc en réserve. Un client m'a ramené un ballon l'année dernière, il marche encore."
+        foregrounds: []
+      - uuid: "ch3s2-dia3-seq4-abcd-000000000003"
+        character: "Vendeur"
+        text: "Mais même d'occasion, c'est pas gratuit hein. Faut que je le teste, que je le garantisse un minimum..."
+        foregrounds: []
+      - uuid: "ch3s2-dia4-seq4-abcd-000000000004"
+        character: "Joueur"
+        text: "Je comprends. Et pour la pose, ça coûterait combien en plus ?"
+        foregrounds: []
+      - uuid: "ch3s2-dia5-seq4-abcd-000000000005"
+        character: "Vendeur"
+        text: "La pose... Normalement je facture 200 euros la main-d'œuvre. Plus le déplacement."
+        foregrounds: []
+    fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
+    transition_in_type: "fade"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "choices"
+      choices:
+        - text: "Expliquer la situation des étudiantes"
+          consequence:
+            type: "redirect_sequence"
+            target: "ch3s2-seq5-4012-abcd-000000000005"
+            effects: []
+          conditions: {}
+          effects: []
+        - text: "Demander un geste commercial"
+          consequence:
+            type: "redirect_sequence"
+            target: "ch3s2-seq5-4012-abcd-000000000005"
+            effects: []
+          conditions: {}
+          effects: []
+        - text: "Dire que c'est du vol"
+          consequence:
+            type: "redirect_sequence"
+            target: "ch3s2-fail-4012-abcd-000000000010"
+            effects: []
+          conditions: {}
+          effects: []
+  - uuid: "ch3s2-seq5-4012-abcd-000000000005"
+    name: "La négociation avancée"
+    title: ""
+    subtitle: ""
+    position: { x: 1100.0, y: 440.0 }
+    background: "assets/backgrounds/Background_5.jpeg"
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "ch3s2-dia1-seq5-abcd-000000000001"
+        character: "Joueur"
+        text: "Écoutez, je gère une auberge avec cinq étudiantes qui n'ont plus d'eau chaude. Elles ne peuvent même pas se préparer pour aller en cours."
+        foregrounds: []
+      - uuid: "ch3s2-dia2-seq5-abcd-000000000002"
+        character: "Joueur"
+        text: "On n'a vraiment pas beaucoup de sous. Mais je suis prêt à faire ce qu'il faut pour arranger la situation."
+        foregrounds: []
+      - uuid: "ch3s2-dia3-seq5-abcd-000000000003"
+        character: "Vendeur"
+        text: "Des étudiantes, hein ? Ça me rappelle ma fille. Elle galérait aussi quand elle était à la fac..."
+        foregrounds: []
+      - uuid: "ch3s2-dia4-seq5-abcd-000000000004"
+        character: "Vendeur"
+        text: "Bon, je vais pas vous laisser comme ça. J'ai ce ballon d'occasion en réserve."
+        foregrounds: []
+    fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
+    transition_in_type: "fade"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "choices"
+      choices:
+        - text: "Remercier chaleureusement"
+          consequence:
+            type: "redirect_sequence"
+            target: "ch3s2-seq6-4012-abcd-000000000006"
+            effects:
+              - variable: "mme_girard_affinity"
+                operation: "increment"
+                value: "1"
+          conditions: {}
+          effects: []
+        - text: "Demander s'il peut passer aujourd'hui"
+          consequence:
+            type: "redirect_sequence"
+            target: "ch3s2-seq6-4012-abcd-000000000006"
+            effects: []
+          conditions: {}
+          effects: []
+  - uuid: "ch3s2-seq6-4012-abcd-000000000006"
+    name: "Le réparateur accepte"
+    title: ""
+    subtitle: ""
+    position: { x: 1340.0, y: 440.0 }
+    background: "assets/backgrounds/Background_5.jpeg"
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "ch3s2-dia1-seq6-abcd-000000000001"
+        character: "Vendeur"
+        text: "Allez, voilà ce que je vous propose : le ballon d'occasion, je vous le fais à 150 euros. La pose, je vous la fais au prix coûtant."
+        foregrounds: []
+      - uuid: "ch3s2-dia2-seq6-abcd-000000000002"
+        character: "Vendeur"
+        text: "Et je passe cet après-midi pour l'installer. Comme ça vos demoiselles auront de l'eau chaude ce soir."
+        foregrounds: []
+      - uuid: "ch3s2-dia3-seq6-abcd-000000000003"
+        character: "Joueur"
+        text: "Vraiment ?! Merci infiniment monsieur Durand ! Vous me sauvez la vie !"
+        foregrounds: []
+      - uuid: "ch3s2-dia4-seq6-abcd-000000000004"
+        character: "Vendeur"
+        text: "Bah, entre gens du coin, faut s'entraider. Et puis, si ces petites peuvent aller en cours tranquilles, c'est le principal."
+        foregrounds: []
+      - uuid: "ch3s2-dia5-seq6-abcd-000000000005"
+        character: "Joueur"
+        text: "Merci encore. Je vais rentrer annoncer la bonne nouvelle !"
+        foregrounds: []
+      - uuid: "ch3s2-dia6-seq6-abcd-000000000006"
+        character: "Vendeur"
+        text: "À cet après-midi alors ! Et passez le bonjour à Mme Girard de ma part !"
+        foregrounds: []
+    fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
+    transition_in_type: "fade"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_scene"
+        target: "ch3s0003-0000-4012-abcd-000000000001"
+        effects: []
+  - uuid: "ch3s2-fail-4012-abcd-000000000010"
+    name: "Le vendeur s'énerve"
+    title: ""
+    subtitle: ""
+    position: { x: 860.0, y: 800.0 }
+    background: "assets/backgrounds/Background_5.jpeg"
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "ch3s2-dia1-fail-abcd-000000000001"
+        character: "Vendeur"
+        text: "Eh oh ! On se calme, jeune homme ! C'est pas un bazar ici, c'est un commerce sérieux !"
+        foregrounds: []
+      - uuid: "ch3s2-dia2-fail-abcd-000000000002"
+        character: "Vendeur"
+        text: "Si c'est pour me parler comme ça, la porte est là ! Revenez quand vous aurez appris les bonnes manières !"
+        foregrounds: []
+      - uuid: "ch3s2-dia3-fail-abcd-000000000003"
+        character: "Joueur"
+        text: "Attendez, je..."
+        foregrounds: []
+      - uuid: "ch3s2-dia4-fail-abcd-000000000004"
+        character: "Vendeur"
+        text: "DEHORS !"
+        foregrounds: []
+    fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: true
+    transition_in_type: "fade"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_sequence"
+        target: "ch3s2-retr-4012-abcd-000000000011"
+        effects: []
+  - uuid: "ch3s2-retr-4012-abcd-000000000011"
+    name: "Réflexion après l'échec"
+    title: ""
+    subtitle: ""
+    position: { x: 620.0, y: 800.0 }
+    background: "assets/backgrounds/ai_1772389778_78445.png"
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "ch3s2-dia1-retr-abcd-000000000001"
+        character: "Joueur"
+        text: "Bravo, champion. Vraiment bien joué."
+        foregrounds: []
+      - uuid: "ch3s2-dia2-retr-abcd-000000000002"
+        character: "Joueur"
+        text: "J'aurais dû m'y prendre autrement. Ce type est ma seule chance de résoudre ce problème."
+        foregrounds: []
+      - uuid: "ch3s2-dia3-retr-abcd-000000000003"
+        character: "Joueur"
+        text: "Allez, je respire un grand coup et je retourne le voir. Cette fois, je serai diplomate."
+        foregrounds: []
+    fx: []
+    music: "assets/music/Promenade Sous Le Ciel Clair.mp3"
+    audio_fx: ""
+    stop_music: false
+    transition_in_type: "fade"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_sequence"
+        target: "ch3s2-seq2-4012-abcd-000000000002"
+        effects: []
+conditions: []
+connections:
+  - from: "ch3s2-seq1-4012-abcd-000000000001"
+    to: "ch3s2-seq2-4012-abcd-000000000002"
+  - from: "ch3s2-seq2-4012-abcd-000000000002"
+    to: "ch3s2-seq3-4012-abcd-000000000003"
+  - from: "ch3s2-seq2-4012-abcd-000000000002"
+    to: "ch3s2-seq4-4012-abcd-000000000004"
+  - from: "ch3s2-seq2-4012-abcd-000000000002"
+    to: "ch3s2-fail-4012-abcd-000000000010"
+  - from: "ch3s2-seq3-4012-abcd-000000000003"
+    to: "ch3s2-seq6-4012-abcd-000000000006"
+  - from: "ch3s2-seq3-4012-abcd-000000000003"
+    to: "ch3s2-seq5-4012-abcd-000000000005"
+  - from: "ch3s2-seq3-4012-abcd-000000000003"
+    to: "ch3s2-fail-4012-abcd-000000000010"
+  - from: "ch3s2-seq4-4012-abcd-000000000004"
+    to: "ch3s2-seq5-4012-abcd-000000000005"
+  - from: "ch3s2-seq4-4012-abcd-000000000004"
+    to: "ch3s2-fail-4012-abcd-000000000010"
+  - from: "ch3s2-seq5-4012-abcd-000000000005"
+    to: "ch3s2-seq6-4012-abcd-000000000006"
+  - from: "ch3s2-seq6-4012-abcd-000000000006"
+    to: "ch3s0003-0000-4012-abcd-000000000001"
+  - from: "ch3s2-fail-4012-abcd-000000000010"
+    to: "ch3s2-retr-4012-abcd-000000000011"
+  - from: "ch3s2-retr-4012-abcd-000000000011"
+    to: "ch3s2-seq2-4012-abcd-000000000002"
+entry_point: "ch3s2-seq1-4012-abcd-000000000001"

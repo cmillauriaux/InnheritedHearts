@@ -9,10 +9,6 @@ assignments:
   - image: "backgrounds/Background_player_bedroom.jpeg"
     categories:
       - "Base"
-  - image: "foregrounds/ai_1772391265_71791.png"
-    categories:
-      - "Base"
-      - "Mr Dumont"
   - image: "foregrounds/ai_1772400321_48446.png"
     categories:
       - "Mme Girard"
@@ -29,12 +25,6 @@ assignments:
     categories:
       - "Mr Dumont"
       - "Base"
-  - image: "foregrounds/ai_1772390303_69232.png"
-    categories:
-      - "Mr Dumont"
-  - image: "foregrounds/ai_1772390350_70862.png"
-    categories:
-      - "Mr Dumont"
   - image: "foregrounds/ai_1772392306_46295.png"
     categories:
       - "Base"
@@ -48,3 +38,13 @@ assignments:
   - image: "foregrounds/Girard-broom-crazy.png"
     categories:
       - "Mme Girard"
+  - image: "foregrounds/dumon_doigt_leve.png"
+    categories:
+      - "Mr Dumont"
+  - image: "foregrounds/dumont_cle.png"
+    categories:
+      - "Base"
+      - "Mr Dumont"
+  - image: "foregrounds/dumont_bras_croises.png"
+    categories:
+      - "Mr Dumont"

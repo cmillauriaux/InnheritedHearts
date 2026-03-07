@@ -1,0 +1,52 @@
+uuid: "ch3s0001-0000-4012-abcd-000000000001"
+name: "Le réveil"
+subtitle: ""
+sequences:
+  - uuid: "ch3s1-seq1-4012-abcd-000000000001"
+    name: "Le matin tôt"
+    title: ""
+    subtitle: ""
+    position: { x: 380.0, y: 440.0 }
+    background: "assets/backgrounds/Background_player_bedroom.jpeg"
+    background_color: "00000000"
+    foregrounds: []
+    dialogues:
+      - uuid: "ch3s1-dia1-4012-abcd-000000000001"
+        character: "Joueur"
+        text: "Mmh... Quelle heure il est ? Six heures du matin ?!"
+        foregrounds: []
+      - uuid: "ch3s1-dia2-4012-abcd-000000000002"
+        character: "Joueur"
+        text: "Impossible de me rendormir. Cette histoire de chauffe-eau me trotte dans la tête depuis hier soir."
+        foregrounds: []
+      - uuid: "ch3s1-dia3-4012-abcd-000000000003"
+        character: "Joueur"
+        text: "Les filles comptent sur moi. Si je ne trouve pas une solution rapidement, ça va devenir invivable ici."
+        foregrounds: []
+      - uuid: "ch3s1-dia4-4012-abcd-000000000004"
+        character: "Joueur"
+        text: "Il doit bien y avoir un magasin en ville qui pourrait m'aider. Allez, debout !"
+        foregrounds: []
+      - uuid: "ch3s1-dia5-4012-abcd-000000000005"
+        character: "Joueur"
+        text: "Je vais m'habiller et filer avant que tout le monde se réveille. Pas envie d'expliquer où je vais."
+        foregrounds: []
+    fx: []
+    music: "assets/music/Inn_theme.mp3"
+    audio_fx: ""
+    stop_music: false
+    transition_in_type: "fade"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_scene"
+        target: "ch3s0002-0000-4012-abcd-000000000001"
+        effects: []
+conditions: []
+connections:
+  - from: "ch3s1-seq1-4012-abcd-000000000001"
+    to: "ch3s0002-0000-4012-abcd-000000000001"
+entry_point: "ch3s1-seq1-4012-abcd-000000000001"
