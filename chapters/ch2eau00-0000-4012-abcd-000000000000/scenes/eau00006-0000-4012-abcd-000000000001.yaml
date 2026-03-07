@@ -7,7 +7,7 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 100.0, y: 100.0 }
-    background: "assets/backgrounds/Background_4.jpeg"
+    background: "assets/backgrounds/Auberge.png"
     background_color: "00000000"
     foregrounds: []
     dialogues:
