@@ -9,12 +9,36 @@ sequences:
     position: { x: 100.0, y: 100.0 }
     background: "assets/backgrounds/Background_player_bedroom.jpeg"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "171be125-4c48-4068-85a9-b168bbac3806"
+        name: ""
+        image: "assets/foregrounds/ai_1772623979_38078.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.65856083569397
+        anchor_bg: { x: 1.37198650836945, y: 1.29769814014435 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "eau08dia1-seq1-4012-abcd-000000000001"
         character: "Mme Girard"
         text: "Vous avez pris votre décision ? Bien. J'apprécie que vous ayez pris les choses en main."
-        foregrounds: []
+        foregrounds:
+          - uuid: "171be125-4c48-4068-85a9-b168bbac3806"
+            name: ""
+            image: "assets/foregrounds/ai_1772623979_38078.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.65856083569397
+            anchor_bg: { x: 1.37198650836945, y: 1.29769814014435 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
       - uuid: "eau08dia2-seq1-4012-abcd-000000000002"
         character: "Mme Girard"
         text: "Votre oncle aurait fait pareil : ne pas fuir les problèmes. Vous lui ressemblez peut-être un peu, finalement."
@@ -28,7 +52,7 @@ sequences:
         text: "J'y compte bien. Bonne nuit."
         foregrounds: []
     fx: []
-    music: ""
+    music: "/Users/cedric/Stories/InnheritedHearts/assets/music/MmeGirard_theme.mp3"
     audio_fx: ""
     stop_music: false
     transition_in_type: "fade"

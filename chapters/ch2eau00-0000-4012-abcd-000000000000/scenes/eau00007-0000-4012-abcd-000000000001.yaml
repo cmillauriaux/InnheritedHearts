@@ -6,18 +6,138 @@ sequences:
     name: "Le premier choix important"
     title: ""
     subtitle: ""
-    position: { x: 100.0, y: 100.0 }
+    position: { x: 380.0, y: 440.0 }
     background: "assets/backgrounds/Background_bathroom.jpeg"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "5da8147b-17af-4f2f-137a-2d03cf21bb36"
+        name: ""
+        image: "assets/foregrounds/ai_1772881362_51382.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.67444165705451
+        anchor_bg: { x: 0.1638371348381, y: 1.29869019985199 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
+      - uuid: "a52ab30a-acc1-4fab-ddf3-28d80248347d"
+        name: ""
+        image: "assets/foregrounds/ai_1772553512_49038.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.69429281154282
+        anchor_bg: { x: 0.46400681138039, y: 1.29869019985199 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
+      - uuid: "c7612e2b-7a38-41bb-bcb5-9d7950d24c36"
+        name: ""
+        image: "assets/foregrounds/ai_1772878809_1088.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.60794035199262
+        anchor_bg: { x: 0.7546688914299, y: 1.29968237876892 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
+      - uuid: "e6bff0fd-8a86-487d-d32a-84af24a297e2"
+        name: ""
+        image: "assets/foregrounds/ai_1772553776_65883.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.67047160789925
+        anchor_bg: { x: 1.09083187580109, y: 1.30265891551971 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
+      - uuid: "979b57fe-c8f3-4f1f-df3a-76fc1a8d4c1e"
+        name: ""
+        image: "assets/foregrounds/ai_1772885564_1387.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.67841193338778
+        anchor_bg: { x: 1.40865862369537, y: 1.29869019985199 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "eau07dia1-seq1-4012-abcd-000000000001"
         character: "Joueur"
-        text: "Attendez... Il reste juste assez d'eau chaude pour une seule douche ce soir. Une seule."
-        foregrounds: []
+        text: "Bon. J'ai écouté tout le monde. Il est temps de faire mon choix."
+        foregrounds:
+          - uuid: "5da8147b-17af-4f2f-137a-2d03cf21bb36"
+            name: ""
+            image: "assets/foregrounds/ai_1772881362_51382.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.67444165705451
+            anchor_bg: { x: 0.1638371348381, y: 1.29869019985199 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+          - uuid: "a52ab30a-acc1-4fab-ddf3-28d80248347d"
+            name: ""
+            image: "assets/foregrounds/ai_1772553512_49038.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.69429281154282
+            anchor_bg: { x: 0.46400681138039, y: 1.29869019985199 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+          - uuid: "c7612e2b-7a38-41bb-bcb5-9d7950d24c36"
+            name: ""
+            image: "assets/foregrounds/ai_1772878809_1088.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.60794035199262
+            anchor_bg: { x: 0.7546688914299, y: 1.29968237876892 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+          - uuid: "e6bff0fd-8a86-487d-d32a-84af24a297e2"
+            name: ""
+            image: "assets/foregrounds/ai_1772553776_65883.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.67047160789925
+            anchor_bg: { x: 1.09083187580109, y: 1.30265891551971 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+          - uuid: "979b57fe-c8f3-4f1f-df3a-76fc1a8d4c1e"
+            name: ""
+            image: "assets/foregrounds/ai_1772885564_1387.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.67841193338778
+            anchor_bg: { x: 1.40865862369537, y: 1.29869019985199 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
       - uuid: "eau07dia2-seq1-4012-abcd-000000000002"
         character: "Joueur"
-        text: "Je dois décider à qui je l'offre. C'est mon premier choix important en tant que propriétaire."
+        text: "C'est mon premier choix important en tant que propriétaire. Qui aura droit à la seule douche chaude ce soir ?"
         foregrounds: []
     fx: []
     music: ""
@@ -95,8 +215,306 @@ sequences:
                 value: "1"
           conditions: {}
           effects: []
+        - text: "Vous pouvez pas la prendre toutes ensemble ?"
+          consequence:
+            type: "redirect_sequence"
+            target: "eau00007-seq2-4012-abcd-000000000003"
+            effects: []
+          conditions: {}
+          effects: []
+  - uuid: "eau00007-seq2-4012-abcd-000000000003"
+    name: "Réaction outrée des filles"
+    title: ""
+    subtitle: ""
+    position: { x: 380.0, y: 260.0 }
+    background: "assets/backgrounds/Background_bathroom.jpeg"
+    background_color: "00000000"
+    foregrounds:
+      - uuid: "fcbeb0a9-6b24-4880-ab91-12a02833dd8c"
+        name: ""
+        image: "assets/foregrounds/ai_1772880557_03878.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.68436723429867
+        anchor_bg: { x: 0.14142616093159, y: 1.29869019985199 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
+      - uuid: "a44ce419-6c3b-4acf-db12-4f7921a9023e"
+        name: ""
+        image: "assets/foregrounds/ai_1772554032_78817.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.64962779913588
+        anchor_bg: { x: 0.4741935133934, y: 1.29869019985199 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
+      - uuid: "76c3a6b7-eff6-44ef-405b-862811f3d88c"
+        name: ""
+        image: "assets/foregrounds/ai_1772880265_82487.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.6893299945235
+        anchor_bg: { x: 0.77640062570572, y: 1.30265879631042 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
+      - uuid: "25a8b09c-376e-4236-d83b-a096dd81998a"
+        name: ""
+        image: "assets/foregrounds/ai_1772881362_51382.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.67741939270171
+        anchor_bg: { x: 1.09286916255951, y: 1.30365109443665 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
+      - uuid: "50e951e7-5f15-4b5e-f32c-74e47e2552c5"
+        name: ""
+        image: "assets/foregrounds/ai_1772884256_85091.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.57022357874414
+        anchor_bg: { x: 1.39032256603241, y: 1.30464315414429 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
+    dialogues:
+      - uuid: "eau07dia3-seq2-4012-abcd-000000000001"
+        character: "Lola"
+        text: "PARDON ?! T'es sérieux là ?!"
+        foregrounds:
+          - uuid: "fcbeb0a9-6b24-4880-ab91-12a02833dd8c"
+            name: ""
+            image: "assets/foregrounds/ai_1772880557_03878.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.68436723429867
+            anchor_bg: { x: 0.14142616093159, y: 1.29869019985199 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "eau07dia3-seq2-4012-abcd-000000000002"
+        character: "Alicia"
+        text: "Je vous demande pardon ? Cinq personnes dans une seule douche ? C'est d'une indécence..."
+        foregrounds:
+          - uuid: "fcbeb0a9-6b24-4880-ab91-12a02833dd8c"
+            name: ""
+            image: "assets/foregrounds/ai_1772880557_03878.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.68436723429867
+            anchor_bg: { x: 0.14142616093159, y: 1.29869019985199 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+          - uuid: "a44ce419-6c3b-4acf-db12-4f7921a9023e"
+            name: ""
+            image: "assets/foregrounds/ai_1772554032_78817.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.64962779913588
+            anchor_bg: { x: 0.4741935133934, y: 1.29869019985199 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "eau07dia3-seq2-4012-abcd-000000000003"
+        character: "Mary"
+        text: "Non mais tu t'entends ?! On est pas dans un vestiaire de rugby !"
+        foregrounds:
+          - uuid: "fcbeb0a9-6b24-4880-ab91-12a02833dd8c"
+            name: ""
+            image: "assets/foregrounds/ai_1772880557_03878.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.68436723429867
+            anchor_bg: { x: 0.14142616093159, y: 1.29869019985199 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+          - uuid: "a44ce419-6c3b-4acf-db12-4f7921a9023e"
+            name: ""
+            image: "assets/foregrounds/ai_1772554032_78817.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.64962779913588
+            anchor_bg: { x: 0.4741935133934, y: 1.29869019985199 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+          - uuid: "76c3a6b7-eff6-44ef-405b-862811f3d88c"
+            name: ""
+            image: "assets/foregrounds/ai_1772880265_82487.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.6893299945235
+            anchor_bg: { x: 0.77640062570572, y: 1.30265879631042 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "eau07dia3-seq2-4012-abcd-000000000004"
+        character: "Lise"
+        text: "..."
+        foregrounds:
+          - uuid: "fcbeb0a9-6b24-4880-ab91-12a02833dd8c"
+            name: ""
+            image: "assets/foregrounds/ai_1772880557_03878.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.68436723429867
+            anchor_bg: { x: 0.14142616093159, y: 1.29869019985199 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+          - uuid: "a44ce419-6c3b-4acf-db12-4f7921a9023e"
+            name: ""
+            image: "assets/foregrounds/ai_1772554032_78817.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.64962779913588
+            anchor_bg: { x: 0.4741935133934, y: 1.29869019985199 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+          - uuid: "76c3a6b7-eff6-44ef-405b-862811f3d88c"
+            name: ""
+            image: "assets/foregrounds/ai_1772880265_82487.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.6893299945235
+            anchor_bg: { x: 0.77640062570572, y: 1.30265879631042 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+          - uuid: "25a8b09c-376e-4236-d83b-a096dd81998a"
+            name: ""
+            image: "assets/foregrounds/ai_1772881362_51382.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.67741939270171
+            anchor_bg: { x: 1.09286916255951, y: 1.30365109443665 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "eau07dia3-seq2-4012-abcd-000000000005"
+        character: "Zven"
+        text: "Chez moi on se baigne ensemble dans la rivière, mais... je crois que c'est pas pareil ici."
+        foregrounds:
+          - uuid: "fcbeb0a9-6b24-4880-ab91-12a02833dd8c"
+            name: ""
+            image: "assets/foregrounds/ai_1772880557_03878.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.68436723429867
+            anchor_bg: { x: 0.14142616093159, y: 1.29869019985199 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+          - uuid: "a44ce419-6c3b-4acf-db12-4f7921a9023e"
+            name: ""
+            image: "assets/foregrounds/ai_1772554032_78817.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.64962779913588
+            anchor_bg: { x: 0.4741935133934, y: 1.29869019985199 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+          - uuid: "76c3a6b7-eff6-44ef-405b-862811f3d88c"
+            name: ""
+            image: "assets/foregrounds/ai_1772880265_82487.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.6893299945235
+            anchor_bg: { x: 0.77640062570572, y: 1.30265879631042 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+          - uuid: "25a8b09c-376e-4236-d83b-a096dd81998a"
+            name: ""
+            image: "assets/foregrounds/ai_1772881362_51382.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.67741939270171
+            anchor_bg: { x: 1.09286916255951, y: 1.30365109443665 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+          - uuid: "50e951e7-5f15-4b5e-f32c-74e47e2552c5"
+            name: ""
+            image: "assets/foregrounds/ai_1772884256_85091.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.57022357874414
+            anchor_bg: { x: 1.39032256603241, y: 1.30464315414429 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "eau07dia3-seq2-4012-abcd-000000000006"
+        character: "Joueur"
+        text: "OK, OK ! Oubliez ce que j'ai dit ! Mauvaise idée, très mauvaise idée !"
+        foregrounds: []
+    fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
+    transition_in_type: "fade"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_sequence"
+        target: "eau00007-seq1-4012-abcd-000000000002"
+        effects: []
 conditions: []
 connections:
   - from: "eau00007-seq1-4012-abcd-000000000002"
     to: "eau00008-0000-4012-abcd-000000000001"
+  - from: "eau00007-seq1-4012-abcd-000000000002"
+    to: "eau00007-seq2-4012-abcd-000000000003"
+  - from: "eau00007-seq2-4012-abcd-000000000003"
+    to: "eau00007-seq1-4012-abcd-000000000002"
 entry_point: "eau00007-seq1-4012-abcd-000000000002"

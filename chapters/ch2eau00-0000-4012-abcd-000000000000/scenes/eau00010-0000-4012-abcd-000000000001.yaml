@@ -7,14 +7,38 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 100.0, y: 100.0 }
-    background: "assets/backgrounds/Background_player_bedroom.jpeg"
+    background: "assets/backgrounds/ai_1772887905_91258.png"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "e1bff721-5de6-4807-790e-d118398dea88"
+        name: ""
+        image: "assets/foregrounds/ai_1772887576_76421.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.7697270395738
+        anchor_bg: { x: 1.17843782901764, y: 1.29968249797821 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "eau10dia1-seq1-4012-abcd-000000000001"
         character: "Lise"
         text: "E-excuse-moi... Je peux entrer une seconde ?"
-        foregrounds: []
+        foregrounds:
+          - uuid: "e1bff721-5de6-4807-790e-d118398dea88"
+            name: ""
+            image: "assets/foregrounds/ai_1772887576_76421.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.7697270395738
+            anchor_bg: { x: 1.17843782901764, y: 1.29968249797821 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
       - uuid: "eau10dia2-seq1-4012-abcd-000000000002"
         character: "Lise"
         text: "Oh... C'est vraiment gentil d'avoir pensé à moi pour la douche."
@@ -36,7 +60,7 @@ sequences:
         text: "Bonne nuit, Lise. Dors bien."
         foregrounds: []
     fx: []
-    music: ""
+    music: "/Users/cedric/Stories/InnheritedHearts/assets/music/Lise_theme.mp3"
     audio_fx: ""
     stop_music: false
     transition_in_type: "fade"

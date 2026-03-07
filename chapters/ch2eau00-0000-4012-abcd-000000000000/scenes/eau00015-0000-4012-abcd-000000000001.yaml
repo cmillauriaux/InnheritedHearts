@@ -2,6 +2,69 @@ uuid: "eau00015-0000-4012-abcd-000000000001"
 name: "Les plaidoiries"
 subtitle: ""
 sequences:
+  - uuid: "eau00015-seq0-4012-abcd-000000000001"
+    name: "Mme Girard annonce le chauffe-eau de secours"
+    title: ""
+    subtitle: ""
+    position: { x: -260.0, y: 100.0 }
+    background: "assets/backgrounds/Background_bathroom.jpeg"
+    background_color: "00000000"
+    foregrounds:
+      - uuid: "3973549d-a0a5-430b-280b-6cbb97cd0720"
+        name: ""
+        image: "assets/foregrounds/ai_1772623434_06199.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.85111662531017
+        anchor_bg: { x: 0.80016976594925, y: 1.30166685581207 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
+    dialogues:
+      - uuid: "eau15dia0-seq0-4012-abcd-000000000001"
+        character: "Mme Girard"
+        text: "Attendez, attendez ! Ne désespérez pas tout de suite."
+        foregrounds:
+          - uuid: "3973549d-a0a5-430b-280b-6cbb97cd0720"
+            name: ""
+            image: "assets/foregrounds/ai_1772623434_06199.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.85111662531017
+            anchor_bg: { x: 0.80016976594925, y: 1.30166685581207 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+      - uuid: "eau15dia0-seq0-4012-abcd-000000000002"
+        character: "Mme Girard"
+        text: "Il y a un vieux chauffe-eau de secours au sous sol. Il est petit, mais je pense qu'il reste assez d'eau chaude pour une douche. Une seule."
+        foregrounds: []
+      - uuid: "eau15dia0-seq0-4012-abcd-000000000003"
+        character: "Mme Girard"
+        text: "C'est à vous de décider, monsieur le propriétaire. Qui aura droit à cette douche ce soir ?"
+        foregrounds: []
+      - uuid: "eau15dia0-seq0-4012-abcd-000000000004"
+        character: "Joueur"
+        text: "Une seule douche pour cinq filles... Ça ne va pas être simple."
+        foregrounds: []
+    fx: []
+    music: ""
+    audio_fx: ""
+    stop_music: false
+    transition_in_type: "fade"
+    transition_in_duration: 0.5
+    transition_out_type: "none"
+    transition_out_duration: 0.5
+    ending:
+      type: "auto_redirect"
+      consequence:
+        type: "redirect_sequence"
+        target: "eau00015-seq1-4012-abcd-000000000002"
+        effects: []
   - uuid: "eau00015-seq1-4012-abcd-000000000002"
     name: "Chacune son argument"
     title: ""
@@ -9,16 +72,88 @@ sequences:
     position: { x: 100.0, y: 100.0 }
     background: "assets/backgrounds/Background_bathroom.jpeg"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "42e14c7f-1476-463a-5809-6a901d6e4352"
+        name: ""
+        image: "assets/foregrounds/ai_1772880265_82487.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.67841193338778
+        anchor_bg: { x: 1.40865862369537, y: 1.29869019985199 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
+      - uuid: "85291937-a131-4267-f5de-89505853fae9"
+        name: ""
+        image: "assets/foregrounds/ai_1772881362_51382.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.67444165705451
+        anchor_bg: { x: 0.1638371348381, y: 1.29869019985199 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
+      - uuid: "f03a05c0-5d1b-4b0f-4297-73e53abbcd63"
+        name: ""
+        image: "assets/foregrounds/ai_1772880557_03878.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.69429281154282
+        anchor_bg: { x: 0.46400681138039, y: 1.29869019985199 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
+      - uuid: "ba7905dd-a7cf-48c8-ed7e-9612d2838386"
+        name: ""
+        image: "assets/foregrounds/Alicia_speaking.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.67047160789925
+        anchor_bg: { x: 1.09083187580109, y: 1.30265891551971 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
+      - uuid: "0a761bd2-a11a-4e76-dd58-bb30b3b65b1d"
+        name: ""
+        image: "assets/foregrounds/ai_1772884256_85091.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.60794035199262
+        anchor_bg: { x: 0.7546688914299, y: 1.29968237876892 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "eau15dia1-seq1-4012-abcd-000000000001"
         character: "Joueur"
-        text: "Bon... Avant que je prenne une décision, est-ce que quelqu'un veut plaider sa cause ?"
+        text: "Bon... Avant que je prenne ma décision, est-ce que quelqu'un veut plaider sa cause ?"
         foregrounds: []
       - uuid: "eau15dia2-seq1-4012-abcd-000000000002"
         character: "Mary"
         text: "Moi ! S'il te plaît ! Demain matin, je dois présenter une œuvre devant un jury de professeurs. C'est ma note de fin de semestre !"
-        foregrounds: []
+        foregrounds:
+          - uuid: "e8c6d6df-14c8-4cb2-e436-a6f0e6161cc2"
+            name: ""
+            image: "assets/foregrounds/ai_1772880265_82487.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.67841193338778
+            anchor_bg: { x: 1.40865862369537, y: 1.29869019985199 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
       - uuid: "eau15dia3-seq1-4012-abcd-000000000003"
         character: "Mary"
         text: "Si j'arrive pas fraîche et présentable devant eux, ils vont me descendre. Ces profs-là, ils jugent tout : la posture, l'apparence, la confiance en soi..."
@@ -30,7 +165,31 @@ sequences:
       - uuid: "eau15dia5-seq1-4012-abcd-000000000005"
         character: "Lise"
         text: "Je... Moi aussi j'en ai besoin. Je sais que ça peut paraître exagéré mais..."
-        foregrounds: []
+        foregrounds:
+          - uuid: "62cd1c7c-a5b0-498f-47f0-821ab5235454"
+            name: ""
+            image: "assets/foregrounds/ai_1772880265_82487.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.67841193338778
+            anchor_bg: { x: 1.40865862369537, y: 1.29869019985199 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+          - uuid: "b5653ae5-35f3-4ef5-3540-b8f898d7b75e"
+            name: ""
+            image: "assets/foregrounds/ai_1772881362_51382.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.67444165705451
+            anchor_bg: { x: 0.1638371348381, y: 1.29869019985199 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
       - uuid: "eau15dia6-seq1-4012-abcd-000000000006"
         character: "Lise"
         text: "Je ne peux pas dormir sans m'être lavée. C'est impossible. C'est comme si... comme si mon corps refusait de se mettre en veille sans avoir exécuté la routine complète."
@@ -42,7 +201,43 @@ sequences:
       - uuid: "eau15dia8-seq1-4012-abcd-000000000008"
         character: "Lola"
         text: "Non mais attendez, moi c'est pas juste une question de confort ! C'est une question de SANTÉ PUBLIQUE !"
-        foregrounds: []
+        foregrounds:
+          - uuid: "5e2f957e-40e2-483b-1dde-6cdadc780fc2"
+            name: ""
+            image: "assets/foregrounds/ai_1772880265_82487.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.67841193338778
+            anchor_bg: { x: 1.40865862369537, y: 1.29869019985199 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+          - uuid: "146db469-b6b7-43a0-dd2f-56c23ee8ce25"
+            name: ""
+            image: "assets/foregrounds/ai_1772881362_51382.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.67444165705451
+            anchor_bg: { x: 0.1638371348381, y: 1.29869019985199 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+          - uuid: "0f287ffb-893b-4197-239d-04b521a655f9"
+            name: ""
+            image: "assets/foregrounds/ai_1772880557_03878.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.69429281154282
+            anchor_bg: { x: 0.46400681138039, y: 1.29869019985199 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
       - uuid: "eau15dia9-seq1-4012-abcd-000000000009"
         character: "Lola"
         text: "Je suis infirmière ! Enfin, future infirmière ! Demain je suis en stage à l'hôpital, au contact de patients immunodéprimés !"
@@ -54,7 +249,55 @@ sequences:
       - uuid: "eau15di11-seq1-4012-abcd-000000000011"
         character: "Alicia"
         text: "Permettez-moi d'exposer mon cas. Demain, en travaux pratiques, je dois procéder à la dissection d'une grenouille."
-        foregrounds: []
+        foregrounds:
+          - uuid: "bd86765f-8f9e-4475-72a6-912b1a47b74c"
+            name: ""
+            image: "assets/foregrounds/ai_1772880265_82487.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.67841193338778
+            anchor_bg: { x: 1.40865862369537, y: 1.29869019985199 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+          - uuid: "8860afb1-5ea2-4e3b-290a-a5cb6223a597"
+            name: ""
+            image: "assets/foregrounds/ai_1772881362_51382.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.67444165705451
+            anchor_bg: { x: 0.1638371348381, y: 1.29869019985199 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+          - uuid: "1f2a90b0-de44-407b-de61-d33b1b73d0ee"
+            name: ""
+            image: "assets/foregrounds/ai_1772880557_03878.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.69429281154282
+            anchor_bg: { x: 0.46400681138039, y: 1.29869019985199 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+          - uuid: "d6da6f50-8a22-48f1-2951-f2ac89a6419e"
+            name: ""
+            image: "assets/foregrounds/Alicia_speaking.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.67047160789925
+            anchor_bg: { x: 1.09083187580109, y: 1.30265891551971 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
       - uuid: "eau15di12-seq1-4012-abcd-000000000012"
         character: "Alicia"
         text: "Toute intervention sur un spécimen requiert un état de pureté corporelle irréprochable. On ne touche pas à la mort avec des mains souillées."
@@ -74,7 +317,67 @@ sequences:
       - uuid: "eau15di16-seq1-4012-abcd-000000000016"
         character: "Zven"
         text: "Je... Si. C'est juste que c'est un peu gênant à dire."
-        foregrounds: []
+        foregrounds:
+          - uuid: "42e14c7f-1476-463a-5809-6a901d6e4352"
+            name: ""
+            image: "assets/foregrounds/ai_1772880265_82487.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.67841193338778
+            anchor_bg: { x: 1.40865862369537, y: 1.29869019985199 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+          - uuid: "85291937-a131-4267-f5de-89505853fae9"
+            name: ""
+            image: "assets/foregrounds/ai_1772881362_51382.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.67444165705451
+            anchor_bg: { x: 0.1638371348381, y: 1.29869019985199 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+          - uuid: "f03a05c0-5d1b-4b0f-4297-73e53abbcd63"
+            name: ""
+            image: "assets/foregrounds/ai_1772880557_03878.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.69429281154282
+            anchor_bg: { x: 0.46400681138039, y: 1.29869019985199 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+          - uuid: "ba7905dd-a7cf-48c8-ed7e-9612d2838386"
+            name: ""
+            image: "assets/foregrounds/Alicia_speaking.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.67047160789925
+            anchor_bg: { x: 1.09083187580109, y: 1.30265891551971 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+          - uuid: "0a761bd2-a11a-4e76-dd58-bb30b3b65b1d"
+            name: ""
+            image: "assets/foregrounds/ai_1772884256_85091.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.60794035199262
+            anchor_bg: { x: 0.7546688914299, y: 1.29968237876892 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
       - uuid: "eau15di17-seq1-4012-abcd-000000000017"
         character: "Zven"
         text: "Chez moi, sur l'île, on se lave tous les jours dans la rivière. C'est normal. Mais ici, les gens ne savent pas ça."
@@ -97,7 +400,7 @@ sequences:
         foregrounds: []
       - uuid: "eau15di22-seq1-4012-abcd-000000000022"
         character: "Joueur"
-        text: "Mais il n'y a qu'une seule douche. Il va falloir que je tranche."
+        text: "Mais il n'y a qu'une seule douche chaude ce soir. Il va falloir que je tranche."
         foregrounds: []
     fx: []
     music: ""
@@ -115,6 +418,8 @@ sequences:
         effects: []
 conditions: []
 connections:
+  - from: "eau00015-seq0-4012-abcd-000000000001"
+    to: "eau00015-seq1-4012-abcd-000000000002"
   - from: "eau00015-seq1-4012-abcd-000000000002"
     to: "eau00007-0000-4012-abcd-000000000001"
-entry_point: "eau00015-seq1-4012-abcd-000000000002"
+entry_point: "eau00015-seq0-4012-abcd-000000000001"

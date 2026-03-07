@@ -28,7 +28,7 @@ sequences:
         text: "Bon... Une semaine. Il va falloir tenir jusque-là."
         foregrounds: []
     fx: []
-    music: ""
+    music: "/Users/cedric/Stories/InnheritedHearts/assets/music/Inn_theme.mp3"
     audio_fx: ""
     stop_music: false
     transition_in_type: "fade"

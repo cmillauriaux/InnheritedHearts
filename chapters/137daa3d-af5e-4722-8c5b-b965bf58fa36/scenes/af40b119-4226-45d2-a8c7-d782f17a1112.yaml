@@ -22,9 +22,9 @@ sequences:
         anchor_fg: { x: 0.5, y: 1.0 }
         transition_type: "fade"
         transition_duration: 0.5
-      - uuid: "ff17ab6a-a0cb-44e2-ea24-08201e19f10d"
+      - uuid: "030cf1bf-46dd-44d0-23b0-aee2f62688ad"
         name: ""
-        image: "assets/foregrounds/ai_1772623434_06199.png"
+        image: "assets/foregrounds/ai_1772624064_12056.png"
         z_order: 0
         opacity: 1.0
         flip_h: false
@@ -32,7 +32,7 @@ sequences:
         scale: 0.71017380328687
         anchor_bg: { x: 0.76621389389038, y: 1.29862868785858 }
         anchor_fg: { x: 0.5, y: 1.0 }
-        transition_type: "fade"
+        transition_type: "none"
         transition_duration: 0.5
     dialogues:
       - uuid: "fc1c6ff0-6dda-490d-befc-5b3f03fcbcf1"
@@ -115,9 +115,9 @@ sequences:
             anchor_fg: { x: 0.5, y: 1.0 }
             transition_type: "fade"
             transition_duration: 0.5
-          - uuid: "ff17ab6a-a0cb-44e2-ea24-08201e19f10d"
+          - uuid: "030cf1bf-46dd-44d0-23b0-aee2f62688ad"
             name: ""
-            image: "assets/foregrounds/ai_1772623434_06199.png"
+            image: "assets/foregrounds/ai_1772624064_12056.png"
             z_order: 0
             opacity: 1.0
             flip_h: false
@@ -125,7 +125,7 @@ sequences:
             scale: 0.71017380328687
             anchor_bg: { x: 0.76621389389038, y: 1.29862868785858 }
             anchor_fg: { x: 0.5, y: 1.0 }
-            transition_type: "fade"
+            transition_type: "none"
             transition_duration: 0.5
     fx: []
     music: ""

@@ -7,14 +7,38 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 100.0, y: 100.0 }
-    background: "assets/backgrounds/Background_player_bedroom.jpeg"
+    background: "assets/backgrounds/ai_1772887905_91258.png"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "e6004276-b3de-4fc5-2860-9d9cc0bc41d6"
+        name: ""
+        image: "assets/foregrounds/ai_1772887638_64696.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.75285362073269
+        anchor_bg: { x: 0.79609507322311, y: 1.29968237876892 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "eau11dia1-seq1-4012-abcd-000000000001"
         character: "Lola"
         text: "Coucou ! C'est moi ! Je peux entrer ?"
-        foregrounds: []
+        foregrounds:
+          - uuid: "e6004276-b3de-4fc5-2860-9d9cc0bc41d6"
+            name: ""
+            image: "assets/foregrounds/ai_1772887638_64696.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.75285362073269
+            anchor_bg: { x: 0.79609507322311, y: 1.29968237876892 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
       - uuid: "eau11dia2-seq1-4012-abcd-000000000002"
         character: "Lola"
         text: "Oh merci merci merci ! Tu es un ange ! Un vrai sauveur !"
@@ -44,7 +68,7 @@ sequences:
         text: "Elle ne m'a encore pas laissé en placer une..."
         foregrounds: []
     fx: []
-    music: ""
+    music: "/Users/cedric/Stories/InnheritedHearts/assets/music/Lola_theme.mp3"
     audio_fx: ""
     stop_music: false
     transition_in_type: "fade"

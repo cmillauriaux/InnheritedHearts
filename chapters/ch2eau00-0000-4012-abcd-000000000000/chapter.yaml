@@ -5,63 +5,63 @@ scenes:
   - uuid: "eau00001-0000-4012-abcd-000000000001"
     name: "L'avertissement"
     subtitle: ""
-    position: { x: 100.0, y: 100.0 }
+    position: { x: 480.0, y: 440.0 }
   - uuid: "eau00002-0000-4012-abcd-000000000001"
     name: "La crise"
     subtitle: ""
-    position: { x: 460.0, y: 100.0 }
+    position: { x: 720.0, y: 440.0 }
   - uuid: "eau00003-0000-4012-abcd-000000000001"
     name: "La cave"
     subtitle: ""
-    position: { x: 820.0, y: -60.0 }
+    position: { x: 920.0, y: 620.0 }
   - uuid: "eau00004-0000-4012-abcd-000000000001"
     name: "L'appel"
     subtitle: ""
-    position: { x: 820.0, y: 260.0 }
+    position: { x: 920.0, y: 440.0 }
   - uuid: "eau00005-0000-4012-abcd-000000000001"
     name: "Le verdict"
     subtitle: ""
-    position: { x: 1180.0, y: 100.0 }
+    position: { x: 1100.0, y: 440.0 }
   - uuid: "eau00006-0000-4012-abcd-000000000001"
     name: "Tutoriel"
     subtitle: ""
-    position: { x: 1540.0, y: 100.0 }
+    position: { x: 1300.0, y: 440.0 }
   - uuid: "eau00015-0000-4012-abcd-000000000001"
     name: "Les plaidoiries"
     subtitle: ""
-    position: { x: 1720.0, y: 100.0 }
+    position: { x: 1480.0, y: 440.0 }
   - uuid: "eau00007-0000-4012-abcd-000000000001"
     name: "Le choix de la douche"
     subtitle: ""
-    position: { x: 1900.0, y: 100.0 }
+    position: { x: 1720.0, y: 440.0 }
   - uuid: "eau00008-0000-4012-abcd-000000000001"
     name: "Retour dans la chambre"
     subtitle: ""
-    position: { x: 2260.0, y: 100.0 }
+    position: { x: 2000.0, y: 440.0 }
   - uuid: "eau00009-0000-4012-abcd-000000000001"
     name: "La visite de Mary"
     subtitle: ""
-    position: { x: 2620.0, y: -260.0 }
+    position: { x: 2300.0, y: 620.0 }
   - uuid: "eau00010-0000-4012-abcd-000000000001"
     name: "La visite de Lise"
     subtitle: ""
-    position: { x: 2620.0, y: -100.0 }
+    position: { x: 2300.0, y: 780.0 }
   - uuid: "eau00011-0000-4012-abcd-000000000001"
     name: "La visite de Lola"
     subtitle: ""
-    position: { x: 2620.0, y: 60.0 }
+    position: { x: 2300.0, y: 960.0 }
   - uuid: "eau00012-0000-4012-abcd-000000000001"
     name: "La visite d'Alicia"
     subtitle: ""
-    position: { x: 2620.0, y: 220.0 }
+    position: { x: 2300.0, y: 1120.0 }
   - uuid: "eau00013-0000-4012-abcd-000000000001"
     name: "La visite de Zven"
     subtitle: ""
-    position: { x: 2620.0, y: 380.0 }
+    position: { x: 2300.0, y: 440.0 }
   - uuid: "eau00014-0000-4012-abcd-000000000001"
     name: "Fin de journée"
     subtitle: ""
-    position: { x: 2980.0, y: 100.0 }
+    position: { x: 2560.0, y: 780.0 }
 connections:
   - from: "eau00001-0000-4012-abcd-000000000001"
     to: "eau00002-0000-4012-abcd-000000000001"

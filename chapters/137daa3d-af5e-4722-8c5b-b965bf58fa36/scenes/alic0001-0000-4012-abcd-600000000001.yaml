@@ -103,9 +103,21 @@ sequences:
     background: "assets/backgrounds/Character_4_room.jpeg"
     background_color: "00000000"
     foregrounds:
-      - uuid: "ffada3d7-57c7-4339-2993-799eb88da6ab"
+      - uuid: "61fea699-c1f0-4cde-43ed-34128ea6ef09"
         name: ""
-        image: "assets/foregrounds/ai_1772553838_20938.png"
+        image: "assets/foregrounds/ai_1772879703_94507.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.72927001666407
+        anchor_bg: { x: 0.79026716947556, y: 1.30140602588654 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
+      - uuid: "861db198-5060-4a61-93b3-a386801f8e23"
+        name: ""
+        image: "assets/foregrounds/Alicia_speaking.png"
         z_order: 0
         opacity: 1.0
         flip_h: false
@@ -120,9 +132,21 @@ sequences:
         character: "Alicia"
         text: "Bonjour à vous également. Et vous seriez... ?"
         foregrounds:
-          - uuid: "ffada3d7-57c7-4339-2993-799eb88da6ab"
+          - uuid: "61fea699-c1f0-4cde-43ed-34128ea6ef09"
             name: ""
-            image: "assets/foregrounds/ai_1772553838_20938.png"
+            image: "assets/foregrounds/ai_1772879703_94507.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.72927001666407
+            anchor_bg: { x: 0.79026716947556, y: 1.30140602588654 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+          - uuid: "861db198-5060-4a61-93b3-a386801f8e23"
+            name: ""
+            image: "assets/foregrounds/Alicia_speaking.png"
             z_order: 0
             opacity: 1.0
             flip_h: false
@@ -154,9 +178,9 @@ sequences:
     background: "assets/backgrounds/Character_4_room.jpeg"
     background_color: "00000000"
     foregrounds:
-      - uuid: "4c0d68a6-988c-48f4-e1d9-6bb162bf2fd7"
+      - uuid: "dc06053d-76e4-41c9-5e22-39fef8b247b1"
         name: ""
-        image: "assets/foregrounds/ai_1772553902_29006.png"
+        image: "assets/foregrounds/Alicia_speaking.png"
         z_order: 0
         opacity: 1.0
         flip_h: false
@@ -171,9 +195,9 @@ sequences:
         character: "Alicia"
         text: "Je vous remercie. J'avais pourtant essayé de faire sobre cette année. Mais qui êtes-vous donc pour vous permettre de commenter ma décoration ?"
         foregrounds:
-          - uuid: "4c0d68a6-988c-48f4-e1d9-6bb162bf2fd7"
+          - uuid: "dc06053d-76e4-41c9-5e22-39fef8b247b1"
             name: ""
-            image: "assets/foregrounds/ai_1772553902_29006.png"
+            image: "assets/foregrounds/Alicia_speaking.png"
             z_order: 0
             opacity: 1.0
             flip_h: false
@@ -205,9 +229,9 @@ sequences:
     background: "assets/backgrounds/Character_4_room.jpeg"
     background_color: "00000000"
     foregrounds:
-      - uuid: "6533af32-590b-4889-6110-a28083beff2b"
+      - uuid: "e3b28764-e56f-485f-85fe-f1ecdb3727a1"
         name: ""
-        image: "assets/foregrounds/ai_1772553935_94936.png"
+        image: "assets/foregrounds/ai_1772553776_65883.png"
         z_order: 0
         opacity: 1.0
         flip_h: false
@@ -222,9 +246,9 @@ sequences:
         character: "Joueur"
         text: "Je suis le nouveau propriétaire de l'auberge."
         foregrounds:
-          - uuid: "6533af32-590b-4889-6110-a28083beff2b"
+          - uuid: "e3b28764-e56f-485f-85fe-f1ecdb3727a1"
             name: ""
-            image: "assets/foregrounds/ai_1772553935_94936.png"
+            image: "assets/foregrounds/ai_1772553776_65883.png"
             z_order: 0
             opacity: 1.0
             flip_h: false
@@ -318,9 +342,9 @@ sequences:
     background: "assets/backgrounds/Character_4_room.jpeg"
     background_color: "00000000"
     foregrounds:
-      - uuid: "b9b67e77-4442-4601-4ef2-9ebbd2083509"
+      - uuid: "925f4e9d-9e77-423a-e407-e4ce8ec38ea1"
         name: ""
-        image: "assets/foregrounds/ai_1772554032_78817.png"
+        image: "assets/foregrounds/Alicia_speaking.png"
         z_order: 0
         opacity: 1.0
         flip_h: false
@@ -335,9 +359,9 @@ sequences:
         character: "Alicia"
         text: "Je suis étudiante en criminologie. Je ne fais pas de vague, pas de bruit. Sauf, naturellement, lorsque je reconstitue des scènes de crime. Cela peut arriver. Je vous prie de ne pas vous en alarmer."
         foregrounds:
-          - uuid: "b9b67e77-4442-4601-4ef2-9ebbd2083509"
+          - uuid: "925f4e9d-9e77-423a-e407-e4ce8ec38ea1"
             name: ""
-            image: "assets/foregrounds/ai_1772554032_78817.png"
+            image: "assets/foregrounds/Alicia_speaking.png"
             z_order: 0
             opacity: 1.0
             flip_h: false

@@ -7,14 +7,38 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 100.0, y: 100.0 }
-    background: "assets/backgrounds/Background_player_bedroom.jpeg"
+    background: "assets/backgrounds/ai_1772887905_91258.png"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "0192bc45-74d0-4985-e4d8-bbbe5e4e2958"
+        name: ""
+        image: "assets/foregrounds/ai_1772887383_13332.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.72009932373653
+        anchor_bg: { x: 1.3339558839798, y: 1.30067431926727 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "eau13dia1-seq1-4012-abcd-000000000001"
         character: "Zven"
         text: "Hé ! C'est Zven ! Je peux entrer ?!"
-        foregrounds: []
+        foregrounds:
+          - uuid: "0192bc45-74d0-4985-e4d8-bbbe5e4e2958"
+            name: ""
+            image: "assets/foregrounds/ai_1772887383_13332.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.72009932373653
+            anchor_bg: { x: 1.3339558839798, y: 1.30067431926727 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
       - uuid: "eau13dia2-seq1-4012-abcd-000000000002"
         character: "Zven"
         text: "Oh ! C'est trop gentil d'avoir pensé à moi ! Je suis tellement touchée !"
@@ -40,7 +64,7 @@ sequences:
         text: "Bonne nuit, Zven. Content que ça te fasse plaisir."
         foregrounds: []
     fx: []
-    music: ""
+    music: "/Users/cedric/Stories/InnheritedHearts/assets/music/Zven_theme.mp3"
     audio_fx: ""
     stop_music: false
     transition_in_type: "fade"

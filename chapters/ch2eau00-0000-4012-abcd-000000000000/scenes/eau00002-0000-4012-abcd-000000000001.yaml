@@ -9,7 +9,67 @@ sequences:
     position: { x: 100.0, y: 100.0 }
     background: "assets/backgrounds/Background_bathroom.jpeg"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "612a03f4-0725-4f9f-9c4b-1a5f756c58e2"
+        name: ""
+        image: "assets/foregrounds/ai_1772553636_05018.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.79156327543424
+        anchor_bg: { x: 0.16315789520741, y: 1.29670596122742 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "fade"
+        transition_duration: 0.5
+      - uuid: "3c76b082-49f1-4b0e-8fb4-737a669441c4"
+        name: ""
+        image: "assets/foregrounds/Alicia_speaking.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.75781638095752
+        anchor_bg: { x: 0.5468590259552, y: 1.29869019985199 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
+      - uuid: "6524c86a-74c8-4aec-706b-a9de3cba8803"
+        name: ""
+        image: "assets/foregrounds/ai_1772881299_44791.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.772704775221
+        anchor_bg: { x: 0.86129027605057, y: 1.29869019985199 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "fade"
+        transition_duration: 0.5
+      - uuid: "13eaad63-e7f9-470b-3ae5-1bc68ffde664"
+        name: ""
+        image: "assets/foregrounds/ai_1772881362_51382.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.76079405981021
+        anchor_bg: { x: 1.1689305305481, y: 1.29869019985199 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "fade"
+        transition_duration: 0.5
+      - uuid: "505de7b6-64e0-4c16-3841-c6205cf66a00"
+        name: ""
+        image: "assets/foregrounds/ai_1772880265_82487.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.80446653153109
+        anchor_bg: { x: 1.43921887874603, y: 1.29670584201813 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "eau02dia1-seq1-4012-abcd-000000000001"
         character: "Joueur"
@@ -18,23 +78,203 @@ sequences:
       - uuid: "eau02dia2-seq1-4012-abcd-000000000002"
         character: "Lola"
         text: "Il n'y a plus d'eau chaude ! Plus une goutte ! Comment je vais faire pour me laver ?!"
-        foregrounds: []
+        foregrounds:
+          - uuid: "fc77efd8-f499-465c-4167-faeb63655c39"
+            name: ""
+            image: "assets/foregrounds/ai_1772553636_05018.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.79156327543424
+            anchor_bg: { x: 0.16315789520741, y: 1.29670596122742 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "fade"
+            transition_duration: 0.5
       - uuid: "eau02dia3-seq1-4012-abcd-000000000003"
         character: "Alicia"
         text: "La situation est des plus critiques. L'hygiène est un pilier de la civilisation."
-        foregrounds: []
+        foregrounds:
+          - uuid: "9af70ca0-6d7c-462c-4cb9-754112bf1a63"
+            name: ""
+            image: "assets/foregrounds/ai_1772553636_05018.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.79156327543424
+            anchor_bg: { x: 0.16315789520741, y: 1.29670596122742 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "fade"
+            transition_duration: 0.5
+          - uuid: "526ba7a6-a593-429d-24ff-9e555c1ebb74"
+            name: ""
+            image: "assets/foregrounds/Alicia_speaking.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.75781638095752
+            anchor_bg: { x: 0.5468590259552, y: 1.29869019985199 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
       - uuid: "eau02dia4-seq1-4012-abcd-000000000004"
         character: "Zven"
         text: "Sur mon île on se lavait dans la rivière ! Mais ici l'eau est froide froide froide !"
-        foregrounds: []
+        foregrounds:
+          - uuid: "a5f59ef6-0c1e-49f4-5a2f-d41658cb6269"
+            name: ""
+            image: "assets/foregrounds/ai_1772553636_05018.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.79156327543424
+            anchor_bg: { x: 0.16315789520741, y: 1.29670596122742 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "fade"
+            transition_duration: 0.5
+          - uuid: "a0f2739a-6b55-4927-795f-51f7137db9c1"
+            name: ""
+            image: "assets/foregrounds/Alicia_speaking.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.75781638095752
+            anchor_bg: { x: 0.5468590259552, y: 1.29869019985199 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+          - uuid: "5ba86bd4-34f1-4761-8249-6ad187adbba0"
+            name: ""
+            image: "assets/foregrounds/ai_1772881299_44791.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.772704775221
+            anchor_bg: { x: 0.86129027605057, y: 1.29869019985199 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "fade"
+            transition_duration: 0.5
       - uuid: "eau02dia5-seq1-4012-abcd-000000000005"
         character: "Lise"
         text: "C'est... c'est une catastrophe..."
-        foregrounds: []
+        foregrounds:
+          - uuid: "c6b53bd4-9cef-4583-35da-cd4a3cdef17c"
+            name: ""
+            image: "assets/foregrounds/ai_1772553636_05018.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.79156327543424
+            anchor_bg: { x: 0.16315789520741, y: 1.29670596122742 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "fade"
+            transition_duration: 0.5
+          - uuid: "1ebeb9d4-b1bf-4065-540e-c2529b92329d"
+            name: ""
+            image: "assets/foregrounds/Alicia_speaking.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.75781638095752
+            anchor_bg: { x: 0.5468590259552, y: 1.29869019985199 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+          - uuid: "05ee79d0-df33-4731-51f5-247ff38ceaea"
+            name: ""
+            image: "assets/foregrounds/ai_1772881299_44791.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.772704775221
+            anchor_bg: { x: 0.86129027605057, y: 1.29869019985199 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "fade"
+            transition_duration: 0.5
+          - uuid: "48044f19-ad56-4bed-bfaf-fabb7a2c4376"
+            name: ""
+            image: "assets/foregrounds/ai_1772881362_51382.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.76079405981021
+            anchor_bg: { x: 1.1689305305481, y: 1.29869019985199 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "fade"
+            transition_duration: 0.5
       - uuid: "eau02dia6-seq1-4012-abcd-000000000006"
         character: "Mary"
         text: "Il faut faire quelque chose ! J'ai absolument besoin de me laver ce soir !"
-        foregrounds: []
+        foregrounds:
+          - uuid: "612a03f4-0725-4f9f-9c4b-1a5f756c58e2"
+            name: ""
+            image: "assets/foregrounds/ai_1772553636_05018.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.79156327543424
+            anchor_bg: { x: 0.16315789520741, y: 1.29670596122742 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "fade"
+            transition_duration: 0.5
+          - uuid: "3c76b082-49f1-4b0e-8fb4-737a669441c4"
+            name: ""
+            image: "assets/foregrounds/Alicia_speaking.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.75781638095752
+            anchor_bg: { x: 0.5468590259552, y: 1.29869019985199 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+          - uuid: "6524c86a-74c8-4aec-706b-a9de3cba8803"
+            name: ""
+            image: "assets/foregrounds/ai_1772881299_44791.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.772704775221
+            anchor_bg: { x: 0.86129027605057, y: 1.29869019985199 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "fade"
+            transition_duration: 0.5
+          - uuid: "13eaad63-e7f9-470b-3ae5-1bc68ffde664"
+            name: ""
+            image: "assets/foregrounds/ai_1772881362_51382.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.76079405981021
+            anchor_bg: { x: 1.1689305305481, y: 1.29869019985199 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "fade"
+            transition_duration: 0.5
+          - uuid: "505de7b6-64e0-4c16-3841-c6205cf66a00"
+            name: ""
+            image: "assets/foregrounds/ai_1772880265_82487.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.80446653153109
+            anchor_bg: { x: 1.43921887874603, y: 1.29670584201813 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
     fx: []
     music: ""
     audio_fx: ""
@@ -56,12 +296,36 @@ sequences:
     position: { x: 400.0, y: 100.0 }
     background: "assets/backgrounds/Background_bathroom.jpeg"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "b9b77074-e739-452f-6d9c-6d85ddc79001"
+        name: ""
+        image: "assets/foregrounds/ai_1772623979_38078.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.82233249105827
+        anchor_bg: { x: 0.8028861284256, y: 1.29769790172577 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "eau02dia7-seq2-4012-abcd-000000000001"
         character: "Mme Girard"
         text: "Le chauffe-eau est en panne. Ça fait des années que je disais à votre oncle Alfred de le remplacer. Mais il n'a jamais voulu écouter."
-        foregrounds: []
+        foregrounds:
+          - uuid: "b9b77074-e739-452f-6d9c-6d85ddc79001"
+            name: ""
+            image: "assets/foregrounds/ai_1772623979_38078.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.82233249105827
+            anchor_bg: { x: 0.8028861284256, y: 1.29769790172577 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
       - uuid: "eau02dia8-seq2-4012-abcd-000000000002"
         character: "Mme Girard"
         text: "C'est votre auberge maintenant. À vous de décider quoi faire."
@@ -74,7 +338,7 @@ sequences:
     music: ""
     audio_fx: ""
     stop_music: false
-    transition_in_type: "none"
+    transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"
     transition_out_duration: 0.5

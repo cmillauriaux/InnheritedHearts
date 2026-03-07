@@ -9,12 +9,36 @@ sequences:
     position: { x: 100.0, y: 100.0 }
     background: "assets/backgrounds/Background_player_bedroom.jpeg"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "dc9325ed-55f4-4539-926a-d20cf6167564"
+        name: ""
+        image: "assets/foregrounds/ai_1772623434_06199.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.66749387225205
+        anchor_bg: { x: 1.27894735336304, y: 1.29869019985199 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "eau01dia1-seq1-4012-abcd-000000000001"
         character: "Mme Girard"
         text: "Toc toc ! Ah, vous êtes là ! Avant le dîner, il faut qu'on parle."
-        foregrounds: []
+        foregrounds:
+          - uuid: "dc9325ed-55f4-4539-926a-d20cf6167564"
+            name: ""
+            image: "assets/foregrounds/ai_1772623434_06199.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.66749387225205
+            anchor_bg: { x: 1.27894735336304, y: 1.29869019985199 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
       - uuid: "eau01dia2-seq1-4012-abcd-000000000002"
         character: "Joueur"
         text: "Mme Girard ? Qu'est-ce qu'il se passe ?"
@@ -24,7 +48,7 @@ sequences:
         text: "Il se passe que vous allez devoir gérer votre première crise en tant que propriétaire ! Bienvenue dans la vraie vie, mon garçon."
         foregrounds: []
     fx: []
-    music: ""
+    music: "/Users/cedric/Stories/InnheritedHearts/assets/music/MmeGirard_theme.mp3"
     audio_fx: ""
     stop_music: false
     transition_in_type: "fade"
@@ -44,12 +68,36 @@ sequences:
     position: { x: 400.0, y: 100.0 }
     background: "assets/backgrounds/Background_player_bedroom.jpeg"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "60ad8545-df71-4b47-77c0-8bd3c00e444a"
+        name: ""
+        image: "assets/foregrounds/ai_1772623979_38078.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.66749387225205
+        anchor_bg: { x: 1.27894735336304, y: 1.29869019985199 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "eau01dia4-seq2-4012-abcd-000000000001"
         character: "Joueur"
         text: "Une crise ? Quel genre de crise ? Dites-moi au moins de quoi il s'agit !"
-        foregrounds: []
+        foregrounds:
+          - uuid: "60ad8545-df71-4b47-77c0-8bd3c00e444a"
+            name: ""
+            image: "assets/foregrounds/ai_1772623979_38078.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.66749387225205
+            anchor_bg: { x: 1.27894735336304, y: 1.29869019985199 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
       - uuid: "eau01dia5-seq2-4012-abcd-000000000002"
         character: "Mme Girard"
         text: "Non non non. C'est votre auberge, c'est votre problème. Vous devez apprendre à faire face par vous-même. Moi, je retourne à mes fourneaux."
@@ -63,10 +111,10 @@ sequences:
         text: "Elle est partie... Super. Ma première crise et je ne sais même pas de quoi il s'agit."
         foregrounds: []
     fx: []
-    music: ""
+    music: "/Users/cedric/Stories/InnheritedHearts/assets/music/MmeGirard_theme.mp3"
     audio_fx: ""
     stop_music: false
-    transition_in_type: "none"
+    transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"
     transition_out_duration: 0.5
@@ -94,7 +142,19 @@ sequences:
     position: { x: 700.0, y: -60.0 }
     background: "assets/backgrounds/Background_player_bedroom.jpeg"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "9cc423bf-b55c-467d-6477-0cb98bcff2d3"
+        name: ""
+        image: "assets/foregrounds/ai_1772880169_32576.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.87890821887601
+        anchor_bg: { x: 1.38013589382172, y: 1.29868996143341 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "fade"
+        transition_duration: 0.5
     dialogues:
       - uuid: "eau01dia8-seq3-4012-abcd-000000000001"
         character: "Joueur"
@@ -103,7 +163,19 @@ sequences:
       - uuid: "eau01dia9-seq3-4012-abcd-000000000002"
         character: "Lise"
         text: "E-excuse-moi... ! Il faut que tu viennes voir... c'est urgent !"
-        foregrounds: []
+        foregrounds:
+          - uuid: "9cc423bf-b55c-467d-6477-0cb98bcff2d3"
+            name: ""
+            image: "assets/foregrounds/ai_1772880169_32576.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.87890821887601
+            anchor_bg: { x: 1.38013589382172, y: 1.29868996143341 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "fade"
+            transition_duration: 0.5
       - uuid: "eau01di10-seq3-4012-abcd-000000000003"
         character: "Joueur"
         text: "Lise ?! En serviette de bain ?! Qu'est-ce qu'il se passe ?"
@@ -113,10 +185,10 @@ sequences:
         text: "C'est la salle de bain ! Viens, vite !"
         foregrounds: []
     fx: []
-    music: ""
+    music: "/Users/cedric/Stories/InnheritedHearts/assets/music/Lise_theme.mp3"
     audio_fx: ""
     stop_music: false
-    transition_in_type: "none"
+    transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"
     transition_out_duration: 0.5
@@ -133,7 +205,19 @@ sequences:
     position: { x: 700.0, y: 260.0 }
     background: "assets/backgrounds/Background_6.jpeg"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "677ad0c1-0040-445c-22c6-a0ed9457caa6"
+        name: ""
+        image: "assets/foregrounds/ai_1772880265_82487.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.86401988140703
+        anchor_bg: { x: 0.22767397761345, y: 1.29769825935364 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "eau01di12-seq4-4012-abcd-000000000001"
         character: "Joueur"
@@ -142,7 +226,19 @@ sequences:
       - uuid: "eau01di13-seq4-4012-abcd-000000000002"
         character: "Mary"
         text: "Oh ! Te voilà ! Viens vite, il y a un problème !"
-        foregrounds: []
+        foregrounds:
+          - uuid: "677ad0c1-0040-445c-22c6-a0ed9457caa6"
+            name: ""
+            image: "assets/foregrounds/ai_1772880265_82487.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.86401988140703
+            anchor_bg: { x: 0.22767397761345, y: 1.29769825935364 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
       - uuid: "eau01di14-seq4-4012-abcd-000000000003"
         character: "Joueur"
         text: "Mary ? En serviette de bain ?! Qu'est-ce qu'il y a ?"
@@ -152,10 +248,10 @@ sequences:
         text: "Pas le temps d'expliquer ! Suis-moi !"
         foregrounds: []
     fx: []
-    music: ""
+    music: "/Users/cedric/Stories/InnheritedHearts/assets/music/Mary_theme.mp3"
     audio_fx: ""
     stop_music: false
-    transition_in_type: "none"
+    transition_in_type: "fade"
     transition_in_duration: 0.5
     transition_out_type: "none"
     transition_out_duration: 0.5

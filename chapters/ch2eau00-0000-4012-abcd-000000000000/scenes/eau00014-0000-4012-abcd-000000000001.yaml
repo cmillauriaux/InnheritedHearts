@@ -7,7 +7,7 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 100.0, y: 100.0 }
-    background: "assets/backgrounds/Background_player_bedroom.jpeg"
+    background: "assets/backgrounds/ai_1772887905_91258.png"
     background_color: "00000000"
     foregrounds: []
     dialogues:
@@ -24,7 +24,7 @@ sequences:
         text: "J'ai hâte de voir ce que le lendemain me réservera !"
         foregrounds: []
     fx: []
-    music: ""
+    music: "/Users/cedric/Stories/InnheritedHearts/assets/music/Inn_theme.mp3"
     audio_fx: ""
     stop_music: false
     transition_in_type: "fade"

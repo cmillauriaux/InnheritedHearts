@@ -7,14 +7,38 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 100.0, y: 100.0 }
-    background: "assets/backgrounds/Background_player_bedroom.jpeg"
+    background: "assets/backgrounds/ai_1772887905_91258.png"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "ab4beb8c-dad8-47af-7367-af8a9e1b3c37"
+        name: ""
+        image: "assets/foregrounds/ai_1772887743_99708.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.87890833246501
+        anchor_bg: { x: 0.81714773178101, y: 1.29968237876892 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "eau12dia1-seq1-4012-abcd-000000000001"
         character: "Alicia"
         text: "Puis-je entrer ? Je souhaiterais vous exprimer ma gratitude."
-        foregrounds: []
+        foregrounds:
+          - uuid: "ab4beb8c-dad8-47af-7367-af8a9e1b3c37"
+            name: ""
+            image: "assets/foregrounds/ai_1772887743_99708.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.87890833246501
+            anchor_bg: { x: 0.81714773178101, y: 1.29968237876892 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
       - uuid: "eau12dia2-seq1-4012-abcd-000000000002"
         character: "Alicia"
         text: "Je vous remercie, maître des lieux. Votre geste est d'une grande noblesse."
@@ -32,7 +56,7 @@ sequences:
         text: "Euh... Merci Alicia. Bonne... dissection."
         foregrounds: []
     fx: []
-    music: ""
+    music: "/Users/cedric/Stories/InnheritedHearts/assets/music/Alicia_theme.mp3"
     audio_fx: ""
     stop_music: false
     transition_in_type: "fade"

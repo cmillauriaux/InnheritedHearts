@@ -9,16 +9,136 @@ sequences:
     position: { x: 400.0, y: -60.0 }
     background: "assets/backgrounds/Background_bathroom.jpeg"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "a08bee1c-ffce-4e26-6b84-3188c0c16068"
+        name: ""
+        image: "assets/foregrounds/ai_1772880169_32576.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.88287838162027
+        anchor_bg: { x: 1.47385406494141, y: 1.29670584201813 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
+      - uuid: "bbc84ac2-48d0-4ef6-a72e-cb80c880891d"
+        name: ""
+        image: "assets/foregrounds/ai_1772880265_82487.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.87791579177894
+        anchor_bg: { x: 0.1760610640049, y: 1.29968237876892 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
+      - uuid: "5b8e39a2-e2e3-4306-a792-b5b8700fe671"
+        name: ""
+        image: "assets/foregrounds/ai_1772880557_03878.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.87196032048455
+        anchor_bg: { x: 0.52920198440552, y: 1.29769790172577 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
+      - uuid: "3e8c42e7-f88c-4230-e304-113d5da9f80b"
+        name: ""
+        image: "assets/foregrounds/ai_1772880630_27043.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.86302734072096
+        anchor_bg: { x: 0.88166379928589, y: 1.29968249797821 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
+      - uuid: "d3386e54-51a4-47ec-8a95-2bb3bb46dbbc"
+        name: ""
+        image: "assets/foregrounds/ai_1772878809_1088.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.71315153893407
+        anchor_bg: { x: 1.15670621395111, y: 1.29869019985199 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "fade"
+        transition_duration: 0.5
     dialogues:
       - uuid: "eau05dia1-seq1-4012-abcd-000000000001"
         character: "Joueur"
         text: "Les filles... J'ai une mauvaise nouvelle. Je suis descendu voir le chauffe-eau et il est complètement mort. Impossible de le réparer."
-        foregrounds: []
+        foregrounds:
+          - uuid: "8d8753c3-8a46-4ca0-2922-bfb96907ab99"
+            name: ""
+            image: "assets/foregrounds/ai_1772880169_32576.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.88287838162027
+            anchor_bg: { x: 1.47385406494141, y: 1.29670584201813 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+          - uuid: "4a6781f4-327c-4f9d-ae2c-b1530793065e"
+            name: ""
+            image: "assets/foregrounds/ai_1772880265_82487.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.87791579177894
+            anchor_bg: { x: 0.1760610640049, y: 1.29968237876892 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
       - uuid: "eau05dia2-seq1-4012-abcd-000000000002"
         character: "Lola"
         text: "Quoi ?! Pas d'eau chaude du tout ?! Mais c'est une catastrophe !"
-        foregrounds: []
+        foregrounds:
+          - uuid: "9df9087a-12ae-4f15-7f4e-d863df3e2f47"
+            name: ""
+            image: "assets/foregrounds/ai_1772880169_32576.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.88287838162027
+            anchor_bg: { x: 1.47385406494141, y: 1.29670584201813 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+          - uuid: "cdac9cde-9291-41c7-6074-71ecf24036a9"
+            name: ""
+            image: "assets/foregrounds/ai_1772880265_82487.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.87791579177894
+            anchor_bg: { x: 0.1760610640049, y: 1.29968237876892 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+          - uuid: "ea8ff2ac-c592-4001-cbd6-0f505bcf5d44"
+            name: ""
+            image: "assets/foregrounds/ai_1772880557_03878.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.87196032048455
+            anchor_bg: { x: 0.52920198440552, y: 1.29769790172577 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "fade"
+            transition_duration: 0.5
       - uuid: "eau05dia3-seq1-4012-abcd-000000000003"
         character: "Lise"
         text: "Oh non..."
@@ -30,11 +150,119 @@ sequences:
       - uuid: "eau05di12-seq1-4012-abcd-000000000007"
         character: "Alicia"
         text: "La situation est des plus fâcheuses. Il va falloir trouver une solution."
-        foregrounds: []
+        foregrounds:
+          - uuid: "368bd536-0fe7-499f-6eab-3f24e9d0465d"
+            name: ""
+            image: "assets/foregrounds/ai_1772880169_32576.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.88287838162027
+            anchor_bg: { x: 1.47385406494141, y: 1.29670584201813 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+          - uuid: "8ee8181e-c057-4b08-2a23-e4b0a393a031"
+            name: ""
+            image: "assets/foregrounds/ai_1772880265_82487.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.87791579177894
+            anchor_bg: { x: 0.1760610640049, y: 1.29968237876892 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+          - uuid: "57ad1423-c933-4eb8-baa7-8811ca6beb09"
+            name: ""
+            image: "assets/foregrounds/ai_1772880557_03878.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.87196032048455
+            anchor_bg: { x: 0.52920198440552, y: 1.29769790172577 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+          - uuid: "2af6e8dc-e992-4e68-9da2-82455e4913be"
+            name: ""
+            image: "assets/foregrounds/ai_1772880630_27043.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.86302734072096
+            anchor_bg: { x: 0.88166379928589, y: 1.29968249797821 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "fade"
+            transition_duration: 0.5
       - uuid: "eau05di13-seq1-4012-abcd-000000000008"
         character: "Zven"
         text: "C'est pas grave ! On trouvera un moyen ! Chez moi on se débrouillait toujours !"
-        foregrounds: []
+        foregrounds:
+          - uuid: "a08bee1c-ffce-4e26-6b84-3188c0c16068"
+            name: ""
+            image: "assets/foregrounds/ai_1772880169_32576.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.88287838162027
+            anchor_bg: { x: 1.47385406494141, y: 1.29670584201813 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+          - uuid: "bbc84ac2-48d0-4ef6-a72e-cb80c880891d"
+            name: ""
+            image: "assets/foregrounds/ai_1772880265_82487.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.87791579177894
+            anchor_bg: { x: 0.1760610640049, y: 1.29968237876892 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+          - uuid: "5b8e39a2-e2e3-4306-a792-b5b8700fe671"
+            name: ""
+            image: "assets/foregrounds/ai_1772880557_03878.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.87196032048455
+            anchor_bg: { x: 0.52920198440552, y: 1.29769790172577 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+          - uuid: "3e8c42e7-f88c-4230-e304-113d5da9f80b"
+            name: ""
+            image: "assets/foregrounds/ai_1772880630_27043.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.86302734072096
+            anchor_bg: { x: 0.88166379928589, y: 1.29968249797821 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+          - uuid: "d3386e54-51a4-47ec-8a95-2bb3bb46dbbc"
+            name: ""
+            image: "assets/foregrounds/ai_1772878809_1088.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.71315153893407
+            anchor_bg: { x: 1.15670621395111, y: 1.29869019985199 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "fade"
+            transition_duration: 0.5
       - uuid: "eau05dia4-seq1-4012-abcd-000000000004"
         character: "Joueur"
         text: "J'irai en ville demain matin pour essayer de trouver un réparateur ou un nouveau chauffe-eau. Je suis désolé."
@@ -44,7 +272,7 @@ sequences:
         text: "Je ferai tout pour régler ça au plus vite, c'est promis."
         foregrounds: []
     fx: []
-    music: ""
+    music: "/Users/cedric/Stories/InnheritedHearts/assets/music/Inn_theme.mp3"
     audio_fx: ""
     stop_music: false
     transition_in_type: "fade"
@@ -64,16 +292,136 @@ sequences:
     position: { x: 400.0, y: 260.0 }
     background: "assets/backgrounds/Background_bathroom.jpeg"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "4fe4da07-5f6e-4980-0afd-9210caf263c5"
+        name: ""
+        image: "assets/foregrounds/ai_1772880169_32576.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.88287838162027
+        anchor_bg: { x: 1.47385406494141, y: 1.29670584201813 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
+      - uuid: "055d7ee1-20c3-4ae8-ba6f-5a60c06df441"
+        name: ""
+        image: "assets/foregrounds/ai_1772880265_82487.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.87791579177894
+        anchor_bg: { x: 0.1760610640049, y: 1.29968237876892 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
+      - uuid: "93398177-ec47-4f86-7495-7f5d9e417b3e"
+        name: ""
+        image: "assets/foregrounds/ai_1772880557_03878.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.87196032048455
+        anchor_bg: { x: 0.52920198440552, y: 1.29769790172577 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
+      - uuid: "c55e036e-f8c6-4539-7c23-af03a8a1d0e1"
+        name: ""
+        image: "assets/foregrounds/ai_1772880630_27043.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.86302734072096
+        anchor_bg: { x: 0.88166379928589, y: 1.29968249797821 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
+      - uuid: "c6f3e8c0-eec8-4a0b-6fa9-877a453c1d9a"
+        name: ""
+        image: "assets/foregrounds/ai_1772878809_1088.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.71315153893407
+        anchor_bg: { x: 1.15670621395111, y: 1.29869019985199 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "fade"
+        transition_duration: 0.5
     dialogues:
       - uuid: "eau05dia6-seq2-4012-abcd-000000000001"
         character: "Joueur"
         text: "Les filles... J'ai une mauvaise nouvelle. J'ai appelé un réparateur mais le nouveau chauffe-eau ne sera pas livré avant une semaine."
-        foregrounds: []
+        foregrounds:
+          - uuid: "5f8aee1e-df76-4a67-e109-1710511eeee4"
+            name: ""
+            image: "assets/foregrounds/ai_1772880169_32576.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.88287838162027
+            anchor_bg: { x: 1.47385406494141, y: 1.29670584201813 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+          - uuid: "911b5f84-b4ca-45cf-d452-fd22a73b5765"
+            name: ""
+            image: "assets/foregrounds/ai_1772880265_82487.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.87791579177894
+            anchor_bg: { x: 0.1760610640049, y: 1.29968237876892 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
       - uuid: "eau05dia7-seq2-4012-abcd-000000000002"
         character: "Lola"
         text: "Une SEMAINE ?! Sans eau chaude ?! Mais c'est une catastrophe !"
-        foregrounds: []
+        foregrounds:
+          - uuid: "bdd40888-6b3e-4f33-bd78-d20b180b9f8c"
+            name: ""
+            image: "assets/foregrounds/ai_1772880169_32576.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.88287838162027
+            anchor_bg: { x: 1.47385406494141, y: 1.29670584201813 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+          - uuid: "08a86cea-27c2-41dc-f439-f84d7115ca3c"
+            name: ""
+            image: "assets/foregrounds/ai_1772880265_82487.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.87791579177894
+            anchor_bg: { x: 0.1760610640049, y: 1.29968237876892 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+          - uuid: "e0007f02-d912-4244-06bc-203ce3fb6ea4"
+            name: ""
+            image: "assets/foregrounds/ai_1772880557_03878.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.87196032048455
+            anchor_bg: { x: 0.52920198440552, y: 1.29769790172577 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "fade"
+            transition_duration: 0.5
       - uuid: "eau05dia8-seq2-4012-abcd-000000000003"
         character: "Lise"
         text: "Oh non..."
@@ -85,11 +433,119 @@ sequences:
       - uuid: "eau05di15-seq2-4012-abcd-000000000007"
         character: "Alicia"
         text: "La situation est des plus fâcheuses. Il va falloir trouver une solution."
-        foregrounds: []
+        foregrounds:
+          - uuid: "62e20b06-8798-4f66-f9ec-41d00cf64a56"
+            name: ""
+            image: "assets/foregrounds/ai_1772880169_32576.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.88287838162027
+            anchor_bg: { x: 1.47385406494141, y: 1.29670584201813 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+          - uuid: "930f9a84-f19a-43b6-c2b4-f5a0c9938623"
+            name: ""
+            image: "assets/foregrounds/ai_1772880265_82487.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.87791579177894
+            anchor_bg: { x: 0.1760610640049, y: 1.29968237876892 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+          - uuid: "9bca7324-9fec-4f49-2c09-e54a914a8f70"
+            name: ""
+            image: "assets/foregrounds/ai_1772880557_03878.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.87196032048455
+            anchor_bg: { x: 0.52920198440552, y: 1.29769790172577 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+          - uuid: "fb62d3f9-dcae-44d3-e450-18e74da269f6"
+            name: ""
+            image: "assets/foregrounds/ai_1772880630_27043.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.86302734072096
+            anchor_bg: { x: 0.88166379928589, y: 1.29968249797821 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "fade"
+            transition_duration: 0.5
       - uuid: "eau05di16-seq2-4012-abcd-000000000008"
         character: "Zven"
         text: "C'est pas grave ! On trouvera un moyen ! Chez moi on se débrouillait toujours !"
-        foregrounds: []
+        foregrounds:
+          - uuid: "4fe4da07-5f6e-4980-0afd-9210caf263c5"
+            name: ""
+            image: "assets/foregrounds/ai_1772880169_32576.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.88287838162027
+            anchor_bg: { x: 1.47385406494141, y: 1.29670584201813 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+          - uuid: "055d7ee1-20c3-4ae8-ba6f-5a60c06df441"
+            name: ""
+            image: "assets/foregrounds/ai_1772880265_82487.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.87791579177894
+            anchor_bg: { x: 0.1760610640049, y: 1.29968237876892 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+          - uuid: "93398177-ec47-4f86-7495-7f5d9e417b3e"
+            name: ""
+            image: "assets/foregrounds/ai_1772880557_03878.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.87196032048455
+            anchor_bg: { x: 0.52920198440552, y: 1.29769790172577 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+          - uuid: "c55e036e-f8c6-4539-7c23-af03a8a1d0e1"
+            name: ""
+            image: "assets/foregrounds/ai_1772880630_27043.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.86302734072096
+            anchor_bg: { x: 0.88166379928589, y: 1.29968249797821 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+          - uuid: "c6f3e8c0-eec8-4a0b-6fa9-877a453c1d9a"
+            name: ""
+            image: "assets/foregrounds/ai_1772878809_1088.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.71315153893407
+            anchor_bg: { x: 1.15670621395111, y: 1.29869019985199 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "fade"
+            transition_duration: 0.5
       - uuid: "eau05dia9-seq2-4012-abcd-000000000004"
         character: "Joueur"
         text: "Je suis désolé. En attendant, il va falloir s'organiser."
