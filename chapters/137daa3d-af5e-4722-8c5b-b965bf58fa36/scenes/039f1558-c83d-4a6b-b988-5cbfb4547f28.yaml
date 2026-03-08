@@ -42,7 +42,7 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 120.0, y: 220.0 }
-    background: "assets/backgrounds/Innhertited.png"
+    background: "assets/backgrounds/Auberge_v2.png"
     background_color: "00000000"
     foregrounds: []
     dialogues: []
