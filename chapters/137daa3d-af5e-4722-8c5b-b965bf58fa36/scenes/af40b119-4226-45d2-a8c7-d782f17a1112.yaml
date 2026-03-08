@@ -9,31 +9,7 @@ sequences:
     position: { x: 100.0, y: 100.0 }
     background: "assets/backgrounds/Background_player_bedroom.jpeg"
     background_color: "00000000"
-    foregrounds:
-      - uuid: "10656028-b4a1-4307-7655-79b5657e7cbd"
-        name: ""
-        image: "assets/foregrounds/ai_1772400443_5665.png"
-        z_order: 0
-        opacity: 1.0
-        flip_h: false
-        flip_v: false
-        scale: 0.71017380328687
-        anchor_bg: { x: 0.76621389389038, y: 1.29769790172577 }
-        anchor_fg: { x: 0.5, y: 1.0 }
-        transition_type: "fade"
-        transition_duration: 0.5
-      - uuid: "030cf1bf-46dd-44d0-23b0-aee2f62688ad"
-        name: ""
-        image: "assets/foregrounds/ai_1772624064_12056.png"
-        z_order: 0
-        opacity: 1.0
-        flip_h: false
-        flip_v: false
-        scale: 0.71017380328687
-        anchor_bg: { x: 0.76621389389038, y: 1.29862868785858 }
-        anchor_fg: { x: 0.5, y: 1.0 }
-        transition_type: "none"
-        transition_duration: 0.5
+    foregrounds: []
     dialogues:
       - uuid: "fc1c6ff0-6dda-490d-befc-5b3f03fcbcf1"
         character: "Joueur"

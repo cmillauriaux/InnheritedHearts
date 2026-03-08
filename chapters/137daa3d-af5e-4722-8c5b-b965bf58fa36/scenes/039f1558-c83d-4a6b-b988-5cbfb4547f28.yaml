@@ -39,8 +39,8 @@ sequences:
         effects: []
   - uuid: "e865e2e4-8bd5-4c9d-e1ac-e6289e832c7e"
     name: "Titre"
-    title: ""
-    subtitle: ""
+    title: "Chapitre 1"
+    subtitle: "Un héritage inatendu"
     position: { x: 120.0, y: 220.0 }
     background: "assets/backgrounds/Auberge_v2.png"
     background_color: "00000000"

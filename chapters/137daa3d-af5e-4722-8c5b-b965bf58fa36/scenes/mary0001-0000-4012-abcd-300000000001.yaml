@@ -39,7 +39,7 @@ sequences:
     foregrounds:
       - uuid: "f57c48ff-5dc3-4945-2995-7e692732070e"
         name: ""
-        image: "assets/foregrounds/ai_1772402795_41806.png"
+        image: "assets/foregrounds/Mary_base.png"
         z_order: 0
         opacity: 1.0
         flip_h: false
@@ -56,7 +56,7 @@ sequences:
         foregrounds:
           - uuid: "f57c48ff-5dc3-4945-2995-7e692732070e"
             name: ""
-            image: "assets/foregrounds/ai_1772402795_41806.png"
+            image: "assets/foregrounds/Mary_base.png"
             z_order: 0
             opacity: 1.0
             flip_h: false
@@ -103,9 +103,9 @@ sequences:
     background: "assets/backgrounds/Character_1_room.jpeg"
     background_color: "00000000"
     foregrounds:
-      - uuid: "ecf3b1af-ad10-4415-4c89-a38a48793759"
+      - uuid: "344d4791-2bb5-4896-8c21-0bc2e38d00a3"
         name: ""
-        image: "assets/foregrounds/ai_1772402856_16831.png"
+        image: "assets/foregrounds/Mary_smile.png"
         z_order: 0
         opacity: 1.0
         flip_h: false
@@ -120,9 +120,9 @@ sequences:
         character: "Mary"
         text: "Oh ! Pardon, pardon... Je suis un peu dans la lune en ce moment. Je travaille sur un projet de sculpture pour l'école."
         foregrounds:
-          - uuid: "ecf3b1af-ad10-4415-4c89-a38a48793759"
+          - uuid: "344d4791-2bb5-4896-8c21-0bc2e38d00a3"
             name: ""
-            image: "assets/foregrounds/ai_1772402856_16831.png"
+            image: "assets/foregrounds/Mary_smile.png"
             z_order: 0
             opacity: 1.0
             flip_h: false
@@ -165,9 +165,9 @@ sequences:
     background: "assets/backgrounds/Character_1_room.jpeg"
     background_color: "00000000"
     foregrounds:
-      - uuid: "0b5d58c3-8f77-4d07-ebab-2d60397b005c"
+      - uuid: "1619ad61-df6c-4d17-602b-9b3aca34f26b"
         name: ""
-        image: "assets/foregrounds/ai_1772552486_93617.png"
+        image: "assets/foregrounds/Mary_wink.png"
         z_order: 0
         opacity: 1.0
         flip_h: false
@@ -182,9 +182,9 @@ sequences:
         character: "Mary"
         text: "Tu es observateur ! Oui, je suis l'artiste de l'auberge. Je fais des études de beaux arts. J'espère un jour être une grande peintre, capturer l'essence de mon époque et de ma génération... Mais pour le moment, je suis surtout une étudiante fauchée, un peu paumée. Je remercie ton oncle d'avoir bien voulu me donner cette chambre. Sans lui, je serais certainement retournée faire du service en restauration toute ma vie."
         foregrounds:
-          - uuid: "0b5d58c3-8f77-4d07-ebab-2d60397b005c"
+          - uuid: "1619ad61-df6c-4d17-602b-9b3aca34f26b"
             name: ""
-            image: "assets/foregrounds/ai_1772552486_93617.png"
+            image: "assets/foregrounds/Mary_wink.png"
             z_order: 0
             opacity: 1.0
             flip_h: false
@@ -267,9 +267,9 @@ sequences:
     background: "assets/backgrounds/Character_1_room.jpeg"
     background_color: "00000000"
     foregrounds:
-      - uuid: "8ef042cc-cd63-4e86-3244-b59dec514353"
+      - uuid: "0687b1ce-9958-4626-a58d-590f7c2e20aa"
         name: ""
-        image: "assets/foregrounds/ai_1772552604_8358.png"
+        image: "assets/foregrounds/Mary_open_smile.png"
         z_order: 0
         opacity: 1.0
         flip_h: false
@@ -284,9 +284,9 @@ sequences:
         character: "Mary"
         text: "En tout cas, je suis contente d'avoir rencontré le nouveau proprio ! J'espère que tu seras aussi gentil que ton oncle."
         foregrounds:
-          - uuid: "8ef042cc-cd63-4e86-3244-b59dec514353"
+          - uuid: "0687b1ce-9958-4626-a58d-590f7c2e20aa"
             name: ""
-            image: "assets/foregrounds/ai_1772552604_8358.png"
+            image: "assets/foregrounds/Mary_open_smile.png"
             z_order: 0
             opacity: 1.0
             flip_h: false

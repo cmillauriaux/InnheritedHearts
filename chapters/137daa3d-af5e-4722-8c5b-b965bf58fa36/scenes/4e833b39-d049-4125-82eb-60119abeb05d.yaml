@@ -127,7 +127,7 @@ sequences:
     foregrounds:
       - uuid: "ef075d5a-6cef-4776-ada7-d695aac6bbee"
         name: ""
-        image: "assets/foregrounds/ai_1772402795_41806.png"
+        image: "assets/foregrounds/Mary_base.png"
         z_order: 0
         opacity: 1.0
         flip_h: false
@@ -192,7 +192,7 @@ sequences:
         foregrounds:
           - uuid: "ef075d5a-6cef-4776-ada7-d695aac6bbee"
             name: ""
-            image: "assets/foregrounds/ai_1772402795_41806.png"
+            image: "assets/foregrounds/Mary_base.png"
             z_order: 0
             opacity: 1.0
             flip_h: false

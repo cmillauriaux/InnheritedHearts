@@ -41,7 +41,7 @@ sequences:
     name: "Devant l'auberge"
     title: ""
     subtitle: ""
-    position: { x: 460.0, y: 100.0 }
+    position: { x: 440.0, y: 100.0 }
     background: "assets/backgrounds/Background_4.jpeg"
     background_color: "00000000"
     foregrounds: []
@@ -68,19 +68,31 @@ sequences:
     name: "Rencontre avec Mme Girard"
     title: ""
     subtitle: ""
-    position: { x: 740.0, y: 100.0 }
+    position: { x: 680.0, y: 100.0 }
     background: "assets/backgrounds/ai_1772391454_9497.png"
     background_color: "00000000"
     foregrounds:
       - uuid: "7f43d398-ee24-4dd3-dd82-2b7321aa385a"
+        name: ""
+        image: "assets/foregrounds/Girard_base.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.66153851454666
+        anchor_bg: { x: 1.44981133937836, y: 1.2996826171875 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
+      - uuid: "2ceeccfa-9380-4bdb-bfd9-32dc3d8865fa"
         name: ""
         image: "assets/foregrounds/ai_1772623623_40153.png"
         z_order: 0
         opacity: 1.0
         flip_h: false
         flip_v: false
-        scale: 0.66153851454666
-        anchor_bg: { x: 0.16418106853962, y: 1.29869031906128 }
+        scale: 1.0
+        anchor_bg: { x: 0.5, y: 0.5 }
         anchor_fg: { x: 0.5, y: 1.0 }
         transition_type: "none"
         transition_duration: 0.5
@@ -91,13 +103,25 @@ sequences:
         foregrounds:
           - uuid: "7f43d398-ee24-4dd3-dd82-2b7321aa385a"
             name: ""
-            image: "assets/foregrounds/ai_1772623623_40153.png"
+            image: "assets/foregrounds/Girard_base.png"
             z_order: 0
             opacity: 1.0
             flip_h: false
             flip_v: false
             scale: 0.66153851454666
-            anchor_bg: { x: 0.16418106853962, y: 1.29869031906128 }
+            anchor_bg: { x: 1.44981133937836, y: 1.2996826171875 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
+          - uuid: "2ceeccfa-9380-4bdb-bfd9-32dc3d8865fa"
+            name: ""
+            image: "assets/foregrounds/ai_1772623623_40153.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 1.0
+            anchor_bg: { x: 0.5, y: 0.5 }
             anchor_fg: { x: 0.5, y: 1.0 }
             transition_type: "none"
             transition_duration: 0.5
@@ -129,7 +153,7 @@ sequences:
     name: "Le fou rire de Mme Girard"
     title: ""
     subtitle: ""
-    position: { x: 1140.0, y: 320.0 }
+    position: { x: 1060.0, y: 120.0 }
     background: "assets/backgrounds/ai_1772391454_9497.png"
     background_color: "00000000"
     foregrounds:
@@ -145,15 +169,15 @@ sequences:
         anchor_fg: { x: 0.5, y: 1.0 }
         transition_type: "fade"
         transition_duration: 1.0
-      - uuid: "152bb3c6-a1c3-4179-8ed4-f0213a39ea25"
+      - uuid: "2b80148b-a374-4c02-220d-0e4ca329fc93"
         name: ""
-        image: "assets/foregrounds/ai_1772623716_86121.png"
+        image: "assets/foregrounds/Girard_LOL.png"
         z_order: 0
         opacity: 1.0
         flip_h: false
         flip_v: false
         scale: 0.66153851454666
-        anchor_bg: { x: 0.16418106853962, y: 1.29869031906128 }
+        anchor_bg: { x: 1.44981133937836, y: 1.2996826171875 }
         anchor_fg: { x: 0.5, y: 1.0 }
         transition_type: "none"
         transition_duration: 0.5
@@ -174,15 +198,15 @@ sequences:
             anchor_fg: { x: 0.5, y: 1.0 }
             transition_type: "fade"
             transition_duration: 1.0
-          - uuid: "152bb3c6-a1c3-4179-8ed4-f0213a39ea25"
+          - uuid: "2b80148b-a374-4c02-220d-0e4ca329fc93"
             name: ""
-            image: "assets/foregrounds/ai_1772623716_86121.png"
+            image: "assets/foregrounds/Girard_LOL.png"
             z_order: 0
             opacity: 1.0
             flip_h: false
             flip_v: false
             scale: 0.66153851454666
-            anchor_bg: { x: 0.16418106853962, y: 1.29869031906128 }
+            anchor_bg: { x: 1.44981133937836, y: 1.2996826171875 }
             anchor_fg: { x: 0.5, y: 1.0 }
             transition_type: "none"
             transition_duration: 0.5
@@ -221,19 +245,19 @@ sequences:
     name: "Accrochage avec Mme Girard"
     title: ""
     subtitle: ""
-    position: { x: 1560.0, y: 340.0 }
+    position: { x: 1440.0, y: 140.0 }
     background: "assets/backgrounds/ai_1772391454_9497.png"
     background_color: "00000000"
     foregrounds:
-      - uuid: "32ba1a38-c85c-4a64-ebed-cbfcaf823eef"
+      - uuid: "780a8677-da87-4d40-4ea9-5060ccbe6b44"
         name: ""
-        image: "assets/foregrounds/ai_1772623659_75175.png"
+        image: "assets/foregrounds/Girard_angry.png"
         z_order: 0
         opacity: 1.0
         flip_h: false
         flip_v: false
         scale: 0.66153851454666
-        anchor_bg: { x: 0.16418106853962, y: 1.29869031906128 }
+        anchor_bg: { x: 1.44981133937836, y: 1.2996826171875 }
         anchor_fg: { x: 0.5, y: 1.0 }
         transition_type: "none"
         transition_duration: 0.5
@@ -242,15 +266,15 @@ sequences:
         character: "Mme Girard"
         text: "Vieille bique ?! Surveille ton langage, mon petit !"
         foregrounds:
-          - uuid: "32ba1a38-c85c-4a64-ebed-cbfcaf823eef"
+          - uuid: "780a8677-da87-4d40-4ea9-5060ccbe6b44"
             name: ""
-            image: "assets/foregrounds/ai_1772623659_75175.png"
+            image: "assets/foregrounds/Girard_angry.png"
             z_order: 0
             opacity: 1.0
             flip_h: false
             flip_v: false
             scale: 0.66153851454666
-            anchor_bg: { x: 0.16418106853962, y: 1.29869031906128 }
+            anchor_bg: { x: 1.44981133937836, y: 1.2996826171875 }
             anchor_fg: { x: 0.5, y: 1.0 }
             transition_type: "none"
             transition_duration: 0.5
@@ -276,7 +300,7 @@ sequences:
     name: "La nouvelle du décès"
     title: ""
     subtitle: ""
-    position: { x: 1920.0, y: 340.0 }
+    position: { x: 1780.0, y: 140.0 }
     background: "assets/backgrounds/ai_1772391454_9497.png"
     background_color: "00000000"
     foregrounds:
@@ -292,15 +316,15 @@ sequences:
         anchor_fg: { x: 0.5, y: 1.0 }
         transition_type: "fade"
         transition_duration: 1.0
-      - uuid: "12fe7e58-3e6b-4424-f875-a19229486833"
+      - uuid: "e276bc23-55e2-46ea-12d9-a796e6b0b8d9"
         name: ""
-        image: "assets/foregrounds/ai_1772623831_00079.png"
+        image: "assets/foregrounds/Girard_broom_smile.png"
         z_order: 0
         opacity: 1.0
         flip_h: false
         flip_v: false
         scale: 0.66153851454666
-        anchor_bg: { x: 0.16418106853962, y: 1.29869031906128 }
+        anchor_bg: { x: 1.44981133937836, y: 1.2996826171875 }
         anchor_fg: { x: 0.5, y: 1.0 }
         transition_type: "none"
         transition_duration: 0.5
@@ -321,15 +345,15 @@ sequences:
             anchor_fg: { x: 0.5, y: 1.0 }
             transition_type: "fade"
             transition_duration: 1.0
-          - uuid: "fb18fdde-07f0-4d8c-e747-0a40eb2377e9"
+          - uuid: "c7b83dda-716c-4d67-458f-48a1e7a27a22"
             name: ""
-            image: "assets/foregrounds/ai_1772623748_88088.png"
+            image: "assets/foregrounds/Girard_broom_sad.png"
             z_order: 0
             opacity: 1.0
             flip_h: false
             flip_v: false
             scale: 0.66153851454666
-            anchor_bg: { x: 0.16418106853962, y: 1.29869031906128 }
+            anchor_bg: { x: 1.44981133937836, y: 1.2996826171875 }
             anchor_fg: { x: 0.5, y: 1.0 }
             transition_type: "none"
             transition_duration: 0.5
@@ -353,15 +377,15 @@ sequences:
             anchor_fg: { x: 0.5, y: 1.0 }
             transition_type: "fade"
             transition_duration: 1.0
-          - uuid: "12fe7e58-3e6b-4424-f875-a19229486833"
+          - uuid: "e276bc23-55e2-46ea-12d9-a796e6b0b8d9"
             name: ""
-            image: "assets/foregrounds/ai_1772623831_00079.png"
+            image: "assets/foregrounds/Girard_broom_smile.png"
             z_order: 0
             opacity: 1.0
             flip_h: false
             flip_v: false
             scale: 0.66153851454666
-            anchor_bg: { x: 0.16418106853962, y: 1.29869031906128 }
+            anchor_bg: { x: 1.44981133937836, y: 1.2996826171875 }
             anchor_fg: { x: 0.5, y: 1.0 }
             transition_type: "none"
             transition_duration: 0.5

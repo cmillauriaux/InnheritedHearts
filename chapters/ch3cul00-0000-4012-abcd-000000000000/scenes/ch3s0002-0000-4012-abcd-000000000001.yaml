@@ -45,9 +45,9 @@ sequences:
     background: "assets/backgrounds/background_shop.jpeg"
     background_color: "00000000"
     foregrounds:
-      - uuid: "cf2e30f0-2aea-4a9d-692b-5ec08b90b878"
+      - uuid: "a38d91f8-0770-4ad7-f8e8-ee63c01887ec"
         name: ""
-        image: "assets/foregrounds/shop_neutral.png"
+        image: "assets/foregrounds/ai_1772979951_73695.png"
         z_order: 0
         opacity: 1.0
         flip_h: false
@@ -89,7 +89,19 @@ sequences:
       - uuid: "ch3s2-dia5-seq2-abcd-000000000005"
         character: "Vendeur"
         text: "Trente ans ?! Ah bah mon pauvre monsieur, c'est plus un chauffe-eau que vous avez, c'est une relique ! À ce stade-là, on le met au musée !"
-        foregrounds: []
+        foregrounds:
+          - uuid: "a38d91f8-0770-4ad7-f8e8-ee63c01887ec"
+            name: ""
+            image: "assets/foregrounds/ai_1772979951_73695.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.80446641794209
+            anchor_bg: { x: 1.1050933599472, y: 1.29769814014435 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
       - uuid: "ch3s2-dia6-seq2-abcd-000000000006"
         character: "Joueur"
         text: "Oui, je m'en doute... Et c'est justement le problème. Je n'ai pas vraiment les moyens d'en acheter un neuf."
@@ -142,9 +154,9 @@ sequences:
     background: "assets/backgrounds/background_shop.jpeg"
     background_color: "00000000"
     foregrounds:
-      - uuid: "9fe2b1c5-991c-4b12-97f1-8e5a2bc5beec"
+      - uuid: "3adaf0a5-6478-4934-d71c-224ddef6e33b"
         name: ""
-        image: "assets/foregrounds/shop_surprised.png"
+        image: "assets/foregrounds/ai_1772979951_73695.png"
         z_order: 0
         opacity: 1.0
         flip_h: false
@@ -183,9 +195,9 @@ sequences:
         character: "Vendeur"
         text: "Cinq filles ? Ah oui quand même... Et le vieux Alfred, il a rien laissé pour l'entretien ?"
         foregrounds:
-          - uuid: "9fe2b1c5-991c-4b12-97f1-8e5a2bc5beec"
+          - uuid: "3adaf0a5-6478-4934-d71c-224ddef6e33b"
             name: ""
-            image: "assets/foregrounds/shop_surprised.png"
+            image: "assets/foregrounds/ai_1772979951_73695.png"
             z_order: 0
             opacity: 1.0
             flip_h: false
@@ -243,9 +255,9 @@ sequences:
     background: "assets/backgrounds/background_shop.jpeg"
     background_color: "00000000"
     foregrounds:
-      - uuid: "136d70a6-d0e6-44a4-cc0d-c675c0e89eca"
+      - uuid: "6dafd5d7-3f65-4ecf-fc7a-4378096869ad"
         name: ""
-        image: "assets/foregrounds/ai_1772972413_58668.png"
+        image: "assets/foregrounds/ai_1772980135_03192.png"
         z_order: 0
         opacity: 1.0
         flip_h: false
@@ -275,14 +287,10 @@ sequences:
       - uuid: "ch3s2-dia2-seq4-abcd-000000000002"
         character: "Vendeur"
         text: "De l'occasion ? Hmm... J'ai peut-être un truc en réserve. Un client m'a ramené un ballon l'année dernière, il marche encore."
-        foregrounds: []
-      - uuid: "ch3s2-dia3-seq4-abcd-000000000003"
-        character: "Vendeur"
-        text: "Mais même d'occasion, c'est pas gratuit hein. Faut que je le teste, que je le garantisse un minimum..."
         foregrounds:
-          - uuid: "136d70a6-d0e6-44a4-cc0d-c675c0e89eca"
+          - uuid: "6dafd5d7-3f65-4ecf-fc7a-4378096869ad"
             name: ""
-            image: "assets/foregrounds/ai_1772972413_58668.png"
+            image: "assets/foregrounds/ai_1772980135_03192.png"
             z_order: 0
             opacity: 1.0
             flip_h: false
@@ -292,6 +300,10 @@ sequences:
             anchor_fg: { x: 0.5, y: 1.0 }
             transition_type: "none"
             transition_duration: 0.5
+      - uuid: "ch3s2-dia3-seq4-abcd-000000000003"
+        character: "Vendeur"
+        text: "Mais même d'occasion, c'est pas gratuit hein. Faut que je le teste, que je le garantisse un minimum..."
+        foregrounds: []
       - uuid: "ch3s2-dia4-seq4-abcd-000000000004"
         character: "Joueur"
         text: "Je comprends. Et pour la pose, ça coûterait combien en plus ?"
@@ -337,12 +349,12 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 1100.0, y: 440.0 }
-    background: "assets/backgrounds/Background_5.jpeg"
+    background: "assets/backgrounds/background_shop.jpeg"
     background_color: "00000000"
     foregrounds:
-      - uuid: "c05c4ed3-aa85-4df0-a1bb-6b3bf3c2fd62"
+      - uuid: "6fa3fdb7-96a8-48e3-d8ba-56691b1924ec"
         name: ""
-        image: "assets/foregrounds/ai_1772972413_58668.png"
+        image: "assets/foregrounds/ai_1772980135_03192.png"
         z_order: 0
         opacity: 1.0
         flip_h: false
@@ -357,9 +369,9 @@ sequences:
         character: "Joueur"
         text: "Écoutez, je gère une auberge avec cinq étudiantes qui n'ont plus d'eau chaude. Elles ne peuvent même pas se préparer pour aller en cours."
         foregrounds:
-          - uuid: "c05c4ed3-aa85-4df0-a1bb-6b3bf3c2fd62"
+          - uuid: "6fa3fdb7-96a8-48e3-d8ba-56691b1924ec"
             name: ""
-            image: "assets/foregrounds/ai_1772972413_58668.png"
+            image: "assets/foregrounds/ai_1772980135_03192.png"
             z_order: 0
             opacity: 1.0
             flip_h: false

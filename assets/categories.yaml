@@ -21,17 +21,9 @@ assignments:
   - image: "foregrounds/ai_1772389973_03395.png"
     categories:
       - "Mr Dumont"
-  - image: "foregrounds/ai_1772389917_08433.png"
-    categories:
-      - "Mr Dumont"
-      - "Base"
   - image: "foregrounds/ai_1772392306_46295.png"
     categories:
       - "Base"
-  - image: "foregrounds/ai_1772402795_41806.png"
-    categories:
-      - "Base"
-      - "Mary"
   - image: "foregrounds/Girard-broom-sad.png"
     categories:
       - "Mme Girard"
@@ -48,3 +40,14 @@ assignments:
   - image: "foregrounds/dumont_bras_croises.png"
     categories:
       - "Mr Dumont"
+  - image: "foregrounds/Mary_base.png"
+    categories:
+      - "Base"
+      - "Mary"
+  - image: "foregrounds/Dumont_base.png"
+    categories:
+      - "Mr Dumont"
+  - image: "foregrounds/Girard_base.png"
+    categories:
+      - "Mme Girard"
+      - "Base"
