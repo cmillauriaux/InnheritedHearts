@@ -6,7 +6,7 @@ sequences:
     name: "Le premier choix important"
     title: ""
     subtitle: ""
-    position: { x: 380.0, y: 440.0 }
+    position: { x: 660.0, y: 440.0 }
     background: "assets/backgrounds/Background_bathroom.jpeg"
     background_color: "00000000"
     foregrounds:
@@ -226,7 +226,7 @@ sequences:
     name: "Réaction outrée des filles"
     title: ""
     subtitle: ""
-    position: { x: 380.0, y: 260.0 }
+    position: { x: 660.0, y: 260.0 }
     background: "assets/backgrounds/Background_bathroom.jpeg"
     background_color: "00000000"
     foregrounds:

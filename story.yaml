@@ -3,11 +3,11 @@ author: "Auteur"
 description: "An unexpected herritage"
 version: "1.0.0"
 created_at: "2026-03-01T18:16:04Z"
-updated_at: "2026-03-08T14:55:36Z"
+updated_at: "2026-03-08T21:31:15Z"
 chapters:
   - uuid: "137daa3d-af5e-4722-8c5b-b965bf58fa36"
     name: "Chapitre 1"
-    subtitle: ""
+    subtitle: "Adieu Oncle Alfred"
     position: { x: 100.0, y: 100.0 }
     entry_point: "039f1558-c83d-4a6b-b988-5cbfb4547f28"
   - uuid: "ch2eau00-0000-4012-abcd-000000000000"

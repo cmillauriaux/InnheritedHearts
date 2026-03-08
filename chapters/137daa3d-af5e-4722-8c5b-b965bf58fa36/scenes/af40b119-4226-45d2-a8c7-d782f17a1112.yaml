@@ -9,7 +9,31 @@ sequences:
     position: { x: 100.0, y: 100.0 }
     background: "assets/backgrounds/Background_player_bedroom.jpeg"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "10656028-b4a1-4307-7655-79b5657e7cbd"
+        name: ""
+        image: "assets/foregrounds/ai_1772400443_5665.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.71017380328687
+        anchor_bg: { x: 0.76621389389038, y: 1.29769790172577 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "fade"
+        transition_duration: 0.5
+      - uuid: "78cd0999-8a95-4d43-e998-a8a90d3d2810"
+        name: ""
+        image: "assets/foregrounds/Girard_uniform__proud.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.71017380328687
+        anchor_bg: { x: 0.76621389389038, y: 1.29862868785858 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "fc1c6ff0-6dda-490d-befc-5b3f03fcbcf1"
         character: "Joueur"
@@ -19,25 +43,9 @@ sequences:
         character: "Mme Girard"
         text: "Les filles sont toutes en cours à cette heure-ci. En journée, c'est moi qui m'occupe de tout."
         foregrounds:
-          - uuid: "1b889d71-7a5c-4b07-eef9-6a252085d5aa"
+          - uuid: "f09dc0ad-0e4c-4e0a-653b-96d4b127afa3"
             name: ""
-            image: "assets/foregrounds/ai_1772623979_38078.png"
-            z_order: 0
-            opacity: 1.0
-            flip_h: false
-            flip_v: false
-            scale: 0.71017380328687
-            anchor_bg: { x: 0.76621389389038, y: 1.29862868785858 }
-            anchor_fg: { x: 0.5, y: 1.0 }
-            transition_type: "fade"
-            transition_duration: 0.5
-      - uuid: "fb4cc785-3a9a-4b2d-abe9-c5df7ab478c7"
-        character: "Joueur"
-        text: "La chambre est très... simple."
-        foregrounds:
-          - uuid: "88239ca8-7ce5-4a66-a46c-9fb0b51b9139"
-            name: ""
-            image: "assets/foregrounds/ai_1772623979_38078.png"
+            image: "assets/foregrounds/Girard_uniform__smile.png"
             z_order: 0
             opacity: 1.0
             flip_h: false
@@ -47,6 +55,10 @@ sequences:
             anchor_fg: { x: 0.5, y: 1.0 }
             transition_type: "none"
             transition_duration: 0.5
+      - uuid: "fb4cc785-3a9a-4b2d-abe9-c5df7ab478c7"
+        character: "Joueur"
+        text: "La chambre est très... simple."
+        foregrounds: []
       - uuid: "5a367737-dfae-440a-8ac6-a472156d2881"
         character: "Mme Girard"
         text: "Votre oncle était d'une générosité sans pareille, mais il vivait très simplement lui-même. C'était sa chambre."
@@ -63,9 +75,9 @@ sequences:
             anchor_fg: { x: 0.5, y: 1.0 }
             transition_type: "fade"
             transition_duration: 0.5
-          - uuid: "937dfa23-fbf0-460d-4666-7b75ff15ea54"
+          - uuid: "a846bde1-744b-44ce-97e7-d3d09da08422"
             name: ""
-            image: "assets/foregrounds/ai_1772624064_12056.png"
+            image: "assets/foregrounds/Girard_uniform__annoyed.png"
             z_order: 0
             opacity: 1.0
             flip_h: false
@@ -73,7 +85,7 @@ sequences:
             scale: 0.71017380328687
             anchor_bg: { x: 0.76621389389038, y: 1.29862868785858 }
             anchor_fg: { x: 0.5, y: 1.0 }
-            transition_type: "fade"
+            transition_type: "none"
             transition_duration: 0.5
       - uuid: "5de6a43e-d8bd-4b40-8959-88ae119c0202"
         character: "Mme Girard"
@@ -91,9 +103,9 @@ sequences:
             anchor_fg: { x: 0.5, y: 1.0 }
             transition_type: "fade"
             transition_duration: 0.5
-          - uuid: "030cf1bf-46dd-44d0-23b0-aee2f62688ad"
+          - uuid: "78cd0999-8a95-4d43-e998-a8a90d3d2810"
             name: ""
-            image: "assets/foregrounds/ai_1772624064_12056.png"
+            image: "assets/foregrounds/Girard_uniform__proud.png"
             z_order: 0
             opacity: 1.0
             flip_h: false

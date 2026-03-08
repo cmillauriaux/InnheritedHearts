@@ -37,9 +37,9 @@ sequences:
     background: "assets/backgrounds/Character_1_room.jpeg"
     background_color: "00000000"
     foregrounds:
-      - uuid: "f57c48ff-5dc3-4945-2995-7e692732070e"
+      - uuid: "d712b6e4-65f8-493a-3b75-89c8a856db10"
         name: ""
-        image: "assets/foregrounds/Mary_base.png"
+        image: "assets/foregrounds/Mary_sundress__suspicious.png"
         z_order: 0
         opacity: 1.0
         flip_h: false
@@ -54,9 +54,9 @@ sequences:
         character: "Mary"
         text: "Oh... Bonjour ! Euh... Je n'ai rien commandé à manger pourtant..."
         foregrounds:
-          - uuid: "f57c48ff-5dc3-4945-2995-7e692732070e"
+          - uuid: "d712b6e4-65f8-493a-3b75-89c8a856db10"
             name: ""
-            image: "assets/foregrounds/Mary_base.png"
+            image: "assets/foregrounds/Mary_sundress__suspicious.png"
             z_order: 0
             opacity: 1.0
             flip_h: false
@@ -165,9 +165,9 @@ sequences:
     background: "assets/backgrounds/Character_1_room.jpeg"
     background_color: "00000000"
     foregrounds:
-      - uuid: "1619ad61-df6c-4d17-602b-9b3aca34f26b"
+      - uuid: "8a1cfc83-1b7c-4081-2d4f-17b004a80411"
         name: ""
-        image: "assets/foregrounds/Mary_wink.png"
+        image: "assets/foregrounds/Mary_sundress__excited.png"
         z_order: 0
         opacity: 1.0
         flip_h: false
@@ -182,9 +182,9 @@ sequences:
         character: "Mary"
         text: "Tu es observateur ! Oui, je suis l'artiste de l'auberge. Je fais des études de beaux arts. J'espère un jour être une grande peintre, capturer l'essence de mon époque et de ma génération... Mais pour le moment, je suis surtout une étudiante fauchée, un peu paumée. Je remercie ton oncle d'avoir bien voulu me donner cette chambre. Sans lui, je serais certainement retournée faire du service en restauration toute ma vie."
         foregrounds:
-          - uuid: "1619ad61-df6c-4d17-602b-9b3aca34f26b"
+          - uuid: "8a1cfc83-1b7c-4081-2d4f-17b004a80411"
             name: ""
-            image: "assets/foregrounds/Mary_wink.png"
+            image: "assets/foregrounds/Mary_sundress__excited.png"
             z_order: 0
             opacity: 1.0
             flip_h: false
@@ -216,9 +216,9 @@ sequences:
     background: "assets/backgrounds/Character_1_room.jpeg"
     background_color: "00000000"
     foregrounds:
-      - uuid: "c1e9abf1-6cf5-4605-8437-39f79f26a40e"
+      - uuid: "172ca656-9236-42c3-03e6-b633805e27b7"
         name: ""
-        image: "assets/foregrounds/ai_1772552525_77605.png"
+        image: "assets/foregrounds/Mary_open_smile.png"
         z_order: 0
         opacity: 1.0
         flip_h: false
@@ -233,9 +233,9 @@ sequences:
         character: "Mary"
         text: "Ha ha ! Oui... Je passe beaucoup de temps à structurer et imaginer dans ma tête, mais très peu dans le monde réel. Je suis une artiste avant tout. Et une piètre ménagère, c'est vrai !"
         foregrounds:
-          - uuid: "c1e9abf1-6cf5-4605-8437-39f79f26a40e"
+          - uuid: "172ca656-9236-42c3-03e6-b633805e27b7"
             name: ""
-            image: "assets/foregrounds/ai_1772552525_77605.png"
+            image: "assets/foregrounds/Mary_open_smile.png"
             z_order: 0
             opacity: 1.0
             flip_h: false
@@ -267,9 +267,9 @@ sequences:
     background: "assets/backgrounds/Character_1_room.jpeg"
     background_color: "00000000"
     foregrounds:
-      - uuid: "0687b1ce-9958-4626-a58d-590f7c2e20aa"
+      - uuid: "ab3ed6bb-526b-4288-f683-041ef23b43c1"
         name: ""
-        image: "assets/foregrounds/Mary_open_smile.png"
+        image: "assets/foregrounds/Mary_smile.png"
         z_order: 0
         opacity: 1.0
         flip_h: false
@@ -284,9 +284,9 @@ sequences:
         character: "Mary"
         text: "En tout cas, je suis contente d'avoir rencontré le nouveau proprio ! J'espère que tu seras aussi gentil que ton oncle."
         foregrounds:
-          - uuid: "0687b1ce-9958-4626-a58d-590f7c2e20aa"
+          - uuid: "ab3ed6bb-526b-4288-f683-041ef23b43c1"
             name: ""
-            image: "assets/foregrounds/Mary_open_smile.png"
+            image: "assets/foregrounds/Mary_smile.png"
             z_order: 0
             opacity: 1.0
             flip_h: false

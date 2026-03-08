@@ -29,7 +29,7 @@ sequences:
         foregrounds:
           - uuid: "a3d63a31-b298-4969-19a4-0e35230e18aa"
             name: ""
-            image: "assets/foregrounds/ai_1772552525_77605.png"
+            image: "assets/foregrounds/Mary_sundress__neutral.png"
             z_order: 0
             opacity: 1.0
             flip_h: false
