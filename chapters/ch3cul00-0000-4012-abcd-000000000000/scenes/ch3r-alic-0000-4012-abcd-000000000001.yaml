@@ -9,7 +9,19 @@ sequences:
     position: { x: 380.0, y: 440.0 }
     background: "assets/backgrounds/Character_4_room.jpeg"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "9b3bd84e-c75b-4080-c33b-b3a374b746ec"
+        name: ""
+        image: "assets/foregrounds/ai_1772974993_20179.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 1.0
+        anchor_bg: { x: 0.79337859153748, y: 1.3016664981842 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "ch3s5-dia1-alic-abcd-000000000001"
         character: "Joueur"
@@ -26,7 +38,19 @@ sequences:
       - uuid: "ch3s5-dia4-alic-abcd-000000000004"
         character: "Joueur"
         text: "Attends... C'est quoi ça dans le tiroir du bureau ? Un... couteau ? Taché de rouge ?!"
-        foregrounds: []
+        foregrounds:
+          - uuid: "9b3bd84e-c75b-4080-c33b-b3a374b746ec"
+            name: ""
+            image: "assets/foregrounds/ai_1772974993_20179.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 1.0
+            anchor_bg: { x: 0.79337859153748, y: 1.3016664981842 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
       - uuid: "ch3s5-dia5-alic-abcd-000000000005"
         character: "Joueur"
         text: "OK. Un couteau taché de rouge dans la chambre de l'étudiante en criminologie. Tout est parfaitement normal. Absolument rien d'inquiétant."

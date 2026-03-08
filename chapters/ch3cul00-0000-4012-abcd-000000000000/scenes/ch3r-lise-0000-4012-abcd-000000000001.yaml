@@ -9,7 +9,19 @@ sequences:
     position: { x: 380.0, y: 440.0 }
     background: "assets/backgrounds/Character_2_room.jpeg"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "aec5298b-061a-4276-92a6-ad708a5a774a"
+        name: ""
+        image: "assets/foregrounds/ai_1772974468_11486.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 1.0
+        anchor_bg: { x: 0.81443125009537, y: 1.24610567092896 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "ch3s5-dia1-lise-abcd-000000000001"
         character: "Joueur"
@@ -26,7 +38,19 @@ sequences:
       - uuid: "ch3s5-dia4-lise-abcd-000000000004"
         character: "Joueur"
         text: "Tiens... Sur le bureau, un petit carnet avec un cadenas. \"Journal de Lise - PRIVÉ\" écrit en rouge."
-        foregrounds: []
+        foregrounds:
+          - uuid: "aec5298b-061a-4276-92a6-ad708a5a774a"
+            name: ""
+            image: "assets/foregrounds/ai_1772974468_11486.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 1.0
+            anchor_bg: { x: 0.81443125009537, y: 1.24610567092896 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
     fx: []
     music: "assets/music/Lise_theme.mp3"
     audio_fx: ""
@@ -56,15 +80,39 @@ sequences:
     name: "Lecture du journal"
     title: ""
     subtitle: ""
-    position: { x: 620.0, y: 260.0 }
+    position: { x: 720.0, y: 660.0 }
     background: "assets/backgrounds/Character_2_room.jpeg"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "9c8cabf9-aaef-4f76-7303-50830ce4e011"
+        name: ""
+        image: "assets/foregrounds/ai_1772974616_64723.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 1.0
+        anchor_bg: { x: 0.79609507322311, y: 1.29769814014435 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "ch3s5-dia1-liseJ-abcd-000000000001"
         character: "Joueur"
         text: "Le cadenas est ouvert... Elle a oublié de le fermer. Bon, juste un coup d'œil rapide..."
-        foregrounds: []
+        foregrounds:
+          - uuid: "9c8cabf9-aaef-4f76-7303-50830ce4e011"
+            name: ""
+            image: "assets/foregrounds/ai_1772974616_64723.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 1.0
+            anchor_bg: { x: 0.79609507322311, y: 1.29769814014435 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
       - uuid: "ch3s5-dia2-liseJ-abcd-000000000002"
         character: "Joueur"
         text: "\"Cher journal, le nouveau propriétaire est arrivé aujourd'hui. Il a l'air gentil mais un peu perdu. Comme un personnage de visual novel qui ne sait pas encore quel route il va prendre.\""
@@ -103,7 +151,7 @@ sequences:
     name: "Respect de la vie privée"
     title: ""
     subtitle: ""
-    position: { x: 620.0, y: 620.0 }
+    position: { x: 720.0, y: 480.0 }
     background: "assets/backgrounds/Character_2_room.jpeg"
     background_color: "00000000"
     foregrounds: []

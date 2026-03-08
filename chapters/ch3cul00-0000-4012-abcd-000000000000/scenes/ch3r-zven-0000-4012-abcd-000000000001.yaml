@@ -9,7 +9,19 @@ sequences:
     position: { x: 380.0, y: 440.0 }
     background: "assets/backgrounds/Character_5_room.jpeg"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "345954ef-4967-49f3-be2a-56623324b27c"
+        name: ""
+        image: "assets/foregrounds/ai_1772975095_00064.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 1.14813577614422
+        anchor_bg: { x: 0.70441418886185, y: 1.10323441028595 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "ch3s5-dia1-zven-abcd-000000000001"
         character: "Joueur"
@@ -25,8 +37,20 @@ sequences:
         foregrounds: []
       - uuid: "ch3s5-dia4-zven-abcd-000000000004"
         character: "Joueur"
-        text: "Et sur le bureau... Un masque en bois. Sculpté à la main, avec des motifs tribaux. Il a l'air ancien et sacré."
-        foregrounds: []
+        text: "Et sur le mur... Un masque en bois. Sculpté à la main, avec des motifs tribaux. Il a l'air ancien et sacré."
+        foregrounds:
+          - uuid: "345954ef-4967-49f3-be2a-56623324b27c"
+            name: ""
+            image: "assets/foregrounds/ai_1772975095_00064.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 1.14813577614422
+            anchor_bg: { x: 0.70441418886185, y: 1.10323441028595 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
       - uuid: "ch3s5-dia5-zven-abcd-000000000005"
         character: "Joueur"
         text: "Impressionnant. Je me demande ce qu'il représente pour elle."

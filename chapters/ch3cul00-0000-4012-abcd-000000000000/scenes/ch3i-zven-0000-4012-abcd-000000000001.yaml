@@ -10,7 +10,7 @@ sequences:
     background: "assets/backgrounds/Character_5_room.jpeg"
     background_color: "00000000"
     foregrounds:
-      - uuid: "ch3s6-fg1-zven-abcd-000000000001"
+      - uuid: "ch3s6-fg7-zven-abcd-000000000001"
         name: ""
         image: "assets/foregrounds/ai_1772554514_28913.png"
         z_order: 0

@@ -9,7 +9,19 @@ sequences:
     position: { x: 380.0, y: 440.0 }
     background: "assets/backgrounds/Character_1_room.jpeg"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "c196bd8a-cbe9-4ac4-5d1c-8c2fb11378fc"
+        name: ""
+        image: "assets/foregrounds/ai_1772974087_96468.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 1.0
+        anchor_bg: { x: 0.83548384904861, y: 1.26396441459656 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "ch3s5-dia1-mary-abcd-000000000001"
         character: "Joueur"
@@ -30,7 +42,19 @@ sequences:
       - uuid: "ch3s5-dia5-mary-abcd-000000000005"
         character: "Joueur"
         text: "Sur le bureau... Tiens, un flyer. \"Exposition d'art contemporain - Natures mortes revisitées\". C'est l'expo de Mary ?"
-        foregrounds: []
+        foregrounds:
+          - uuid: "c196bd8a-cbe9-4ac4-5d1c-8c2fb11378fc"
+            name: ""
+            image: "assets/foregrounds/ai_1772974087_96468.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 1.0
+            anchor_bg: { x: 0.83548384904861, y: 1.26396441459656 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
       - uuid: "ch3s5-dia6-mary-abcd-000000000006"
         character: "Joueur"
         text: "Intéressant, mais ça ne m'aide pas pour l'enquête."

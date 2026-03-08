@@ -9,7 +9,19 @@ sequences:
     position: { x: 380.0, y: 440.0 }
     background: "assets/backgrounds/Character_3_room.jpeg"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "a869412a-5150-4673-9b65-fe01ed09f7da"
+        name: ""
+        image: "assets/foregrounds/ai_1772974851_95236.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 1.0
+        anchor_bg: { x: 0.80560266971588, y: 1.29273724555969 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "ch3s5-dia1-lola-abcd-000000000001"
         character: "Joueur"
@@ -22,7 +34,19 @@ sequences:
       - uuid: "ch3s5-dia3-lola-abcd-000000000003"
         character: "Joueur"
         text: "Sous le lit... Tiens, qu'est-ce que c'est ? Des gants de boxe ?!"
-        foregrounds: []
+        foregrounds:
+          - uuid: "a869412a-5150-4673-9b65-fe01ed09f7da"
+            name: ""
+            image: "assets/foregrounds/ai_1772974851_95236.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 1.0
+            anchor_bg: { x: 0.80560266971588, y: 1.29273724555969 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
       - uuid: "ch3s5-dia4-lola-abcd-000000000004"
         character: "Joueur"
         text: "Lola fait de la boxe ? La petite infirmière bavarde fait de la boxe ?! Comme quoi, on ne connaît jamais vraiment les gens."

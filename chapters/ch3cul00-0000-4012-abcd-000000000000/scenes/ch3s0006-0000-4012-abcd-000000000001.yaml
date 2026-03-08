@@ -6,8 +6,8 @@ sequences:
     name: "Qui interroger ?"
     title: ""
     subtitle: ""
-    position: { x: 380.0, y: 440.0 }
-    background: "assets/backgrounds/ai_1772552332_43598.png"
+    position: { x: 540.0, y: 440.0 }
+    background: "assets/backgrounds/Background_6.jpeg"
     background_color: "00000000"
     foregrounds: []
     dialogues:

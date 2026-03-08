@@ -42,14 +42,38 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 620.0, y: 440.0 }
-    background: "assets/backgrounds/Background_5.jpeg"
+    background: "assets/backgrounds/background_shop.jpeg"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "cf2e30f0-2aea-4a9d-692b-5ec08b90b878"
+        name: ""
+        image: "assets/foregrounds/shop_neutral.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.80446641794209
+        anchor_bg: { x: 1.1050933599472, y: 1.29769814014435 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "ch3s2-dia1-seq2-abcd-000000000001"
         character: "Vendeur"
         text: "Bonjour ! Vous êtes bien matinal, dites donc. Qu'est-ce que je peux faire pour vous ?"
-        foregrounds: []
+        foregrounds:
+          - uuid: "cf2e30f0-2aea-4a9d-692b-5ec08b90b878"
+            name: ""
+            image: "assets/foregrounds/shop_neutral.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.80446641794209
+            anchor_bg: { x: 1.1050933599472, y: 1.29769814014435 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
       - uuid: "ch3s2-dia2-seq2-abcd-000000000002"
         character: "Joueur"
         text: "Bonjour monsieur. J'ai un problème de chauffe-eau à l'auberge du coin. Il est complètement en panne."
@@ -115,14 +139,38 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 860.0, y: 260.0 }
-    background: "assets/backgrounds/Background_5.jpeg"
+    background: "assets/backgrounds/background_shop.jpeg"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "9fe2b1c5-991c-4b12-97f1-8e5a2bc5beec"
+        name: ""
+        image: "assets/foregrounds/shop_surprised.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.80446641794209
+        anchor_bg: { x: 1.1050933599472, y: 1.29769814014435 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "ch3s2-dia1-seq3-abcd-000000000001"
         character: "Joueur"
         text: "Écoutez, je vais être honnête avec vous. J'ai hérité de cette auberge il y a quelques jours à peine."
-        foregrounds: []
+        foregrounds:
+          - uuid: "70a6546d-c6b5-4724-fc13-ec60e2b64227"
+            name: ""
+            image: "assets/foregrounds/shop_neutral.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.80446641794209
+            anchor_bg: { x: 1.1050933599472, y: 1.29769814014435 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
       - uuid: "ch3s2-dia2-seq3-abcd-000000000002"
         character: "Joueur"
         text: "Il y a cinq filles qui logent là-bas. Ce sont des étudiantes. Sans eau chaude, elles ne peuvent pas se doucher correctement."
@@ -134,7 +182,19 @@ sequences:
       - uuid: "ch3s2-dia4-seq3-abcd-000000000004"
         character: "Vendeur"
         text: "Cinq filles ? Ah oui quand même... Et le vieux Alfred, il a rien laissé pour l'entretien ?"
-        foregrounds: []
+        foregrounds:
+          - uuid: "9fe2b1c5-991c-4b12-97f1-8e5a2bc5beec"
+            name: ""
+            image: "assets/foregrounds/shop_surprised.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.80446641794209
+            anchor_bg: { x: 1.1050933599472, y: 1.29769814014435 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
       - uuid: "ch3s2-dia5-seq3-abcd-000000000005"
         character: "Joueur"
         text: "Pas un sou. L'auberge tient avec des bouts de ficelle. Mais ces filles comptent sur moi."
@@ -180,14 +240,38 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 860.0, y: 620.0 }
-    background: "assets/backgrounds/Background_5.jpeg"
+    background: "assets/backgrounds/background_shop.jpeg"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "136d70a6-d0e6-44a4-cc0d-c675c0e89eca"
+        name: ""
+        image: "assets/foregrounds/ai_1772972413_58668.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.80446641794209
+        anchor_bg: { x: 1.1050933599472, y: 1.29769814014435 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "ch3s2-dia1-seq4-abcd-000000000001"
         character: "Joueur"
         text: "Vous n'auriez pas un modèle d'occasion, par hasard ? Quelque chose de moins cher ?"
-        foregrounds: []
+        foregrounds:
+          - uuid: "e1979d01-8e93-4e72-bf68-123573618db2"
+            name: ""
+            image: "assets/foregrounds/shop_neutral.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.80446641794209
+            anchor_bg: { x: 1.1050933599472, y: 1.29769814014435 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
       - uuid: "ch3s2-dia2-seq4-abcd-000000000002"
         character: "Vendeur"
         text: "De l'occasion ? Hmm... J'ai peut-être un truc en réserve. Un client m'a ramené un ballon l'année dernière, il marche encore."
@@ -195,7 +279,19 @@ sequences:
       - uuid: "ch3s2-dia3-seq4-abcd-000000000003"
         character: "Vendeur"
         text: "Mais même d'occasion, c'est pas gratuit hein. Faut que je le teste, que je le garantisse un minimum..."
-        foregrounds: []
+        foregrounds:
+          - uuid: "136d70a6-d0e6-44a4-cc0d-c675c0e89eca"
+            name: ""
+            image: "assets/foregrounds/ai_1772972413_58668.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.80446641794209
+            anchor_bg: { x: 1.1050933599472, y: 1.29769814014435 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
       - uuid: "ch3s2-dia4-seq4-abcd-000000000004"
         character: "Joueur"
         text: "Je comprends. Et pour la pose, ça coûterait combien en plus ?"
@@ -243,12 +339,36 @@ sequences:
     position: { x: 1100.0, y: 440.0 }
     background: "assets/backgrounds/Background_5.jpeg"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "c05c4ed3-aa85-4df0-a1bb-6b3bf3c2fd62"
+        name: ""
+        image: "assets/foregrounds/ai_1772972413_58668.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.80446641794209
+        anchor_bg: { x: 1.1050933599472, y: 1.29769814014435 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "ch3s2-dia1-seq5-abcd-000000000001"
         character: "Joueur"
         text: "Écoutez, je gère une auberge avec cinq étudiantes qui n'ont plus d'eau chaude. Elles ne peuvent même pas se préparer pour aller en cours."
-        foregrounds: []
+        foregrounds:
+          - uuid: "c05c4ed3-aa85-4df0-a1bb-6b3bf3c2fd62"
+            name: ""
+            image: "assets/foregrounds/ai_1772972413_58668.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.80446641794209
+            anchor_bg: { x: 1.1050933599472, y: 1.29769814014435 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
       - uuid: "ch3s2-dia2-seq5-abcd-000000000002"
         character: "Joueur"
         text: "On n'a vraiment pas beaucoup de sous. Mais je suis prêt à faire ce qu'il faut pour arranger la situation."
@@ -294,14 +414,38 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 1340.0, y: 440.0 }
-    background: "assets/backgrounds/Background_5.jpeg"
+    background: "assets/backgrounds/background_shop.jpeg"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "2d170b64-78e5-49db-e2cf-5804c2e225e9"
+        name: ""
+        image: "assets/foregrounds/ai_1772972413_58668.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.80446641794209
+        anchor_bg: { x: 1.1050933599472, y: 1.29769814014435 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "ch3s2-dia1-seq6-abcd-000000000001"
         character: "Vendeur"
         text: "Allez, voilà ce que je vous propose : le ballon d'occasion, je vous le fais à 150 euros. La pose, je vous la fais au prix coûtant."
-        foregrounds: []
+        foregrounds:
+          - uuid: "2d170b64-78e5-49db-e2cf-5804c2e225e9"
+            name: ""
+            image: "assets/foregrounds/ai_1772972413_58668.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.80446641794209
+            anchor_bg: { x: 1.1050933599472, y: 1.29769814014435 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
       - uuid: "ch3s2-dia2-seq6-abcd-000000000002"
         character: "Vendeur"
         text: "Et je passe cet après-midi pour l'installer. Comme ça vos demoiselles auront de l'eau chaude ce soir."
@@ -343,12 +487,36 @@ sequences:
     position: { x: 860.0, y: 800.0 }
     background: "assets/backgrounds/Background_5.jpeg"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "6adafb2f-1094-41f1-de3c-24bcc3a6a331"
+        name: ""
+        image: "assets/foregrounds/ai_1772972456_96539.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 0.80446641794209
+        anchor_bg: { x: 1.1050933599472, y: 1.29769814014435 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "ch3s2-dia1-fail-abcd-000000000001"
         character: "Vendeur"
         text: "Eh oh ! On se calme, jeune homme ! C'est pas un bazar ici, c'est un commerce sérieux !"
-        foregrounds: []
+        foregrounds:
+          - uuid: "6adafb2f-1094-41f1-de3c-24bcc3a6a331"
+            name: ""
+            image: "assets/foregrounds/ai_1772972456_96539.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 0.80446641794209
+            anchor_bg: { x: 1.1050933599472, y: 1.29769814014435 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
       - uuid: "ch3s2-dia2-fail-abcd-000000000002"
         character: "Vendeur"
         text: "Si c'est pour me parler comme ça, la porte est là ! Revenez quand vous aurez appris les bonnes manières !"

@@ -7,7 +7,7 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 380.0, y: 440.0 }
-    background: "assets/backgrounds/ai_1772552332_43598.png"
+    background: "assets/backgrounds/Background_6.jpeg"
     background_color: "00000000"
     foregrounds: []
     dialogues:
@@ -28,7 +28,7 @@ sequences:
         text: "Il est temps de rendre mon verdict à Mme Girard."
         foregrounds: []
     fx: []
-    music: "assets/music/V.mp3"
+    music: "/Users/cedric/Stories/InnheritedHearts/assets/music/Inn_theme.mp3"
     audio_fx: ""
     stop_music: false
     transition_in_type: "fade"

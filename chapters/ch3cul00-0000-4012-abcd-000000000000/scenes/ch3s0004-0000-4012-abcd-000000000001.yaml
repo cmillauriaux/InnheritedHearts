@@ -7,9 +7,21 @@ sequences:
     title: ""
     subtitle: ""
     position: { x: 380.0, y: 440.0 }
-    background: "assets/backgrounds/Background_player_bedroom.jpeg"
+    background: "assets/backgrounds/ai_1772973600_33637.png"
     background_color: "00000000"
-    foregrounds: []
+    foregrounds:
+      - uuid: "e84ff539-4e11-49a8-4feb-fe3618710967"
+        name: ""
+        image: "assets/foregrounds/ai_1772973271_40767.png"
+        z_order: 0
+        opacity: 1.0
+        flip_h: false
+        flip_v: false
+        scale: 1.33349866843401
+        anchor_bg: { x: 0.78658753633499, y: 1.72631192207336 }
+        anchor_fg: { x: 0.5, y: 1.0 }
+        transition_type: "none"
+        transition_duration: 0.5
     dialogues:
       - uuid: "ch3s4-dia1-seq1-abcd-000000000001"
         character: "Joueur"
@@ -18,7 +30,19 @@ sequences:
       - uuid: "ch3s4-dia2-seq1-abcd-000000000002"
         character: "Joueur"
         text: "C'est... C'est une petite culotte ?!"
-        foregrounds: []
+        foregrounds:
+          - uuid: "e84ff539-4e11-49a8-4feb-fe3618710967"
+            name: ""
+            image: "assets/foregrounds/ai_1772973271_40767.png"
+            z_order: 0
+            opacity: 1.0
+            flip_h: false
+            flip_v: false
+            scale: 1.33349866843401
+            anchor_bg: { x: 0.78658753633499, y: 1.72631192207336 }
+            anchor_fg: { x: 0.5, y: 1.0 }
+            transition_type: "none"
+            transition_duration: 0.5
       - uuid: "ch3s4-dia3-seq1-abcd-000000000003"
         character: "Joueur"
         text: "Blanche, propre, fraîchement lavée apparemment. Posée là, sur mon bureau, comme si c'était la chose la plus normale du monde."
@@ -28,7 +52,7 @@ sequences:
         text: "Mme Girard veut que je trouve la propriétaire de CE truc ? Sérieusement ?"
         foregrounds: []
     fx: []
-    music: "assets/music/V.mp3"
+    music: "/Users/cedric/Stories/InnheritedHearts/assets/music/Inn_theme.mp3"
     audio_fx: ""
     stop_music: false
     transition_in_type: "fade"

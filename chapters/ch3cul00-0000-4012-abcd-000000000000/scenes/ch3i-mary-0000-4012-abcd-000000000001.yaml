@@ -10,9 +10,9 @@ sequences:
     background: "assets/backgrounds/Character_1_room.jpeg"
     background_color: "00000000"
     foregrounds:
-      - uuid: "ch3s6-fg1-mary-abcd-000000000001"
+      - uuid: "ch3s6-fg6-mary-abcd-000000000001"
         name: ""
-        image: "assets/foregrounds/ai_1772402856_16831.png"
+        image: "assets/foregrounds/ai_1772552486_93617.png"
         z_order: 0
         opacity: 1.0
         flip_h: false
