@@ -17,23 +17,17 @@ jobs:
       matrix:
         include:
           - platform: Windows
+            platform-id: windows
             runner: ubuntu-latest
-            export-name: Windows
-            output-path: build/windows/InnheritedHearts.exe
             artifact-name: innherited-hearts-windows
-            artifact-path: build/windows/
           - platform: macOS
+            platform-id: macos
             runner: macos-latest
-            export-name: macOS
-            output-path: build/macos/InnheritedHearts.zip
             artifact-name: innherited-hearts-macos
-            artifact-path: build/macos/
           - platform: Web
+            platform-id: web
             runner: ubuntu-latest
-            export-name: Web
-            output-path: build/web/index.html
             artifact-name: innherited-hearts-web
-            artifact-path: build/web/
 
     steps:
       - name: Checkout Story
@@ -46,8 +40,7 @@ jobs:
         with:
           repository: cmillauriaux/visual-builder
           path: visual-builder
-          # SI LE DEPOT EST PRIVE : Décommentez la ligne suivante et créez un secret GH_PAT
-          # token: ${{ secrets.GH_PAT }}
+          # token: ${{ secrets.GH_PAT }} # Décommentez si le dépôt est privé
 
       - name: Setup Godot
         uses: chickensoft-games/setup-godot@v2
@@ -56,129 +49,52 @@ jobs:
           use-dotnet: false
           include-templates: true
 
-      - name: Prepare Project
+      - name: Install dependencies (Ubuntu)
+        if: runner.os == 'Linux'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y rsync ffmpeg
+
+      - name: Export Story using Builder Script
         env:
-          WEB_PRESET: |
-            
-            [preset.2]
-            name="Web"
-            platform="Web"
-            runnable=true
-            dedicated_server=false
-            custom_features=""
-            export_filter="all_resources"
-            include_filter="*.yaml"
-            exclude_filter="specs/*, .claude/*"
-            export_path="build/web/index.html"
-            encryption_include_filters=""
-            encryption_exclude_filters=""
-            encrypt_pck=false
-            encrypt_directory=false
-            
-            [preset.2.options]
-            custom_template/debug=""
-            custom_template/release=""
-            variant/extensions_support=false
-            vram_texture_compression/for_desktop=true
-            vram_texture_compression/for_mobile=false
-            html/export_icon=true
-            html/custom_html_shell=""
-            html/head_include=""
-            html/canvas_resize_policy=2
-            html/focus_canvas_on_start=true
-            html/experimental_virtual_keyboard=false
-            progressive_web_app/enabled=false
-            progressive_web_app/offline_cache=true
-            progressive_web_app/display=1
-            progressive_web_app/orientation=0
-            progressive_web_app/icon_144x144=""
-            progressive_web_app/icon_180x180=""
-            progressive_web_app/icon_192x192=""
-            progressive_web_app/icon_512x512=""
-            progressive_web_app/background_color=Color(0, 0, 0, 1)
-        run: |
-          # 1. Préparer le dossier story
-          mkdir -p visual-builder/story
-          rsync -av --exclude='.git/' --exclude='.github/' story/ visual-builder/story/
-          
-          # 2. Configurer project.godot pour le standalone
-          cd visual-builder
-
-          # Portable sed -i (compatible GNU/BSD)
-          sedi() { sed -i.bak "$@" && rm -f "${@: -1}.bak"; }
-
-          # Changer la scène principale
-          sedi 's|run/main_scene="res://src/main.tscn"|run/main_scene="res://src/game.tscn"|' project.godot
-
-          # Changer le nom du projet
-          sedi 's|config/name=".*"|config/name="Innherited Hearts"|' project.godot
-
-          # Ajouter le chemin de la story dans project.godot
-          if ! grep -q "config/story_path" project.godot; then
-            awk '/\[application\]/{print; print "config/story_path=\"res://story\""; next}1' project.godot > project.godot.tmp && mv project.godot.tmp project.godot
-          fi
-
-          # Créer override.cfg
-          cat <<EOF > override.cfg
-          [application]
-          config/story_path="res://story"
-          EOF
-
-          # 3. Configurer les presets d'export
-          # S'assurer que les presets existants incluent les fichiers YAML
-          sedi 's/include_filter=""/include_filter="*.yaml"/' export_presets.cfg
-
-          # Ajouter le preset Web si absent
-          if ! grep -q 'name="Web"' export_presets.cfg; then
-            echo "$WEB_PRESET" >> export_presets.cfg
-          fi
-
-          # Nettoyer les plugins éditeur du project.godot pour l'export standalone
-          # On supprime la section editor_plugins
-          awk '/\[editor_plugins\]/{skip=1} skip && /^$/{skip=0; next} !skip' project.godot > project.godot.tmp && mv project.godot.tmp project.godot
-
-      - name: Import Resources
+          STORY_PATH: ${{ github.workspace }}/story
+          GODOT_BIN: godot
         run: |
           cd visual-builder
-          godot --headless --verbose --editor --quit --path .
+          chmod +x scripts/export_story.sh
+          # On exporte dans le dossier build à la racine de l'espace de travail
+          ./scripts/export_story.sh "$STORY_PATH" \
+            -p ${{ matrix.platform-id }} \
+            -o ../build \
+            --godot "$GODOT_BIN"
 
-      - name: Create Build Directory
-        run: mkdir -v -p visual-builder/$(dirname ${{ matrix.output-path }})
-
-      - name: Export Build
-        run: |
-          cd visual-builder
-          godot --headless --verbose --path . --export-release "${{ matrix.export-name }}" "${{ matrix.output-path }}"
-
-      - name: Sign and Repackage macOS App
+      - name: Post-process macOS
         if: matrix.platform == 'macOS'
         run: |
-          cd visual-builder/build/macos
-          # Unzip the .app bundle exported by Godot
-          unzip -o InnheritedHearts.zip
-          rm InnheritedHearts.zip
-          # Fix executable permissions inside the .app bundle
-          chmod +x "Innherited Hearts.app/Contents/MacOS/"*
-          # Ad-hoc code sign to prevent "is damaged" error on macOS
-          codesign --force --deep -s - "Innherited Hearts.app"
-          # Re-zip with proper Unix permissions preserved
-          zip -r -y InnheritedHearts.zip "Innherited Hearts.app"
+          # Le script crée build/story_macos/
+          cd build/story_macos
+          # On cherche l'app ou le zip généré
+          APP_NAME=$(find . -name "*.app" -type d -maxdepth 2 | head -n 1)
+          if [ -d "$APP_NAME" ]; then
+            chmod +x "$APP_NAME/Contents/MacOS/"*
+            codesign --force --deep -s - "$APP_NAME"
+            zip -r -y InnheritedHearts-macOS.zip "$APP_NAME"
+          fi
 
       - name: Zip Web Build
         if: matrix.platform == 'Web'
         run: |
-          cd visual-builder/build/web
-          zip -r ../../innherited-hearts-web.zip .
-          cd ../..
-          mkdir -p web-zip
-          mv innherited-hearts-web.zip web-zip/
+          cd build/story_web
+          zip -r ../innherited-hearts-web.zip .
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
           name: ${{ matrix.artifact-name }}
           path: |
-            ${{ matrix.platform == 'Web' && 'visual-builder/web-zip/innherited-hearts-web.zip' || format('visual-builder/{0}', matrix.output-path) }}
+            ${{ matrix.platform == 'Web' && 'build/innherited-hearts-web.zip' || 
+               (matrix.platform == 'macOS' && 'build/story_macos/InnheritedHearts-macOS.zip' || 
+               'build/story_windows/') }}
 
   release:
     name: Create Release
@@ -210,9 +126,12 @@ jobs:
           TAG_NAME="v$(date +'%Y.%m.%d')-b${{ github.run_number }}"
           echo "tag_name=$TAG_NAME" >> $GITHUB_OUTPUT
 
-          # Renommage des fichiers pour inclure le tag
-          mv build/windows/InnheritedHearts.exe build/InnheritedHearts-$TAG_NAME-Windows.exe
-          mv build/macos/InnheritedHearts.zip build/InnheritedHearts-$TAG_NAME-macOS.zip
+          # On cherche l'exécutable Windows dans le dossier exporté par le script
+          WIN_EXE=$(find build/windows -name "*.exe" | head -n 1)
+          mv "$WIN_EXE" build/InnheritedHearts-$TAG_NAME-Windows.exe
+          
+          # Pour macOS et Web, ce sont déjà des zips
+          mv build/macos/InnheritedHearts-macOS.zip build/InnheritedHearts-$TAG_NAME-macOS.zip
           mv build/web/innherited-hearts-web.zip build/InnheritedHearts-$TAG_NAME-Web.zip
 
           echo "win_file=build/InnheritedHearts-$TAG_NAME-Windows.exe" >> $GITHUB_OUTPUT
@@ -225,19 +144,9 @@ jobs:
           tag_name: ${{ steps.prep.outputs.tag_name }}
           name: Innherited Hearts ${{ steps.prep.outputs.tag_name }}
           body: |
-            Build automatique de l'histoire pour la version ${{ steps.prep.outputs.tag_name }}
-
-            ### Téléchargements
-            * **Windows**: `InnheritedHearts-${{ steps.prep.outputs.tag_name }}-Windows.exe`
-            * **macOS**: `InnheritedHearts-${{ steps.prep.outputs.tag_name }}-macOS.zip`
-            * **Web**: `InnheritedHearts-${{ steps.prep.outputs.tag_name }}-Web.zip`
-
-            ### macOS - Note importante
-            Si macOS affiche que le développeur ne peut pas être vérifié, faites clic-droit sur l'application puis "Ouvrir".
-            Vous pouvez aussi supprimer l'attribut de quarantaine via le Terminal :
-            ```
-            xattr -cr "Innherited Hearts.app"
-            ```
+            Build automatique synchronisé avec Visual Builder.
+            
+            Version : ${{ steps.prep.outputs.tag_name }}
           draft: false
           prerelease: false
           generate_release_notes: true
