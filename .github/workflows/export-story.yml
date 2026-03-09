@@ -55,6 +55,13 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y rsync ffmpeg
 
+      - name: Install dependencies (MacOS)
+        if: runner.os == 'macOS'
+        run: |
+          brew install gnu-sed
+          # On force l'utilisation de gsed comme sed pour le script
+          echo "/opt/homebrew/opt/gnu-sed/libexec/gnubin" >> $GITHUB_PATH
+
       - name: Export Story using Builder Script
         env:
           STORY_PATH: ${{ github.workspace }}/story
@@ -70,9 +77,9 @@ jobs:
       - name: Post-process macOS
         if: matrix.platform == 'macOS'
         run: |
-          # Le script crée build/story_macos/
-          cd build/story_macos
-          # On cherche l'app ou le zip généré
+          # On cherche le dossier généré (ex: build/Innherited Hearts_macos)
+          BUILD_DIR=$(find build -name "*_macos" -type d | head -n 1)
+          cd "$BUILD_DIR"
           APP_NAME=$(find . -name "*.app" -type d -maxdepth 2 | head -n 1)
           if [ -d "$APP_NAME" ]; then
             chmod +x "$APP_NAME/Contents/MacOS/"*
@@ -83,7 +90,9 @@ jobs:
       - name: Zip Web Build
         if: matrix.platform == 'Web'
         run: |
-          cd build/story_web
+          # On cherche le dossier généré (ex: build/Innherited Hearts_web)
+          BUILD_DIR=$(find build -name "*_web" -type d | head -n 1)
+          cd "$BUILD_DIR"
           zip -r ../innherited-hearts-web.zip .
 
       - name: Upload Artifact
@@ -92,8 +101,8 @@ jobs:
           name: ${{ matrix.artifact-name }}
           path: |
             ${{ matrix.platform == 'Web' && 'build/innherited-hearts-web.zip' || 
-               (matrix.platform == 'macOS' && 'build/story_macos/InnheritedHearts-macOS.zip' || 
-               'build/story_windows/') }}
+               (matrix.platform == 'macOS' && 'build/**/*_macos/InnheritedHearts-macOS.zip' || 
+               'build/**/*_windows/') }}
 
   release:
     name: Create Release
