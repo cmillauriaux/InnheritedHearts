@@ -58,15 +58,14 @@ jobs:
       - name: Export Story using Builder Script
         env:
           STORY_PATH: ${{ github.workspace }}/story
-          GODOT_BIN: godot
         run: |
           cd visual-builder
           chmod +x scripts/export_story.sh
-          # On exporte dans le dossier build à la racine de l'espace de travail
+          # On utilise $GODOT qui est défini par l'action setup-godot
           ./scripts/export_story.sh "$STORY_PATH" \
             -p ${{ matrix.platform-id }} \
             -o ../build \
-            --godot "$GODOT_BIN"
+            --godot "$GODOT"
 
       - name: Post-process macOS
         if: matrix.platform == 'macOS'
