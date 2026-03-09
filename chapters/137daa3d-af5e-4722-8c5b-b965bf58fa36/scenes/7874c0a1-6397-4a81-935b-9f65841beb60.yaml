@@ -12,13 +12,13 @@ sequences:
     foregrounds:
       - uuid: "7a34c2a1-41fb-4ca0-683d-0202a55e0cb5"
         name: ""
-        image: "assets/foregrounds/ai_1772980829_51139.png"
+        image: "assets/foregrounds/Dumont_costume_determined.png"
         z_order: 0
         opacity: 1.0
         flip_h: false
         flip_v: false
         scale: 0.90967743450004
-        anchor_bg: { x: 0.82393896579742, y: 1.29775929450989 }
+        anchor_bg: { x: 0.82393896579742, y: 1.2986900806427 }
         anchor_fg: { x: 0.5, y: 1.0 }
         transition_type: "none"
         transition_duration: 0.5
@@ -29,7 +29,7 @@ sequences:
         foregrounds:
           - uuid: "dba2df17-bdd1-4c78-ce83-172f7046f87e"
             name: ""
-            image: "assets/foregrounds/Dumont_base.png"
+            image: "assets/foregrounds/Dumont_costume_calm.png"
             z_order: 0
             opacity: 1.0
             flip_h: false
@@ -45,7 +45,7 @@ sequences:
         foregrounds:
           - uuid: "2af8e79e-503c-4a08-e8b2-9470bf5c93ea"
             name: ""
-            image: "assets/foregrounds/Dumont_speaking.png"
+            image: "assets/foregrounds/Dumont_costume_speaking.png"
             z_order: 0
             opacity: 1.0
             flip_h: false
@@ -69,13 +69,13 @@ sequences:
         foregrounds:
           - uuid: "7a34c2a1-41fb-4ca0-683d-0202a55e0cb5"
             name: ""
-            image: "assets/foregrounds/ai_1772980829_51139.png"
+            image: "assets/foregrounds/Dumont_costume_determined.png"
             z_order: 0
             opacity: 1.0
             flip_h: false
             flip_v: false
             scale: 0.90967743450004
-            anchor_bg: { x: 0.82393896579742, y: 1.29775929450989 }
+            anchor_bg: { x: 0.82393896579742, y: 1.2986900806427 }
             anchor_fg: { x: 0.5, y: 1.0 }
             transition_type: "none"
             transition_duration: 0.5
