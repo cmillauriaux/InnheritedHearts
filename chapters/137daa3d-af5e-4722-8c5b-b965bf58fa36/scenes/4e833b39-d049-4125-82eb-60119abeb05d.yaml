@@ -10,9 +10,9 @@ sequences:
     background: "assets/backgrounds/Background_player_bedroom.jpeg"
     background_color: "00000000"
     foregrounds:
-      - uuid: "66f30346-ca13-4de1-a04e-45241b3129dc"
+      - uuid: "fff61d26-0a2a-46a3-1651-4394feb303ac"
         name: ""
-        image: "assets/foregrounds/ai_1772878809_1088.png"
+        image: "assets/foregrounds/Zven_uniform__smile.png"
         z_order: 0
         opacity: 1.0
         flip_h: false
@@ -27,9 +27,9 @@ sequences:
         character: "Joueur"
         text: "Mary l'artiste... belle, créative et complètement dans son monde. Et ce bazar dans sa chambre ! On aurait dit qu'une tornade était passée."
         foregrounds:
-          - uuid: "a3d63a31-b298-4969-19a4-0e35230e18aa"
+          - uuid: "79b21fe1-29a7-464d-26ff-019959fed6da"
             name: ""
-            image: "assets/foregrounds/Mary_sundress__neutral.png"
+            image: "assets/foregrounds/Mary_sundress__excited.png"
             z_order: 0
             opacity: 1.0
             flip_h: false
@@ -43,9 +43,9 @@ sequences:
         character: "Joueur"
         text: "Lise l'informaticienne... tellement mignonne et tellement timide. Elle a failli pas m'ouvrir la porte. Geek jusqu'au bout des ongles."
         foregrounds:
-          - uuid: "317a0ce4-a3e0-4ec3-445f-8115df0657c7"
+          - uuid: "b8241d6c-6749-4d2b-5079-54f36c78e8be"
             name: ""
-            image: "assets/foregrounds/ai_1772552924_57442.png"
+            image: "assets/foregrounds/Lise_hoodie__excited.png"
             z_order: 0
             opacity: 1.0
             flip_h: false
@@ -59,9 +59,9 @@ sequences:
         character: "Joueur"
         text: "Lola l'infirmière... jolie comme un cœur et bavarde comme une pie. Je n'ai pas pu placer un mot de toute la conversation."
         foregrounds:
-          - uuid: "90e8dcde-97da-4f2f-2857-af58f847a3dd"
+          - uuid: "b6fac587-3a05-4baa-ca8c-82993fa6bc8c"
             name: ""
-            image: "assets/foregrounds/ai_1772553512_49038.png"
+            image: "assets/foregrounds/Lola_sundress__excited.png"
             z_order: 0
             opacity: 1.0
             flip_h: false
@@ -75,9 +75,9 @@ sequences:
         character: "Joueur"
         text: "Alicia la criminologue gothique... troublante. Flippante mais fascinante. Et cette chambre... une nécrologie avant le dîner. Sérieusement."
         foregrounds:
-          - uuid: "31898242-7ee6-4361-696e-f5aa3aed9311"
+          - uuid: "18f09f97-c5de-4e82-6aa3-5fa1adb1f9b1"
             name: ""
-            image: "assets/foregrounds/ai_1772553776_65883.png"
+            image: "assets/foregrounds/Alicia_shirt__excited.png"
             z_order: 0
             opacity: 1.0
             flip_h: false
@@ -91,9 +91,9 @@ sequences:
         character: "Joueur"
         text: "Et Zven... une pile électrique. Elle m'a sauté au cou avant même que je dise bonjour. Surexcitée par les voitures et Internet."
         foregrounds:
-          - uuid: "66f30346-ca13-4de1-a04e-45241b3129dc"
+          - uuid: "fff61d26-0a2a-46a3-1651-4394feb303ac"
             name: ""
-            image: "assets/foregrounds/ai_1772878809_1088.png"
+            image: "assets/foregrounds/Zven_uniform__smile.png"
             z_order: 0
             opacity: 1.0
             flip_h: false
@@ -127,7 +127,7 @@ sequences:
     foregrounds:
       - uuid: "ef075d5a-6cef-4776-ada7-d695aac6bbee"
         name: ""
-        image: "assets/foregrounds/Mary_base.png"
+        image: "assets/foregrounds/Mary_smile.png"
         z_order: 0
         opacity: 1.0
         flip_h: false
@@ -139,7 +139,7 @@ sequences:
         transition_duration: 0.5
       - uuid: "9da8716b-ba5c-4a59-0b85-506dca3ba6c9"
         name: ""
-        image: "assets/foregrounds/ai_1772552924_57442.png"
+        image: "assets/foregrounds/Lise_hoodie__smile.png"
         z_order: 0
         opacity: 1.0
         flip_h: false
@@ -151,7 +151,7 @@ sequences:
         transition_duration: 0.5
       - uuid: "df005e8e-685d-4ff1-4763-20401d93a31c"
         name: ""
-        image: "assets/foregrounds/ai_1772553512_49038.png"
+        image: "assets/foregrounds/Lola_sundress__smile.png"
         z_order: 0
         opacity: 1.0
         flip_h: false
@@ -163,7 +163,7 @@ sequences:
         transition_duration: 0.5
       - uuid: "79e14799-38aa-4ae1-18b0-3b512fb3fa84"
         name: ""
-        image: "assets/foregrounds/ai_1772553776_65883.png"
+        image: "assets/foregrounds/Alicia_shirt__smile.png"
         z_order: 0
         opacity: 1.0
         flip_h: false
@@ -175,13 +175,13 @@ sequences:
         transition_duration: 0.5
       - uuid: "18e6c3a7-3e1c-4106-a586-d28bdc6da4a7"
         name: ""
-        image: "assets/foregrounds/ai_1772878809_1088.png"
+        image: "assets/foregrounds/Zven_uniform__smile.png"
         z_order: 0
         opacity: 1.0
         flip_h: false
         flip_v: false
-        scale: 0.5795355863598
-        anchor_bg: { x: 1.41858327388763, y: 1.29669058322906 }
+        scale: 0.62791327692425
+        anchor_bg: { x: 1.40839874744415, y: 1.29669058322906 }
         anchor_fg: { x: 0.5, y: 1.0 }
         transition_type: "none"
         transition_duration: 0.5
@@ -282,7 +282,7 @@ sequences:
     foregrounds:
       - uuid: "4354f648-f372-41b7-1570-bc10dd3d4839"
         name: ""
-        image: "assets/foregrounds/ai_1772623434_06199.png"
+        image: "assets/foregrounds/Girard_uniform__suspicious.png"
         z_order: 0
         opacity: 1.0
         flip_h: false
@@ -303,7 +303,7 @@ sequences:
         foregrounds:
           - uuid: "4354f648-f372-41b7-1570-bc10dd3d4839"
             name: ""
-            image: "assets/foregrounds/ai_1772623434_06199.png"
+            image: "assets/foregrounds/Girard_uniform__suspicious.png"
             z_order: 0
             opacity: 1.0
             flip_h: false

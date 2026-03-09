@@ -37,9 +37,9 @@ sequences:
     background: "assets/backgrounds/Character_2_room.jpeg"
     background_color: "00000000"
     foregrounds:
-      - uuid: "849d636d-5aec-459f-80c6-1809d6be1819"
+      - uuid: "214161bb-568d-48a2-ebda-6a04180993ed"
         name: ""
-        image: "assets/foregrounds/ai_1772552924_57442.png"
+        image: "assets/foregrounds/Lise_hoodie__tender.png"
         z_order: 0
         opacity: 1.0
         flip_h: false
@@ -54,9 +54,9 @@ sequences:
         character: "Lise"
         text: "Euh... Oui ? Je... En fait, je peux faire quelque chose pour vous ?"
         foregrounds:
-          - uuid: "849d636d-5aec-459f-80c6-1809d6be1819"
+          - uuid: "214161bb-568d-48a2-ebda-6a04180993ed"
             name: ""
-            image: "assets/foregrounds/ai_1772552924_57442.png"
+            image: "assets/foregrounds/Lise_hoodie__tender.png"
             z_order: 0
             opacity: 1.0
             flip_h: false
@@ -99,9 +99,9 @@ sequences:
     background: "assets/backgrounds/Character_2_room.jpeg"
     background_color: "00000000"
     foregrounds:
-      - uuid: "b6f96435-ae6d-42b9-e077-bd3755a4c592"
+      - uuid: "0d293c63-dfcd-416d-c755-859968cae350"
         name: ""
-        image: "assets/foregrounds/ai_1772552999_89419.png"
+        image: "assets/foregrounds/Lise_hoodie__exhausted.png"
         z_order: 0
         opacity: 1.0
         flip_h: false
@@ -116,9 +116,9 @@ sequences:
         character: "Lise"
         text: "Oh... Le nouveau propriétaire. C'est... Euh... C'est inattendu. Je vais devoir m'habituer... Mais ça va me prendre du temps."
         foregrounds:
-          - uuid: "b6f96435-ae6d-42b9-e077-bd3755a4c592"
+          - uuid: "0d293c63-dfcd-416d-c755-859968cae350"
             name: ""
-            image: "assets/foregrounds/ai_1772552999_89419.png"
+            image: "assets/foregrounds/Lise_hoodie__exhausted.png"
             z_order: 0
             opacity: 1.0
             flip_h: false
@@ -150,9 +150,9 @@ sequences:
     background: "assets/backgrounds/Character_2_room.jpeg"
     background_color: "00000000"
     foregrounds:
-      - uuid: "76d1e140-a754-4950-35a3-b2b9f6a1cd3e"
+      - uuid: "d4a1fccb-c6a0-4308-091e-8373a3ebe213"
         name: ""
-        image: "assets/foregrounds/ai_1772553100_59443.png"
+        image: "assets/foregrounds/Lise_hoodie__embarrassed.png"
         z_order: 0
         opacity: 1.0
         flip_h: false
@@ -167,9 +167,9 @@ sequences:
         character: "Lise"
         text: "Euh... Merci. Je... En fait, je m'inspire des mangas que je lis. Je n'ai pas vraiment beaucoup de personnalité, alors je reproduis ce que je vois dans mes bouquins."
         foregrounds:
-          - uuid: "76d1e140-a754-4950-35a3-b2b9f6a1cd3e"
+          - uuid: "d4a1fccb-c6a0-4308-091e-8373a3ebe213"
             name: ""
-            image: "assets/foregrounds/ai_1772553100_59443.png"
+            image: "assets/foregrounds/Lise_hoodie__embarrassed.png"
             z_order: 0
             opacity: 1.0
             flip_h: false
@@ -209,9 +209,9 @@ sequences:
     background: "assets/backgrounds/Character_2_room.jpeg"
     background_color: "00000000"
     foregrounds:
-      - uuid: "b3a3027d-8436-4961-3342-da02a12cbc7c"
+      - uuid: "0dec3ef5-52a8-4d29-2986-754aa5988d2b"
         name: ""
-        image: "assets/foregrounds/ai_1772553166_33308.png"
+        image: "assets/foregrounds/Lise_hoodie__confused.png"
         z_order: 0
         opacity: 1.0
         flip_h: false
@@ -226,9 +226,9 @@ sequences:
         character: "Lise"
         text: "Euh... Voilà voilà."
         foregrounds:
-          - uuid: "b3a3027d-8436-4961-3342-da02a12cbc7c"
+          - uuid: "0dec3ef5-52a8-4d29-2986-754aa5988d2b"
             name: ""
-            image: "assets/foregrounds/ai_1772553166_33308.png"
+            image: "assets/foregrounds/Lise_hoodie__confused.png"
             z_order: 0
             opacity: 1.0
             flip_h: false
@@ -271,9 +271,9 @@ sequences:
     background: "assets/backgrounds/Character_2_room.jpeg"
     background_color: "00000000"
     foregrounds:
-      - uuid: "97ee23d1-156f-433f-2f02-522ceda38880"
+      - uuid: "e62f2e1d-256c-4520-9281-36c524006598"
         name: ""
-        image: "assets/foregrounds/ai_1772553198_83321.png"
+        image: "assets/foregrounds/Lise_hoodie__nostalgic.png"
         z_order: 0
         opacity: 1.0
         flip_h: false
@@ -288,9 +288,9 @@ sequences:
         character: "Lise"
         text: "J'étudie l'informatique. Je suis... Enfin, je suis une geek, passionnée par les ordinateurs et les mangas. Je ne sors pas beaucoup, je ne pose pas de problème, je suis pas très exigeante... Mais la connexion internet, par contre, il faut pas y toucher."
         foregrounds:
-          - uuid: "97ee23d1-156f-433f-2f02-522ceda38880"
+          - uuid: "e62f2e1d-256c-4520-9281-36c524006598"
             name: ""
-            image: "assets/foregrounds/ai_1772553198_83321.png"
+            image: "assets/foregrounds/Lise_hoodie__nostalgic.png"
             z_order: 0
             opacity: 1.0
             flip_h: false

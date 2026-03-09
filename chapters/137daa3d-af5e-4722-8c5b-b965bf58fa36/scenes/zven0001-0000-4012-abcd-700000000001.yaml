@@ -99,15 +99,15 @@ sequences:
     background: "assets/backgrounds/Character_5_room.jpeg"
     background_color: "00000000"
     foregrounds:
-      - uuid: "f692a572-1202-420e-90f8-2b4771316f5e"
+      - uuid: "9da2dec2-e75a-44fa-594c-662e9892df45"
         name: ""
-        image: "assets/foregrounds/ai_1772554514_28913.png"
+        image: "assets/foregrounds/Zven_uniform__smile.png"
         z_order: 0
         opacity: 1.0
         flip_h: false
         flip_v: false
         scale: 0.76927474464869
-        anchor_bg: { x: 0.78581130504608, y: 1.29861378669739 }
+        anchor_bg: { x: 0.78708440065384, y: 1.30233693122864 }
         anchor_fg: { x: 0.5, y: 1.0 }
         transition_type: "none"
         transition_duration: 0.5
@@ -116,15 +116,15 @@ sequences:
         character: "Zven"
         text: "Un nouveau propriétaire ! Une nouvelle personne à rencontrer ! Décidément ce programme d'échange ne ment pas !"
         foregrounds:
-          - uuid: "f692a572-1202-420e-90f8-2b4771316f5e"
+          - uuid: "9da2dec2-e75a-44fa-594c-662e9892df45"
             name: ""
-            image: "assets/foregrounds/ai_1772554514_28913.png"
+            image: "assets/foregrounds/Zven_uniform__smile.png"
             z_order: 0
             opacity: 1.0
             flip_h: false
             flip_v: false
             scale: 0.76927474464869
-            anchor_bg: { x: 0.78581130504608, y: 1.29861378669739 }
+            anchor_bg: { x: 0.78708440065384, y: 1.30233693122864 }
             anchor_fg: { x: 0.5, y: 1.0 }
             transition_type: "none"
             transition_duration: 0.5
@@ -161,9 +161,9 @@ sequences:
     background: "assets/backgrounds/Character_5_room.jpeg"
     background_color: "00000000"
     foregrounds:
-      - uuid: "6cc2ab4a-5a13-45b7-8fdf-9ba968d615d9"
+      - uuid: "65a7372a-54c4-479d-ce87-7a27cef3c027"
         name: ""
-        image: "assets/foregrounds/ai_1772554574_76598.png"
+        image: "assets/foregrounds/Zven_uniform__excited.png"
         z_order: 0
         opacity: 1.0
         flip_h: false
@@ -178,9 +178,9 @@ sequences:
         character: "Zven"
         text: "Je viens d'une île ! Une île que personne ne connait ici. Mais on a un programme d'échange universitaire avec le continent, alors me voilà ! C'est la première fois que je découvre tout ça. Tout est tellement différent !"
         foregrounds:
-          - uuid: "6cc2ab4a-5a13-45b7-8fdf-9ba968d615d9"
+          - uuid: "65a7372a-54c4-479d-ce87-7a27cef3c027"
             name: ""
-            image: "assets/foregrounds/ai_1772554574_76598.png"
+            image: "assets/foregrounds/Zven_uniform__excited.png"
             z_order: 0
             opacity: 1.0
             flip_h: false
@@ -212,9 +212,9 @@ sequences:
     background: "assets/backgrounds/Character_5_room.jpeg"
     background_color: "00000000"
     foregrounds:
-      - uuid: "2a74057b-7526-4b99-9456-d66841faec69"
+      - uuid: "1fa3329e-0d8e-48e3-ac27-7592b5d6b4d3"
         name: ""
-        image: "assets/foregrounds/ai_1772554642_76719.png"
+        image: "assets/foregrounds/Zven_uniform__laughing_out_loud.png"
         z_order: 0
         opacity: 1.0
         flip_h: false
@@ -229,9 +229,9 @@ sequences:
         character: "Joueur"
         text: "Et ça se passe comment pour toi ?"
         foregrounds:
-          - uuid: "2a74057b-7526-4b99-9456-d66841faec69"
+          - uuid: "1fa3329e-0d8e-48e3-ac27-7592b5d6b4d3"
             name: ""
-            image: "assets/foregrounds/ai_1772554642_76719.png"
+            image: "assets/foregrounds/Zven_uniform__laughing_out_loud.png"
             z_order: 0
             opacity: 1.0
             flip_h: false
@@ -267,9 +267,9 @@ sequences:
     background: "assets/backgrounds/Character_5_room.jpeg"
     background_color: "00000000"
     foregrounds:
-      - uuid: "56c5650a-9fb4-44c8-3c47-4896b3c0d57c"
+      - uuid: "b60eb265-1ecd-47d4-4a4b-e71b1fb14504"
         name: ""
-        image: "assets/foregrounds/ai_1772554692_71553.png"
+        image: "assets/foregrounds/Zven_uniform__smile.png"
         z_order: 0
         opacity: 1.0
         flip_h: false
@@ -284,9 +284,9 @@ sequences:
         character: "Joueur"
         text: "J'espère que tu vas encore découvrir plein de choses !"
         foregrounds:
-          - uuid: "56c5650a-9fb4-44c8-3c47-4896b3c0d57c"
+          - uuid: "b60eb265-1ecd-47d4-4a4b-e71b1fb14504"
             name: ""
-            image: "assets/foregrounds/ai_1772554692_71553.png"
+            image: "assets/foregrounds/Zven_uniform__smile.png"
             z_order: 0
             opacity: 1.0
             flip_h: false

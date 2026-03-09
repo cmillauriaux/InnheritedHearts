@@ -37,9 +37,9 @@ sequences:
     background: "assets/backgrounds/Character_3_room.jpeg"
     background_color: "00000000"
     foregrounds:
-      - uuid: "a05493a3-9fe7-41fc-aebe-b31a6a37ade0"
+      - uuid: "8545e279-dfe1-4277-c1c3-5855f78674d5"
         name: ""
-        image: "assets/foregrounds/ai_1772553512_49038.png"
+        image: "assets/foregrounds/Lola_sundress__excited.png"
         z_order: 0
         opacity: 1.0
         flip_h: false
@@ -54,9 +54,9 @@ sequences:
         character: "Lola"
         text: "Oh ! Vous devez être le nouveau propriétaire ! Mme Girard m'a tout dit !"
         foregrounds:
-          - uuid: "a05493a3-9fe7-41fc-aebe-b31a6a37ade0"
+          - uuid: "8545e279-dfe1-4277-c1c3-5855f78674d5"
             name: ""
-            image: "assets/foregrounds/ai_1772553512_49038.png"
+            image: "assets/foregrounds/Lola_sundress__excited.png"
             z_order: 0
             opacity: 1.0
             flip_h: false
@@ -99,9 +99,9 @@ sequences:
     background: "assets/backgrounds/Character_3_room.jpeg"
     background_color: "00000000"
     foregrounds:
-      - uuid: "ba997528-a1f0-4a08-c949-47b76a902df0"
+      - uuid: "8a4e8543-56e6-4ab3-42ad-8d962b72ef87"
         name: ""
-        image: "assets/foregrounds/ai_1772553589_65025.png"
+        image: "assets/foregrounds/Lola_sundress__smile.png"
         z_order: 0
         opacity: 1.0
         flip_h: false
@@ -116,9 +116,9 @@ sequences:
         character: "Lola"
         text: "Lola, c'est moi ! Le soleil de cette auberge, la confidente de Mme Girard, celle qui soigne les bobos et les cœurs !"
         foregrounds:
-          - uuid: "ba997528-a1f0-4a08-c949-47b76a902df0"
+          - uuid: "8a4e8543-56e6-4ab3-42ad-8d962b72ef87"
             name: ""
-            image: "assets/foregrounds/ai_1772553589_65025.png"
+            image: "assets/foregrounds/Lola_sundress__smile.png"
             z_order: 0
             opacity: 1.0
             flip_h: false
@@ -170,9 +170,9 @@ sequences:
     background: "assets/backgrounds/Character_3_room.jpeg"
     background_color: "00000000"
     foregrounds:
-      - uuid: "d6f75808-3ad2-44d6-8ec1-ee1997aade69"
+      - uuid: "92928641-2369-472b-eb19-d2d28c7f224d"
         name: ""
-        image: "assets/foregrounds/ai_1772553636_05018.png"
+        image: "assets/foregrounds/Lola_sundress__laughing_out_loud.png"
         z_order: 0
         opacity: 1.0
         flip_h: false
@@ -187,9 +187,9 @@ sequences:
         character: "Lola"
         text: "Mais je te laisse parler ! Vas-y !"
         foregrounds:
-          - uuid: "d6f75808-3ad2-44d6-8ec1-ee1997aade69"
+          - uuid: "92928641-2369-472b-eb19-d2d28c7f224d"
             name: ""
-            image: "assets/foregrounds/ai_1772553636_05018.png"
+            image: "assets/foregrounds/Lola_sundress__laughing_out_loud.png"
             z_order: 0
             opacity: 1.0
             flip_h: false
@@ -239,9 +239,9 @@ sequences:
     background: "assets/backgrounds/Character_3_room.jpeg"
     background_color: "00000000"
     foregrounds:
-      - uuid: "e85e2362-5473-4eb6-5887-3ae6a1433247"
+      - uuid: "2c7ecfef-be93-4299-7113-d43142ce9743"
         name: ""
-        image: "assets/foregrounds/ai_1772553674_3896.png"
+        image: "assets/foregrounds/Lola_sundress__shy.png"
         z_order: 0
         opacity: 1.0
         flip_h: false
@@ -256,9 +256,9 @@ sequences:
         character: "Lola"
         text: "Ah oui, j'allais oublier ! Je fais des études d'infirmière. Je suis à l'écoute des maux et du monde. C'est un beau métier tu sais, exigeant, rigoureux, mais tellement humain ! Prendre soin des autres, être là quand ça ne va pas, c'est une vocation."
         foregrounds:
-          - uuid: "e85e2362-5473-4eb6-5887-3ae6a1433247"
+          - uuid: "2c7ecfef-be93-4299-7113-d43142ce9743"
             name: ""
-            image: "assets/foregrounds/ai_1772553674_3896.png"
+            image: "assets/foregrounds/Lola_sundress__shy.png"
             z_order: 0
             opacity: 1.0
             flip_h: false
